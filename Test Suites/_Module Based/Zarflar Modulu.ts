@@ -48,16 +48,10 @@
       <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/GIB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b236bfe-58e0-4ddc-8af1-69b8ecf346ba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b64b106e-0741-412c-96e1-cc910194c4e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1bd7ec26-0e3e-4dec-9919-60c48f20c9ae</guid>
@@ -96,15 +90,9 @@
       <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/GIB</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>964e3a14-074a-4a54-8d10-8f80bc8535ad</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>75852f59-3107-4a59-ac48-6e6de98a1706</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

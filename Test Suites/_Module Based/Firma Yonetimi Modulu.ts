@@ -15,19 +15,13 @@
       <guid>a9a1b001-e382-42ca-9f07-81a79a03f400</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7db17f36-3c07-4614-a77a-7b610240d258</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Departman Ekle</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9a30cbe4-3b83-4765-9a51-65682b508b86</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Filtre Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>adea3d45-0bf2-4a03-89dc-672f9fa9c64f</guid>
@@ -51,13 +45,7 @@
       <guid>e51d0e04-11c6-4d9f-b960-39a6aa6a65d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Buton Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>908554f4-1860-429e-bee0-161d7eaae690</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Filtre Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ee9ff246-0857-4d64-8e67-ebdaaf876dfb</guid>
@@ -81,13 +69,7 @@
       <guid>0ecba932-b850-4c11-8b0c-5395a5aac145</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Buton Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>993e0379-5ddf-45f6-8430-da36e94dfe96</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Filtre Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>71680833-5590-421a-a1f5-17b3107fa3e3</guid>

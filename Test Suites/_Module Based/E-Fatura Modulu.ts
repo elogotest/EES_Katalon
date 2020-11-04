@@ -36,12 +36,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>939bb899-0907-4eae-9481-62bd3eb9ccfc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b0233e82-c780-416b-8d0b-91fa8f1e3b18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,7 +57,7 @@
       <guid>924e1c70-cea3-4e1b-a2b7-e7acb6e39edd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>23724d60-3f31-4aaf-894e-1a3040d0cfd2</guid>
@@ -108,12 +102,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a416f69-4209-44ad-a8e9-a291b1a8d22c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e6b05f78-b05c-4349-8fa5-100ac5e78779</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -129,7 +117,7 @@
       <guid>359025d3-15b8-49d9-8583-bd2329d19c5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>51d57df3-e7d5-40c2-86ff-384af27e02d4</guid>
@@ -156,12 +144,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5a8adb91-86d1-46b5-a99f-0022b2d066d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>62258f91-d4fe-4979-aaf6-8e1356513770</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -183,7 +165,7 @@
       <guid>99473427-ed9d-4caa-8044-ba3ec7f4fb8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>80406d6c-cbcd-4e8b-8478-176b82e8ce48</guid>
@@ -228,12 +210,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7634b130-2967-4cce-a0a3-f6a73d93a29d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>379469bf-83e9-4bd5-8fa0-e372dfd7095d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -249,7 +225,7 @@
       <guid>436985b2-265a-421f-9420-f2570a472473</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>df65ed49-9eff-41e3-bc6a-fc591db58170</guid>
@@ -270,16 +246,10 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/Excel e-Fatura Olusturma/Buton Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d8b8797e-5bb0-412e-b67b-d13999216397</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cbef3ad4-6631-40db-9cd8-263bfd528daa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/e-Fatura Taslak/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f0628439-87de-4280-8f75-1aae6281aeb9</guid>

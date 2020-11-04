@@ -48,12 +48,6 @@
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>638aca44-366b-4290-aa74-a8034f1ae376</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>54776e5d-5cc1-47b5-be2d-48a09fc09ea5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,7 +57,7 @@
       <guid>54e9f9bb-a008-4431-9ae9-3b6ae68de28b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a248b5b0-decd-47cb-a33d-27061eba87a5</guid>
@@ -96,12 +90,6 @@
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Statu Ata</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4099d6d2-ab32-4853-9414-6f9d8629a921</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f31dd727-ef6a-442c-9f96-4c2304c968ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -117,19 +105,13 @@
       <guid>407ed154-b1c8-45fd-921a-625f4cd70270</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Buton Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5a33262e-ffbf-4c2b-8ecc-0ae2c9a9a603</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Filtre Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9ee85f1a-6396-4c33-a465-7440ee0cb163</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>42d99442-ef9a-4e3c-b59c-6f7f37e0ac25</guid>

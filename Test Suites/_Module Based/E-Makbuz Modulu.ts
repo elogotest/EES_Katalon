@@ -60,12 +60,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Goruntule</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0099b649-4e5c-4555-bfa6-8c084bb2ceb4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f54950e2-e966-472b-8fee-292c5c78a31b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -75,7 +69,7 @@
       <guid>e0df8ea5-21d7-4c14-8ba8-716b6468999a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ebc0057d-1d73-4965-832c-6261aa9a5f9d</guid>
@@ -96,12 +90,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuz Raporlari/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bee39c7-1b9d-44e1-8cbf-2fc1a7240fd0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuz Raporlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3340c95a-192a-479b-84c9-0fde0e1d0262</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -111,7 +99,7 @@
       <guid>4de4a99a-0db0-446d-af4f-cd7ced9e5d36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuz Raporlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuz Raporlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6a561c98-1e20-489e-9c94-19edc6d535b8</guid>
@@ -132,12 +120,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Raporlari/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>288d8332-94f9-4f2a-a068-28a64cdbbdbf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Raporlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bda03b4a-a148-4335-b539-b4dcd51c8012</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -147,7 +129,7 @@
       <guid>3a431195-caf5-421b-9dc2-c369cb95409f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Raporlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Raporlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bcbcd43d-4ec3-4e59-8552-27b9f6632863</guid>
@@ -198,12 +180,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Goruntule</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6758bde6-df75-4ccf-97a5-1c1b45be306b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>471d7533-6cc1-4150-a3ca-4487506db239</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -219,6 +195,6 @@
       <guid>e3630134-a8e9-4c9a-b0d2-95181fc64716</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

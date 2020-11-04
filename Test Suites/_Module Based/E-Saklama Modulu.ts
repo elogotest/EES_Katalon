@@ -63,13 +63,7 @@
       <guid>91255ffb-4069-4ed5-935e-afcf3be059d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Defter/e-Defter Saklama/ButonKontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>97ec6198-3f85-4403-8275-8042165ab208</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Defter/e-Defter Saklama/FiltreKontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Saklama/e-Defter/e-Defter Saklama/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b1138cd5-5f84-4bf4-aab2-a67167455424</guid>

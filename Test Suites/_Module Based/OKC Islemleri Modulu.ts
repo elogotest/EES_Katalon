@@ -30,12 +30,6 @@
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bdb40678-4664-4a95-a52c-c42a27cb92bf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b27eef58-d3bd-4e1c-b50a-968c28995cdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -45,6 +39,6 @@
       <guid>fa4837e4-9a36-4cdc-b7eb-1f875705b6df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

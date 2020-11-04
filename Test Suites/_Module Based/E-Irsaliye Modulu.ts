@@ -48,12 +48,6 @@
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7490b078-4aff-4bd1-84f3-dce1515f9dd1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>41df857e-8caa-4601-8e68-abd01a2f0ef9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -69,7 +63,7 @@
       <guid>c117cdf4-7d30-4eeb-8e49-55c70374d399</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed496f15-fc8d-4435-a353-bced001f7cd0</guid>
@@ -96,12 +90,6 @@
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8022bc6a-d969-4ca9-821a-591eade2092a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7e82146e-1111-47ba-bf81-d158dc49cf8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -117,7 +105,7 @@
       <guid>6ef9e806-3049-4883-a331-126b1d00e591</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dd76691e-e135-4d3f-8643-57bcb66fd3f6</guid>
@@ -156,12 +144,6 @@
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>977d0592-4108-414a-95c3-9baa719b259c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d6264759-f04c-464a-b3a4-52778bbaa006</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -177,7 +159,7 @@
       <guid>e20c72fe-ff44-4a11-b2ac-635d1aef8353</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliyeler/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>026000c7-86d4-468b-9be3-b63398d9cd6a</guid>
@@ -204,12 +186,6 @@
       <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Gorseli Ac</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ca494cf-e762-44ed-8cea-c9482d17a11d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Filtre Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>44c8a46a-075b-4ef0-a477-c316b64093e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -225,7 +201,7 @@
       <guid>581551d5-b9e2-4f74-af47-6da7f4b074ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Buton Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>49581c70-6080-4ed8-8254-f0d94d645419</guid>
