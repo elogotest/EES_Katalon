@@ -7,9 +7,9 @@ Feature: e-Defter Saklama Fatura Yukle
     * Butonlardan Yükle isimli butona tıklanır
     * Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
     * Yükleme ekranından çıkılır
-    * Tabloda Invoice11062020104631.zip ünvanlı veri oluşturuldu mu
+    * Tabloda enes.zip ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosya                                                                               |
-      | C:\\otomasyonupfiles\\e-Saklama\\e-Fatura\\FaturaYukleme\\Invoice11062020104631.zip |
+      | dosya                          |
+      | C:\\otomasyonupfiles\\enes.zip |

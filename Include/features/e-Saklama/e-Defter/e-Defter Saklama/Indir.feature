@@ -11,7 +11,7 @@ Feature: e-Defter Saklama Indir
     * <dosyaIsmi> adlı klasör seçilir
     * Butonlardan İndir isimli butona tıklanır
     * Popup mesajı Seçili e-Defter dosyaları indirilecek içeriyor mu
-    * Yönetim popupında Onayla seçilir
+    * Yönetim popupında Evet seçilir
     * Ön eki eDefter olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 

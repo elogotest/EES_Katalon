@@ -17,4 +17,4 @@ Feature: e-Defter Saklama Goster
 
     Examples: 
       | dosyaIsmi                      |
-      | 9250128841-201905-K-000001.zip |
+      | 9250128841-201905-K-000002.zip |

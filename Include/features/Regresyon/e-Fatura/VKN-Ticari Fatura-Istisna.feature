@@ -4,6 +4,7 @@ Feature: VKNo ile Ticari Fatura senaryosunda ve Istisna tipinde fatura olusturul
     * Giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
+    * Tablodaki tüm veriler silinir
     * Butonlardan Ekle isimli butona tıklanır
     * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
     * Alıcı adı alanına <alici_Adi> girilir
@@ -14,7 +15,6 @@ Feature: VKNo ile Ticari Fatura senaryosunda ve Istisna tipinde fatura olusturul
     * Tasarım alanından Mavi Temali e-Fatura Öndeger Sablon Tasarim.xslt- seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
-    * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
@@ -39,10 +39,6 @@ Feature: VKNo ile Ticari Fatura senaryosunda ve Istisna tipinde fatura olusturul
     * Filtrelerden Alıcı Ünvan filtresine <unvan> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Excel isimli butona tıklanır
-    * Alt butonlardan Excel'e Aktar butonuna tıklanır
-    * Ön eki E-Fatura olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

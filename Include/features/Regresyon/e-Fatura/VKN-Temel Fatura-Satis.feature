@@ -4,6 +4,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmas
     * Giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
+    * Tablodaki tüm veriler silinir
     * Butonlardan Ekle isimli butona tıklanır
     * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
     * Alıcı adı alanına <alici_Adi> girilir

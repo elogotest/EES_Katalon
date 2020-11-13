@@ -75,6 +75,11 @@ class genel {
 	def dokumanParaBirimindenSecilir(String para) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/DokumanParaBirimiSecilir"), ["Para":para] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Tasarım Boyutu alanından (.*) seçilir")
+	def tasarimBoyutuSecilir(String boyut) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/TasarimBoyutuSecilir"), ["Boyut":boyut] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Ön Ek (.*) olarak seçilir")
 	def onEkSecilir(String ek) {

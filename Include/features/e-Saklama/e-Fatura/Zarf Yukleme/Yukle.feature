@@ -7,9 +7,9 @@ Feature: e-Defter Saklama Zarf Yukle
     * Butonlardan Yükle isimli butona tıklanır
     * Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
     * Yükleme ekranından çıkılır
-    * Tabloda Envelope11062020104656.zip ünvanlı veri oluşturuldu mu
+    * Tabloda enes.zip ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosya                                                                              |
-      | C:\\otomasyonupfiles\\e-Saklama\\e-Fatura\\ZarfYukleme\\Envelope11062020104656.zip |
+      | dosya                          |
+      | C:\\otomasyonupfiles\\enes.zip |

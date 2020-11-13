@@ -17,5 +17,5 @@ Feature: OCK Mali Raporlari Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi | filtreDegeri | filtreDegeri2 | baslik  |
-      |        7 |   01.01.2018 |    31.12.2018 | ÖKC - 7 |
+      | veri_Adi | filtreDegeri | filtreDegeri2 | baslik                   |
+      |        7 | 01.01.2018   | 31.12.2018    | ÖKC İzleme Kayıtları - 7 |

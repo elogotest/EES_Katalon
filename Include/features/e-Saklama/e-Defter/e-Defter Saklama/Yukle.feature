@@ -8,7 +8,7 @@ Feature: e-Defter Saklama Yukle
     * Butonlardan Yükle isimli butona tıklanır
 		* Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
 		* Yükleme ekranından çıkılır
-		* Tabloda deneme ünvanlı veri oluşturuldu mu
+		* Tabloda enes.zip ünvanlı veri oluşturuldu mu
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     

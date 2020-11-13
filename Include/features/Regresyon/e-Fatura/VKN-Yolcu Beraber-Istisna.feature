@@ -4,16 +4,17 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     * Giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
+    * Tablodaki tüm veriler silinir
     * Butonlardan Ekle isimli butona tıklanır
     * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
     * Senaryo alanından Yolcu Beraber seçilir
+    * Tasarım Boyutu alanından Dikey seçilir
     * Turist alanına TuristAd,TuristSoyad,1111111111,31.01.2020,Almanya,Türkiye girilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
     * Ön Ek ZZZ olarak seçilir
     * Tasarım alanından Mavi Temali e-Fatura Öndeger Sablon Tasarim.xslt- seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
-    * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
@@ -41,5 +42,5 @@ Feature: VKNo ile Yolcu Beraber senaryosunda ve Istisna tipinde fatura olusturul
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 |
+      | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                                                      |
+      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | GÜMRÜK VE TİCARET BAKANLIĞI BİLGİ İŞLEM DAİRESİ BAŞKANLIĞI |

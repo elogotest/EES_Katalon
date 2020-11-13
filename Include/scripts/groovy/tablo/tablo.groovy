@@ -87,6 +87,6 @@ class tablo {
 	
 	@When("Tablodaki tüm veriler silinir")
 	def olusturmaTarihi() {
-		WebUI.callTestCase(findTestCase("Test Cases/Tablo/Olusturma Tarihi"), [:])
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/Olusturma Tarihi"), [:] , FailureHandling.OPTIONAL)
 	}
 }

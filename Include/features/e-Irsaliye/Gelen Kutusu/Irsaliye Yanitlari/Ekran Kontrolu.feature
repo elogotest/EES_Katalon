@@ -5,7 +5,7 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtre alanlarında Gönderici Ünvanı var mı
-    * Filtre alanlarında Alıcı VKN/TCKN var mı
+    * Filtre alanlarında Gönd. VKN/TCKN var mı
     * Filtre alanlarında İrsaliye Yanıtı No var mı
     * Filtre alanlarında İrsaliye Yanıtı ETTN var mı
     * Filtre alanlarında Oluşturma Tarihi var mı

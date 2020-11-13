@@ -11,9 +11,9 @@ Feature: e-Defter Saklama Goster
     * <dosyaIsmi> adlı klasör seçilir
     * Butonlardan Sil isimli butona tıklanır
     * Popup mesajı Seçili e-Defter dosyaları silinecektir içeriyor mu
-    * Yönetim popupında İptal seçilir
+    * Yönetim popupında Hayır seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | dosyaIsmi                      |
-      | 9250128841-201905-K-000001.zip |
+      | 9250128841-201905-K-000003.zip |

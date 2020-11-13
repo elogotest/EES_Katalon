@@ -10,5 +10,5 @@ Feature: e-Defter Saklama Fatura Sil
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | unvan                     |
-      | Invoice11062020104631.zip |
+      | unvan    |
+      | enes.zip |

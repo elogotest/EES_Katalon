@@ -4,6 +4,7 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
+    * Tablodaki tüm veriler silinir
     * Butonlardan Ekle isimli butona tıklanır
     * Görsel tasarım sayfasının e-Arşiv Fatura Bilgileri başlığını içerdiği kontrol edilir
     * Alıcı adı alanına <alici_Adi> girilir

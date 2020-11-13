@@ -4,6 +4,7 @@ Feature: VKNo ile Kamu senaryosunda ve Tevkifat tipinde fatura olusturulmasi ve 
     * Giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
+    * Tablodaki tüm veriler silinir
     * Butonlardan Ekle isimli butona tıklanır
     * Görsel tasarım sayfasının e-Fatura Bilgileri başlığını içerdiği kontrol edilir
     * Alıcı adı alanına <alici_Adi> girilir
@@ -14,7 +15,7 @@ Feature: VKNo ile Kamu senaryosunda ve Tevkifat tipinde fatura olusturulmasi ve 
     * Tasarım alanından Mavi Temali e-Fatura Öndeger Sablon Tasarim.xslt- seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
-    * Ödeme Bilgileri 11111111111,Türk Lirası olarak girilir
+    * Ödeme Bilgileri 11111111111111111111111111,Türk Lirası olarak girilir
     * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
@@ -25,11 +26,11 @@ Feature: VKNo ile Kamu senaryosunda ve Tevkifat tipinde fatura olusturulmasi ve 
     * Ürün ekleme alanında KDV Oranı % başlığına 18 girilir
     * Ürün ekleme alanında KDV İstisna Muafiyet Kodu başlığına 351  KDV - İstisna Olmayan Diğer girilir
     * Ürün ekleme alanında GTIP Kodu başlığına 88.01.00.90.00.00 girilir
-    * Ürün ekleme alanında KDV TEVKİFAT Oranı % başlığına 12 girilir
+    #* Ürün ekleme alanında KDV TEVKİFAT Oranı % başlığına 12 girilir
     * Ürün ekleme alanında KDV TEVKİFAT Kodu başlığına 604 - YEMEK SERVİS HİZMETİ girilir
     * Ürün ekleme alanında CPA Kodu başlığına 55555 girilir
     * Ürün ekleme alanında Menşei başlığına Türkiye girilir
-    * KDV Muafiyet Bilgileri 351 KDV - İstisna Olmayan Diğer olarak girilir
+    #* KDV Muafiyet Bilgileri 351 KDV - İstisna Olmayan Diğer olarak girilir
     * Notlar alanına <not> girilir
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu

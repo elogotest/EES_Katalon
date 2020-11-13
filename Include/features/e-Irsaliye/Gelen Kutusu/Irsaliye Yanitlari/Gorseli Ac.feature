@@ -16,4 +16,4 @@ Feature: Irsaliye Yanitinin Gorselini Ac
 
     Examples: 
       | filtreDegeri | filtreDegeri2 | veri_Adi |          |
-      | 01.01.2018   | 31.12.2018    | GENEL    | Muhasebe |
+      | 01.01.2018   | 31.12.2018    | Logo     | Muhasebe |

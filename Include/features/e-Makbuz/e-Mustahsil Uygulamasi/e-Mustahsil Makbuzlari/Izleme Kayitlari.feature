@@ -11,10 +11,10 @@ Feature: e-Mustahsil Makbuzu Gecmis
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan İzleme Kayıtları isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-		* <baslik> baslikli gecmis sayfasi geldi mi
+    * <baslik> baslikli gecmis sayfasi geldi mi
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi   	      | baslik				  	|
-      | 01.01.2020		| 31.01.2020		| Fuat Gardrop Ltd.	| Müstahsil Makbuzu |
+      | filtreDegeri | filtreDegeri2 | veri_Adi                 | baslik            |
+      | 01.01.2020   | 31.12.2020    | Virgosol Otomasyon709886 | Müstahsil Makbuzu |

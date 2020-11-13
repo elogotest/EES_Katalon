@@ -10,5 +10,5 @@ Feature: e-Defter Saklama Zarf Sil
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | unvan                      |
-      | Envelope11062020104656.zip |
+      | unvan    |
+      | enes.zip |

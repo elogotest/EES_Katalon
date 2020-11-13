@@ -7,7 +7,7 @@ Feature: e-Arsiv Fatura Sil
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Sil isimli butona tıklanır
     * Popup mesajı Dosyalar ve dosyaların içerisindeki tüm faturalar silinecektir içeriyor mu
-    * Yönetim popupında İptal seçilir
+    * Yönetim popupında Hayır seçilir
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     

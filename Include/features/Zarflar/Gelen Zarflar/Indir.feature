@@ -12,10 +12,8 @@ Feature: Gelen Zarf indirme
     * Butonlardan İndir isimli butona tıklanır
     * Alt butonlardan İndir butonuna tıklanır
     * Ön eki Envelope olan dosya indirildi mi
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	                  |
-      | 01.01.2020		| 31.01.2020		| GÜMRÜK VE TİCARET BAKANLIĞI	|
-            
- 
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | filtreDegeri | filtreDegeri2 | veri_Adi                                          |
+      | 01.11.2020   | 31.11.2020    | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |

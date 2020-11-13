@@ -12,10 +12,8 @@ Feature: Gelen Zarf GIB
     * Butonlardan GİB isimli butona tıklanır
     * GİB Durum Sorgulama popupı açıldı mı
     * Popup kapatılır
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	                  |
-      | 01.01.2020		| 31.01.2020		| GÜMRÜK VE TİCARET BAKANLIĞI	|
-            
- 
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | filtreDegeri | filtreDegeri2 | veri_Adi                                          |
+      | 01.11.2020   | 31.11.2020    | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
