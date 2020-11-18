@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>245b88ba-fcda-4b83-8bf1-44b434709853</testSuiteGuid>
+   <testSuiteGuid>595c45d1-227a-4cc4-89d8-3e9e3c920a9c</testSuiteGuid>
    <testCaseLink>
-      <guid>bf64537f-2c8b-4583-9b3b-43c3bd1b98a4</guid>
+      <guid>3c05e77a-3704-41cf-adbf-08e395f7ed9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/On Deger Ata</testCaseId>

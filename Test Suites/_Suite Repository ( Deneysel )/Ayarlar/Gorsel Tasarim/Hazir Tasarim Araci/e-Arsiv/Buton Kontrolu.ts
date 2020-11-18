@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>fd189437-63da-49fd-b343-d4c8f7abaaef</testSuiteGuid>
+   <testSuiteGuid>4ad4eaa0-64e0-4e05-ab84-62872983eb77</testSuiteGuid>
    <testCaseLink>
-      <guid>f0e89de9-2cd9-48a5-8999-fc8a494dc8ad</guid>
+      <guid>f42cb1c5-e6c8-4424-baed-b37e2a332e28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Arsiv/Buton Kontrolu</testCaseId>

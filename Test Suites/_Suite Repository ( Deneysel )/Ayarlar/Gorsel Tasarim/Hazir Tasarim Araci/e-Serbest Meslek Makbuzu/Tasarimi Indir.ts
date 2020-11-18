@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7a7e9afa-ed29-4fac-ba3e-38867b6c8512</testSuiteGuid>
+   <testSuiteGuid>d2da10fd-1df3-490e-9424-1fb84c16aeb3</testSuiteGuid>
    <testCaseLink>
-      <guid>6b02eda9-700f-43b8-ae15-f7eb10bfccd3</guid>
+      <guid>693d01c6-fb44-4770-8bc4-4d1eeb98bc15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Serbest Meslek Makbuzu/Tasarimi Indir</testCaseId>

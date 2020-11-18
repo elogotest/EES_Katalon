@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>017d00d7-ed69-4df1-9f95-2aa82620019f</testSuiteGuid>
+   <testSuiteGuid>c5d3d1cd-0bd5-4c3d-a0de-dc30f836e149</testSuiteGuid>
    <testCaseLink>
-      <guid>8a1faed8-3ee7-46e0-ad54-4c1986d1f411</guid>
+      <guid>831f08ae-41f6-408d-8ebb-12ec3e905afd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Irsaliye/Onizleme</testCaseId>

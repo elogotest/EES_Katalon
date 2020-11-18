@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>eb878b6f-293c-4cc6-9683-4e24987717fa</testSuiteGuid>
+   <testSuiteGuid>927aa4af-8fe1-41d9-a0ff-6eb7ca5b4c30</testSuiteGuid>
    <testCaseLink>
-      <guid>6263e3ef-4761-41b5-abe3-21511b38c8a1</guid>
+      <guid>9eac54a9-7c13-41f4-89b7-4ecf6b37b51e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu</testCaseId>

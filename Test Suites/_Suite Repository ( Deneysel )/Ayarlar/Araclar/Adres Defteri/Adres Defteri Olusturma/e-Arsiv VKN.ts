@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>5beb1a9b-d85f-4806-a0fd-ea5e09325d07</testSuiteGuid>
+   <testSuiteGuid>c4d9bf29-8391-4ff8-a0ef-681e6c4ff356</testSuiteGuid>
    <testCaseLink>
-      <guid>b2beaeee-17f8-4259-9e06-8634c33204d9</guid>
+      <guid>46612985-ea16-428b-9630-40e748820a39</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Adres Defteri Olusturma/e-Arsiv VKN</testCaseId>

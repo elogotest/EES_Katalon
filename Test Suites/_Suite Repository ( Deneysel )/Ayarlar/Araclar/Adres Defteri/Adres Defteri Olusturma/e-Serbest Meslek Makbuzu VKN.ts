@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>62c49905-8977-4e8a-8654-c12e6691aafb</testSuiteGuid>
+   <testSuiteGuid>e680ba80-8f73-45af-8953-3289f7b394ac</testSuiteGuid>
    <testCaseLink>
-      <guid>4470362d-3a37-4c90-aabc-eae30fcf7b7e</guid>
+      <guid>0064fd7c-a21b-43f2-a721-0607e1995df9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Adres Defteri Olusturma/e-Serbest Meslek Makbuzu VKN</testCaseId>

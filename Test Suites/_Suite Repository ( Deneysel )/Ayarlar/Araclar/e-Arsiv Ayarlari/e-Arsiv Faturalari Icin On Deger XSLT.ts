@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7e3a95fb-8432-456a-92d9-90a0b98517fe</testSuiteGuid>
+   <testSuiteGuid>7b4ed9eb-885e-47a2-bd6e-071af23ceec1</testSuiteGuid>
    <testCaseLink>
-      <guid>5cf9954a-ce39-494a-b6ff-5edf2abca6e9</guid>
+      <guid>db5f5e5c-0574-492b-9316-805b72fd19fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/e-Arsiv Ayarlari/e-Arsiv Faturalari Icin On Deger XSLT</testCaseId>

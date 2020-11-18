@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>dc4c6f46-e6e6-46ea-aa17-6e4a6f05b543</testSuiteGuid>
+   <testSuiteGuid>7ebf4c81-751b-4b54-9767-68639861077c</testSuiteGuid>
    <testCaseLink>
-      <guid>85aec8f4-8a51-4b0b-970d-e32dae039339</guid>
+      <guid>fbc273a5-07b8-4361-ae5a-90b8fc7fc0b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Mustahsil Makbuzu/Tasarimi Indir</testCaseId>

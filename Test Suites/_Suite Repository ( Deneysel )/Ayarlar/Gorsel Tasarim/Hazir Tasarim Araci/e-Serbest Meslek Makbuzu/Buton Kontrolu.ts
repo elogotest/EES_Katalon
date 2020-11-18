@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>d6cb41d5-518d-41cd-91f4-fabeb7c296c0</testSuiteGuid>
+   <testSuiteGuid>e7dc91e8-cca2-4c5d-8148-f75af4bd9dd6</testSuiteGuid>
    <testCaseLink>
-      <guid>6bc8d021-e864-4bba-a638-3d399bbb527c</guid>
+      <guid>1b8ac25d-9545-4a6f-a1e5-16f95a66a0ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Serbest Meslek Makbuzu/Buton Kontrolu</testCaseId>

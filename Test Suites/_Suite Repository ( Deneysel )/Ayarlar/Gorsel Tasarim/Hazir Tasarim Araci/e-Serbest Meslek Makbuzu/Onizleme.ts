@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4dd1b1eb-3b32-4113-9274-c918b5fb6c55</testSuiteGuid>
+   <testSuiteGuid>2723b2f3-ac46-469f-8118-2f8bb36d5798</testSuiteGuid>
    <testCaseLink>
-      <guid>b0bf1232-d292-48dc-8355-7479e9f512cc</guid>
+      <guid>077a9c02-40a5-4427-a1d4-2af9710257dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Serbest Meslek Makbuzu/Onizleme</testCaseId>

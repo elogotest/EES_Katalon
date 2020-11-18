@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>569f0d39-baff-4ab1-b86c-e3653245503e</testSuiteGuid>
+   <testSuiteGuid>6ff3548f-bd3f-44f0-9364-2189dabd34b6</testSuiteGuid>
    <testCaseLink>
-      <guid>2f460211-eb6e-4f50-9354-028b68bf966e</guid>
+      <guid>eb59d9a7-803b-4708-8219-4d6e3709cb96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Tasarimi Indir</testCaseId>

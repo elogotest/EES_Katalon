@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>b7e08b77-bc6f-46e7-8aa8-cfea8d0c50d9</testSuiteGuid>
+   <testSuiteGuid>7e484c11-52dc-489f-8684-2981b86340c6</testSuiteGuid>
    <testCaseLink>
-      <guid>498d3791-ca6b-44d4-91b7-d08cb63882ca</guid>
+      <guid>62eca268-b05c-4820-a55d-79105ebe07cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri</testCaseId>

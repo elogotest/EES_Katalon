@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4d8fae3f-12c9-41f1-9dfc-5136ac1ba470</testSuiteGuid>
+   <testSuiteGuid>35a4176a-5d63-439b-9b20-de90266c2611</testSuiteGuid>
    <testCaseLink>
-      <guid>80cafb88-467b-4323-a38d-f6250ad7ee18</guid>
+      <guid>35ac21b1-df7e-4e69-bc2a-0ee791c59235</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Onizleme</testCaseId>

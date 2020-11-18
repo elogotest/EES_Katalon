@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>c1697ecf-c4ba-4a97-9dcd-723408265dba</testSuiteGuid>
+   <testSuiteGuid>23fb332d-8a77-43f0-a7fd-de255f475464</testSuiteGuid>
    <testCaseLink>
-      <guid>4d60ea07-c30f-4666-b46b-6f9fa21df872</guid>
+      <guid>fe149384-240b-41f4-bec5-c414cbf78544</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Mustahsil Makbuzu/Buton Kontrolu</testCaseId>

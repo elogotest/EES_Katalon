@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>33525aae-a1a2-4e7d-9790-f6e4590cbfb0</testSuiteGuid>
+   <testSuiteGuid>9053360e-417b-4c01-b3b5-cd022c18940b</testSuiteGuid>
    <testCaseLink>
-      <guid>82fbd9cb-268d-4fa4-acc7-6d41bc6d7025</guid>
+      <guid>b8032005-05d6-48b6-a7e7-09238a3224ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Serbest Meslek Makbuzu/On Deger Ata</testCaseId>

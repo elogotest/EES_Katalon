@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7d4f9d85-48bb-4374-a620-66b5ea8e801a</testSuiteGuid>
+   <testSuiteGuid>d07c9748-e3ca-459d-9a07-8fc7cde9842d</testSuiteGuid>
    <testCaseLink>
-      <guid>1f58169a-959e-4769-82b0-e973647f1851</guid>
+      <guid>2352172d-bb4f-49cd-9c0b-2e4ff3213b53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Buton Kontrolu</testCaseId>
