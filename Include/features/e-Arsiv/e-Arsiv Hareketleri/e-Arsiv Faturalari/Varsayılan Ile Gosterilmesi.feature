@@ -16,5 +16,5 @@ Feature: e-Arsiv Faturasi Varsayılan Ile Gosterilmesi
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	  |
-      | 01.01.2019		| 31.01.2019		| test test 	|
+      | filtreDegeri	| filtreDegeri2	| veri_Adi 							  |
+      | 23.11.2020		| 24.11.2020		| VirgosolOtomasyon699944	|

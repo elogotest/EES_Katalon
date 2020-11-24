@@ -15,4 +15,4 @@ Feature: e-Fatura Gorsel Tasarim Kopyala
 
     Examples: 
       | filtreDegeri	| filtreDegeri2	| name              |
-      | 01.06.2020		| 15.06.2020		| VirgosolOtomasyon |
+      | 01.11.2020		| 22.11.2020		| VirgosolOtomasyon |

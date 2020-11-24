@@ -15,5 +15,5 @@ Feature: e-Arsiv Raporlari Gecmisi
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 
-      | filtreDegeri | veri_Adi 	| baslik							  |
-      | 2020 Nisan 	 | 2675073		| e-Arşiv Rapor İzleme Kayıtları |
+      | filtreDegeri | veri_Adi 	| baslik					         		   |
+      | 2020 Nisan 	 | 2671418		| e-Arşiv Rapor İzleme Kayıtları |

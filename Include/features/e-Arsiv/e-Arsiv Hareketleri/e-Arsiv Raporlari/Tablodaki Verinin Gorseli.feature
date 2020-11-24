@@ -15,6 +15,6 @@ Feature: e-Arsiv Raporlari Tablodaki Verinin Gorseli
     
     Examples: 
       | filtreDegeri | veri_Adi 	|
-      | 2020 Nisan 	 | 2675073		|
+      | 2020 Ocak 	 | 2665838		|
             
  

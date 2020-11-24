@@ -3,7 +3,7 @@ Feature: e-Fatura Gorsel Tasarim On Deger Ata
   Scenario Outline: e-Fatura Gorsel Tasarim On Deger Ata
     * Giriş yapılır
     * Ana menüden Ayarlar seçilir
-    * Alt menü Görsel Tasarımlar başlığı altındaki e-Fatura Gorsel Tasarim seçilir
+    * Alt menü Görsel Tasarımlar başlığı altındaki e-Fatura Görsel Tasarım seçilir
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
@@ -18,4 +18,4 @@ Feature: e-Fatura Gorsel Tasarim On Deger Ata
 
     Examples: 
       | filtreDegeri | filtreDegeri2 | name              |
-      |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |
+      |   01.11.2020 |    22.11.2020 | VirgosolOtomasyon |

@@ -7,9 +7,9 @@ Feature: e-Fatura Gorsel Tasarim Yukle e-Arsiv
     * Tabloda veri var mı kontrol edilir
     * Butonlardan Yukle isimli butona tıklanır
     * Alt butonlardan e-Fatura butonuna tıklanır
-    * Ön eki <name> olan dosya indirildi mi
+    * Yükleme ekranından çıkılır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | name  |
-      | 13441 |
+      | dosyaAdi  |
+      | 13441     |

@@ -10,11 +10,13 @@ Feature: e-Arsiv Raporlari Yeniden Olustur
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Yeniden Oluştur isimli butona tıklanır
     * Popup mesajı Seçtiğiniz e-Arşiv raporları yeniden oluşturulacaktır içeriyor mu
-    * Yönetim popupında Onayla seçilir
-    * Popup mesajı Seçtiğiniz kayıtlardan 1 adedi tekrar oluşturmak üzere kuyruğa kaydedildi içeriyor mu
+    * Yönetim popupında Evet seçilir
+    * Popup mesajı Seçilen raporlar yeniden oluşturulacaktır. Devam etmek istiyor musunuz? içeriyor mu
+    * Yönetim popupında Evet seçilir
+    * Popup mesajı Seçtiğiniz kayıtlardan 1 adedi tekrar oluşturmak üzere kuyruğa kaydedildi. içeriyor mu
     * Yönetim popupında Tamam seçilir
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 
       | filtreDegeri | veri_Adi 	|
-      | 2020 Nisan 	 | 2675073		|
+      | 2020 Nisan 	 | 2671418		|

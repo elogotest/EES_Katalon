@@ -10,9 +10,9 @@ Feature: e-Fatura Gorsel Tasarim Indir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <name> ünvanlı veriye tıklanır
     * Butonlardan İndir isimli butona tıklanır
-    * Ön eki <name> olan dosya indirildi mi
+    * Ön eki <dosya> olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| name  |
-      | 01.06.2020		| 15.06.2020		| 13899 |
+      | filtreDegeri	| filtreDegeri2	| name              | dosya |
+      | 01.11.2020		| 22.11.2020		| VirgosolOtomasyon | 13641 |

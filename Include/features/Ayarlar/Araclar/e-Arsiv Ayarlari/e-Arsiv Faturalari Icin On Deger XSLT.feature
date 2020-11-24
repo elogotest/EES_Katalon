@@ -8,5 +8,5 @@ Feature: e-Arsiv Faturalari Icin On Deger XSLT
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | deger             |
-      | VirgosolOtomasyon |
+      | deger |
+      | 12981 |

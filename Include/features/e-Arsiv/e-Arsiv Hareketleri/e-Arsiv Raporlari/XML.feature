@@ -16,4 +16,4 @@ Feature: e-Arsiv Raporlari XML
     
     Examples: 
       | filtreDegeri | veri_Adi 	| tag									|
-      | 2020 Nisan 	 | 2675073		| earsiv:eArsivRaporu |
+      | 2020 Nisan 	 | 2671418		| earsiv:eArsivRaporu |

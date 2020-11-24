@@ -16,4 +16,4 @@ Feature: e-Arsiv Raporlari Rapor
     
     Examples: 
       | filtreDegeri | veri_Adi 	|
-      | 2020 Nisan 	 | 2675073		|
+      | 2020 Nisan 	 | 2671418		|

@@ -64,4 +64,4 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmas
 
     Examples: 
       | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan                   | tag     | dosya                                                        |
-      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon600413 | invoice | C:\\Users\\Virgosol\\Desktop\\Koc_Sistem_Giris_Bilgileri.txt |
+      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon600413 | invoice | C:\\otomasyondownfiles\\yukle.txt |

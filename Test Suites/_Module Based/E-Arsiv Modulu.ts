@@ -111,7 +111,7 @@
       <guid>9ee85f1a-6396-4c33-a465-7440ee0cb163</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Ekran Kontrolu</testCaseId>
+      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Buton Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>42d99442-ef9a-4e3c-b59c-6f7f37e0ac25</guid>

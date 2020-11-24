@@ -16,5 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runFeatureFile('Include/features/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Ekran Kontrolu.feature')
+CucumberKW.runFeatureFile('Include/features/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Buton Kontrolu.feature')
 

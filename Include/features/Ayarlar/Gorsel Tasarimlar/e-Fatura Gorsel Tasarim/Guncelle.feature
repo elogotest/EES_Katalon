@@ -18,4 +18,4 @@ Feature: e-Fatura Gorsel Tasarim Guncelle
 
     Examples: 
       | filtreDegeri	| filtreDegeri2	| name | baslik                      | aciklama          |
-      | 01.06.2020		| 15.06.2020		| test | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | 01.06.2017 		| 28.06.2017 		| test | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |

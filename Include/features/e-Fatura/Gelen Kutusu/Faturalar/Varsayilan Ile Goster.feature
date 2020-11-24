@@ -17,4 +17,4 @@ Feature: Faturanin Varsayılan Ile Gosterilmesi
     
     Examples: 
       | filtreDegeri	| filtreDegeri2	| veri_Adi 	  	            |
-      | 01.01.2020		| 31.01.2020		| Logo Elektronik GIB Test	|
+      | 01.03.2020		| 06.03.2020		| Logo Elektronik GIB Test	|
