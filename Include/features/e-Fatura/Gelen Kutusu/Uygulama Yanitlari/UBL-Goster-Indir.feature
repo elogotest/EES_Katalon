@@ -10,6 +10,7 @@ Feature: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
+    * Alt butonlardan Göster butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir

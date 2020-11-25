@@ -13,7 +13,7 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Döküman Para Birimi alanından Türk Lirası seçilir
     * Ön Ek FFF olarak seçilir
     * Tasarım alanından Otomasyon Denemesi seçilir
-    * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
+    * Sipariş bilgileri UUC-SAT-1200001 ve 30.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
@@ -45,5 +45,5 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                  |
-      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon39267 |
+      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
+      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |

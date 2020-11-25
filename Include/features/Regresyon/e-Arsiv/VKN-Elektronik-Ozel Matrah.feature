@@ -42,5 +42,5 @@ Feature: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                  |
-      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon39267 |
+      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
+      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |

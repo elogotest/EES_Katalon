@@ -41,6 +41,6 @@ Feature: Gonderim tipi Kagit ve Iade tipinde e-Arsiv faturasi olusturulmasi
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
-    Examples: 
-      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                  |
-      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon39267 |
+    Examples:  
+      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
+      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |

@@ -19,7 +19,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Sekmeler/UBLTag'), 10)
-
+println WebUI.findWebElement(findTestObject('Object Repository/Sekmeler/UBLTag'),10).getTagName().toLowerCase().toString()
 if(!WebUI.findWebElement(findTestObject('Object Repository/Sekmeler/UBLTag'),10).getTagName().toLowerCase().toString().contains(Tag.toString().toLowerCase())){
+	
 	assert false
+	
 }

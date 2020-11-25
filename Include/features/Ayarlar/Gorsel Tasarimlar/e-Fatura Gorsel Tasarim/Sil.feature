@@ -4,6 +4,9 @@ Feature: e-Fatura Gorsel Tasarim Sil
     * Giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki e-Fatura Görsel Tasarım seçilir
+    * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <name> ünvanlı veriye tıklanır
     * Butonlardan Sil isimli butona tıklanır
@@ -12,5 +15,5 @@ Feature: e-Fatura Gorsel Tasarim Sil
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | name              |
-      | test |
+      | filtreDegeri | filtreDegeri2 | name        |
+      |   23.11.2020 |    23.11.2020 | e-Fatura		 |

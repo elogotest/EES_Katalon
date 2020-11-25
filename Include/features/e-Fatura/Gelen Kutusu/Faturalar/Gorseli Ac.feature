@@ -10,7 +10,7 @@ Feature: Faturanin Gorselini Ac
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin Fatura adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
-    * Yeni sekme başlığında e-Fatura var mı kontrol edilir
+    * Yeni sekme başlığında e-FATURA var mı kontrol edilir
     * Ana sekmeye geçilir
 		* Kullanıcı işlemlerinden Çıkış seçilir
     

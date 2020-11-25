@@ -20,5 +20,5 @@ Feature: e-Fatura Gelen Kutusu UBL - Göster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                 | tag							      |
-      | 01.01.2020   | 31.01.2020    | Logo Elektronik GIB Test | Invoice24112020125611 |
+      | filtreDegeri | filtreDegeri2 | veri_Adi                 | tag     |
+      | 01.03.2020   | 06.03.2020    | Logo Elektronik GIB Test | invoice |
