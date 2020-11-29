@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari Rapor
 
     Examples: 
       | veri_Adi |
-      | 4        |
+      | 1453     |

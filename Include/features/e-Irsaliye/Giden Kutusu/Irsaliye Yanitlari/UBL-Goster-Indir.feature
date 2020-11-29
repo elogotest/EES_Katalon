@@ -21,4 +21,4 @@ Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtlari UBL - Goster
 
     Examples: 
       | filtreDegeri | filtreDegeri2 | veri_Adi   | tag           |
-      | 01.01.2018   | 31.12.2018    | E-irsaliye | ReceiptAdvice |
+      | 01.01.2018   | 31.12.2018    | Merkez		  | ReceiptAdvice |

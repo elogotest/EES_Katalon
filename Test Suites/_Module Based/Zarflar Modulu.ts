@@ -84,12 +84,6 @@
       <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>55901ef9-b517-46ad-83a8-b1abdd2f2f68</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/GIB</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a8272b65-2539-465f-8135-99a635c960f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

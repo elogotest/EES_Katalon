@@ -1332,12 +1332,6 @@
       <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bdb62c93-bea0-48bf-ba59-211b883cdd96</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/GIB</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c69e53bd-151c-492f-9176-e4aa5cab2fbe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

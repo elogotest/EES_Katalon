@@ -16,6 +16,7 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
     * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
+    * Hizmet Bilgileri alanından STPJ seçilir
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
     * Ürün ekleme alanında Miktarı başlığına <miktari> girilir
@@ -48,5 +49,5 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 |
+      | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   | hizmet |
+      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 | STPJ   |

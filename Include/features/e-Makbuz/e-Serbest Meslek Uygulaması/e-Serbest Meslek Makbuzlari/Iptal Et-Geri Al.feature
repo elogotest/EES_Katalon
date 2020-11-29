@@ -11,7 +11,7 @@ Feature: e-Serbest Meslek Makbuzlari Iptal Et
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan İptal Et isimli butona tıklanır
     * Popup mesajı Seçilen makbuzlardan başarılı durumunda olanlar iptal edilecektir onaylıyor musunuz içeriyor mu
-    * Yönetim popupında Onayla seçilir
+    * Yönetim popupında Evet seçilir
     * Popup mesajı belge iptal edilmiştir içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Butonlardan İptal Geri Al isimli butona tıklanır
@@ -23,4 +23,4 @@ Feature: e-Serbest Meslek Makbuzlari Iptal Et
 
     Examples: 
       | filtreDegeri | filtreDegeri2 | veri_Adi      |
-      | 01.01.2020   | 31.08.2020    | Atahan Adanır |
+      | 01.01.2020   | 31.08.2020    | Özde Acarkan  |

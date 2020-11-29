@@ -18,7 +18,6 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Butonlardan Excel var mı
     * Butonlardan Toplu İndirme var mı
     * Butonlardan İndir var mı
-    * Butonlardan GİB var mı
     * Butonlardan İzleme Kayıtları var mı
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Seçilenleri Excel 'e Aktar var mı

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>KlasorSec</name>
+   <name>Boyut_Adi</name>
    <tag></tag>
-   <elementGuidId>484d9933-a920-485b-9487-d883198604d4</elementGuidId>
+   <elementGuidId>0c93ca79-1f85-4d84-8df3-49672f593d9a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.dxKBSW>input</value>
+         <value>#cmbXsltType_DDD_L_LBT td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>.dxKBSW>input</value>
+      <value>#cmbXsltType_DDD_L_LBT td</value>
    </webElementProperties>
 </WebElementEntity>

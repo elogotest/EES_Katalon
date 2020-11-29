@@ -17,6 +17,6 @@ Feature: e-Mustahsil Makbuzu Raporlari XML
     
     Examples: 
       | filtreDegeri	| filtreDegeri2	| veri_Adi | tag 								 |
-      | 01.01.2020		| 31.01.2020		| 917   	 | earsiv:eArsivRaporu |
+      | 01.11.2020		| 30.11.2020		| 2722   	 | earsiv:eArsivRaporu |
             
  

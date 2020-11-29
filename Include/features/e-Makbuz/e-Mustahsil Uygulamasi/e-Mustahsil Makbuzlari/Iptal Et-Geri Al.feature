@@ -16,11 +16,9 @@ Feature: e-Mustahsil Makbuzu Iptal Et
     * Yönetim popupında Tamam seçilir
     * Butonlardan İptal Geri Al isimli butona tıklanır
     * Popup mesajı Seçilen makbuzlar için iptal işlemi geri alınacaktır onaylıyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Popup mesajı İptal Edildi durumunda olan ve raporlanmayan 1 adet belge için iptal işlemi geri alınmıştır içeriyor mu
-    * Yönetim popupında Tamam seçilir
+    * Yönetim popupında Onayla seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      | 01.01.2020   | 31.12.2020    | Virgosol Otomasyon709886 |
+      | 26.11.2020   | 26.11.2020    | Virgosol Otomasyon709886 |

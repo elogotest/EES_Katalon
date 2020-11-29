@@ -11,10 +11,11 @@ Feature: e-Defter Saklama Goster
     * <dosyaIsmi> adlı klasör seçilir
     * Butonlardan Göster isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-    * Yeni sekme başlığında e-Arşiv var mı kontrol edilir
+    * Yeni sekme başlığında e-Fatura var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | dosyaIsmi                      |
       | 9250128841-201905-K-000002.zip |
+				

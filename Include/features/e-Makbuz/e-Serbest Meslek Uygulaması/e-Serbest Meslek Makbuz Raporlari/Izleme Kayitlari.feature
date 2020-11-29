@@ -15,5 +15,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi | baslik                           |
-      |        4 | Self-Employed Receipt Report - 4 |
+      | veri_Adi | baslik                          										  |
+      |     1453 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1453 |

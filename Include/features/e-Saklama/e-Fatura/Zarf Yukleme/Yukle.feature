@@ -7,9 +7,9 @@ Feature: e-Defter Saklama Zarf Yukle
     * Butonlardan Yükle isimli butona tıklanır
     * Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
     * Yükleme ekranından çıkılır
-    * Tabloda enes.zip ünvanlı veri oluşturuldu mu
+    * Tabloda 13626.zip ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosya                          |
-      | C:\\otomasyonupfiles\\enes.zip |
+      | dosya                |
+      | D:\\ELOGO\\13626.zip |

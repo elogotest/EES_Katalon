@@ -16,5 +16,5 @@ Feature: Irsaliye Yanitinin Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                              |
-      | 01.01.2018   | 31.12.2018    | GENEL    | İrsaliye Yanıtları İzleme Kayıtları |
+      | filtreDegeri | filtreDegeri2 | veri_Adi			  | baslik                              |
+      | 01.01.2018   | 31.12.2018    | TEST CARISI    | İrsaliye Yanıtları İzleme Kayıtları |

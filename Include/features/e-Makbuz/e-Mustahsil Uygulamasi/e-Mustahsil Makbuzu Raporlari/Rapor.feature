@@ -17,4 +17,4 @@ Feature: e-Mustahsil Makbuzu Raporlari Rapor
     
     Examples: 
       | filtreDegeri	| filtreDegeri2	| veri_Adi |
-      | 01.01.2020		| 31.01.2020		| 917   	 |
+      | 01.11.2020		| 30.11.2020		| 2722   	 |

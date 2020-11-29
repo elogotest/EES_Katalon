@@ -15,7 +15,7 @@ Feature: Faturanin Gorselini Ac
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	              |
-      | 01.01.2020		| 31.01.2020		| LOGO ELEKTRONİK TİCARET |
+      | filtreDegeri	| filtreDegeri2	| veri_Adi |
+      | 01.11.2020		| 28.11.2020		| elogo	   |
             
  

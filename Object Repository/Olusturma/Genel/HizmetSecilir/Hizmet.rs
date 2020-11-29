@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>KlasorSec</name>
+   <name>Hizmet</name>
    <tag></tag>
-   <elementGuidId>484d9933-a920-485b-9487-d883198604d4</elementGuidId>
+   <elementGuidId>1ef61c93-8e56-437f-aacd-478d2f8925fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.dxKBSW>input</value>
+         <value>//*[@id = 'cmbTaxes_I']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>.dxKBSW>input</value>
+      <value>cmbTaxes_I</value>
    </webElementProperties>
 </WebElementEntity>

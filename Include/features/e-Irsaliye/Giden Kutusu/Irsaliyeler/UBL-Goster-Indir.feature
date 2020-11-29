@@ -20,5 +20,5 @@ Feature: e-Irsaliye Giden Kutusu UBL - Göster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi | tag            |
-      | 01.01.2020   | 31.01.2020    | TEKSAN   | DespatchAdvice |
+      | filtreDegeri | filtreDegeri2 | veri_Adi                   | tag            |
+      | 01.11.2020   | 28.11.2020    | Logo Elektronik GIB Test   | DespatchAdvice |

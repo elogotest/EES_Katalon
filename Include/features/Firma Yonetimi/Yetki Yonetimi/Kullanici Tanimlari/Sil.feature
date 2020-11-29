@@ -8,7 +8,7 @@ Feature: Kullanici silme
     * Tabloda veri var mı kontrol edilir
     * Tablodan <departman_Adi> isimli veri seçilir
     * Butonlardan Sil isimli butona tıklanır
-		* Yönetim popupında Onayla seçilir
+		* Yönetim popupında Evet seçilir
 		* Yönetim popupında Tamam seçilir
 		* Kullanıcı işlemlerinden Çıkış seçilir
     

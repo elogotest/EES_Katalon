@@ -21,4 +21,4 @@ Feature: e-Fatura Giden Kutusu Uygulama Yanıtlari UBL - Goster
 
     Examples: 
       | filtreDegeri | filtreDegeri2 | veri_Adi   | tag                 |
-      | 01.09.2020   | 16.09.2020    | 6090408038 | ApplicationResponse |
+      | 01.11.2020   | 28.11.2020    | 6090408038 | ApplicationResponse |

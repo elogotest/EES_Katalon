@@ -75,7 +75,7 @@ class genel {
 	def dokumanParaBirimindenSecilir(String para) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/DokumanParaBirimiSecilir"), ["Para":para] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tasarım Boyutu alanından (.*) seçilir")
 	def tasarimBoyutuSecilir(String boyut) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/TasarimBoyutuSecilir"), ["Boyut":boyut] , FailureHandling.STOP_ON_FAILURE)
@@ -109,6 +109,11 @@ class genel {
 	@When("Ürün ekleme alanında (.*) başlığına (.*) girilir")
 	def malzemeMalHizmetBilgileriGirilir(String baslik,String deger) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Olusturma"), ["Baslik":baslik,"Deger":deger] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Hizmet Bilgileri alanından (.*) seçilir")
+	def hizmetSecilir(String hizmet) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/HizmetSecilir"), ["Hizmet":hizmet] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Masraf Bilgileri alanında (.*) başlığına (.*) girilir")

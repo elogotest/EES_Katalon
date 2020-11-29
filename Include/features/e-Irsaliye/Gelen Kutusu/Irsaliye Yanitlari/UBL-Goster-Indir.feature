@@ -20,5 +20,5 @@ Feature: e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi | tag           |
-      | 01.01.2018   | 30.12.2018    | Logo     | ReceiptAdvice |
+      | filtreDegeri | filtreDegeri2 | veri_Adi 			 | tag           |
+      | 01.01.2018   | 30.12.2018    | TEST CARISI     | ReceiptAdvice |
