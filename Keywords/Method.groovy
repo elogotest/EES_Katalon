@@ -120,7 +120,6 @@ class Method {
 				List<WebElement> lastElement = element.findElements(By.xpath(object2.findPropertyValue("xpath",false)))
 				for (last in lastElement) {
 					if(last.getAttribute("value").equals("U")){
-						wait.until(ExpectedConditions.visibilityOf(last))
 						last.click()
 						break
 					}

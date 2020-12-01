@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Hizmet_Adi</name>
+   <name>MuafiyetTikla</name>
    <tag></tag>
-   <elementGuidId>c9ec4910-d88e-4afe-bea3-0ec8319bbb83</elementGuidId>
+   <elementGuidId>74045690-5a5b-4c02-a49f-35e3131ce16e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#cmbTaxes_DDD_L_LBT td em</value>
+         <value>//*[@id = 'flTotalKDVExemptionReason_GHE0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>id</name>
       <type>Main</type>
-      <value>#cmbTaxes_DDD_L_LBT td em</value>
+      <value>flTotalKDVExemptionReason_GHE0</value>
    </webElementProperties>
 </WebElementEntity>

@@ -14,5 +14,5 @@ Feature: Yetki tanimlama
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples:
-      |	rol_Adi     | yetki                                     |
-      |	VirgosolRol |	e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |
+      |	rol_Adi    		 | yetki                                      |
+      |	TEST UZMANLARI |	e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |

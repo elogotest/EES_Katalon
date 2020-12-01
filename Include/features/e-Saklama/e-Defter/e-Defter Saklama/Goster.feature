@@ -8,14 +8,15 @@ Feature: e-Defter Saklama Goster
     * 2019 adlı klasör açılır
     * Mayıs 2019 adlı klasör açılır
     * Kebir Dosyaları adlı klasör açılır
+    * Defter Raporu Beratı adlı klasör açılır
     * <dosyaIsmi> adlı klasör seçilir
     * Butonlardan Göster isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-    * Yeni sekme başlığında e-Fatura var mı kontrol edilir
+    * Yeni sekme başlığında BERAT (DEFTER RAPORU) var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosyaIsmi                      |
-      | 9250128841-201905-K-000002.zip |
+      | dosyaIsmi                       |
+      | 9250128841-201905-DR-000000.zip |
 				

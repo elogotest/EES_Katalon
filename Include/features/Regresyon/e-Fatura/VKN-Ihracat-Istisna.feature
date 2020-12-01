@@ -16,7 +16,6 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
     * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
-    * Hizmet Bilgileri alanından STPJ seçilir
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
     * Ürün ekleme alanında Miktarı başlığına <miktari> girilir

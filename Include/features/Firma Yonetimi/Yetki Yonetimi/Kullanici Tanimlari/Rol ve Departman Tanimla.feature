@@ -15,5 +15,5 @@ Feature: Departman ve Rol tanimlama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullanici_Adi     | firma_Kodu | departman         | rol         |
-      | VirgosolKullanici | ELOGOGIB   | VirgosolDepartman | VirgosolRol |
+      | kullanici_Adi | firma_Kodu | departman | rol            |
+      | Otomasyon		  | ELOGOGIB   | Muhasebe	 | TEST UZMANLARI |

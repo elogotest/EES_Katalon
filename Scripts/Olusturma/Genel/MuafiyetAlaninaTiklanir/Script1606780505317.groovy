@@ -15,8 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('Olusturma/Genel/HizmetSecilir/Hizmet'), 10)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/Olusturma/MuafiyetTikla'), 10)
 
-WebUI.sendKeys(findTestObject('Olusturma/Genel/HizmetSecilir/Hizmet'),Hizmet)
+WebUI.click(findTestObject('Object Repository/Olusturma/Genel/Olusturma/MuafiyetTikla'))
 
-CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Olusturma/Genel/HizmetSecilir/Hizmet_Adi'), Hizmet)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/Olusturma/MuafiyetSatir'), 10)

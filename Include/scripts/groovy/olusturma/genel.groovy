@@ -110,10 +110,10 @@ class genel {
 	def malzemeMalHizmetBilgileriGirilir(String baslik,String deger) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Olusturma"), ["Baslik":baslik,"Deger":deger] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	@When("Hizmet Bilgileri alanından (.*) seçilir")
+
+	@When("KDV Muafiyet Bilgileri alanına tıklanır")
 	def hizmetSecilir(String hizmet) {
-		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/HizmetSecilir"), ["Hizmet":hizmet] , FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/MuafiyetAlaninaTiklanir"), ["Hizmet":hizmet] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Masraf Bilgileri alanında (.*) başlığına (.*) girilir")

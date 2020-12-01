@@ -27,4 +27,4 @@ Feature: Faturaya departman ata
     
     Examples: 
       | filtreDegeri	| filtreDegeri2	| veri_Adi 	  	            |	departman			    |
-      | 01.01.2020		| 31.01.2020		| Logo Elektronik GIB Test	| VirgosolDepartman	|
+      | 01.01.2020		| 31.01.2020		| Logo Elektronik GIB Test	| Muhasebe					|
