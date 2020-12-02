@@ -31,15 +31,6 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Ayarlar/Araclar/e-Arsiv Ayarlari/e-Arsiv Faturalari Icin On Deger XSLT</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

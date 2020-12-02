@@ -1,6 +1,6 @@
 Feature: e-Fatura Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
 
-  Scenario Outline: e-Fatura Gelen Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
+  Scenario Outline: e-Fatura Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
@@ -33,7 +33,7 @@ Feature: e-Fatura Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	              |
-      | 01.01.2020		| 31.01.2020		| LOGO ELEKTRONİK TİCARET |
+      | filtreDegeri	| filtreDegeri2	| veri_Adi 	             														|
+      | 01.11.2020		| 30.11.2020		| LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
             
  
