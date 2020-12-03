@@ -7,11 +7,14 @@ Feature: e-Defter Saklama Yukle
     * Filtre butonlarından Listele seçilir
     * Butonlardan Yükle isimli butona tıklanır
 		* Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
+		* Popup mesajı Devam etmek istiyor musunuz? içeriyor mu
+		* Yönetim popupında Onayla seçilir
+		* Yönetim popupında Onayla seçilir
 		* Yükleme ekranından çıkılır
 		* Tabloda <dosya_adi> ünvanlı veri oluşturuldu mu
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     
     Examples:
-      | dosya                           |dosya_adi|
-      | C:\\otomasyonupfiles\\13626.zip |13626.zip|
+      | dosya                           							 |dosya_adi|
+      | D:\\ELOGO\\GIB-9250128841-201905-YB-000004.zip |GIB-9250128841-201905-YB-000004.zip|

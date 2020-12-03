@@ -1,6 +1,6 @@
 Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
 
-  Scenario Outline: e-Serbest Meslek Makbuz Raporlari Gecmisi
+  Scenario Outline: e-Serbest Meslek Makbuz Raporlari
     * Giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir
@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
 
     Examples: 
       | veri_Adi | baslik                          										  |
-      |     1453 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1453 |
+      |     1468 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1468 |

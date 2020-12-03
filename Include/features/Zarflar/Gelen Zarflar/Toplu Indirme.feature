@@ -12,12 +12,14 @@ Feature: Gelen Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Seçilenleri İndir butonuna tıklanır
-    * Popup mesajı Toplu Veri İndirme içeriyor mu
+    * Popup mesajı . içeriyor mu
+    * Yönetim popupında Gönder seçilir
     * Yönetim popupında Tamam seçilir
     #* Ön eki Envelope olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Tümünü İndir butonuna tıklanır
     * Popup mesajı . içeriyor mu
+    * Yönetim popupında Gönder seçilir
     * Yönetim popupında Tamam seçilir
     #* Ön eki Envelope olan dosya indirildi mi
 		* Kullanıcı işlemlerinden Çıkış seçilir

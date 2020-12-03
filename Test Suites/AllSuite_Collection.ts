@@ -1876,15 +1876,6 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ihracat-Istisna Excele Aktar</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Ihrac Kayitli Excele Aktar</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
