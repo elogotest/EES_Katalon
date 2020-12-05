@@ -22,5 +22,5 @@ Feature: e-Serbest Meslek Makbuzlari Iptal Et
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi    						  |
-      | 01.11.2020   | 30.11.2020    | VirgosolOtomasyon383411  |
+      | filtreDegeri | filtreDegeri2 | veri_Adi    		|
+      | 01.11.2020   | 30.11.2020    | Atahan Adanır  |

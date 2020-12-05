@@ -1732,7 +1732,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Hal Komisyoncu Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Hal Komisyoncu</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1741,7 +1741,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Hal Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Hal Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1750,7 +1750,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Iade Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Iade</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1759,7 +1759,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Ihrac Kayitli Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Ihrac Kayitli</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1768,7 +1768,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Istisna Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Istisna</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1777,7 +1777,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Ozel Matrah Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Ozel Matrah</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1786,7 +1786,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1795,7 +1795,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Tevkifat Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Elektronik-Tevkifat</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1804,7 +1804,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Hal Komisyoncu Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Hal Komisyoncu</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1813,7 +1813,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Hal Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Hal Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1822,7 +1822,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Iade Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Iade</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1831,7 +1831,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Ihrac Kayitli Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Ihrac Kayitli</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1840,7 +1840,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Istisna Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Istisna</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1849,7 +1849,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Ozel Matrah Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Ozel Matrah</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1858,7 +1858,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1867,7 +1867,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Tevkifat Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Arsiv/VKN-Kagit-Tevkifat</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1876,7 +1876,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Ihrac Kayitli Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Ihrac Kayitli</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1885,7 +1885,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Istisna Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Istisna</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1894,7 +1894,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Ozel Matrah Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Ozel Matrah</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1903,7 +1903,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1912,7 +1912,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Tevkifat Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Kamu-Tevkifat</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1921,7 +1921,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Iade Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Iade</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1930,7 +1930,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Ihrac Kayitli Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Ihrac Kayitli</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1939,7 +1939,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Istisna Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Istisna</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1948,7 +1948,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Ozel Matrah Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Ozel Matrah</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1957,7 +1957,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1966,7 +1966,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Sgk Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Sgk</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1975,7 +1975,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Tevkifat Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Temel Fatura-Tevkifat</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1984,7 +1984,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Ihrac Kayitli Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Ihrac Kayitli</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -1993,7 +1993,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Istisna Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Istisna</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2002,7 +2002,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Ozel Matrah Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Ozel Matrah</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2011,7 +2011,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Satis Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Satis</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2020,7 +2020,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Tevkifat Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Ticari Fatura-Tevkifat</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2029,7 +2029,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Yolcu Beraber-Istisna Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Fatura/VKN-Yolcu Beraber-Istisna</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2038,7 +2038,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Irsaliye/Hal Tipi Irsaliye Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Irsaliye/Hal Tipi Irsaliye</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2047,7 +2047,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Irsaliye/Temel Irsaliye Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Irsaliye/Temel Irsaliye</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2056,7 +2056,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Mustahsil Makbuz/TCKN-e-Mustahsil Makbuz Excele Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Mustahsil Makbuz/TCKN-e-Mustahsil Makbuz</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2065,7 +2065,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Elektronik Excel Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Elektronik</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -2074,7 +2074,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Kagit Excel Aktar</testSuiteEntity>
+         <testSuiteEntity>Test Suites/_Suite Repository ( Deneysel )/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Kagit</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

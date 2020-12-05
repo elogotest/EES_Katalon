@@ -11,11 +11,15 @@ Feature: Giden Zarf excele aktar
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Seçilenleri Excel'e Aktar butonuna tıklanır
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
-    * Popup mesajı . içeriyor mu
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
+    * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
 		* Kullanıcı işlemlerinden Çıkış seçilir
     

@@ -12,6 +12,7 @@ Feature: e-Defter Saklama Yukle
 		* Yönetim popupında Onayla seçilir
 		* Yükleme ekranından çıkılır
 		* Tabloda <dosya_adi> ünvanlı veri oluşturuldu mu
+		#BURAYA SİL İŞLEMİ EKLENCEK DOSYA YÜKLEME İŞLERİNDEKİ HATALAR BİTMEDİ
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     

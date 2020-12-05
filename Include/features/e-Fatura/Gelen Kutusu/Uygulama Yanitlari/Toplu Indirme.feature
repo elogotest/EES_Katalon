@@ -12,12 +12,16 @@ Feature: e-Fatura Gelen Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenl
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Seçilenleri İndir butonuna tıklanır
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki ApplicationResponse olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Tümünü İndir butonuna tıklanır
-    * Popup mesajı . içeriyor mu
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
+    * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki ApplicationResponse olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir

@@ -16,7 +16,7 @@ Feature: e-Irsaliye Gelen Kutusu UBL - Göster
     * Ana sekmeye geçilir
     * Butonlardan UBL isimli butona tıklanır
     * Alt butonlardan İndir butonuna tıklanır
-		* Ön eki DespatchAdvice olan dosya indirildi mi
+		#* Ön eki DespatchAdvice olan dosya indirildi mi
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 

@@ -12,22 +12,30 @@ Feature: e-Irsaliye Giden Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan PDF Seçilenleri İndir butonuna tıklanır
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki Invoice olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan PDF Tümünü İndir butonuna tıklanır
-    * Popup mesajı . içeriyor mu
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
+    * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki Invoice olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Seçilenleri İndir butonuna tıklanır
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki Invoice olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Tümünü İndir butonuna tıklanır
-    * Popup mesajı . içeriyor mu
+    * Popup mesajı Lütfen rapor bildiriminin gönderileceği e-posta adresini belirtiniz. içeriyor mu
+    * Yönetim popupında Gönder seçilir
+    * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki Invoice olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir

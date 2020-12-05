@@ -8,7 +8,7 @@ Feature: e-Fatura Hazir Tasarim Araci On Deger Ata
     * <sablon> adlı şablonun Ön Değer Ata adlı butonuna tıkla
     * Popup mesajı Seçilen tasarım, e-Fatura belge türü için öndeğer tasarım olarak tanımlanacaktır. Onaylıyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
-    * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır içeriyor mu
+    * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır. içeriyor mu
     * Yönetim popupında Tamam seçilir
 		* Kullanıcı işlemlerinden Çıkış seçilir
     

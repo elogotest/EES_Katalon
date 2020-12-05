@@ -10,9 +10,9 @@ Feature: Tasarim Araclari On Deger Ata
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <name> ünvanlı veriye tıklanır
     * Butonlardan Ön Değer Ata isimli butona tıklanır
-    * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanacaktır. Onaylıyor musunuz içeriyor mu
+    * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanacaktır. Onaylıyor musunuz? içeriyor mu 
     * Yönetim popupında Evet seçilir
-    * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır içeriyor mu
+    * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır. içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
