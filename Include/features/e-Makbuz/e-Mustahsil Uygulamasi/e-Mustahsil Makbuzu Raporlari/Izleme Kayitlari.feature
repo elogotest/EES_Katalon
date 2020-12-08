@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Raporlari gecmisi
 
   Scenario Outline: e-Mustahsil Makbuzu Raporlari gecmisi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzu Raporları seçilir
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -16,5 +16,5 @@ Feature: e-Mustahsil Makbuzu Raporlari gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                                   |
-      | 01.01.2020   | 31.01.2020    |      917 | Müstahsil Makbuzu Rapor İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                                   |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 |      917 | Müstahsil Makbuzu Rapor İzleme Kayıtları |

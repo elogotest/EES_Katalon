@@ -51,7 +51,7 @@ class girisSayfasi {
 	}
 
 	@Given("Giriş yapılır")
-	def login() {
+	def loginn() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Giris_Sayfasi/Login"), ["KullaniciAdi":"ELOGOGIB","Sifre":"123456"] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

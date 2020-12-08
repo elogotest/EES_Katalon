@@ -1,7 +1,7 @@
 Feature: e-Serbest Meslek Makbuzlari Gecmisi
 
   Scenario Outline: e-Serbest Meslek Makbuzlari Gecmisi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -16,5 +16,5 @@ Feature: e-Serbest Meslek Makbuzlari Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi      | baslik                                  |
-      | 01.01.2020   | 31.08.2020    | Atahan Adanır | Serbest Meslek Makbuzu İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi      | baslik                                  |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.08.2020 | Atahan Adanır | Serbest Meslek Makbuzu İzleme Kayıtları |

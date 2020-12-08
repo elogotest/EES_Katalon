@@ -1,7 +1,7 @@
 Feature: e-Arsiv Raporlari Buton Kontrolu
 
   Scenario Outline: e-Arsiv Raporlari Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Filtre alanlarında Dönem Tarihi var mı
@@ -21,12 +21,11 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Butonlardan Yeniden Oluştur var mı
     * Butonlardan Mutabakat var mı
     * Butonlardan Rapor Oluştur var mı
-    * Butonlardan Excel isimli butona tıklanır 
+    * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel 'e Aktar var mı
     * Alt butonlardan Tümünü Excel 'e Aktar var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

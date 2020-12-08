@@ -19,4 +19,4 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/
 
 WebUI.click(findTestObject('Object Repository/Olusturma/Genel/Olusturma/MuafiyetTikla'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Olusturma/Genel/Olusturma/MuafiyetSatir'), 10)
+CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject('Object Repository/Olusturma/Genel/Olusturma/MuafiyetUrunler'), Kdv)

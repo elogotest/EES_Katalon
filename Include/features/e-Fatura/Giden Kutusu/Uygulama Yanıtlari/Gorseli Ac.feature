@@ -1,7 +1,7 @@
 Feature: Uygulama Yanitinin Gorseli
 
   Scenario Outline: Uygulama Yanitinin Gorseli
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -15,5 +15,5 @@ Feature: Uygulama Yanitinin Gorseli
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | 01.09.2020   | 16.09.2020    | 6090408038 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
+      | ELOGOGIB     | 123456 |   01.09.2020 |    16.09.2020 | 6090408038 |

@@ -1,7 +1,7 @@
 Feature: On Deger Ata
 
   Scenario Outline: asd On Deger Ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri> baslangic degerini yaz
@@ -17,5 +17,5 @@ Feature: On Deger Ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | name              |
-      |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name              |
+      | ELOGOGIB     | 123456 |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |

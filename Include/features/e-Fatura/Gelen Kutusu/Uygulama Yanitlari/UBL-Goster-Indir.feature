@@ -1,7 +1,7 @@
 Feature: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
 
   Scenario Outline: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -20,5 +20,5 @@ Feature: e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi   | tag                 |
-      | 01.01.2019   | 31.12.2019    | 5555551292 | ApplicationResponse |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | tag                 |
+      | ELOGOGIB     | 123456 |   01.01.2019 |    31.12.2019 | 5555551292 | ApplicationResponse |

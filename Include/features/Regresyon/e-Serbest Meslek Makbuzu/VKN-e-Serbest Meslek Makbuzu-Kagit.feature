@@ -1,7 +1,7 @@
 Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzu Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -36,5 +36,5 @@ Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi                | urun_Adi  | brut | stopaj_Orani | KDV_Orani | not           | unvan                   |
-      | VirgosolSerbestMeslekVKN | Otomasyon |  400 |           10 |        18 | Otomasyon Not | VirgosolOtomasyon383411 |
+      | kullaniciAdi | sifre  | alici_Adi                | urun_Adi  | brut | stopaj_Orani | KDV_Orani | not           | unvan                   |
+      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN | Otomasyon |  400 |           10 |        18 | Otomasyon Not | VirgosolOtomasyon383411 |

@@ -1,15 +1,14 @@
 Feature: Rol Eklenir
 
   Scenario Outline: Rol Eklenir
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Sekmelerden Rol ve Yetki Tanımları seçilir
     * Butonlardan Rol Ekle isimli butona tıklanır
-		* Rol Bilgileri <adi>, <aciklamasi> girilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      |	adi 		    | aciklamasi |
-      |	VirgosolRol | Otomasyon  |
- 
+    * Rol Bilgileri <adi>, <aciklamasi> girilir
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | adi         | aciklamasi |
+      | ELOGOGIB     | 123456 | VirgosolRol | Otomasyon  |

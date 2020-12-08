@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'flTotalKDVExemptionReason_GHE0']</value>
+         <value>#flTotalKDVExemptionReason .dxnb-headerCollapsed</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>css</name>
       <type>Main</type>
-      <value>flTotalKDVExemptionReason_GHE0</value>
+      <value>#flTotalKDVExemptionReason .dxnb-headerCollapsed</value>
    </webElementProperties>
 </WebElementEntity>

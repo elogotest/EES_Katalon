@@ -1,7 +1,7 @@
 Feature: e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster
 
   Scenario Outline: e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -20,5 +20,5 @@ Feature: e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi 			 | tag           |
-      | 01.01.2018   | 30.12.2018    | TEST CARISI     | ReceiptAdvice |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi    | tag           |
+      | ELOGOGIB     | 123456 |   01.01.2018 |    30.12.2018 | TEST CARISI | ReceiptAdvice |

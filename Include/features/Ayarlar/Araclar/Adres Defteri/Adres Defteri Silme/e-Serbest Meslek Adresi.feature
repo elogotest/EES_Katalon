@@ -1,10 +1,10 @@
 Feature: e-Serbest Meslek adresini silme
 
   Scenario Outline: e-Serbest Meslek adresini silme
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
-		* Filtrelerden Kısaltma filtresine <kisaltma_deger> textini yaz
+    * Filtrelerden Kısaltma filtresine <kisaltma_deger> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan <kisaltma_deger> isimli veri seçilir
     * Butonlardan Sil isimli butona tıklanır
@@ -12,8 +12,8 @@ Feature: e-Serbest Meslek adresini silme
     * Yönetim popupında Onayla seçilir
     * Popup mesajı Seçilen kayıtlar silinmiştir içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-     | kisaltma_deger 	 	  		|
-     | VirgosolSerbestMeslekVKN |
+      | kullaniciAdi | sifre  | kisaltma_deger           |
+      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN |

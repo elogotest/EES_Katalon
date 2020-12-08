@@ -1,7 +1,7 @@
 Feature: TCKNo ile Temel Irsaliye senaryosunda ve SEVK tipinde irsaliye olusturulmasi
 
   Scenario Outline: TCKNo ile Temel Irsaliye senaryosunda ve SEVK tipinde irsaliye olusturulmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü e-İrsaliye Araçları başlığı altındaki e-İrsaliye Oluşturma seçilir
     #Önceki belgeleri silme.
@@ -59,5 +59,5 @@ Feature: TCKNo ile Temel Irsaliye senaryosunda ve SEVK tipinde irsaliye olusturu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi           | malzeme_adi | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan                   | tag            |
-      | VirgosolIrsaliyeVKN | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon646758 | DespatchAdvice |
+      | kullaniciAdi | sifre  | alici_Adi           | malzeme_adi | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan                   | tag            |
+      | ELOGOGIB     | 123456 | VirgosolIrsaliyeVKN | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon646758 | DespatchAdvice |

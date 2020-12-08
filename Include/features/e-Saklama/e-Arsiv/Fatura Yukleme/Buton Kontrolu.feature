@@ -1,14 +1,13 @@
 Feature: e-Arsiv Fatura Yukle Buton Kontrolu
 
   Scenario Outline: e-Arsiv Fatura Yukle Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Arşiv başlığı altındaki Fatura Yükleme seçilir
     * Butonlardan Yükle var mı
     * Butonlardan Sil var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

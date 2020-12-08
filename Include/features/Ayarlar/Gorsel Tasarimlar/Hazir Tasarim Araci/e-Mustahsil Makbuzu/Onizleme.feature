@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci Onizleme
 
   Scenario Outline: e-Mustahsil Makbuzu Hazir Tasarim Araci Onizleme
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Hazır Tasarım Aracı seçilir
     * Sekmelerden e-Müstahsil Makbuzu seçilir
@@ -9,9 +9,8 @@ Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci Onizleme
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında e-Müstahsil Makbuzu var mı kontrol edilir
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    | sablon                                    |
-    | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | sablon                                    |
+      | ELOGOGIB     | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |

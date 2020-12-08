@@ -15,5 +15,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari Rapor
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi |
-      | 1453     |
+      | kullaniciAdi | sifre  | veri_Adi |
+      | ELOGOGIB     | 123456 |     1453 |

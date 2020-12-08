@@ -1,7 +1,7 @@
 Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi ve Excele aktarilmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -21,13 +21,14 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Ürün ekleme alanında Miktarı başlığına <miktari> girilir
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
+    * Ürün ekleme alanında KDV İstisna Muafiyet Kodu başlığına 206  17/2-e Mesleki Kuruluşların İşlemleri girilir
     * Ürün ekleme alanında GTIP Kodu başlığına 88.01.00.90.00.00 girilir
     * Ürün ekleme alanında Teslim Şartı başlığına CFR girilir
     * Ürün ekleme alanında Teslim Adresi başlığına e-Fatura Test A.Ş. girilir
     * Ürün ekleme alanında Gönderim Şekli başlığına Havayolu girilir
     * Ürün ekleme alanında Paket Türü başlığına 8C - Ahşap demet girilir
-    * Ürün ekleme alanında KDV İstisna Muafiyet Kodu başlığına 206  17/2-e Mesleki Kuruluşların İşlemleri girilir
     * Notlar alanına <not> girilir
+    * KDV Muafiyet Sebebi Kodu alanında 206 girilir
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
     * Tablodan <unvan> isimli veri seçilir
@@ -48,5 +49,5 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   | hizmet |
-      | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 | STPJ   |
+      | kullaniciAdi	 | sifre    | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   | hizmet |
+      | IHRACAT     	 | test1234 | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 | STPJ   |

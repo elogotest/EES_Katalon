@@ -15,5 +15,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari XML
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi | tag                 |
-      |     1453 | earsiv:eArsivRaporu |
+      | kullaniciAdi | sifre  | veri_Adi | tag                 |
+      | ELOGOGIB     | 123456 |     1453 | earsiv:eArsivRaporu |

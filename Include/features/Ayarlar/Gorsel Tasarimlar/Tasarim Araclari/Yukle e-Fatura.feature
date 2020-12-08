@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Yukle e-Fatura
 
   Scenario Outline: Tasarim Araclari Yukle e-Fatura
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Tabloda veri var mı kontrol edilir
@@ -11,5 +11,5 @@ Feature: Tasarim Araclari Yukle e-Fatura
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosyaAdi  |
-      | 13441     |
+      | kullaniciAdi | sifre  | dosyaAdi |
+      | ELOGOGIB     | 123456 |    13441 |

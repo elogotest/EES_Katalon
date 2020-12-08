@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci On Deger Ata
 
   Scenario Outline: e-Mustahsil Makbuzu Hazir Tasarim Araci On Deger Ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Hazır Tasarım Aracı seçilir
     * Sekmelerden e-Müstahsil Makbuzu seçilir
@@ -10,9 +10,8 @@ Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci On Deger Ata
     * Yönetim popupında Onayla seçilir
     * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    | sablon                                    |
-    | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | sablon                                    |
+      | ELOGOGIB     | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |

@@ -1,7 +1,7 @@
 Feature: e-Serbest Meslek Makbuzu Olusturma
 
   Scenario Outline: e-Serbest Meslek Makbuzu Olusturma
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzu Oluşturma seçilir
     #Önceki belgeleri silme.
@@ -50,5 +50,5 @@ Feature: e-Serbest Meslek Makbuzu Olusturma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi                | malzeme_adi | ucret | stopaj_Orani | not           | not1                   | unvan             | tag        |
-      | VirgosolSerbestMeslekVKN | Otomasyon   |   400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon | CreditNote |
+      | kullaniciAdi | sifre  | alici_Adi                | malzeme_adi | ucret | stopaj_Orani | not           | not1                   | unvan             | tag        |
+      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN | Otomasyon   |   400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon | CreditNote |

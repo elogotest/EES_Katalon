@@ -1,7 +1,7 @@
 Feature: Gelen Zarf Gecmis
 
   Scenario Outline: Gelen Zarf Gecmis
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Zarflar seçilir
     * Alt menüden Gelen Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -16,5 +16,5 @@ Feature: Gelen Zarf Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                    | baslik                |
-      | 01.01.2020   | 31.01.2020    | GÜMRÜK VE TİCARET BAKANLIĞI | Zarf İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                    | baslik                |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | GÜMRÜK VE TİCARET BAKANLIĞI | Zarf İzleme Kayıtları |

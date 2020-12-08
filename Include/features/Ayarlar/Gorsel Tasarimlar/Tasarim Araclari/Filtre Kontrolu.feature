@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Filtre Kontrolu
 
   Scenario Outline: Tasarim Araclari Tasarim Filtre Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Filtre alanlarında Tasarım Türü var mı
@@ -13,9 +13,8 @@ Feature: Tasarim Araclari Filtre Kontrolu
     * Filtre alanlarında ETTN var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

@@ -1,7 +1,7 @@
 Feature: Kullanici Tanimlari Buton Kontrolu
 
   Scenario Outline: Kullanici Tanimlari Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Sekmelerden Kullanıcı Tanımları seçilir
@@ -11,7 +11,7 @@ Feature: Kullanici Tanimlari Buton Kontrolu
     * Filtre alanlarında e-Posta var mı
     * Filtre alanlarında Firma var mı
     * Filtre alanlarında Departman var mı
-    * Filtre alanlarında Rol var mı    
+    * Filtre alanlarında Rol var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
     * Butonlardan Kullanıcı Ekle var mı
@@ -19,9 +19,8 @@ Feature: Kullanici Tanimlari Buton Kontrolu
     * Butonlardan Sil var mı
     * Butonlardan Şifre Sıfırla var mı
     * Butonlardan Rol ve Departman Tanımla var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

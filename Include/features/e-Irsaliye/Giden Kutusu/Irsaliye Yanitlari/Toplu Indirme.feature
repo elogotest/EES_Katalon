@@ -1,7 +1,7 @@
 Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenlerin indirilmesi
 
   Scenario Outline: e-Irsaliye Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenlerin indirilmesi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -27,5 +27,5 @@ Feature: e-Irsaliye Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secile
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | 01.01.2018   | 31.12.2018    | Merkez   |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
+      | ELOGOGIB     | 123456 |   01.01.2018 |    31.12.2018 | Merkez   |

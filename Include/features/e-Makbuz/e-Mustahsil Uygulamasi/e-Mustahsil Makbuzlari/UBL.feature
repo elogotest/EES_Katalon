@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu UBL
 
   Scenario Outline: e-Mustahsil Makbuzu UBL
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -11,10 +11,10 @@ Feature: e-Mustahsil Makbuzu UBL
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-		* <tag> tagli ubl geldi mi
+    * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	        | tag				 |
-      | 01.01.2020		| 31.01.2020		| Fuat Gardrop Ltd. | CreditNote |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi          | tag        |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | Fuat Gardrop Ltd. | CreditNote |

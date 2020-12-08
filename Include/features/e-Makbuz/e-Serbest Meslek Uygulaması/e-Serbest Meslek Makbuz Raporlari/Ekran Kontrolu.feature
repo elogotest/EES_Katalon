@@ -13,15 +13,14 @@ Feature: e-Serbest Meslek Makbuz Raporlari Buton Kontrolu
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
     * Butonlardan Excel var mı
-    * Butonlardan XML var mı    
+    * Butonlardan XML var mı
     * Butonlardan Rapor var mı
     * Butonlardan İzleme Kayıtları var mı
-    * Butonlardan Excel isimli butona tıklanır 
+    * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel 'e Aktar var mı
     * Alt butonlardan Tümünü Excel 'e Aktar var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

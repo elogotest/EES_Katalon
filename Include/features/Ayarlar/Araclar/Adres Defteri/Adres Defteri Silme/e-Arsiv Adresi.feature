@@ -1,7 +1,7 @@
 Feature: e-Arsiv  adresini silme
 
   Scenario Outline: e-Arsiv adresini silme
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Filtrelerden Kısaltma filtresine <kisaltma_deger> textini yaz
@@ -20,5 +20,5 @@ Feature: e-Arsiv  adresini silme
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kisaltma_deger   | no         |
-      | VirgosolArsivVKN | 5422405266 |
+      | kullaniciAdi | sifre  | kisaltma_deger   | no         |
+      | ELOGOGIB     | 123456 | VirgosolArsivVKN | 5422405266 |

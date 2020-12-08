@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Excel e Aktar
 
   Scenario Outline: e-Fatura Taslak Excel e Aktar
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtre butonlarından Listele seçilir
@@ -15,8 +15,8 @@ Feature: e-Fatura Taslak Excel e Aktar
     * Alt butonlardan Tümünü Excel'e Aktar butonuna tıklanır
     * Popup mesajı . içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | veri_Adi 		           |										
-      | Yeni Adres Anonim A.Ş. |
+      | kullaniciAdi | sifre  | veri_Adi               |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. |

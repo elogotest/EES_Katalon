@@ -1,7 +1,7 @@
 Feature: e-Arsiv Hazir Tasarim Araci On Deger Ata
 
   Scenario Outline: e-Arsiv Hazir Tasarim Araci On Deger Ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Hazır Tasarım Aracı seçilir
     * Sekmelerden e-Arşiv seçilir
@@ -10,9 +10,8 @@ Feature: e-Arsiv Hazir Tasarim Araci On Deger Ata
     * Yönetim popupında Onayla seçilir
     * Popup mesajı Seçilen tasarım öndeğer tasarım olarak tanımlanmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    | sablon                                       |
-    | Mavi Temalı e-Arşiv Öndeğer Şablon Tasarım 2 |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | sablon                                       |
+      | ELOGOGIB     | 123456 | Mavi Temalı e-Arşiv Öndeğer Şablon Tasarım 2 |

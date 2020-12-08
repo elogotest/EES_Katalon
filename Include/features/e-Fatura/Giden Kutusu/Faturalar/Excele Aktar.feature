@@ -1,7 +1,7 @@
 Feature: Faturayi excele aktarma
 
   Scenario Outline: Faturayi excele aktarma
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -22,10 +22,8 @@ Feature: Faturayi excele aktarma
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	           															|
-      | 01.11.2020		| 30.11.2020		| LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
-            
- 
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                                          |
+      | ELOGOGIB     | 123456 |   01.11.2020 |    30.11.2020 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |

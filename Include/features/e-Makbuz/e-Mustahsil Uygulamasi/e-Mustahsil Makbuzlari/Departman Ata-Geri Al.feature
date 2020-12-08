@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Departman Ata
 
   Scenario Outline: e-Mustahsil Makbuzu Departman Ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -26,5 +26,5 @@ Feature: e-Mustahsil Makbuzu Departman Ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi          | departman |
-      | 01.01.2020   | 31.01.2020    | Fuat Gardrop Ltd. | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi          | departman |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | Fuat Gardrop Ltd. | Muhasebe  |

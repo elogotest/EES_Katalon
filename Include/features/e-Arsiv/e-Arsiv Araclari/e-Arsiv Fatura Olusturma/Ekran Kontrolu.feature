@@ -1,7 +1,7 @@
 Feature: e-Arsiv Fatura Olusturma Buton Kontrolu
 
   Scenario Outline: e-Arsiv Fatura Olusturma Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Filtre alanlarında Durumu var mı
@@ -32,5 +32,5 @@ Feature: e-Arsiv Fatura Olusturma Buton Kontrolu
     
     
     Examples:
-    ||
-    ||
+    | kullaniciAdi | sifre  |
+    | ELOGOGIB     | 123456 |

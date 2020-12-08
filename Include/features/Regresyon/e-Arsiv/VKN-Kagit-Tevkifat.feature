@@ -1,7 +1,7 @@
 Feature: Gonderim tipi Kagit ve Tevkifat tipinde e-Arsiv faturasi olusturulmasi
 
   Scenario Outline: Gonderim tipi Kagit ve Tevkifat tipinde e-Arsiv faturasi olusturulmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -43,5 +43,5 @@ Feature: Gonderim tipi Kagit ve Tevkifat tipinde e-Arsiv faturasi olusturulmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples:  
-      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |
+      | kullaniciAdi 		 | sifre    | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
+      | EARTEVKIFAT      | test1234 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |

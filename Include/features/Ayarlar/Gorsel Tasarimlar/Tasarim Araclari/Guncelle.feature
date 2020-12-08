@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Guncelle
 
   Scenario Outline: Tasarim Araclari Guncelle
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri> baslangic degerini yaz
@@ -17,5 +17,5 @@ Feature: Tasarim Araclari Guncelle
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| name | baslik                      | aciklama          |
-      | 01.06.2017 		| 28.06.2017 		| test | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name | baslik                      | aciklama          |
+      | ELOGOGIB     | 123456 |   01.06.2017 |    28.06.2017 | test | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |

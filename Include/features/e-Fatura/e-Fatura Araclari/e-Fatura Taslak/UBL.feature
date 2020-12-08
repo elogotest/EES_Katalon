@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak UBL
 
   Scenario Outline: e-Fatura Taslak UBL
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtre butonlarından Listele seçilir
@@ -9,10 +9,10 @@ Feature: e-Fatura Taslak UBL
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-		* <tag> tagli ubl geldi mi
+    * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | veri_Adi 		           | tag 		 |
-      | Yeni Adres Anonim A.Ş. | invoice |
+      | kullaniciAdi | sifre  | veri_Adi               | tag     |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | invoice |

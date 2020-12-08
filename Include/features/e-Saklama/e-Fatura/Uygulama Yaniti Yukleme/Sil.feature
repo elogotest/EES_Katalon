@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Uygulama Yaniti Sil
 
   Scenario Outline: e-Defter Saklama Uygulama Yaniti Sil
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Fatura başlığı altındaki Uygulama Yanıtı Yükleme seçilir
     * Tablodaki <dosya> isimli verinin Sil adlı butonuna tıklanır
@@ -10,5 +10,5 @@ Feature: e-Defter Saklama Uygulama Yaniti Sil
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosya    |
-      | enes.zip |
+      | kullaniciAdi | sifre  | dosya    |
+      | ELOGOGIB     | 123456 | enes.zip |

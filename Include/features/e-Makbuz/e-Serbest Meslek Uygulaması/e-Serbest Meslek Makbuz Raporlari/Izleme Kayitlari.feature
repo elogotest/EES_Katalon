@@ -15,5 +15,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi | baslik                          										  |
-      |     1468 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1468 |
+      | kullaniciAdi | sifre  | veri_Adi | baslik                                               |
+      | ELOGOGIB     | 123456 |     1468 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1468 |

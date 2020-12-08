@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Iptal Et
 
   Scenario Outline: e-Mustahsil Makbuzu Iptal Et
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -20,5 +20,5 @@ Feature: e-Mustahsil Makbuzu Iptal Et
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      | 26.11.2020   | 26.11.2020    | Virgosol Otomasyon709886 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
+      | ELOGOGIB     | 123456 |   26.11.2020 |    26.11.2020 | Virgosol Otomasyon709886 |

@@ -1,11 +1,11 @@
 Feature: e-Mustahsil Makbuzu Raporlari Rapor
 
   Scenario Outline: e-Mustahsil Makbuzu Raporlari Rapor
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzu Raporları seçilir
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz   
+    * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -13,8 +13,8 @@ Feature: e-Mustahsil Makbuzu Raporlari Rapor
     * Yeni açılan sekmeye geçilir
     * e-Müstahsil Makbuzu Raporu popupı açıldı mı
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi |
-      | 01.11.2020		| 30.11.2020		| 2722   	 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
+      | ELOGOGIB     | 123456 |   01.11.2020 |    30.11.2020 |     2722 |

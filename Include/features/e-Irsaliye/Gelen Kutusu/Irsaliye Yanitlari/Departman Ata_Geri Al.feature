@@ -1,7 +1,7 @@
 Feature: Irsaliye Yaniti departman ata ve geri al
 
   Scenario Outline: Irsaliye Yaniti departman ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -26,5 +26,5 @@ Feature: Irsaliye Yaniti departman ata ve geri al
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
-      | 01.01.2018   | 31.12.2018    | Logo     | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
+      | ELOGOGIB     | 123456 |   01.01.2018 |    31.12.2018 | Logo     | Muhasebe  |

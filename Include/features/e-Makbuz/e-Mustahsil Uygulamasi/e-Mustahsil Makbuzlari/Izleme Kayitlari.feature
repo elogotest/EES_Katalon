@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Gecmis
 
   Scenario Outline: e-Mustahsil Makbuzu Gecmis
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -16,5 +16,5 @@ Feature: e-Mustahsil Makbuzu Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                 | baslik            |
-      | 01.01.2020   | 31.12.2020    | Virgosol Otomasyon709886 | Müstahsil Makbuzu |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | baslik            |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.12.2020 | Virgosol Otomasyon709886 | Müstahsil Makbuzu |

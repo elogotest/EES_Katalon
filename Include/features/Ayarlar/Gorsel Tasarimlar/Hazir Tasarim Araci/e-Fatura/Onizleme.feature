@@ -1,7 +1,7 @@
 Feature: e-Fatura Hazir Tasarim Araci Onizleme
 
   Scenario Outline: e-Fatura Hazir Tasarim Araci Onizleme
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Hazır Tasarım Aracı seçilir
     * Sekmelerden e-Fatura seçilir
@@ -9,9 +9,8 @@ Feature: e-Fatura Hazir Tasarim Araci Onizleme
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında e-Fatura var mı kontrol edilir
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    | sablon                                        |
-    | Mavi Temalı e-Fatura Öndeğer Şablon Tasarım 2 |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | sablon                                        |
+      | ELOGOGIB     | 123456 | Mavi Temalı e-Fatura Öndeğer Şablon Tasarım 2 |

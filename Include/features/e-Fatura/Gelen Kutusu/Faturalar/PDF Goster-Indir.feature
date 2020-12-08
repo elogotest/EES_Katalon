@@ -1,7 +1,7 @@
 Feature: Faturanin PDFinin gosterilmesi
 
   Scenario Outline: Faturanin PDFinin gosterilmesi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -20,5 +20,5 @@ Feature: Faturanin PDFinin gosterilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      |   01.01.2020 |    31.01.2020 | Logo Elektronik GIB Test |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | Logo Elektronik GIB Test |

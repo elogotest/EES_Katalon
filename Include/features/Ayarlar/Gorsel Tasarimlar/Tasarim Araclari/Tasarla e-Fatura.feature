@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Tasarla e-Fatura
 
   Scenario Outline: Tasarim Araclari Tasarla e-Fatura
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Butonlardan Tasarla isimli butona tıklanır
@@ -15,5 +15,5 @@ Feature: Tasarim Araclari Tasarla e-Fatura
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | baslik                      | aciklama          |
-      | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | kullaniciAdi | sifre  | baslik                      | aciklama          |
+      | ELOGOGIB     | 123456 | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |

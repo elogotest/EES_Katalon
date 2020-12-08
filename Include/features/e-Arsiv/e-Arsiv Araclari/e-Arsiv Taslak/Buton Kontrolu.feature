@@ -1,7 +1,7 @@
 Feature: e-Arsiv Taslak Buton Kontrolu
 
   Scenario Outline: e-Arsiv Taslak Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Taslak seçilir
     * Filtre alanlarında Durumu var mı
@@ -31,5 +31,5 @@ Feature: e-Arsiv Taslak Buton Kontrolu
     
     
     Examples:
-    ||
-    ||
+    | kullaniciAdi | sifre  |
+    | ELOGOGIB     | 123456 |

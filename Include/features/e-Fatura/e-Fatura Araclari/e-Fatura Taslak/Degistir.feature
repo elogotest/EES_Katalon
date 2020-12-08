@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Degistir
 
   Scenario Outline: e-Fatura Taslak Degistir
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtre butonlarından Listele seçilir
@@ -12,8 +12,8 @@ Feature: e-Fatura Taslak Degistir
     * Notlar alanına <not> girilir
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | veri_Adi 		           | not 										| unvan 				|
-      | Yeni Adres Anonim A.Ş. | Otomasyon Not Degistir | Enes Erdoğan	|
+      | kullaniciAdi | sifre  | veri_Adi               | not                    | unvan        |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Otomasyon Not Degistir | Enes Erdoğan |

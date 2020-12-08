@@ -1,7 +1,7 @@
 Feature: VKN Ile e-Serbest Meslek Makbuzu Adresi Olusturma
 
   Scenario Outline: VKN Ile e-Serbest Meslek Makbuzu Adresi Olusturma
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Butonlardan Ekle isimli butona tıklanır
@@ -19,8 +19,8 @@ Feature: VKN Ile e-Serbest Meslek Makbuzu Adresi Olusturma
     * Filtrelerden Kısaltma filtresine <kisaltma> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-     
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-     | kisaltma       	        | vkntckn    | unvan        		 | il 			| ilce 	  | ulke_deger | e-Fatura_etiket  					 				|
-     | VirgosolSerbestMeslekVKN | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |
+      | kullaniciAdi | sifre  | kisaltma                 | vkntckn    | unvan             | il       | ilce    | ulke_deger | e-Fatura_etiket                    |
+      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |

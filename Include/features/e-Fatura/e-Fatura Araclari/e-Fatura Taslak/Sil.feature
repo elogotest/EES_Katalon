@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Sil
 
   Scenario Outline: e-Fatura Taslak Sil
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtre butonlarından Listele seçilir
@@ -12,8 +12,8 @@ Feature: e-Fatura Taslak Sil
     * Yönetim popupında OnaylaOnaylaOnayla seçilir
     * Popup mesajı Numara atanan makbuzlar silinemez içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | veri_Adi 	 	           | tag				 |
-      | Yeni Adres Anonim A.Ş. | CreditNote  |
+      | kullaniciAdi | sifre  | veri_Adi               | tag        |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | CreditNote |

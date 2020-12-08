@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Onaylama
 
   Scenario Outline: e-Fatura Taslak Onaylama
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
     * Filtrelerden Alıcı Ünvan filtresine <filtreDegeri> textini yaz
@@ -11,8 +11,8 @@ Feature: e-Fatura Taslak Onaylama
     * Butonlardan Onayla isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Onayla seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri            | veri_Adi 		            |
-      | Yeni Adres Anonim A.Ş.  | Yeni Adres Anonim A.Ş.  |
+      | kullaniciAdi | sifre  | filtreDegeri           | veri_Adi               |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Yeni Adres Anonim A.Ş. |

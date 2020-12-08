@@ -1,7 +1,7 @@
 Feature: Gelen Kutusu Uygulama Yanitlari Buton Kontrolu
 
   Scenario Outline: Gelen Kutusu Uygulama Yanitlari Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtre alanlarında Gönderen VKN var mı
@@ -27,9 +27,8 @@ Feature: Gelen Kutusu Uygulama Yanitlari Buton Kontrolu
     * Butonlardan Departman Geri Al var mı
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

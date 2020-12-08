@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Goster
 
   Scenario Outline: e-Fatura Taslak Goster
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtrelerden Alıcı Ünvan filtresine <filtreDegeri> textini yaz
@@ -12,8 +12,8 @@ Feature: e-Fatura Taslak Goster
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında e-FATURA var mı kontrol edilir
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri            | veri_Adi 		            |
-      | Yeni Adres Anonim A.Ş.  | Yeni Adres Anonim A.Ş.  |
+      | kullaniciAdi | sifre  | filtreDegeri           | veri_Adi               |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Yeni Adres Anonim A.Ş. |

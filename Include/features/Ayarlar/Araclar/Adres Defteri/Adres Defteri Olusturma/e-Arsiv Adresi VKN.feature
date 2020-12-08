@@ -1,7 +1,7 @@
 Feature: VKN Ile e-Arsiv Adresi Olusturma
 
   Scenario Outline: VKN Ile e-Arsiv Adresi Olusturma
-    * Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Butonlardan Ekle isimli butona tıklanır
@@ -17,10 +17,8 @@ Feature: VKN Ile e-Arsiv Adresi Olusturma
     * Filtrelerden Kısaltma filtresine <kisaltma> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-     | kisaltma       	| vkntckn    | unvan        		 | il 			| ilce 		| ulke_deger |
-     | VirgosolArsivVKN | 5422405266 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    |
-            
- 
+      | kullaniciAdi | sifre  | kisaltma         | vkntckn    | unvan             | il       | ilce    | ulke_deger |
+      | ELOGOGIB     | 123456 | VirgosolArsivVKN | 5422405266 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    |

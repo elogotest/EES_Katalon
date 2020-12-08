@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Buton Kontrolu
 
   Scenario Outline: e-Defter Saklama Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Defter başlığı altındaki e-Defter Saklama seçilir
     * Filtre alanlarında YIL var mı
@@ -10,9 +10,8 @@ Feature: e-Defter Saklama Buton Kontrolu
     * Butonlardan İndir var mı
     * Butonlardan Sil var mı
     * Butonlardan Göster var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

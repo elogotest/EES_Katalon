@@ -1,7 +1,7 @@
 Feature: Gonderim tipi Elektronik ve Satis tipinde e-Arsiv faturasi olusturulmasi
 
   Scenario Outline: Gonderim tipi Elektronik ve Satis tipinde e-Arsiv faturasi olusturulmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     #Önceki belgeleri silme.
@@ -58,5 +58,5 @@ Feature: Gonderim tipi Elektronik ve Satis tipinde e-Arsiv faturasi olusturulmas
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan             | tag     |
-      | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Degistir | VirgosolOtomasyon | invoice |
+      | kullaniciAdi | sifre  | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan             | tag     |
+      | ELOGOGIB     | 123456 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Degistir | VirgosolOtomasyon | invoice |

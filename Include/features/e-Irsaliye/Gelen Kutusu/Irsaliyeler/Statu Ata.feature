@@ -1,7 +1,7 @@
 Feature: Irsaliyenin Statu Ata
 
   Scenario Outline: Irsaliyenin indirilmesi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -13,8 +13,8 @@ Feature: Irsaliyenin Statu Ata
     * Alt butonlardan Öndeğer butonuna tıklanır
     * Popup mesajı Statü Başarılı Olarak Güncellendi içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	  	      |
-      | 01.01.2020		| 31.01.2020		| DOĞUŞ OTO PAZARLAMA	|
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi            |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | DOĞUŞ OTO PAZARLAMA |

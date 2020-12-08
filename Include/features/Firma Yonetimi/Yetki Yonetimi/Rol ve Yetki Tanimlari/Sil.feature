@@ -1,7 +1,7 @@
 Feature: Rol Silme
 
   Scenario Outline: Rol Silme
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Sekmelerden Rol ve Yetki Tanımları seçilir
@@ -11,10 +11,8 @@ Feature: Rol Silme
     * Butonlardan Sil isimli butona tıklanır
     * Yönetim popupında Evet seçilir
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      |	departman_Adi	|
-      |	VirgosolRol   |
-            
- 
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | departman_Adi |
+      | ELOGOGIB     | 123456 | VirgosolRol   |

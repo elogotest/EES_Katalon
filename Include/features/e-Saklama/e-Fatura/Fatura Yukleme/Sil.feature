@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Fatura Sil
 
   Scenario Outline: e-Defter Saklama Fatura Sil
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Fatura başlığı altındaki Fatura Yükleme seçilir
     * Tablodaki <unvan> isimli verinin Sil adlı butonuna tıklanır
@@ -10,5 +10,5 @@ Feature: e-Defter Saklama Fatura Sil
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | unvan    |
-      | enes.zip |
+      | kullaniciAdi | sifre  | unvan    |
+      | ELOGOGIB     | 123456 | enes.zip |

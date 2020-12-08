@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Goster
 
   Scenario Outline: e-Defter Saklama Goster
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Defter başlığı altındaki e-Defter Saklama seçilir
     * Filtre butonlarından Listele seçilir
@@ -17,6 +17,5 @@ Feature: e-Defter Saklama Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosyaIsmi                       |
-      | 9250128841-201905-DR-000000.zip |
-				
+      | kullaniciAdi | sifre  | dosyaIsmi                       |
+      | ELOGOGIB     | 123456 | 9250128841-201905-DR-000000.zip |

@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Yukle e-Irsaliye
 
   Scenario Outline: Tasarim Araclari Yukle e-Irsaliye
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Tabloda veri var mı kontrol edilir
@@ -11,5 +11,5 @@ Feature: Tasarim Araclari Yukle e-Irsaliye
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | name  |
-      | 13441 |
+      | kullaniciAdi | sifre  | name  |
+      | ELOGOGIB     | 123456 | 13441 |

@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Yukle
 
   Scenario Outline: e-Defter Saklama Yukle
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Fatura başlığı altındaki Uygulama Yanıtı Yükleme seçilir
     * Butonlardan Yükle isimli butona tıklanır
@@ -9,8 +9,7 @@ Feature: e-Defter Saklama Yukle
     * Yükleme ekranından çıkılır
     * Tabloda <dosya_adi> ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-      | dosya                           |dosya_adi|
-      | C:\\otomasyonupfiles\\13626.zip |13626.zip|
+
+    Examples: 
+      | kullaniciAdi | sifre  | dosya                           | dosya_adi |
+      | ELOGOGIB     | 123456 | C:\\otomasyonupfiles\\13626.zip | 13626.zip |

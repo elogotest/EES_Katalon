@@ -1,7 +1,7 @@
 Feature: e-Defter Saklama Fatura Yukle
 
   Scenario Outline: e-Defter Saklama Fatura Yukle
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Fatura başlığı altındaki Fatura Yükleme seçilir
     * Butonlardan Yükle isimli butona tıklanır
@@ -11,5 +11,5 @@ Feature: e-Defter Saklama Fatura Yukle
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | dosya                           |dosya_adi|
-      | C:\\otomasyonupfiles\\13626.zip |13626.zip|
+      | kullaniciAdi | sifre  | dosya                           | dosya_adi |
+      | ELOGOGIB     | 123456 | C:\\otomasyonupfiles\\13626.zip | 13626.zip |

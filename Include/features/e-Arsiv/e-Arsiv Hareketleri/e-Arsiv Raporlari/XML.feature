@@ -1,7 +1,7 @@
 Feature: e-Arsiv Raporlari XML
 
   Scenario Outline: e-Arsiv Raporlari XML
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Filtrelerden Dönem Tarihi filtresine <filtreDegeri> dropdowndan degeri seçilir
@@ -15,5 +15,5 @@ Feature: e-Arsiv Raporlari XML
 		* Kullanıcı işlemlerinden Çıkış seçilir
     
     Examples: 
-      | filtreDegeri | veri_Adi 	| tag									|
-      | 2020 Aralık  | 2688437		| earsiv:eArsivRaporu |
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi 	| tag									|
+      | ELOGOGIB     | 123456 | 2020 Aralık  | 2688437		| earsiv:eArsivRaporu |

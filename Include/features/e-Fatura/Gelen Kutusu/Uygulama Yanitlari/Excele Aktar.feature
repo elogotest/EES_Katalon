@@ -1,7 +1,7 @@
 Feature: Uygulama Yanitinin Excele aktarilmasi
 
   Scenario Outline: Uygulama Yanitinin Excele aktarilmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -25,5 +25,5 @@ Feature: Uygulama Yanitinin Excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | 01.01.2019   | 31.12.2019    | 5555551292 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
+      | ELOGOGIB     | 123456 |   01.01.2019 |    31.12.2019 | 5555551292 |

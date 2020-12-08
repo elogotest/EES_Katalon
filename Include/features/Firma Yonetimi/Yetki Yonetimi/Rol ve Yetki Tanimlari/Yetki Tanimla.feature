@@ -1,7 +1,7 @@
 Feature: Yetki tanimlama
 
   Scenario Outline: Yetki tanimlama
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Sekmelerden Rol ve Yetki Tanımları seçilir
@@ -11,8 +11,8 @@ Feature: Yetki tanimlama
     * Butonlardan Yetki Tanımla isimli butona tıklanır
     * Yetki olarak <yetki> seçilir
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      |	rol_Adi    		 | yetki                                      |
-      |	TEST UZMANLARI |	e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | rol_Adi        | yetki                                     |
+      | ELOGOGIB     | 123456 | TEST UZMANLARI | e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |

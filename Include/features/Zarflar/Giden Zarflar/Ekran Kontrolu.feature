@@ -1,7 +1,7 @@
 Feature: Giden Zarflar Buton Kontrolu
 
   Scenario Outline: Giden Zarflar Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Zarflar seçilir
     * Alt menüden Giden Zarflar seçilir
     * Filtre alanlarında Zarf ID var mı
@@ -32,5 +32,5 @@ Feature: Giden Zarflar Buton Kontrolu
     
     
     Examples:
-    ||
-    ||
+    | kullaniciAdi | sifre  |
+    | ELOGOGIB     | 123456 |

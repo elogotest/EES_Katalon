@@ -1,7 +1,7 @@
 Feature: e-Mustahsil Makbuzu Olusturma
 
   Scenario Outline: e-Mustahsil Makbuzu Olusturma
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzu Oluşturma seçilir
     #Önceki belgeleri silme.
@@ -42,12 +42,12 @@ Feature: e-Mustahsil Makbuzu Olusturma
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-     #Belgeyi gönderme.
+    #Belgeyi gönderme.
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | alici_Adi           | malzeme_adi | miktari | stopaj_Orani | not           | not1                   | unvan    | tag        |
-      | VirgosolMüstahsilTC | Otomasyon   |     400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | Virgosol | CreditNote |
+      | kullaniciAdi | sifre  | alici_Adi           | malzeme_adi | miktari | stopaj_Orani | not           | not1                   | unvan    | tag        |
+      | ELOGOGIB     | 123456 | VirgosolMüstahsilTC | Otomasyon   |     400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | Virgosol | CreditNote |

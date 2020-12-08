@@ -1,7 +1,7 @@
 Feature: e-Arsiv Raporlari Gecmisi
 
   Scenario Outline: e-Arsiv Raporlari Gecmisi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
     * Filtrelerden Dönem Tarihi filtresine <filtreDegeri> dropdowndan degeri seçilir
@@ -10,10 +10,10 @@ Feature: e-Arsiv Raporlari Gecmisi
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan İzleme Kayıtları isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-		* <baslik> baslikli gecmis sayfasi geldi mi
+    * <baslik> baslikli gecmis sayfasi geldi mi
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri | veri_Adi 	| baslik					         		   |
-      | 2020 Nisan 	 | 2671418		| e-Arşiv Rapor İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | baslik                         |
+      | ELOGOGIB     | 123456 | 2020 Nisan   |  2671418 | e-Arşiv Rapor İzleme Kayıtları |

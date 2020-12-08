@@ -1,7 +1,7 @@
 Feature: Irsaliyenin Gecmisi
 
   Scenario Outline: Irsaliyenin Gecmisi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -16,5 +16,5 @@ Feature: Irsaliyenin Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                    |
-      | 01.01.2020   | 31.01.2020    | TEKSAN   | İrsaliye İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                    |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | TEKSAN   | İrsaliye İzleme Kayıtları |

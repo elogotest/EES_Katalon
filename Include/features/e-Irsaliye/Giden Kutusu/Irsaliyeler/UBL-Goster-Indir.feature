@@ -1,7 +1,7 @@
 Feature: e-Irsaliye Giden Kutusu UBL - Göster
 
   Scenario Outline: e-Irsaliye Giden Kutusu UBL - Göster
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -20,5 +20,5 @@ Feature: e-Irsaliye Giden Kutusu UBL - Göster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                   | tag            |
-      | 01.11.2020   | 28.11.2020    | Logo Elektronik GIB Test   | DespatchAdvice |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | tag            |
+      | ELOGOGIB     | 123456 |   01.11.2020 |    28.11.2020 | Logo Elektronik GIB Test | DespatchAdvice |

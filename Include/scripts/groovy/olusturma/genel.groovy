@@ -115,6 +115,10 @@ class genel {
 	def hizmetSecilir(String hizmet) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/MuafiyetAlaninaTiklanir"), ["Hizmet":hizmet] , FailureHandling.STOP_ON_FAILURE)
 	}
+	@When("KDV Muafiyet Sebebi Kodu alanında (.*) girilir")
+	def kdvMuafiyetBilgisiGirilir(String kdv) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/KdvSebebiyetKoduSecilir"), ["Kdv":kdv] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Masraf Bilgileri alanında (.*) başlığına (.*) girilir")
 	def masrafBilgileriAlaninaGirilir(String baslik,String deger) {

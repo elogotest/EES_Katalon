@@ -1,7 +1,7 @@
 Feature: TC Kimlik Numarasi Ile e-Mustahsil Adresi olusturma
 
   Scenario Outline: TC Kimlik Numarasi Ile e-Mustahsil Adresi olusturma
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Butonlardan Ekle isimli butona tıklanır
@@ -20,5 +20,5 @@ Feature: TC Kimlik Numarasi Ile e-Mustahsil Adresi olusturma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kisaltma              | vkntckn     | adi      | soyadi    | il       | ilce    | ulke_deger |
-      | VirgosolMüstahsilTCKN | 05531351645 | Virgosol | Otomasyon | İstanbul | Maltepe | Türkiye    |
+      | kullaniciAdi | sifre  | kisaltma              | vkntckn     | adi      | soyadi    | il       | ilce    | ulke_deger |
+      | ELOGOGIB     | 123456 | VirgosolMüstahsilTCKN | 05531351645 | Virgosol | Otomasyon | İstanbul | Maltepe | Türkiye    |

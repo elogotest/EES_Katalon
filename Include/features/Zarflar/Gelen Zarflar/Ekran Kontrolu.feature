@@ -1,7 +1,7 @@
 Feature: Gelen Zarflar Buton Kontrolu
 
   Scenario Outline: Gelen Zarflar Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Zarflar seçilir
     * Alt menüden Gelen Zarflar seçilir
     * Filtre alanlarında Zarf ID var mı
@@ -27,9 +27,8 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Alt butonlardan UBL Tümünü İndir var mı
     * Butonlardan İndir isimli butona tıklanır
     * Alt butonlardan İndir var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

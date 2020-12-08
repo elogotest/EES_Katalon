@@ -1,7 +1,7 @@
 Feature: Gelen Zarflar Excele Aktar
 
   Scenario Outline: Gelen Zarflar Excele Aktar
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Zarflar seçilir
     * Alt menüden Gelen Zarflar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -21,8 +21,8 @@ Feature: Gelen Zarflar Excele Aktar
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 									  |
-      | 01.01.2020		| 31.01.2020		| GÜMRÜK VE TİCARET BAKANLIĞI	|
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                    |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | GÜMRÜK VE TİCARET BAKANLIĞI |

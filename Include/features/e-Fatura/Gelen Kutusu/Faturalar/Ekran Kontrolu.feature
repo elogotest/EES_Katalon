@@ -1,7 +1,7 @@
 Feature: Gelen Kutusu Faturalar Buton Kontrolu
 
   Scenario Outline: Gelen Kutusu Faturalar Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
     * Filtre alanlarında Gönderici Ünvanı var mı
@@ -21,7 +21,7 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Filtre alanlarında Senaryo var mı
     * Filtre alanlarında Okunma Durumu var mı
     * Filtre alanlarında Para Birimi var mı
-    * Filtre alanlarında Tüm Hesaplar var mı 
+    * Filtre alanlarında Tüm Hesaplar var mı
     * Filtre butonlarında Filtreleri Kaydet var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
@@ -38,7 +38,7 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Butonlardan Departman Ata var mı
     * Butonlardan Departman Geri Al var mı
     * Butonlardan Statü Ata var mı
-    * Butonlardan Excel isimli butona tıklanır 
+    * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar var mı
     * Alt butonlardan Tümünü Excel'e Aktar var mı
     * Butonlardan Toplu İndirme isimli butona tıklanır
@@ -55,9 +55,8 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Butonlardan Statü Ata isimli butona tıklanır
     * Alt butonlardan Öndeğer var mı
     * Alt butonlardan pahabicilemez var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

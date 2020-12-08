@@ -23,5 +23,5 @@ Feature: e-Serbest Meslek Makbuz Raporlari excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi |
-      |        4 |
+      | kullaniciAdi | sifre  | veri_Adi |
+      | ELOGOGIB     | 123456 |        4 |

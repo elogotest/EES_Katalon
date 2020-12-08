@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Buton Kontrolu
 
   Scenario Outline: Tasarim Araclari Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Butonlardan Tasarla var mı
@@ -21,9 +21,8 @@ Feature: Tasarim Araclari Buton Kontrolu
     * Alt butonlardan e-İrsaliye var mı
     * Alt butonlardan e-Müstahsil Makbuzu var mı
     * Alt butonlardan e-Serbest Meslek Makbuzu var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

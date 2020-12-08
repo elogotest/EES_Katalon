@@ -1,7 +1,7 @@
 Feature: Irsaliye Yanitinin Gorselini Ac
 
   Scenario Outline: Irsaliye Yanitinin Gorselini Ac
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -15,5 +15,5 @@ Feature: Irsaliye Yanitinin Gorselini Ac
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi |          |
-      | 01.01.2018   | 31.12.2018    | Logo     | Muhasebe |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |          |
+      | ELOGOGIB     | 123456 |   01.01.2018 |    31.12.2018 | Logo     | Muhasebe |

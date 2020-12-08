@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Iptal Et
 
   Scenario Outline: e-Fatura Taslak Iptal Et
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtre butonlarından Listele seçilir
@@ -12,8 +12,8 @@ Feature: e-Fatura Taslak Iptal Et
     * Yönetim popupında OnaylaOnaylaOnayla seçilir
     * Popup mesajı Başarılı durumdaki belgeler iptal edilmiştir içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | veri_Adi 		            |
-      | Yeni Adres Anonim A.Ş. 	|
+      | kullaniciAdi | sifre  | veri_Adi               |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. |

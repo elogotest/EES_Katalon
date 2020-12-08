@@ -1,7 +1,7 @@
 Feature: Faturaya departman ata
 
   Scenario Outline: Faturaya departman ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -16,7 +16,7 @@ Feature: Faturaya departman ata
     * Popup mesajı Seçilen belgeler ilgili departmanlara aktarılmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Ana sekmeye geçilir
-     * Butonlardan Departman Geri Al isimli butona tıklanır
+    * Butonlardan Departman Geri Al isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <departman> isimli departman checkboxı seçilir
     * Departman kaydedilir
@@ -26,5 +26,5 @@ Feature: Faturaya departman ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi                | departman |
-      | 01.01.2020   | 31.01.2020    | LOGO ELEKTRONİK TİCARET | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                | departman |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | LOGO ELEKTRONİK TİCARET | Muhasebe  |

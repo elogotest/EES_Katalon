@@ -1,7 +1,7 @@
 Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
 
   Scenario Outline: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtre alanlarında Gönderici Ünvanı var mı
@@ -34,9 +34,8 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Butonlardan UBL isimli butona tıklanır
     * Alt butonlardan Göster var mı
     * Alt butonlardan İndir var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    ||
-    ||
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGOGIB     | 123456 |

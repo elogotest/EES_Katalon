@@ -1,7 +1,7 @@
 Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
 
   Scenario Outline: e-Arsiv Faturasi Tablodaki Verinin Gorseli
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -12,10 +12,8 @@ Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
     * Yeni açılan sekmeye geçilir
     * Yeni sekme başlığında e-Arşiv Fatura var mı kontrol edilir
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	  							|
-      | 23.11.2020		| 24.11.2020		| VirgosolOtomasyon699944 	|
-            
- 
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                |
+      | ELOGOGIB     | 123456 |   23.11.2020 |    24.11.2020 | VirgosolOtomasyon699944 |

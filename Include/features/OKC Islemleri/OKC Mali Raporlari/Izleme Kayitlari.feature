@@ -1,7 +1,7 @@
 Feature: OCK Mali Raporlari Gecmis
 
   Scenario Outline: OCK Mali Raporlari Gecmis
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden ÖKC İşlemleri seçilir
     * Alt menüden ÖKC Mali Raporlar seçilir
     * Filtrelerden Dönem filtresine 2018 Haziran dropdowndan degeri seçilir
@@ -17,5 +17,5 @@ Feature: OCK Mali Raporlari Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi | filtreDegeri | filtreDegeri2 | baslik                   |
-      |        7 | 01.01.2018   | 31.12.2018    | ÖKC İzleme Kayıtları - 7 |
+      | kullaniciAdi | sifre  | veri_Adi | filtreDegeri | filtreDegeri2 | baslik                   |
+      | ELOGOGIB     | 123456 |        7 |   01.01.2018 |    31.12.2018 | ÖKC İzleme Kayıtları - 7 |

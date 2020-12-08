@@ -1,7 +1,7 @@
 Feature: e-Fatura Taslak Gecmis
 
   Scenario Outline: e-Fatura Taslak Gecmis
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Taslak seçilir
     * Filtre butonlarından Listele seçilir
@@ -14,5 +14,5 @@ Feature: e-Fatura Taslak Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | veri_Adi               | baslik                         |
-      | Yeni Adres Anonim A.Ş. | Taslak Fatura İzleme Kayıtları |
+      | kullaniciAdi | sifre  | veri_Adi               | baslik                         |
+      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Taslak Fatura İzleme Kayıtları |

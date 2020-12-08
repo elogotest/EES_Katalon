@@ -1,7 +1,7 @@
 Feature: Tasarim Araclari Indir
 
   Scenario Outline: Tasarim Araclari Indir
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Ayarlar seçilir
     * Alt menü Görsel Tasarımlar başlığı altındaki Tasarım Araçları seçilir
     * Filtrelerden Oluşturma Zamanı filtresine <filtreDegeri> baslangic degerini yaz
@@ -14,5 +14,5 @@ Feature: Tasarim Araclari Indir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| name              | dosya |
-      | 01.11.2020		| 22.11.2020		| VirgosolOtomasyon | 13641 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name              | dosya |
+      | ELOGOGIB     | 123456 |   01.11.2020 |    22.11.2020 | VirgosolOtomasyon | 13641 |

@@ -1,7 +1,7 @@
 Feature: Departman Eklenir
 
   Scenario Outline: Departman Eklenir
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Sekmelerden Departman Tanımları seçilir
@@ -10,5 +10,5 @@ Feature: Departman Eklenir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | departman         | aciklama  | posta                  | atayabilirMi |
-      | VirgosolDepartman | Otomasyon | otomasyon@virgosol.com | Atayamaz     |
+      | kullaniciAdi | sifre  | departman         | aciklama  | posta                  | atayabilirMi |
+      | ELOGOGIB     | 123456 | VirgosolDepartman | Otomasyon | otomasyon@virgosol.com | Atayamaz     |

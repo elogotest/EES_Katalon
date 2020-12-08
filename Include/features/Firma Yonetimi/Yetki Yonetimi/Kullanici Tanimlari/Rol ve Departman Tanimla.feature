@@ -1,7 +1,7 @@
 Feature: Departman ve Rol tanimlama
 
   Scenario Outline: Departman ve Rol tanimlama
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Filtre butonlarından Listele seçilir
@@ -15,5 +15,5 @@ Feature: Departman ve Rol tanimlama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullanici_Adi | firma_Kodu | departman | rol            |
-      | Otomasyon		  | ELOGOGIB   | Muhasebe	 | TEST UZMANLARI |
+      | kullaniciAdi | sifre  | kullanici_Adi | firma_Kodu | departman | rol            |
+      | ELOGOGIB     | 123456 | Otomasyon     | ELOGOGIB   | Muhasebe  | TEST UZMANLARI |

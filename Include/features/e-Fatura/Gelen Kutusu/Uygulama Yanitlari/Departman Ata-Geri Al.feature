@@ -1,7 +1,7 @@
 Feature: Uygulama Yaniti departman ata
 
   Scenario Outline: Uygulama Yaniti departman ata
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -26,5 +26,5 @@ Feature: Uygulama Yaniti departman ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | filtreDegeri | filtreDegeri2 | veri_Adi   | departman |
-      | 01.01.2019   | 31.12.2019    | 5555551292 | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | departman |
+      | ELOGOGIB     | 123456 |   01.01.2019 |    31.12.2019 | 5555551292 | Muhasebe  |

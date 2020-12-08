@@ -1,7 +1,7 @@
 Feature: Irsaliyeye Yanit Gonder
 
   Scenario Outline: Irsaliyeye Yanit Gonder
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
@@ -13,8 +13,8 @@ Feature: Irsaliyeye Yanit Gonder
     * Yeni açılan sekmeye geçilir
     * İrsaliye Yanıtı <malzeme> malzeme adına <kabulEdilmeyen>,<KEBirim>,<eksikMiktar>,<EBirim>,<fazlaMiktar>,<FBirim>,<aciklama> olarak girilir
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | filtreDegeri	| filtreDegeri2	| veri_Adi 	  	      | malzeme       | kabulEdilmeyen | KEBirim 	| eksikMiktar	| EBirim 	| fazlaMiktar | FBirim | aciklama 			 |
-      | 01.01.2020		| 31.01.2020		| DOĞUŞ OTO PAZARLAMA	| 101000033AA 	| 1 	  				 | Adet 	  | 0  	      	| Adet 	  | 0  	  	    | Adet 	 | İrsaliye Yanıtı |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi            | malzeme     | kabulEdilmeyen | KEBirim | eksikMiktar | EBirim | fazlaMiktar | FBirim | aciklama        |
+      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | DOĞUŞ OTO PAZARLAMA | 101000033AA |              1 | Adet    |           0 | Adet   |           0 | Adet   | İrsaliye Yanıtı |

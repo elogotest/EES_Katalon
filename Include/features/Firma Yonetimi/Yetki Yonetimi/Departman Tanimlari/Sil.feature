@@ -1,7 +1,7 @@
 Feature: Departman Silme
 
   Scenario Outline: Departman Silme
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Firma Yönetimi seçilir
     * Alt menüden Yetki Yönetimi seçilir
     * Sekmelerden Departman Tanımları seçilir
@@ -12,10 +12,8 @@ Feature: Departman Silme
     * Popup mesajı Seçilen kayıtlar silenecektir emin misiniz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      |	departman_Adi	    |
-      |	VirgosolDepartman |
-            
- 
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | departman_Adi     |
+      | ELOGOGIB     | 123456 | VirgosolDepartman |

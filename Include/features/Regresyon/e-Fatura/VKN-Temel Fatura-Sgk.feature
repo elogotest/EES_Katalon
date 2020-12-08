@@ -1,7 +1,7 @@
 Feature: VKNo ile Temel Fatura senaryosunda ve Sgk tipinde fatura olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: VKNo ile Temel Fatura senaryosunda ve Sgk tipinde fatura olusturulmasi ve Excele aktarilmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -43,5 +43,5 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Sgk tipinde fatura olusturulmasi 
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                             |
-      | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI |
+      | kullaniciAdi | sifre    | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                             |
+      | TEFSGK       | test1234 | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI |
