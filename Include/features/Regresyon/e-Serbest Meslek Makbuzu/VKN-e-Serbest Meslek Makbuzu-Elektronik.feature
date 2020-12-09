@@ -1,7 +1,7 @@
 Feature: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: VKN ile e-Serbest Meslek Makbuzu Olusturulmasi ve Excele aktarilmasi
-    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    * Giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzu Oluşturma seçilir
     * Tablodaki tüm veriler silinir

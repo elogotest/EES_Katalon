@@ -1,7 +1,7 @@
 Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
 
   Scenario Outline: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
-    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    * Giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzu Oluşturma seçilir
     * Tablodaki tüm veriler silinir

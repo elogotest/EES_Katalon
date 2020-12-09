@@ -23,4 +23,4 @@ Feature: e-Serbest Meslek Makbuzlari Iptal Et
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi      |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    30.11.2020 | Atahan Adanır |
+      | ELOGOGIB     | 123456 |   01.12.2020 |    09.12.2020 | Atahan Adanır |

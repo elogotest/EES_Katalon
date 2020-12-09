@@ -1,7 +1,7 @@
 Feature: VKNo ile Temel Fatura senaryosunda ve Iade tipinde fatura olusturulmasi
 
   Scenario Outline: VKNo ile Temel Fatura senaryosunda ve Iade tipinde fatura olusturulmasi
-    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    * Giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir

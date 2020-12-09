@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | baslik                                               |
-      | ELOGOGIB     | 123456 |     1468 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1468 |
+      | ELOGOGIB     | 123456 |     1486 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1486 |

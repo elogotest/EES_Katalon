@@ -1,7 +1,7 @@
 Feature: Gonderim tipi Kagit ve Satis tipinde e-Arsiv faturasi olusturulmasi
 
   Scenario Outline: Gonderim tipi Kagit ve Satis tipinde e-Arsiv faturasi olusturulmasi
-    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    * Giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir

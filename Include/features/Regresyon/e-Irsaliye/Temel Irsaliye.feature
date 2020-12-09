@@ -1,7 +1,7 @@
 Feature: TCKNo ile Temel Irsaliye senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: TCKNo ile Temel Irsaliye senaryosunda irsaliye olusturulmasi ve Excele aktarilmasi
-    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
+    * Giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü e-İrsaliye Araçları başlığı altındaki e-İrsaliye Oluşturma seçilir
     * Tablodaki tüm veriler silinir
