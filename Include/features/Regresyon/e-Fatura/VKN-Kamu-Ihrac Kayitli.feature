@@ -44,5 +44,5 @@ Feature: VKNo ile Kamu senaryosunda ve Ihrac Kayitli tipinde fatura olusturulmas
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
-      | KAMUIHRAC    | test1234 | UC001     | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |
+      | kullaniciAdi | sifre    | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
+      | KAMUIHRAC    | test1234 | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 |

@@ -49,5 +49,5 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | hizmet |
-      | IHRACAT      | test1234 | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST | STPJ   |
+      | kullaniciAdi | sifre    | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   | hizmet |
+      | IHRACAT      | test1234 | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 | STPJ   |
