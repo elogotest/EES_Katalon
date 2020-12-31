@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Filtre Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:08:34,2020-12-17 23:09:47,"1m - 13,266s",FAILED
+,,,,,,,
+Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:08:35,2020-12-17 23:09:47,"1m - 12,222s",FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:08:35,2020-12-17 23:08:51,"15,971s",PASSED
+"runFeatureFile(""Include/features/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu.feature"")",Chrome 87.0.4280.88,,,2020-12-17 23:08:51,2020-12-17 23:09:47,"55,734s",FAILED
+Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:09:47,2020-12-17 23:09:47,"0,000s",PASSED

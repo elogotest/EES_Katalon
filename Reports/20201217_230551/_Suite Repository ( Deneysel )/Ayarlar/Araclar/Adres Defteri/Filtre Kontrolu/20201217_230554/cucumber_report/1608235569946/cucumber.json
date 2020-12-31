@@ -1,0 +1,229 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Adres Defteri Filtre Kontrolu",
+        "description": "",
+        "id": "adres-defteri-filtre-kontrolu;adres-defteri-filtre-kontrolu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12029417400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGOGIB",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 32
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 967335200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Ayarlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ayarlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2340093000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Araçlar başlığı altındaki Adres Defteri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Araçlar",
+                  "offset": 9
+                },
+                {
+                  "val": "Adres Defteri",
+                  "offset": 35
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 642955000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtre alanlarında Kısaltma var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kısaltma",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 434314300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtre alanlarında Adı var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adı",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 417582100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre alanlarında Unvan var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unvan",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 438755800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre alanlarında Soyadı var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Soyadı",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 400336300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filtre alanlarında VKN/TCKN No var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VKN/TCKN No",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 637633600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Filtre butonlarında Listele var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 398930000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Filtre butonlarında Temizle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Temizle",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2880357500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Adres Defteri Filtre Kontrolu",
+    "description": "",
+    "id": "adres-defteri-filtre-kontrolu",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/eesekim/Include/features/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu.feature",
+    "tags": []
+  }
+]

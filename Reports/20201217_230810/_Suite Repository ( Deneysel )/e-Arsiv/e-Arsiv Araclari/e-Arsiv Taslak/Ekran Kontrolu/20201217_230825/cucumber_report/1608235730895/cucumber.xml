@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.863731">
+<testcase classname="e-Arsiv Taslak Buton Kontrolu" name="e-Arsiv Taslak Buton Kontrolu" time="47.863731">
+<system-out><![CDATA[* Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır...............passed
+* Ana menüden e-Arşiv seçilir...............................................passed
+* Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Taslak seçilir........passed
+* Filtre alanlarında Durumu var mı..........................................passed
+* Filtre alanlarında Oluşturma Tarihi var mı................................passed
+* Filtre alanlarında Toplam Tutar var mı....................................passed
+* Filtre alanlarında Tüm Hesaplar var mı....................................passed
+* Filtre alanlarında Alıcı Ünvan var mı.....................................passed
+* Filtre alanlarında Fatura Tarihi var mı...................................passed
+* Filtre alanlarında Fatura ETTN var mı.....................................passed
+* Filtre alanlarında Fatura No var mı.......................................passed
+* Filtre alanlarında Tür var mı.............................................passed
+* Filtre alanlarında Müşteri Bayi Kodu var mı...............................passed
+* Filtre butonlarında Listele var mı........................................passed
+* Filtre butonlarında Temizle var mı........................................passed
+* Butonlardan Gönder var mı.................................................passed
+* Butonlardan İptal Et var mı...............................................passed
+* Butonlardan Değiştir var mı...............................................passed
+* Butonlardan Göster var mı.................................................passed
+* Butonlardan UBL var mı....................................................passed
+* Butonlardan Sil var mı....................................................passed
+* Butonlardan Excel var mı..................................................passed
+* Butonlardan İzleme Kayıtları var mı.......................................passed
+* Butonlardan Excel isimli butona tıklanır..................................passed
+* Alt butonlardan Excel 'e Aktar var mı.....................................passed
+* Alt butonlardan Tümünü Excel 'e Aktar var mı..............................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

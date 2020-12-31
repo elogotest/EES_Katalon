@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.246287">
+<testcase classname="e-Arsiv Dosya Islemleri Buton Kontrolu" name="e-Arsiv Dosya Islemleri Buton Kontrolu" time="42.246287">
+<system-out><![CDATA[* Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır...............passed
+* Ana menüden e-Arşiv seçilir...............................................passed
+* Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Dosya İşlemleri seçilir.passed
+* Butonlardan İndir var mı..................................................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ekran Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:08:35,2020-12-17 23:09:40,"1m - 4,191s",FAILED
+,,,,,,,
+Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Buton Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:08:37,2020-12-17 23:09:40,"1m - 2,721s",FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:08:37,2020-12-17 23:08:50,"12,967s",PASSED
+"runFeatureFile(""Include/features/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Buton Kontrolu.feature"")",Chrome 87.0.4280.88,,,2020-12-17 23:08:50,2020-12-17 23:09:40,"49,259s",FAILED
+Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:09:40,2020-12-17 23:09:40,"0,000s",PASSED

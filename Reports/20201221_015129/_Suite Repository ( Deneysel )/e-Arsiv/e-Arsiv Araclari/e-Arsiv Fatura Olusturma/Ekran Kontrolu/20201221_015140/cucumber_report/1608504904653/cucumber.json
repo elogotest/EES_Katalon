@@ -1,0 +1,535 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 36,
+        "name": "e-Arsiv Fatura Olusturma Buton Kontrolu",
+        "description": "",
+        "id": "e-arsiv-fatura-olusturma-buton-kontrolu;e-arsiv-fatura-olusturma-buton-kontrolu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11563206000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGOGIB",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 32
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 777745400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Arşiv seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3043763200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Arşiv Araçları",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Arşiv Fatura Oluşturma",
+                  "offset": 44
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 640424900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtre alanlarında Durumu var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Durumu",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 636804900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtre alanlarında Oluşturma Tarihi var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 461657100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre alanlarında Toplam Tutar var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Toplam Tutar",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 499403900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre alanlarında Tüm Hesaplar var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tüm Hesaplar",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 401545100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filtre alanlarında Alıcı Ünvan var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alıcı Ünvan",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 431067500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Filtre alanlarında Fatura Tarihi var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fatura Tarihi",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 457606100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Filtre alanlarında Fatura ETTN var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fatura ETTN",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 429586900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Filtre alanlarında Fatura No var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fatura No",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 442648000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Filtre alanlarında Tür var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tür",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 475031400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Filtre alanlarında Müşteri Bayi Kodu var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Müşteri Bayi Kodu",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 643473600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Filtre butonlarında Listele var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 417956800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Filtre butonlarında Temizle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Temizle",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 642686800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Butonlardan Ekle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ekle",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 421239800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Butonlardan Numara Oluştur var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Numara Oluştur",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 440481100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Butonlardan Gönder var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gönder",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 443325900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Butonlardan Değiştir var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Değiştir",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 437491100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Butonlardan Göster var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Göster",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 443614200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Butonlardan UBL var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 455160700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Butonlardan Sil var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sil",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 477823800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Butonlardan As400 var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "As400",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 476648300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Butonlardan Excel var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 758053700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 618392700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Alt butonlardan Excel\u0027e Aktar var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 435227900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Alt butonlardan Tümünü Excel\u0027e Aktar var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tümünü Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2431397900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "e-Arsiv Fatura Olusturma Buton Kontrolu",
+    "description": "",
+    "id": "e-arsiv-fatura-olusturma-buton-kontrolu",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/eesekim/Include/features/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Olusturma/Ekran Kontrolu.feature",
+    "tags": []
+  }
+]

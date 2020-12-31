@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Firma Bilgileri",
+        "description": "",
+        "id": "firma-bilgileri;firma-bilgileri;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11124304900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGOGIB",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 32
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 957301000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Ayarlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ayarlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3133479100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Araçlar başlığı altındaki Firma Bilgileri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Araçlar",
+                  "offset": 9
+                },
+                {
+                  "val": "Firma Bilgileri",
+                  "offset": 35
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2588938000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Firma Bilgileri",
+    "description": "",
+    "id": "firma-bilgileri",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/eesekim/Include/features/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri.feature",
+    "tags": []
+  }
+]

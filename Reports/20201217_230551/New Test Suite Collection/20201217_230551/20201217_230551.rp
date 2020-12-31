@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20201217_230551</name>
+   <tag></tag>
+   <displayName>20201217_230551</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230551/_Suite Repository ( Deneysel )/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu/20201217_230552</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230551/_Suite Repository ( Deneysel )/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu/20201217_230554</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/New Test Suite Collection</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Filtre Kontrolu,,,,2020-12-18 10:16:23,2020-12-18 10:16:29,"5,803s",FAILED
+,,,,,,,
+Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu,,,,2020-12-18 10:16:24,2020-12-18 10:16:29,"5,448s",FAILED
+Start listener action : sampleBeforeTestSuite,,,,2020-12-18 10:16:24,2020-12-18 10:16:28,"3,994s",ERROR
+"runFeatureFile(""Include/features/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu.feature"")",,,,2020-12-18 10:16:28,2020-12-18 10:16:29,"1,212s",FAILED
+Start listener action : sampleAfterTestSuite,,,,2020-12-18 10:16:29,2020-12-18 10:16:29,"0,001s",PASSED

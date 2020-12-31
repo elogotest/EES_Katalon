@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+e-Arsiv Faturalari Icin On Deger XSLT,Chrome 87.0.4280.88,,,2020-12-17 23:08:34,2020-12-17 23:09:25,"50,076s",FAILED
+,,,,,,,
+Test Cases/Case Repository/Ayarlar/Araclar/e-Arsiv Ayarlari/e-Arsiv Faturalari Icin On Deger XSLT,Chrome 87.0.4280.88,,,2020-12-17 23:08:36,2020-12-17 23:09:25,"48,935s",FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:08:36,2020-12-17 23:08:50,"13,978s",PASSED
+"runFeatureFile(""Include/features/Ayarlar/Araclar/e-Arsiv Ayarlari/e-Arsiv Faturalari Icin On Deger XSLT.feature"")",Chrome 87.0.4280.88,,,2020-12-17 23:08:50,2020-12-17 23:09:25,"34,314s",FAILED
+Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:09:25,2020-12-17 23:09:25,"0,002s",PASSED

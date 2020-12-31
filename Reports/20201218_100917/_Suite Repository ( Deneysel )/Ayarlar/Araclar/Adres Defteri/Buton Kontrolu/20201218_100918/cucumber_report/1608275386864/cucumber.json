@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Adres Defteri Buton Kontrolu",
+        "description": "",
+        "id": "adres-defteri-buton-kontrolu;adres-defteri-buton-kontrolu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23874832800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGOGIB",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 32
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2296574900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Ayarlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ayarlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3438473700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü Araçlar başlığı altındaki Adres Defteri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Araçlar",
+                  "offset": 9
+                },
+                {
+                  "val": "Adres Defteri",
+                  "offset": 35
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 646742900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Butonlardan Ekle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ekle",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2428170400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Adres Defteri Buton Kontrolu",
+    "description": "",
+    "id": "adres-defteri-buton-kontrolu",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/eesekim/Include/features/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu.feature",
+    "tags": []
+  }
+]

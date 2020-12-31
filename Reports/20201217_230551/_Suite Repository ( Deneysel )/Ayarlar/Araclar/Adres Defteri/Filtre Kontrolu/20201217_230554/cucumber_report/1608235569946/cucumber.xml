@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.612772">
+<testcase classname="Adres Defteri Filtre Kontrolu" name="Adres Defteri Filtre Kontrolu" time="21.612772">
+<system-out><![CDATA[* Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır...............passed
+* Ana menüden Ayarlar seçilir...............................................passed
+* Alt menü Araçlar başlığı altındaki Adres Defteri seçilir..................passed
+* Filtre alanlarında Kısaltma var mı........................................passed
+* Filtre alanlarında Adı var mı.............................................passed
+* Filtre alanlarında Unvan var mı...........................................passed
+* Filtre alanlarında Soyadı var mı..........................................passed
+* Filtre alanlarında VKN/TCKN No var mı.....................................passed
+* Filtre butonlarında Listele var mı........................................passed
+* Filtre butonlarında Temizle var mı........................................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

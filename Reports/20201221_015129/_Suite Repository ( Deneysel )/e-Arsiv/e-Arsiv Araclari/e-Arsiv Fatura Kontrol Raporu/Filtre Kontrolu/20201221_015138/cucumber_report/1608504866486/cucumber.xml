@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.602425">
+<testcase classname="e-Arsiv Fatura Kontrol Raporu Filtre Kontrolu" name="e-Arsiv Fatura Kontrol Raporu Filtre Kontrolu" time="20.602425">
+<system-out><![CDATA[* Kullanıcı adı ELOGOGIB ve Şifre 123456 olarak giriş yapılır...............passed
+* Ana menüden e-Arşiv seçilir...............................................passed
+* Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Kontrol Raporu seçilir.passed
+* Filtre alanlarında Fatura No var mı.......................................passed
+* Filtre alanlarında İptal Durumu var mı....................................passed
+* Filtre alanlarında Fatura Tarihi var mı...................................passed
+* Filtre alanlarında Kontrol Sonucu var mı..................................passed
+* Filtre butonlarında Listele var mı........................................passed
+* Filtre butonlarında Temizle var mı........................................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

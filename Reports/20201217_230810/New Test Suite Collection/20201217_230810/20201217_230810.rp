@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20201217_230810</name>
+   <tag></tag>
+   <displayName>20201217_230810</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu/20201217_230811</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu/20201217_230813</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/Ayarlar/Araclar/e-Arsiv Ayarlari/e-Arsiv Faturalari Icin On Deger XSLT/20201217_230815</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri/20201217_230817</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/e-Arsiv/e-Arsiv Araclari/e-Arsiv Dosya Islemleri/Buton Kontrolu/20201217_230819</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Kontrol Raporu/Filtre Kontrolu/20201217_230821</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Olusturma/Ekran Kontrolu/20201217_230823</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201217_230810/_Suite Repository ( Deneysel )/e-Arsiv/e-Arsiv Araclari/e-Arsiv Taslak/Ekran Kontrolu/20201217_230825</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/New Test Suite Collection</testSuiteCollectionId>
+</ReportCollectionEntity>
