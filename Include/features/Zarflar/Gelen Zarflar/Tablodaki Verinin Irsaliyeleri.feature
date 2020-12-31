@@ -15,5 +15,5 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi        |
-      | ELOGOGIB     | 123456 |   01.04.2020 |    30.04.2020 | Logo Elektronik |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
+      | ELOGO6       | 123456 |   01.11.2020 |    31.11.2020 | E LOGO 6 |

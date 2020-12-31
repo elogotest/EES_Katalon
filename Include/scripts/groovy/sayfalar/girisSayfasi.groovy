@@ -54,4 +54,10 @@ class girisSayfasi {
 	def loginn() {
 		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Giris_Sayfasi/Login"), ["KullaniciAdi":"ELOGOGIB","Sifre":"123456"] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@Given("Cache silindikten sonra (.*) ve Şifre (.*) olarak giriş yapılır")
+	def cacheLogin(String kullanici,String sifre) {
+		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Giris_Sayfasi/CacheLogin"), ["KullaniciAdi":kullanici,"Sifre":sifre] , FailureHandling.STOP_ON_FAILURE)
+	}
 }
+

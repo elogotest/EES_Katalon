@@ -11,10 +11,10 @@ Feature: Uygulama Yaniti Fatura
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Fatura isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-    * Yeni sekme başlığında e-FATURA var mı kontrol edilir
+    * Yeni sekme başlığında e-Fatura var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |            |
-      | ELOGOGIB     | 123456 |   01.09.2020 |    16.09.2020 | 6090408038 | 6090408038 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
+      | ELOGO6       | 123456 |   01.01.2020 |    17.12.2020 | 6090408038 |

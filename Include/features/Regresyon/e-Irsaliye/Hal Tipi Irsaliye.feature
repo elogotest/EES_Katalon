@@ -43,3 +43,4 @@ Feature: TCKNo ile Hal Tipi Irsaliye senaryosunda irsaliye olusturulmasi ve Exce
     Examples: 
       | kullaniciAdi  | sifre    | alici_Adi           | malzeme_adi | aciklamasi | miktari | birimFiyat | not           | unvan                   |
       | HALIRSEVK     | test1234 | VirgosolIrsaliyeVKN | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon646758 |
+      #UC0036

@@ -1,7 +1,7 @@
 Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturulmasi
 
   Scenario Outline: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturulmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -11,8 +11,8 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Gönderim Şekli Elektronik olarak seçilir
     * Tip alanından Hal Komisyoncu seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek FFF olarak seçilir
-    * Tasarım alanından Otomasyon Denemesi seçilir
+    * Ön Ek FGX olarak seçilir
+    * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 30.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
     * Ekle butonuna basılır
@@ -45,5 +45,5 @@ Feature: Gonderim tipi Kagit ve Hal Komisyoncu tipinde e-Arsiv faturasi olusturu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | HALKOMIS     | test1234 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | HALKOMIS     | test1234 | UC0001    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

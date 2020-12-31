@@ -4,7 +4,7 @@ Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
     * Giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir
-    * Filtrelerden Dönem Tarihi filtresine Hepsi dropdowndan degeri seçilir
+    * Filtrelerden Dönem Tarihi filtresine 2020 Ocak dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari Gecmisi
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | baslik                                               |
-      | ELOGOGIB     | 123456 |     1486 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1486 |
+      | ELOGOGIB     | 123456 |     1523 | Serbest Meslek Makbuzu Rapor İzleme Kayıtları - 1523 |

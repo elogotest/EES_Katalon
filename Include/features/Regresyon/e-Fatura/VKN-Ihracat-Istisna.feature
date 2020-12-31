@@ -1,7 +1,7 @@
 Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi ve Excele aktarilmasi
 
   Scenario Outline: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi ve Excele aktarilmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü e-Fatura Araçları başlığı altındaki e-Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -10,8 +10,8 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Alıcı adı alanına <alici_Adi> girilir
     * Senaryo alanından İhracat seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek ZZZ olarak seçilir
-    * Tasarım alanından Mavi Temali e-Fatura Öndeger Sablon Tasarim.xslt- seçilir
+    * Ön Ek EFA olarak seçilir
+    * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
     * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
@@ -49,5 +49,5 @@ Feature: VKNo ile Ihracat senaryosunda ve Istisna tipinde fatura olusturulmasi v
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi         | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   | hizmet |
-      | IHRACAT      | test1234 | VirgosolFaturaVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon600413 | STPJ   |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 | hizmet |
+      | IHRACAT      | test1234 | UC0017    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST | STPJ   |

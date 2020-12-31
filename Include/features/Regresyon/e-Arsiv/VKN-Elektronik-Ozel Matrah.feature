@@ -1,7 +1,7 @@
 Feature: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulmasi
 
   Scenario Outline: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulmasi
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
@@ -12,7 +12,7 @@ Feature: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulma
     * Tip alanından Özel Matrah seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
     * Ön Ek EAR olarak seçilir
-    * Tasarım alanından Otomasyon Denemesi seçilir
+    * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
     * Ekle butonuna basılır
@@ -42,5 +42,5 @@ Feature: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi   | sifre    | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                   |
-      | EARMATRAH      | test1234 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyon699944 |
+      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | EARMATRAH    | test1234 | UC0006    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

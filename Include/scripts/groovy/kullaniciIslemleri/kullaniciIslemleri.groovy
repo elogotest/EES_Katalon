@@ -49,4 +49,10 @@ class kullaniciIslemleri {
 	def kullaniciIslemi(String islem) {
 		WebUI.callTestCase(findTestCase("Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir"), ["Islem":islem] , FailureHandling.STOP_ON_FAILURE)
 	}
+	@When("Cache bellek temizlenir")
+	def cacheTemizle() {
+		WebUI.callTestCase(findTestCase("Test Cases/Kullanici_Islemleri/CacheTemizlenir"),[:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
 }
+
