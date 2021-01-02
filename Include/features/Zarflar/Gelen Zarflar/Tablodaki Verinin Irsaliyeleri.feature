@@ -13,6 +13,7 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
+    ##githuba push
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
