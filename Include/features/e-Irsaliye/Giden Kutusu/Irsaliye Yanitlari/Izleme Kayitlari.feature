@@ -16,5 +16,5 @@ Feature: Irsaliye Yanitinin Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                              |
-      | ELOGOGIB     | 123456 |   01.01.2018 |    31.12.2018 | Merkez   | İrsaliye Yanıtları İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                   |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | Merkez   | Logo Elektronik GIB Test |

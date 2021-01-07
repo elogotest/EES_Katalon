@@ -15,4 +15,4 @@ Feature: e-Fatura Taslak Gecmis
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi               | baslik                         |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Taslak Fatura İzleme Kayıtları |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | Taslak Fatura İzleme Kayıtları |

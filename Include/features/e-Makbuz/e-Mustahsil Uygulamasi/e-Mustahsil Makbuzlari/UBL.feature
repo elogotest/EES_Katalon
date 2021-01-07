@@ -16,5 +16,5 @@ Feature: e-Mustahsil Makbuzu UBL
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi          | tag        |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | Fuat Gardrop Ltd. | CreditNote |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag        |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   | CreditNote |

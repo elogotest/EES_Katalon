@@ -20,5 +20,5 @@ Feature: e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi    | tag           |
-      | ELOGOGIB     | 123456 |   01.01.2018 |    30.12.2018 | TEST CARISI | ReceiptAdvice |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | tag           |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | ELOGO TEST | ReceiptAdvice |

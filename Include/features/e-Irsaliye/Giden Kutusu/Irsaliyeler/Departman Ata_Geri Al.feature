@@ -27,4 +27,4 @@ Feature: Irsaliyenin departman ata ve geri al
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | TEKSAN   | Muhasebe  |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | TEST     | otomasyon |

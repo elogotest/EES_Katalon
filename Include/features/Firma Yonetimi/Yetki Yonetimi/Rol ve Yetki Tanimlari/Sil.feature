@@ -15,4 +15,4 @@ Feature: Rol Silme
 
     Examples: 
       | kullaniciAdi | sifre  | departman_Adi |
-      | ELOGOGIB     | 123456 | VirgosolRol   |
+      | ELOGO6       | 123456 | VirgosolRol   |

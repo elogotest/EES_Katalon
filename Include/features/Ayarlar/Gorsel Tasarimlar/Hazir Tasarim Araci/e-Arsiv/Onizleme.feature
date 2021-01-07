@@ -13,4 +13,4 @@ Feature: e-Arsiv Hazir Tasarim Araci Onizleme
 
     Examples: 
       | kullaniciAdi | sifre  | sablon                                       |
-      | ELOGOGIB     | 123456 | Mavi Temalı e-Arşiv Öndeğer Şablon Tasarım 2 |
+      | ELOGO6       | 123456 | Mavi Temalı e-Arşiv Öndeğer Şablon Tasarım 2 |

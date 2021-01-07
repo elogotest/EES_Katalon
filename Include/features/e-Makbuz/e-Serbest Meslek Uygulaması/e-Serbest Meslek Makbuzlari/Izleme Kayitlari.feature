@@ -16,5 +16,5 @@ Feature: e-Serbest Meslek Makbuzlari Gecmisi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi      | baslik                                  |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.08.2020 | Atahan Adanır | Serbest Meslek Makbuzu İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                                  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     | Serbest Meslek Makbuzu İzleme Kayıtları |

@@ -19,4 +19,4 @@ Feature: e-Fatura Taslak Excel e Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi               |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. |

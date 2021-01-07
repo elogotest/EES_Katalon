@@ -16,4 +16,4 @@ Feature: e-Fatura Taslak Degistir
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi               | not                    | unvan        |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Otomasyon Not Degistir | Enes Erdoğan |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | Otomasyon Not Degistir | Enes Erdoğan |

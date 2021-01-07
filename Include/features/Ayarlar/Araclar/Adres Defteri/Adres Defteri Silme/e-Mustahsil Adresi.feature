@@ -16,4 +16,4 @@ Feature: e-Mustahsil adresini silme
 
     Examples: 
       | kullaniciAdi | sifre  | kisaltma_deger        |
-      | ELOGOGIB     | 123456 | VirgosolMüstahsilTCKN |
+      | ELOGO6       | 123456 | VirgosolMüstahsilTCKN |

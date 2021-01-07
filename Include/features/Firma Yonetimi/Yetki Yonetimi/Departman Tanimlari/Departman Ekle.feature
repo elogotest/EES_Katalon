@@ -11,4 +11,4 @@ Feature: Departman Eklenir
 
     Examples: 
       | kullaniciAdi | sifre  | departman         | aciklama  | posta                  | atayabilirMi |
-      | ELOGOGIB     | 123456 | VirgosolDepartman | Otomasyon | otomasyon@virgosol.com | Atayamaz     |
+      | ELOGO6       | 123456 | VirgosolDepartman | Otomasyon | otomasyon@virgosol.com | Atayamaz     |

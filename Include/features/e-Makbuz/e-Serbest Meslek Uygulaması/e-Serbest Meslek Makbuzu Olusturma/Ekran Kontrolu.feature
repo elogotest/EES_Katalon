@@ -24,4 +24,4 @@ Feature: e-Serbest Meslek Makbuzu Olusturma Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

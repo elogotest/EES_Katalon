@@ -16,4 +16,4 @@ Feature: Tasarim Araclari Tasarla e-Fatura
 
     Examples: 
       | kullaniciAdi | sifre  | baslik                      | aciklama          |
-      | ELOGOGIB     | 123456 | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | ELOGO6       | 123456 | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |

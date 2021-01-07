@@ -16,4 +16,4 @@ Feature: e-Arsiv Raporlari Gecmisi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | baslik                         |
-      | ELOGOGIB     | 123456 | 2020 Nisan   |  2671418 | e-Arşiv Rapor İzleme Kayıtları |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 | e-Arşiv Rapor İzleme Kayıtları |

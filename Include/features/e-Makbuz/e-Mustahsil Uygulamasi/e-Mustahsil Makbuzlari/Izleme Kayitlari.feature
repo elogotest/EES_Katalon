@@ -16,5 +16,5 @@ Feature: e-Mustahsil Makbuzu Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | baslik            |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.12.2020 | Virgosol Otomasyon709886 | Müstahsil Makbuzu |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik            |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   | Müstahsil Makbuzu |

@@ -26,4 +26,4 @@ Feature: Uygulama Yanitinin Excele aktarilmasi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | ELOGOGIB     | 123456 |   01.01.2019 |    31.12.2019 | 5555551292 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 |

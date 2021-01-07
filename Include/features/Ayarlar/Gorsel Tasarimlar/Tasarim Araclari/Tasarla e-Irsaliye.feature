@@ -16,4 +16,4 @@ Feature: Tasarim Araclari Tasarla e-Irsaliye
 
     Examples: 
       | kullaniciAdi | sifre  | baslik                        | aciklama          |
-      | ELOGOGIB     | 123456 | E-İRSALİYE TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | ELOGO6       | 123456 | E-İRSALİYE TASARIM AÇIKLAMASI | VirgosolOtomasyon |

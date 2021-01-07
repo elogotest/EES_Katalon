@@ -17,4 +17,4 @@ Feature: Faturanin Varsayılan Ile Gosterilmesi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    28.11.2020 | elogo    |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     |

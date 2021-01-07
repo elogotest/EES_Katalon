@@ -11,4 +11,4 @@ Feature: e-Fatura Hazir Tasarim Araci Tasarimi Indir
 
     Examples: 
       | kullaniciAdi | sifre  | sablon                                        |
-      | ELOGOGIB     | 123456 | Mavi Temalı e-Fatura Öndeğer Şablon Tasarım 2 |
+      | ELOGO6       | 123456 | Mavi Temalı e-Fatura Öndeğer Şablon Tasarım 2 |

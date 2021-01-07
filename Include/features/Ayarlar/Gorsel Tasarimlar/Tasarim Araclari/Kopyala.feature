@@ -14,5 +14,5 @@ Feature: Tasarim Araclari Kopyala
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name              |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    22.11.2020 | VirgosolOtomasyon |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name |
+      | ELOGO6       | 123456 |   18.01.2018 |    31.12.2018 | TEST |

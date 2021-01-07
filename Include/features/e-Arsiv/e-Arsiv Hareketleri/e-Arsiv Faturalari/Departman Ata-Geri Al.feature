@@ -27,5 +27,5 @@ Feature: e-Arsiv Faturasi Departman ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | departman |
-      | ELOGOGIB     | 123456 |   01.01.2019 |    31.01.2019 | test test | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | xcx cx   | otomasyon |

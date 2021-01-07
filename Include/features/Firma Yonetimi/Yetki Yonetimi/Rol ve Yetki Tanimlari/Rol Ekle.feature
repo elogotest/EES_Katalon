@@ -11,4 +11,4 @@ Feature: Rol Eklenir
 
     Examples: 
       | kullaniciAdi | sifre  | adi         | aciklamasi |
-      | ELOGOGIB     | 123456 | VirgosolRol | Otomasyon  |
+      | ELOGO6       | 123456 | VirgosolRol | Otomasyon  |

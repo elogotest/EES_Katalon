@@ -18,4 +18,4 @@ Feature: Tasarim Araclari Guncelle
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name | baslik                      | aciklama          |
-      | ELOGOGIB     | 123456 |   01.06.2017 |    28.06.2017 | test | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | ELOGO6       | 123456 |   18.01.2018 |    31.12.2018 | TEST | E-FATURA TASARIM AÇIKLAMASI | VirgosolOtomasyon |

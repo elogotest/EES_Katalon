@@ -16,4 +16,4 @@ Feature: e-Defter Saklama Goster
 
     Examples: 
       | kullaniciAdi | sifre  | dosyaIsmi                      |
-      | ELOGOGIB     | 123456 | 9250128841-201905-K-000003.zip |
+      | ELOGO6       | 123456 | 9250128841-201905-K-000003.zip |

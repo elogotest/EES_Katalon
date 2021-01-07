@@ -28,9 +28,8 @@ Feature: Giden Zarflar Buton Kontrolu
     * Alt butonlardan UBL Tümünü İndir var mı
     * Butonlardan İndir isimli butona tıklanır
     * Alt butonlardan İndir var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    | kullaniciAdi | sifre  |
-    | ELOGOGIB     | 123456 |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

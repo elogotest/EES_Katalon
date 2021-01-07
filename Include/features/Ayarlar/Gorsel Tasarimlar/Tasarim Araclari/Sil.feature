@@ -15,5 +15,5 @@ Feature: Tasarim Araclari Sil
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name     |
-      | ELOGOGIB     | 123456 |   23.11.2020 |    23.11.2020 | e-Fatura |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name        |
+      | ELOGO6       | 123456 |   01.08.2017 |    31.08.2017 | new03082017 |

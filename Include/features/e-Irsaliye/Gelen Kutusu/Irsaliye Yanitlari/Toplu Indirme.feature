@@ -27,5 +27,5 @@ Feature: e-Irsaliye Gelen Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secile
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi    |          |
-      | ELOGOGIB     | 123456 |   01.01.2018 |    31.12.2018 | TEST CARISI | Muhasebe |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |          |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | ELOGO TEST | Muhasebe |

@@ -14,4 +14,4 @@ Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci On Deger Ata
 
     Examples: 
       | kullaniciAdi | sifre  | sablon                                    |
-      | ELOGOGIB     | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |
+      | ELOGO6       | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |

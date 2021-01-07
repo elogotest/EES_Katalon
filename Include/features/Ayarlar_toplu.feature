@@ -2,11 +2,10 @@ Feature: Ayarlar Toplu Kontrol
 
   Scenario Outline: Ayarlar Toplu Kontrol
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-   	# Adres defteri buton kontrol
+    # Adres defteri buton kontrol
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Butonlardan Ekle var mı
-    
     * Cache bellek temizlenir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
@@ -21,7 +20,6 @@ Feature: Ayarlar Toplu Kontrol
     * Filtre alanlarında VKN/TCKN No var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
-    
     * Cache bellek temizlenir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
@@ -29,36 +27,33 @@ Feature: Ayarlar Toplu Kontrol
     # Firma bilgileri
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Firma Bilgileri seçilir
-
     * Cache bellek temizlenir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Cache silindikten sonra <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-  	#Dosya işlemleri buton kontrol
-  	* Ana menüden e-Arşiv seçilir
+    #Dosya işlemleri buton kontrol
+    * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Dosya İşlemleri seçilir
     * Butonlardan İndir var mı
-    
     * Cache bellek temizlenir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Cache silindikten sonra <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-  	#Fatura kontrol filtre kontrol
-  	* Ana menüden e-Arşiv seçilir
-  	* Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Kontrol Raporu seçilir
+    #Fatura kontrol filtre kontrol
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Kontrol Raporu seçilir
     * Filtre alanlarında Fatura No var mı
     * Filtre alanlarında İptal Durumu var mı
     * Filtre alanlarında Fatura Tarihi var mı
     * Filtre alanlarında Kontrol Sonucu var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
-    
     * Cache bellek temizlenir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Cache silindikten sonra <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-  	#Fatura oluşturma ekran kontrol
-  	* Ana menüden e-Arşiv seçilir
+    #Fatura oluşturma ekran kontrol
+    * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Filtre alanlarında Durumu var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
@@ -69,7 +64,7 @@ Feature: Ayarlar Toplu Kontrol
     * Filtre alanlarında Fatura ETTN var mı
     * Filtre alanlarında Fatura No var mı
     * Filtre alanlarında Tür var mı
-    * Filtre alanlarında Müşteri Bayi Kodu var mı    
+    * Filtre alanlarında Müşteri Bayi Kodu var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
     * Butonlardan Ekle var mı
@@ -81,16 +76,15 @@ Feature: Ayarlar Toplu Kontrol
     * Butonlardan Sil var mı
     * Butonlardan As400 var mı
     * Butonlardan Excel var mı
-    * Butonlardan Excel isimli butona tıklanır 
+    * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel'e Aktar var mı
     * Alt butonlardan Tümünü Excel'e Aktar var mı
-    
     * Cache bellek temizlenir
     * Ana menüden Ayarlar seçilir
     * Alt menü Araçlar başlığı altındaki Adres Defteri seçilir
     * Cache silindikten sonra <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
-  	#Earsiv taslak Ekran kontrol
-  	* Ana menüden e-Arşiv seçilir
+    #Earsiv taslak Ekran kontrol
+    * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Taslak seçilir
     * Filtre alanlarında Durumu var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
@@ -101,7 +95,7 @@ Feature: Ayarlar Toplu Kontrol
     * Filtre alanlarında Fatura ETTN var mı
     * Filtre alanlarında Fatura No var mı
     * Filtre alanlarında Tür var mı
-    * Filtre alanlarında Müşteri Bayi Kodu var mı    
+    * Filtre alanlarında Müşteri Bayi Kodu var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
     * Butonlardan Gönder var mı
@@ -112,13 +106,11 @@ Feature: Ayarlar Toplu Kontrol
     * Butonlardan Sil var mı
     * Butonlardan Excel var mı
     * Butonlardan İzleme Kayıtları var mı
-    * Butonlardan Excel isimli butona tıklanır 
+    * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel 'e Aktar var mı
     * Alt butonlardan Tümünü Excel 'e Aktar var mı
-  	
     * Kullanıcı işlemlerinden Çıkış seçilir
-    
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

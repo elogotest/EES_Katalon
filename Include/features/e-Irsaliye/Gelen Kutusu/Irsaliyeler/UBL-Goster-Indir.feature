@@ -21,4 +21,4 @@ Feature: e-Irsaliye Gelen Kutusu UBL - Göster
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | tag            |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    28.11.2020 | Logo Elektronik GIB Test | DespatchAdvice |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test | DespatchAdvice |

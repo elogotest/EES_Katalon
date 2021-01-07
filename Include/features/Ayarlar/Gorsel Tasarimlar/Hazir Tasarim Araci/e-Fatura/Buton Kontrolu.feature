@@ -21,4 +21,4 @@ Feature: e-Fatura Hazir Tasarim Araci On Deger Ata
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

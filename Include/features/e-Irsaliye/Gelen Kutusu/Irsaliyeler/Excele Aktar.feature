@@ -6,7 +6,7 @@ Feature: Irsaliyenin excele aktarilmasi
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtrelerden Gönderici Ünvanı filtresine <filtreDegeri3> textini yaz
+   # * Filtrelerden Gönderici Ünvanı filtresine <filtreDegeri3> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -25,5 +25,5 @@ Feature: Irsaliyenin excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | filtreDegeri3 | veri_Adi            |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | DOĞUŞ         | DOĞUŞ OTO PAZARLAMA |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | filtreDegeri3 | veri_Adi                 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | DOĞUŞ         | Logo Elektronik GIB Test |

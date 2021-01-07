@@ -13,4 +13,4 @@ Feature: e-Irsaliye Hazir Tasarim Araci Onizleme
 
     Examples: 
       | kullaniciAdi | sifre  | sablon                        |
-      | ELOGOGIB     | 123456 | e-İrsaliye Hal Şablon Tasarım |
+      | ELOGO6       | 123456 | e-İrsaliye Hal Şablon Tasarım |

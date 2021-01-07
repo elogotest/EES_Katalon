@@ -16,4 +16,4 @@ Feature: e-Fatura Taslak Iptal Et
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi               |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. |

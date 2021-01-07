@@ -9,11 +9,12 @@ Feature: Gelen Zarf GIB
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
-    * Butonlardan GİB isimli butona tıklanır
+    * Butonlardan UBL isimli butona tıklanır
+    * <tag> tagli ubl geldi mi
     * GİB Durum Sorgulama popupı açıldı mı
     * Popup kapatılır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                                          |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    31.11.2020 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag                         |
+      | ELOGO6       | 123456 |   01.11.2020 |    31.11.2020 | E LOGO 6 | sh:StandardBusinessDocument |

@@ -20,5 +20,5 @@ Feature: Irsaliyenin PDFinin gosterilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi            |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | DOĞUŞ OTO PAZARLAMA |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test |

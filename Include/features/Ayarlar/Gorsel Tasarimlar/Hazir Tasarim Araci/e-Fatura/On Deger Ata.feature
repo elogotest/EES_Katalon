@@ -14,4 +14,4 @@ Feature: e-Fatura Hazir Tasarim Araci On Deger Ata
 
     Examples: 
       | kullaniciAdi | sifre  | sablon                                        |
-      | ELOGOGIB     | 123456 | Mavi Temalı e-Fatura Öndeğer Şablon Tasarım 2 |
+      | ELOGO6       | 123456 | Mavi Temalı e-Fatura Öndeğer Şablon Tasarım 2 |

@@ -16,5 +16,5 @@ Feature: e-Arsiv Faturasi UBLi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                | tag     |
-      | ELOGOGIB     | 123456 |   23.11.2020 |    24.11.2020 | VirgosolOtomasyon699944 | invoice |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  | tag     |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test | invoice |

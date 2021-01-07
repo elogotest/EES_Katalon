@@ -21,4 +21,4 @@ Feature: TC Kimlik Numarasi Ile e-Mustahsil Adresi olusturma
 
     Examples: 
       | kullaniciAdi | sifre  | kisaltma              | vkntckn     | adi      | soyadi    | il       | ilce    | ulke_deger |
-      | ELOGOGIB     | 123456 | VirgosolMüstahsilTCKN | 05531351645 | Virgosol | Otomasyon | İstanbul | Maltepe | Türkiye    |
+      | ELOGO6       | 123456 | VirgosolMüstahsilTCKN | 05531351645 | Virgosol | Otomasyon | İstanbul | Maltepe | Türkiye    |

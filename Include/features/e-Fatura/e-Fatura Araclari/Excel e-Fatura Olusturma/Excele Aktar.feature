@@ -12,4 +12,4 @@ Feature: Excel e-Fatura Olusturma Excel e Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi                   |
-      | ELOGOGIB     | 123456 | efaturaolusturexcelden.xls |
+      | ELOGO6       | 123456 | efaturaolusturexcelden.xls |

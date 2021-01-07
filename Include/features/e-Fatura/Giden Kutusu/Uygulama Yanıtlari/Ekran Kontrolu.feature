@@ -38,4 +38,4 @@ Feature: Giden Kutusu Uygulama Yanitlari Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

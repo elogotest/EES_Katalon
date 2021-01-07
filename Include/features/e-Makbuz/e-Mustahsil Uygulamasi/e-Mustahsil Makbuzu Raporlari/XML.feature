@@ -4,8 +4,9 @@ Feature: e-Mustahsil Makbuzu Raporlari XML
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzu Raporları seçilir
-    * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri> baslangic degerini yaz
-    * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtrelerden Dönem filtresine 2020 Aralık dropdowndan degeri seçilir
+    #* Filtrelerden Bölüm Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    #* Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
@@ -17,4 +18,4 @@ Feature: e-Mustahsil Makbuzu Raporlari XML
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag                 |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    30.11.2020 |     2722 | earsiv:eArsivRaporu |
+      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |     2722 | earsiv:eArsivRaporu |

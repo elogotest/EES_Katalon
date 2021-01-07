@@ -12,4 +12,4 @@ Feature: e-Arsiv Dosya Islemleri Indir
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi |
-      | ELOGOGIB     | 123456 |     2020 |
+      | ELOGO6       | 123456 |     2020 |

@@ -9,11 +9,11 @@ Feature: e-Arsiv Raporlari XML
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan XML isimli butona tıklanır
-		* Yeni açılan sekmeye geçilir
-		* <tag> tagli ubl geldi mi
+    * Yeni açılan sekmeye geçilir
+    * <tag> tagli ubl geldi mi
     * Ana sekmeye geçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi 	| tag									|
-      | ELOGOGIB     | 123456 | 2020 Aralık  | 2688437		| earsiv:eArsivRaporu |
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi | tag                 |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 | earsiv:eArsivRaporu |

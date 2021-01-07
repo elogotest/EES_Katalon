@@ -9,4 +9,4 @@ Feature: e-Arsiv Faturalari Icin On Deger XSLT
 
     Examples: 
       | kullaniciAdi | sifre  | deger |
-      | ELOGOGIB     | 123456 | 12981 |
+      | ELOGO6       | 123456 | 12981 |

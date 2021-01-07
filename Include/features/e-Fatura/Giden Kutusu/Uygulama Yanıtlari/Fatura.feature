@@ -17,4 +17,4 @@ Feature: Uygulama Yaniti Fatura
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | ELOGO6       | 123456 |   01.01.2020 |    17.12.2020 | 6090408038 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 |

@@ -25,4 +25,4 @@ Feature: Tasarim Araclari Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

@@ -16,4 +16,4 @@ Feature: Tasarim Araclari Tasarla e-Arsiv
 
     Examples: 
       | kullaniciAdi | sifre  | baslik                     | aciklama          |
-      | ELOGOGIB     | 123456 | E-ARŞİV TASARIM AÇIKLAMASI | VirgosolOtomasyon |
+      | ELOGO6       | 123456 | E-ARŞİV TASARIM AÇIKLAMASI | VirgosolOtomasyon |

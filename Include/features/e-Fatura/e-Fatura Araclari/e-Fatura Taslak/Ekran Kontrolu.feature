@@ -32,4 +32,4 @@ Feature: e-Fatura Taslak Buton Kontrolu
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

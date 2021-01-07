@@ -15,4 +15,4 @@ Feature: e-Arsiv Raporlari Tablodaki Verinin Gorseli
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
-      | ELOGOGIB     | 123456 | 2020 Ocak    |  2665838 |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |

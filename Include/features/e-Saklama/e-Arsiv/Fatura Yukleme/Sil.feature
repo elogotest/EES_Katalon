@@ -12,4 +12,4 @@ Feature: e-Arsiv Fatura Sil
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi |
-      | ELOGOGIB     | 123456 | envelope |
+      | ELOGO6       | 123456 | envelope |

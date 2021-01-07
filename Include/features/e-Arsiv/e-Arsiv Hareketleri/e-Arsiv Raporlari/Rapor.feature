@@ -16,4 +16,4 @@ Feature: e-Arsiv Raporlari Rapor
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
-      | ELOGOGIB     | 123456 | 2020 Aralık  |  2671418 |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |

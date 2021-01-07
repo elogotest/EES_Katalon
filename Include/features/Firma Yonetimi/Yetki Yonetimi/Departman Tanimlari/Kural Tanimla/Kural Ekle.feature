@@ -14,4 +14,4 @@ Feature: Kural tanimlama
 
     Examples: 
       | kullaniciAdi | sifre  | departman_Adi     | belge_Turu | yon   | birinci_Parametre_Secenekleri | birinci_Parametre_Degeri | Ikinci_Parametre_Secenekleri | Ikinci_Parametre_Degeri | Mail_Gonderilsin_Mi |
-      | ELOGOGIB     | 123456 | VirgosolDepartman | e-Fatura   | Giden | Tümü için Yetkili             |                          |                              |                         | Mail Gönderilsin    |
+      | ELOGO6       | 123456 | VirgosolDepartman | e-Fatura   | Giden | Tümü için Yetkili             |                          |                              |                         | Mail Gönderilsin    |

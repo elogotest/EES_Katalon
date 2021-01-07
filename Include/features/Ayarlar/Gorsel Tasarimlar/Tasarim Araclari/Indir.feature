@@ -14,5 +14,5 @@ Feature: Tasarim Araclari Indir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name              | dosya |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    22.11.2020 | VirgosolOtomasyon | 13641 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name | dosya |
+      | ELOGO6       | 123456 |   18.01.2018 |    31.12.2018 | TEST | 8962  |

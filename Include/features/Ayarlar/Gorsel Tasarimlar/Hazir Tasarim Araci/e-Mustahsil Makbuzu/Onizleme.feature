@@ -13,4 +13,4 @@ Feature: e-Mustahsil Makbuzu Hazir Tasarim Araci Onizleme
 
     Examples: 
       | kullaniciAdi | sifre  | sablon                                    |
-      | ELOGOGIB     | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |
+      | ELOGO6       | 123456 | e-Müstahsil Makbuz Öndeğer Şablon Tasarım |

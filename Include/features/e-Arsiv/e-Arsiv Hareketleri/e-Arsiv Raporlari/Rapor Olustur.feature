@@ -13,4 +13,4 @@ Feature: e-Arsiv Raporlari Rapor Olustur
 
     Examples: 
       | kullaniciAdi | sifre  |
-      | ELOGOGIB     | 123456 |
+      | ELOGO6       | 123456 |

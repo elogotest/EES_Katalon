@@ -15,5 +15,5 @@ Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                |
-      | ELOGOGIB     | 123456 |   23.11.2020 |    24.11.2020 | VirgosolOtomasyon699944 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |

@@ -23,4 +23,4 @@ Feature: VKN Ile e-Irsaliye Adresi Olusturma
 
     Examples: 
       | kullaniciAdi | sifre  | kisaltma            | vkntckn    | unvan             | il       | ilce    | ulke_deger | e-Fatura_etiket                    |
-      | ELOGOGIB     | 123456 | VirgosolIrsaliyeVKN | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |
+      | ELOGO6       | 123456 | VirgosolIrsaliyeVKN | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |

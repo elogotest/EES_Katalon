@@ -17,4 +17,4 @@ Feature: e-Defter Saklama Indir
 
     Examples: 
       | kullaniciAdi | sifre  | dosyaIsmi                      |
-      | ELOGOGIB     | 123456 | 9250128841-201905-K-000001.zip |
+      | ELOGO6       | 123456 | 9250128841-201905-K-000001.zip |

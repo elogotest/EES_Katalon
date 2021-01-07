@@ -27,5 +27,5 @@ Feature: e-Arsiv Toplu Indirme - PDF Tumunun indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi        |
-      | ELOGOGIB     | 123456 |   01.01.2019 |    31.01.2019 | C2011 CARI ISIM |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |

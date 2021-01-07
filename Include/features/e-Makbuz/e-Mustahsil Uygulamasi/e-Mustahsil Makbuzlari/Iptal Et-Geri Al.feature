@@ -20,5 +20,5 @@ Feature: e-Mustahsil Makbuzu Iptal Et
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 |
-      | ELOGOGIB     | 123456 |   26.11.2020 |    26.11.2020 | Virgosol Otomasyon709886 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | ELOGO5   |

@@ -4,6 +4,7 @@ Feature: e-Defter Saklama Goster
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Defter başlığı altındaki e-Defter Saklama seçilir
+    * Filtrelerden YIL filtresine 2019 dropdowndan degeri seçilir
     * Filtre butonlarından Listele seçilir
     * 2019 adlı klasör açılır
     * Mayıs 2019 adlı klasör açılır

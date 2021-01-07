@@ -16,5 +16,5 @@ Feature: Irsaliyeye Yanit Gonder
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi            | malzeme     | kabulEdilmeyen | KEBirim | eksikMiktar | EBirim | fazlaMiktar | FBirim | aciklama        |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | DOĞUŞ OTO PAZARLAMA | 101000033AA |              1 | Adet    |           0 | Adet   |           0 | Adet   | İrsaliye Yanıtı |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | malzeme     | kabulEdilmeyen | KEBirim | eksikMiktar | EBirim | fazlaMiktar | FBirim | aciklama        |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test | 101000033AA |              1 | Adet    |           0 | Adet   |           0 | Adet   | İrsaliye Yanıtı |

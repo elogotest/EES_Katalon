@@ -26,5 +26,5 @@ Feature: Faturaya departman ata
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                 | departman |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | Logo Elektronik GIB Test | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 | otomasyon |

@@ -21,4 +21,4 @@ Feature: e-Arsiv  adresini silme
 
     Examples: 
       | kullaniciAdi | sifre  | kisaltma_deger   | no         |
-      | ELOGOGIB     | 123456 | VirgosolArsivVKN | 5422405266 |
+      | ELOGO6       | 123456 | VirgosolArsivVKN | 5422405266 |

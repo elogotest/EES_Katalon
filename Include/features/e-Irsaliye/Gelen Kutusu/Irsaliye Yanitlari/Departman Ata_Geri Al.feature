@@ -26,5 +26,5 @@ Feature: Irsaliye Yaniti departman ata ve geri al
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | departman |
-      | ELOGOGIB     | 123456 |   01.01.2018 |    31.12.2018 | Logo     | Muhasebe  |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | departman |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | ELOGO TEST | otomasyon |

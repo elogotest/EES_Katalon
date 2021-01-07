@@ -16,4 +16,4 @@ Feature: e-Irsaliye adresini silme
 
     Examples: 
       | kullaniciAdi | sifre  | kisaltma_deger      |
-      | ELOGOGIB     | 123456 | VirgosolIrsaliyeVKN |
+      | ELOGO6       | 123456 | VirgosolIrsaliyeVKN |

@@ -8,7 +8,7 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
-    * Tablodaki <veri_Adi> isimli verinin Faturalar adlı butonuna tıklanır
+    * Tablodaki <veri_Adi> isimli verinin Uygulama Yanıtları adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
     * Ana sekmeye geçilir
@@ -17,4 +17,4 @@ Feature: Gelen Zarf Tablodaki Verinin Irsaliyeleri
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.11.2020 |    31.11.2020 | E LOGO 6 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |

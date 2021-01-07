@@ -15,4 +15,4 @@ Feature: Yetki tanimlama
 
     Examples: 
       | kullaniciAdi | sifre  | rol_Adi        | yetki                                     |
-      | ELOGOGIB     | 123456 | TEST UZMANLARI | e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |
+      | ELOGO6       | 123456 | TEST UZMANLARI | e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |

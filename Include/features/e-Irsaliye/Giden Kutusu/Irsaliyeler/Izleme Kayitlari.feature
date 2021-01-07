@@ -17,4 +17,4 @@ Feature: Irsaliyenin Gecmisi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                    |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | TEKSAN   | İrsaliye İzleme Kayıtları |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | TEST     | İrsaliye İzleme Kayıtları |

@@ -20,4 +20,4 @@ Feature: OCK Mali Raporlari Excele Aktar
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | filtreDegeri | filtreDegeri2 |
-      | ELOGOGIB     | 123456 |        7 |   01.01.2018 |    31.12.2018 |
+      | ELOGO6       | 123456 |        7 |   01.01.2018 |    31.12.2018 |

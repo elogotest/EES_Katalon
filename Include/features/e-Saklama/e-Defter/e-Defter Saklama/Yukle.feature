@@ -17,4 +17,4 @@ Feature: e-Defter Saklama Yukle
 
     Examples: 
       | kullaniciAdi | sifre  | dosya                                          | dosya_adi                           |
-      | ELOGOGIB     | 123456 | D:\\ELOGO\\GIB-9250128841-201905-YB-000004.zip | GIB-9250128841-201905-YB-000004.zip |
+      | ELOGO6       | 123456 | D:\\ELOGO\\GIB-9250128841-201905-YB-000004.zip | GIB-9250128841-201905-YB-000004.zip |

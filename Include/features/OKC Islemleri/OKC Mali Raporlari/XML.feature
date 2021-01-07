@@ -18,4 +18,4 @@ Feature: OCK Mali Raporlari XML
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | filtreDegeri | filtreDegeri2 | tag    |
-      | ELOGOGIB     | 123456 |        7 |   01.01.2018 |    31.12.2018 | OKC -7 |
+      | ELOGO6       | 123456 |        7 |   01.01.2018 |    31.12.2018 | OKC -7 |

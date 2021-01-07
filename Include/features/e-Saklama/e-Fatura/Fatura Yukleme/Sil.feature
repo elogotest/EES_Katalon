@@ -11,4 +11,4 @@ Feature: e-Defter Saklama Fatura Sil
 
     Examples: 
       | kullaniciAdi | sifre  | unvan    |
-      | ELOGOGIB     | 123456 | enes.zip |
+      | ELOGO6       | 123456 | enes.zip |

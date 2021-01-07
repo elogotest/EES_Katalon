@@ -14,4 +14,4 @@ Feature: Kural silme
 
     Examples: 
       | kullaniciAdi | sifre  | departman_Adi     |
-      | ELOGOGIB     | 123456 | VirgosolDepartman |
+      | ELOGO6       | 123456 | VirgosolDepartman |

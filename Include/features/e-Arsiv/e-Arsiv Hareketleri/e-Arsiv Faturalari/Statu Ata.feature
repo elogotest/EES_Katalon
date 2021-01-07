@@ -17,4 +17,4 @@ Feature: e-Arsiv Faturasi Statu Ata
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGOGIB     | 123456 |   01.01.2019 |    31.01.2019 | test test |
+      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |

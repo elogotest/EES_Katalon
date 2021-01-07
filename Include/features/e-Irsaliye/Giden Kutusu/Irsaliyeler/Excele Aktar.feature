@@ -26,4 +26,4 @@ Feature: Irsaliyenin excele aktarilmasi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGOGIB     | 123456 |   01.01.2020 |    31.01.2020 | TEKSAN   |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 | TEST     |

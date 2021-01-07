@@ -16,5 +16,5 @@ Feature: Giden Zarf Gecmis
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                    | baslik                |
-      | ELOGOGIB     | 123456 | 01.01.2020   | 31.01.2020    | GÜMRÜK VE TİCARET BAKANLIĞI | Zarf İzleme Kayıtları |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi     | baslik                |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Test Kurum 6 | Zarf İzleme Kayıtları |

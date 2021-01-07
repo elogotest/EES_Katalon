@@ -21,4 +21,4 @@ Feature: VKN Ile e-Arsiv Adresi Olusturma
 
     Examples: 
       | kullaniciAdi | sifre  | kisaltma         | vkntckn    | unvan             | il       | ilce    | ulke_deger |
-      | ELOGOGIB     | 123456 | VirgosolArsivVKN | 5422405266 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    |
+      | ELOGO6       | 123456 | VirgosolArsivVKN | 5422405266 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    |

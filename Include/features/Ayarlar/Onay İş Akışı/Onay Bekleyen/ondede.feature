@@ -18,4 +18,4 @@ Feature: On Deger Ata
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | name              |
-      | ELOGOGIB     | 123456 |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |
+      | ELOGO6       | 123456 |   01.06.2020 |    15.06.2020 | VirgosolOtomasyon |

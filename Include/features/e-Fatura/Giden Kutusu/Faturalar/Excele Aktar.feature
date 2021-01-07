@@ -25,5 +25,5 @@ Feature: Faturayi excele aktarma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                                          |
-      | ELOGOGIB     | 123456 |   01.11.2020 |    30.11.2020 | LOGO ELEKTRONİK TİCARET HİZMETLERİ ANONİM ŞİRKETİ |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | TEST     |

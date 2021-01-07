@@ -15,4 +15,4 @@ Feature: e-Fatura Taslak UBL
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi               | tag     |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | invoice |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | invoice |

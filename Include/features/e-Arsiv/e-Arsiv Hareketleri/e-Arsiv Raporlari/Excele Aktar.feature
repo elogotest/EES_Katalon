@@ -24,4 +24,4 @@ Feature: e-Arsiv Raporunun excele aktarilmasi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
-      | ELOGOGIB     | 123456 | 2020 Nisan   |  2671418 |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |

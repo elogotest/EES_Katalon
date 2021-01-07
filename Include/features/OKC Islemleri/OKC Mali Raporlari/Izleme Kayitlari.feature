@@ -18,4 +18,4 @@ Feature: OCK Mali Raporlari Gecmis
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | filtreDegeri | filtreDegeri2 | baslik                   |
-      | ELOGOGIB     | 123456 |        7 |   01.01.2018 |    31.12.2018 | ÖKC İzleme Kayıtları - 7 |
+      | ELOGO6       | 123456 |        7 |   01.01.2018 |    31.12.2018 | ÖKC İzleme Kayıtları - 7 |

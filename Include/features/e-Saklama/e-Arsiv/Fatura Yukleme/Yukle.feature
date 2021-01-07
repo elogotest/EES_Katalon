@@ -16,4 +16,4 @@ Feature: e-Arsiv Fatura Yukle
 
     Examples: 
       | kullaniciAdi | sifre  | dosya                           | dosya_adi |
-      | ELOGOGIB     | 123456 | C:\\otomasyonupfiles\\13626.zip | 13626.zip |
+      | ELOGO6       | 123456 | C:\\otomasyonupfiles\\13626.zip | 13626.zip |

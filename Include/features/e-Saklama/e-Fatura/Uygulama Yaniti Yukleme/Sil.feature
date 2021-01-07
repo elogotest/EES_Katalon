@@ -11,4 +11,4 @@ Feature: e-Defter Saklama Uygulama Yaniti Sil
 
     Examples: 
       | kullaniciAdi | sifre  | dosya    |
-      | ELOGOGIB     | 123456 | enes.zip |
+      | ELOGO6       | 123456 | enes.zip |

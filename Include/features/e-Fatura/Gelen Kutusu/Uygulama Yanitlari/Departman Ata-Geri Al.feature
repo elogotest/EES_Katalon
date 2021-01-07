@@ -27,4 +27,4 @@ Feature: Uygulama Yaniti departman ata
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   | departman |
-      | ELOGOGIB     | 123456 |   01.01.2019 |    31.12.2019 | 5555551292 | Muhasebe  |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 | otomasyon |

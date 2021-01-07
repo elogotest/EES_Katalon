@@ -16,4 +16,4 @@ Feature: Departman ve Rol tanimlama
 
     Examples: 
       | kullaniciAdi | sifre  | kullanici_Adi | firma_Kodu | departman | rol            |
-      | ELOGOGIB     | 123456 | Otomasyon     | ELOGOGIB   | Muhasebe  | TEST UZMANLARI |
+      | ELOGO6       | 123456 | Otomasyon     | ELOGOGIB   | Muhasebe  | TEST UZMANLARI |

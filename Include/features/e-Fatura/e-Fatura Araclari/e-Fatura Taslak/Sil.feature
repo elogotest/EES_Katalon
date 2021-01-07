@@ -16,4 +16,4 @@ Feature: e-Fatura Taslak Sil
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi               | tag        |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | CreditNote |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | CreditNote |

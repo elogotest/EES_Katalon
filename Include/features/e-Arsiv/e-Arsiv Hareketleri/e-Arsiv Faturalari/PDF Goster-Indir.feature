@@ -21,4 +21,4 @@ Feature: e-Arsiv PDFinin indirilmesi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGOGIB     | 123456 |   01.01.2019 |    31.01.2019 | test test |
+      | ELOGO6       | 123456 |   01.01.2019 |    31.01.2019 | test test |

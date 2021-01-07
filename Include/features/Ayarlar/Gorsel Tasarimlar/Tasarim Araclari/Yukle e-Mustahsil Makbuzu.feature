@@ -12,4 +12,4 @@ Feature: Tasarim Araclari Yukle e-Mustahsil Makbuzu
 
     Examples: 
       | kullaniciAdi | sifre  | name  |
-      | ELOGOGIB     | 123456 | 13441 |
+      | ELOGO6       | 123456 | 13441 |

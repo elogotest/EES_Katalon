@@ -13,7 +13,7 @@ Feature: e-Arsiv Taslak Buton Kontrolu
     * Filtre alanlarında Fatura ETTN var mı
     * Filtre alanlarında Fatura No var mı
     * Filtre alanlarında Tür var mı
-    * Filtre alanlarında Müşteri Bayi Kodu var mı    
+    * Filtre alanlarında Müşteri Bayi Kodu var mı
     * Filtre butonlarında Listele var mı
     * Filtre butonlarında Temizle var mı
     * Butonlardan Gönder var mı
@@ -24,12 +24,11 @@ Feature: e-Arsiv Taslak Buton Kontrolu
     * Butonlardan Sil var mı
     * Butonlardan Excel var mı
     * Butonlardan İzleme Kayıtları var mı
-    * Butonlardan Excel isimli butona tıklanır 
+    * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Excel 'e Aktar var mı
     * Alt butonlardan Tümünü Excel 'e Aktar var mı
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    
-    Examples:
-    | kullaniciAdi | sifre  |
-    | ELOGOGIB     | 123456 |
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

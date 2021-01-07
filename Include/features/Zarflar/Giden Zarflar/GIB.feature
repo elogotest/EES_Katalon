@@ -12,10 +12,8 @@ Feature: Giden Zarf GIB
     * Butonlardan GİB isimli butona tıklanır
     * GİB Durum Sorgulama popupı açıldı mı
     * Popup kapatılır
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
-    Examples:
-      | kullaniciAdi | sifre  | filtreDegeri	| filtreDegeri2	| veri_Adi 	                  |
-      | ELOGOGIB     | 123456 | 01.01.2020		| 31.01.2020		| GÜMRÜK VE TİCARET BAKANLIĞI	|
-            
- 
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
+    Examples: 
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi                    |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 | GÜMRÜK VE TİCARET BAKANLIĞI |

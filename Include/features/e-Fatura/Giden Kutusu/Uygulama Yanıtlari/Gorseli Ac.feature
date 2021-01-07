@@ -16,4 +16,4 @@ Feature: Uygulama Yanitinin Gorseli
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
-      | ELOGOGIB     | 123456 |   01.09.2020 |    16.09.2020 | 6090408038 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | 1234567806 |

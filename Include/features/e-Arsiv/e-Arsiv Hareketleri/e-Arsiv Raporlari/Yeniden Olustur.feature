@@ -15,8 +15,8 @@ Feature: e-Arsiv Raporlari Yeniden Olustur
     * Yönetim popupında Evet seçilir
     * Popup mesajı Seçtiğiniz kayıtlardan 1 adedi tekrar oluşturmak üzere kuyruğa kaydedildi. içeriyor mu
     * Yönetim popupında Tamam seçilir
-		* Kullanıcı işlemlerinden Çıkış seçilir
-    
+    * Kullanıcı işlemlerinden Çıkış seçilir
+
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi 	|
-      | ELOGOGIB     | 123456 | 2020 Nisan 	 | 2671418		|
+      | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
+      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |

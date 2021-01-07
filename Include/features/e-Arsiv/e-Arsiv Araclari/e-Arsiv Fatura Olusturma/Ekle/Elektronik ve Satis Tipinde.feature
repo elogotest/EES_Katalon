@@ -59,4 +59,4 @@ Feature: Gonderim tipi Elektronik ve Satis tipinde e-Arsiv faturasi olusturulmas
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan             | tag     |
-      | ELOGOGIB     | 123456 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Degistir | VirgosolOtomasyon | invoice |
+      | ELOGO6       | 123456 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Degistir | VirgosolOtomasyon | invoice |

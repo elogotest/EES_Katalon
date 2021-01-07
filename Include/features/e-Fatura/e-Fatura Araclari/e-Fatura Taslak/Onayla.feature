@@ -15,4 +15,4 @@ Feature: e-Fatura Taslak Onaylama
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri           | veri_Adi               |
-      | ELOGOGIB     | 123456 | Yeni Adres Anonim A.Ş. | Yeni Adres Anonim A.Ş. |
+      | ELOGO6       | 123456 | Yeni Adres Anonim A.Ş. | Yeni Adres Anonim A.Ş. |

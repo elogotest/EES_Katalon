@@ -51,4 +51,4 @@ Feature: e-Serbest Meslek Makbuzu Olusturma
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi                | malzeme_adi | ucret | stopaj_Orani | not           | not1                   | unvan             | tag        |
-      | ELOGOGIB     | 123456 | VirgosolSerbestMeslekVKN | Otomasyon   |   400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon | CreditNote |
+      | ELOGO6       | 123456 | VirgosolSerbestMeslekVKN | Otomasyon   |   400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon | CreditNote |
