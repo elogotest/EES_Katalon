@@ -15,7 +15,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Istisna tipinde fatura olusturulm
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
-    * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
+    * Ek Bilgiler Gönderen,BAYINO,2000 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
