@@ -34,5 +34,5 @@ Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | miktari | birimFiyat | stopaj_Orani | not           | adı_soyadı             |
-      | ELOGO6       | 123456 | UC0038    | Otomasyon   |     400 |        100 |           10 | Otomasyon Not | Virgosol OtomasyonTEST |
+      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | miktari | birimFiyat | stopaj_Orani | not           | adı_soyadı            |
+      | ELOGO6       | 123456 | UC0038    | Otomasyon   |     400 |        100 |           10 | Otomasyon Not | VirgosolOtomasyonTEST |

@@ -41,5 +41,5 @@ Feature: e-Irsaliye Gelen Kutusu Toplu Indirme - PDF Secilenlerin indirilmesi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | filtreDegeri3 | veri_Adi                 |
-      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | DOĞUŞ         | Logo Elektronik GIB Test |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | filtreDegeri3            | veri_Adi                 |
+      | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | Logo Elektronik GIB Test | Logo Elektronik GIB Test |

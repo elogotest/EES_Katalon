@@ -1,7 +1,7 @@
 Feature: e-Serbest Meslek Makbuz Raporlari XML
 
   Scenario Outline: e-Serbest Meslek Makbuz Raporlari XML
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir
     * Filtrelerden Dönem Tarihi filtresine 2020 Aralık dropdowndan degeri seçilir
@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari XML
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | tag                 |
-      | ELOGO6       | 123456 |     1538 | earsiv:eArsivRaporu |
+      | ELOGO6       | 123456 |     1588 | earsiv:eArsivRaporu |

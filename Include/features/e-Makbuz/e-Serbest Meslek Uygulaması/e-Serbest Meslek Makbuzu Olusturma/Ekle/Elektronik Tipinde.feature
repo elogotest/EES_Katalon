@@ -50,5 +50,5 @@ Feature: e-Serbest Meslek Makbuzu Olusturma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi                | malzeme_adi | ucret | stopaj_Orani | not           | not1                   | unvan             | tag        |
-      | ELOGO6       | 123456 | VirgosolSerbestMeslekVKN | Otomasyon   |   400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon | CreditNote |
+      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | ucret | stopaj_Orani | not           | not1                   | unvan             | tag        |
+      | ELOGO6       | 123456 | UC0038    | Otomasyon   |   400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyon | CreditNote |

@@ -10,4 +10,4 @@ Feature: Kullanici Eklenir
 
     Examples: 
       | kullaniciAdi | sifre  | kullanici_Kodu    | e-Posta                | adi      | soyadi    | telefon    | unvan | firma_Secimi |
-      | ELOGO6       | 123456 | VirgosolKullanici | otomasyon@virgosol.com | Virgosol | Otomasyon | 5555555555 | Firma | ELOGOGIB     |
+      | ELOGO6       | 123456 | VirgosolKullanici | otomasyon@virgosol.com | Virgosol | Otomasyon | 5555555555 | Firma | ELOGO6       |

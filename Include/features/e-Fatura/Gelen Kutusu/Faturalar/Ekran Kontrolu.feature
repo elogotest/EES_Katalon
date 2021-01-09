@@ -16,7 +16,7 @@ Feature: Gelen Kutusu Faturalar Buton Kontrolu
     * Filtre alanlarında Zarf ETTN var mı
     * Filtre alanlarında Kullanıcı Kodu var mı
     * Filtre alanlarında Atanan Departman var mı
-    * Filtre alanlarında Zarf Durumu var mı
+    #* Filtre alanlarında Zarf Durumu var mı
     * Filtre alanlarında Fatura ETTN var mı
     * Filtre alanlarında Senaryo var mı
     * Filtre alanlarında Okunma Durumu var mı

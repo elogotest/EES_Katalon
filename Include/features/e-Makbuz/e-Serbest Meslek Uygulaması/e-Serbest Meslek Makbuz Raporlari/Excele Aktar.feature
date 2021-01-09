@@ -1,7 +1,7 @@
 Feature: e-Serbest Meslek Makbuz Raporlari excele aktarma
 
   Scenario Outline: e-Serbest Meslek Makbuz Raporlari excele aktarma
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir
     * Filtrelerden Dönem Tarihi filtresine 2020 Aralık dropdowndan degeri seçilir
@@ -24,4 +24,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari excele aktarma
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi |
-      | ELOGO6       | 123456 |     1538 |
+      | ELOGO6       | 123456 |     1588 |

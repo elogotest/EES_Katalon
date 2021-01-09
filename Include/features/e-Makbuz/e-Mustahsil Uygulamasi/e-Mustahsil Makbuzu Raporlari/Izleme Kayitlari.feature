@@ -18,4 +18,4 @@ Feature: e-Mustahsil Makbuzu Raporlari gecmisi
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | baslik                                   |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |      917 | Müstahsil Makbuzu Rapor İzleme Kayıtları |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |     2847 | Müstahsil Makbuzu Rapor İzleme Kayıtları |

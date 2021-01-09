@@ -16,7 +16,7 @@ Feature: Giden Kutusu Irsaliyeler Buton Kontrolu
     * Filtre alanlarında Zarf ETTN var mı
     * Filtre alanlarında Kullanıcı Kodu var mı
     * Filtre alanlarında Belge Statüsü var mı
-    * Filtre alanlarında Zarf Durumu var mı
+    #* Filtre alanlarında Zarf Durumu var mı
     * Filtre alanlarında İrsaliye ETTN var mı
     * Filtre alanlarında Senaryo var mı
     * Filtre alanlarında Tüm Hesaplar var mı

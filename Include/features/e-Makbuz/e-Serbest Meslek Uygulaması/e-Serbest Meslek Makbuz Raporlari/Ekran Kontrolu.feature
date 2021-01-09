@@ -1,7 +1,7 @@
 Feature: e-Serbest Meslek Makbuz Raporlari Buton Kontrolu
 
   Scenario Outline: e-Serbest Meslek Makbuz Raporlari Buton Kontrolu
-    * Giriş yapılır
+    * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuz Raporları seçilir
     * Filtre alanlarında Dönem Tarihi var mı

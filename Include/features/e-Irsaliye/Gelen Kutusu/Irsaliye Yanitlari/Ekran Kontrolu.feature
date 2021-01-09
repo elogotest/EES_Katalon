@@ -12,7 +12,7 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Filtre alanlarında Belge Tarihi var mı
     * Filtre alanlarında İlşk. İrsaliye No var mı
     * Filtre alanlarında İlşk. İrsaliye ETTN var mı
-    * Filtre alanlarında Zarf Durumu var mı
+    #* Filtre alanlarında Zarf Durumu var mı
     * Filtre alanlarında Kullanıcı Kodu var mı
     * Filtre alanlarında Zarf ETTN var mı
     * Filtre alanlarında Atanan Departman var mı

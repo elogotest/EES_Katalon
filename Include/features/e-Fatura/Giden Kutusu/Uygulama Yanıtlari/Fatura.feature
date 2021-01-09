@@ -11,7 +11,7 @@ Feature: Uygulama Yaniti Fatura
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Fatura isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
-    * Yeni sekme başlığında e-Fatura var mı kontrol edilir
+    * Yeni sekme başlığında e-FATURA var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 

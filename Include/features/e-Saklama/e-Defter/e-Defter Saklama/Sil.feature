@@ -5,8 +5,8 @@ Feature: e-Defter Saklama Goster
     * Ana menüden e-Saklama seçilir
     * Alt menü e-Defter başlığı altındaki e-Defter Saklama seçilir
     * Filtre butonlarından Listele seçilir
-    * 2019 adlı klasör açılır
-    * Mayıs 2019 adlı klasör açılır
+    * 2020 adlı klasör açılır
+    * Şubat 2020 adlı klasör açılır
     * Kebir Dosyaları adlı klasör açılır
     * <dosyaIsmi> adlı klasör seçilir
     * Butonlardan Sil isimli butona tıklanır
@@ -16,4 +16,4 @@ Feature: e-Defter Saklama Goster
 
     Examples: 
       | kullaniciAdi | sifre  | dosyaIsmi                      |
-      | ELOGO6       | 123456 | 9250128841-201905-K-000003.zip |
+      | ELOGO6       | 123456 | 3890760783-202002-K-000000.zip |

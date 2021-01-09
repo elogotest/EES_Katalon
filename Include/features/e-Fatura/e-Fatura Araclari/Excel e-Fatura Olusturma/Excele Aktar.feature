@@ -11,5 +11,5 @@ Feature: Excel e-Fatura Olusturma Excel e Aktar
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | veri_Adi                   |
-      | ELOGO6       | 123456 | efaturaolusturexcelden.xls |
+      | kullaniciAdi | sifre  | veri_Adi                      |
+      | ELOGO6       | 123456 | UserInvoice09012021124157.xls |

@@ -14,5 +14,5 @@ Feature: Yetki tanimlama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | rol_Adi        | yetki                                     |
-      | ELOGO6       | 123456 | TEST UZMANLARI | e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |
+      | kullaniciAdi | sifre  | rol_Adi | yetki                                     |
+      | ELOGO6       | 123456 | brk     | e-İrsaliye/Gelen Kutusu/İrsaliyeler/Excel |

@@ -11,4 +11,4 @@ Feature: e-Arsiv Rapor Yukle
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi |
-      | ELOGO6       | 123456 | envelope |
+      | ELOGO6       | 123456 | 8962.zip |

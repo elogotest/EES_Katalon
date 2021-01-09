@@ -49,5 +49,5 @@ Feature: e-Mustahsil Makbuzu Olusturma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi           | malzeme_adi | miktari | stopaj_Orani | not           | not1                   | unvan    | tag        |
-      | ELOGO6       | 123456 | VirgosolMüstahsilTC | Otomasyon   |     400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | Virgosol | CreditNote |
+      | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | miktari | stopaj_Orani | not           | not1                   | unvan                 | tag        |
+      | ELOGO6       | 123456 | UC0038    | Otomasyon   |     400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | CreditNote |

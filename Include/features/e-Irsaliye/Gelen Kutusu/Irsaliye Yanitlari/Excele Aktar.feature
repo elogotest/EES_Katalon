@@ -6,7 +6,7 @@ Feature: Irsaliye Yanitinin excele aktarilmasi
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    * Filtrelerden Gönderici Ünvanı filtresine <veri_Adi> textini yaz
+    #* Filtrelerden Gönderici Ünvanı filtresine <veri_Adi> textini yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir

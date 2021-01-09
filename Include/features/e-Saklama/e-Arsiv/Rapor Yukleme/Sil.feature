@@ -12,4 +12,4 @@ Feature: e-Arsiv Rapor Sil
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi |
-      | ELOGO6       | 123456 | envelope |
+      | ELOGO6       | 123456 | 8962.zip |
