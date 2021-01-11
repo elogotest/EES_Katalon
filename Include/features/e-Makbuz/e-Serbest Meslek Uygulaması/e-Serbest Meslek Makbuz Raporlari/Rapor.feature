@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari Rapor
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi |
-      | ELOGO6       | 123456 |     1588 |
+      | ELOGO6       | 123456 |     1629 |

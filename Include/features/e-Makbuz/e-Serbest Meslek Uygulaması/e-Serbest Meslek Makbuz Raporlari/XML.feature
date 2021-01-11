@@ -16,4 +16,4 @@ Feature: e-Serbest Meslek Makbuz Raporlari XML
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi | tag                 |
-      | ELOGO6       | 123456 |     1588 | earsiv:eArsivRaporu |
+      | ELOGO6       | 123456 |     1629 | earsiv:eArsivRaporu |
