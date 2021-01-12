@@ -1,0 +1,369 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Kullanici Tanimlari Buton Kontrolu",
+        "description": "",
+        "id": "kullanici-tanimlari-buton-kontrolu;kullanici-tanimlari-buton-kontrolu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10495066900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1043853700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Firma Yönetimi seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firma Yönetimi",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2102421500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menüden Yetki Yönetimi seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yetki Yönetimi",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 757532300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Sekmelerden Kullanıcı Tanımları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kullanıcı Tanımları",
+                  "offset": 12
+                }
+              ],
+              "location": "yetkiYonetimi.sekmeSecilir(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 882262700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtre alanlarında Kullanıcı Kodu var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kullanıcı Kodu",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 443577000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre alanlarında Adı Soyadı var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adı Soyadı",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 466851400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Filtre alanlarında Kullanıcı Unvan var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kullanıcı Unvan",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 422929100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Filtre alanlarında e-Posta var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Posta",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 462007000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Filtre alanlarında Firma var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firma",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 442733500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Filtre alanlarında Departman var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departman",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 422525500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Filtre alanlarında Rol var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rol",
+                  "offset": 19
+                }
+              ],
+              "location": "filtreler.filtreVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 683264000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Filtre butonlarında Listele var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 429165700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Filtre butonlarında Temizle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Temizle",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 636983800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Butonlardan Kullanıcı Ekle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kullanıcı Ekle",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 404391500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Butonlardan Değiştir var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Değiştir",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 429100400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Butonlardan Sil var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sil",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 416642800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Butonlardan Şifre Sıfırla var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Şifre Sıfırla",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 426162800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Butonlardan Rol ve Departman Tanımla var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rol ve Departman Tanımla",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2192798800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Kullanici Tanimlari Buton Kontrolu",
+    "description": "",
+    "id": "kullanici-tanimlari-buton-kontrolu",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Ekran Kontrolu.feature",
+    "tags": []
+  }
+]

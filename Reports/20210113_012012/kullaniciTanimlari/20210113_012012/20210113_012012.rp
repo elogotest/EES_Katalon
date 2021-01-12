@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20210113_012012</name>
+   <tag></tag>
+   <displayName>20210113_012012</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210113_012012/_Suite Repository ( Deneysel )/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Ekran Kontrolu/20210113_012013</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210113_012012/_Suite Repository ( Deneysel )/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Kullanici Ekle/20210113_012015</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210113_012012/_Suite Repository ( Deneysel )/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Rol ve Departman Tanimla/20210113_012017</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20210113_012012/_Suite Repository ( Deneysel )/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Sil/20210113_012019</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/kullaniciTanimlari</testSuiteCollectionId>
+</ReportCollectionEntity>

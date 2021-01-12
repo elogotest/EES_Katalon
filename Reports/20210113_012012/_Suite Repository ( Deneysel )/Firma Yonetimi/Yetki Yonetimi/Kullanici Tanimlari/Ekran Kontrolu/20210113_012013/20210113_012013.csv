@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ekran Kontrolu,Chrome 87.0.4280.141,,,2021-01-13 01:20:24,2021-01-13 01:20:57,"33,326s",FAILED
+,,,,,,,
+Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Ekran Kontrolu,Chrome 87.0.4280.141,,,2021-01-13 01:20:24,2021-01-13 01:20:57,"33,050s",FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.141,,,2021-01-13 01:20:24,2021-01-13 01:20:32,"8,187s",PASSED
+"runFeatureFile(""Include/features/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Ekran Kontrolu.feature"")",Chrome 87.0.4280.141,,,2021-01-13 01:20:32,2021-01-13 01:20:57,"24,608s",FAILED
+Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.141,,,2021-01-13 01:20:57,2021-01-13 01:20:57,"0,000s",PASSED

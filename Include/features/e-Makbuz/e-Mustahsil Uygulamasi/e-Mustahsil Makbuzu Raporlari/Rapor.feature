@@ -18,4 +18,4 @@ Feature: e-Mustahsil Makbuzu Raporlari Rapor
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |     2879 |
+      | ELOGO6       | 123456 |   08.01.2021 |    10.01.2021 |     2911 |

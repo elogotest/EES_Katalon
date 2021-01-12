@@ -18,4 +18,4 @@ Feature: e-Mustahsil Makbuzu Raporlari XML
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag                 |
-      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |     2879 | earsiv:eArsivRaporu |
+      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |     2911 | earsiv:eArsivRaporu |

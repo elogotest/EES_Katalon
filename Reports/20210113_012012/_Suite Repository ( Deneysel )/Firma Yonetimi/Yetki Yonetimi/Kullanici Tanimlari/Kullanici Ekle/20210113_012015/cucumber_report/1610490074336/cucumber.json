@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Kullanici Eklenir",
+        "description": "",
+        "id": "kullanici-eklenir;kullanici-eklenir;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10942117700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1009913000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Firma Yönetimi seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firma Yönetimi",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2030263900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menüden Yetki Yönetimi seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yetki Yönetimi",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 961416000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Butonlardan Kullanıcı Ekle isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kullanıcı Ekle",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4784820600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanıcı bilgileri VirgosolKullanici,otomasyon@virgosol.com,Virgosol,Otomasyon,5555555555,Firma,ELOGO6 olarak girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VirgosolKullanici",
+                  "offset": 20
+                },
+                {
+                  "val": "otomasyon@virgosol.com",
+                  "offset": 38
+                },
+                {
+                  "val": "Virgosol",
+                  "offset": 61
+                },
+                {
+                  "val": "Otomasyon",
+                  "offset": 70
+                },
+                {
+                  "val": "5555555555",
+                  "offset": 80
+                },
+                {
+                  "val": "Firma",
+                  "offset": 91
+                },
+                {
+                  "val": "ELOGO6",
+                  "offset": 97
+                }
+              ],
+              "location": "yetkiYonetimi.kullaniciOlusturulur(String,String,String,String,String,String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2290815500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Kullanici Eklenir",
+    "description": "",
+    "id": "kullanici-eklenir",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Kullanici Ekle.feature",
+    "tags": []
+  }
+]

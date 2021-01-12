@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.590886">
+<testcase classname="Kullanici Tanimlari Buton Kontrolu" name="Kullanici Tanimlari Buton Kontrolu" time="23.590886">
+<system-out><![CDATA[* Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır.................passed
+* Ana menüden Firma Yönetimi seçilir........................................passed
+* Alt menüden Yetki Yönetimi seçilir........................................passed
+* Sekmelerden Kullanıcı Tanımları seçilir...................................passed
+* Filtre alanlarında Kullanıcı Kodu var mı..................................passed
+* Filtre alanlarında Adı Soyadı var mı......................................passed
+* Filtre alanlarında Kullanıcı Unvan var mı.................................passed
+* Filtre alanlarında e-Posta var mı.........................................passed
+* Filtre alanlarında Firma var mı...........................................passed
+* Filtre alanlarında Departman var mı.......................................passed
+* Filtre alanlarında Rol var mı.............................................passed
+* Filtre butonlarında Listele var mı........................................passed
+* Filtre butonlarında Temizle var mı........................................passed
+* Butonlardan Kullanıcı Ekle var mı.........................................passed
+* Butonlardan Değiştir var mı...............................................passed
+* Butonlardan Sil var mı....................................................passed
+* Butonlardan Şifre Sıfırla var mı..........................................passed
+* Butonlardan Rol ve Departman Tanımla var mı...............................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

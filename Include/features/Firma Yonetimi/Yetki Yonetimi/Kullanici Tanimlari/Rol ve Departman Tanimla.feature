@@ -15,5 +15,5 @@ Feature: Departman ve Rol tanimlama
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | kullanici_Adi     | firma_Kodu | departman         | rol |
-      | ELOGO6       | 123456 | VirgosolKullanici | ELOGO6     | VirgosolDepartman | brk |
+      | kullaniciAdi | sifre  | kullanici_Adi     | firma_Kodu | departman | rol |
+      | ELOGO6       | 123456 | VirgosolKullanici | ELOGO6     | brk       | brk |

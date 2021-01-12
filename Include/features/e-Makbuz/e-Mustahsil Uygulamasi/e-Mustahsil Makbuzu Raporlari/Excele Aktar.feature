@@ -26,4 +26,4 @@ Feature: e-Mustahsil Makbuzu Raporlari excele aktarma
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |     2847 |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.01.2020 |     2911 |

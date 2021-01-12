@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.038845">
+<testcase classname="Kullanici Eklenir" name="Kullanici Eklenir" time="22.038845">
+<system-out><![CDATA[* Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır.................passed
+* Ana menüden Firma Yönetimi seçilir........................................passed
+* Alt menüden Yetki Yönetimi seçilir........................................passed
+* Butonlardan Kullanıcı Ekle isimli butona tıklanır.........................passed
+* Kullanıcı bilgileri VirgosolKullanici,otomasyon@virgosol.com,Virgosol,Otomasyon,5555555555,Firma,ELOGO6 olarak girilir.passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
