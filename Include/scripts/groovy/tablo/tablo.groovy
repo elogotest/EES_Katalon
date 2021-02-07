@@ -74,6 +74,17 @@ class tablo {
 	def tablodakiIsimliVerininDigerDegeriKontrolEdilir(String veri,String digerVeri) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodakiVerininYanindakiVeri"), ["Veri":veri,"DigerVeri":digerVeri] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Tablodaki eArsiv verisinin fatura numarası (.*) içeriyor mu")
+	def tablodakieArsivVerisininFaturaNoKontrolEdilir(String faturaNo) {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eArsivFaturaNumarasi"), ["FaturaNo":faturaNo] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tablodaki eFatura verisinin fatura numarası (.*) içeriyor mu")
+	def tablodakieFaturaVerisininFaturaNoKontrolEdilir(String faturaNo) {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eFaturaFaturaNumarasi"), ["FaturaNo":faturaNo] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 
 	@When("(.*) adlı klasör açılır")
 	def adliKlasorAcilir(String klasor) {

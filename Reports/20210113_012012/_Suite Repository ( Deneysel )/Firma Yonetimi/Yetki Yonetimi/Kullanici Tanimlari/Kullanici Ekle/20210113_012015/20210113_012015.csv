@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Kullanici Ekle,Chrome 87.0.4280.141,,,2021-01-13 01:21:05,2021-01-13 01:21:37,"31,617s",FAILED
-,,,,,,,
-Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Kullanici Ekle,Chrome 87.0.4280.141,,,2021-01-13 01:21:05,2021-01-13 01:21:37,"31,354s",FAILED
-Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.141,,,2021-01-13 01:21:05,2021-01-13 01:21:14,"8,163s",PASSED
-"runFeatureFile(""Include/features/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Kullanici Ekle.feature"")",Chrome 87.0.4280.141,,,2021-01-13 01:21:14,2021-01-13 01:21:37,"22,973s",FAILED
-Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.141,,,2021-01-13 01:21:37,2021-01-13 01:21:37,"0,001s",PASSED

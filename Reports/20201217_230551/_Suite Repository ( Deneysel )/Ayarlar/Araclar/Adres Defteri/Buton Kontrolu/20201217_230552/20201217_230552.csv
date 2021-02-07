@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Buton Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:05:59,2020-12-17 23:06:42,"42,170s",FAILED
-,,,,,,,
-Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:06:00,2020-12-17 23:06:42,"41,868s",FAILED
-Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:06:00,2020-12-17 23:06:09,"9,176s",PASSED
-"runFeatureFile(""Include/features/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu.feature"")",Chrome 87.0.4280.88,,,2020-12-17 23:06:09,2020-12-17 23:06:42,"32,350s",FAILED
-Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:06:42,2020-12-17 23:06:42,"0,000s",PASSED

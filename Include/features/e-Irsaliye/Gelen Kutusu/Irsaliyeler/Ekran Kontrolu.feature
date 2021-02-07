@@ -4,6 +4,15 @@ Feature: Gelen Kutusu Irsaliyeler Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    #* Filtre butonlarından Listele seçilir
+    #* Listelenen öğe sayısı Sayfa 1 / 4 (39 öğe) mi
+    #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
+    * Filtrelerden İrsaliye Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
+    * Filtrelerden İrsaliye Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Listelenen öğe sayısı Sayfa 1 / 1 (1 öğe) mi
     * Filtre alanlarında Gönderici Ünvanı var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında İrsaliye Yanıtı var mı
@@ -52,5 +61,5 @@ Feature: Gelen Kutusu Irsaliyeler Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | fatura_tarihi_baslangic | fatura_tarihi_bitis |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |              01.03.2020 |          31.03.2020 |

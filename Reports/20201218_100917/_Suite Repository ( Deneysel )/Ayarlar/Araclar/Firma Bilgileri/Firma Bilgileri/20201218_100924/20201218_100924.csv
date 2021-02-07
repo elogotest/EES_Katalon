@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Firma Bilgileri,,,,2020-12-18 10:10:22,2020-12-18 10:10:26,"4,164s",FAILED
-,,,,,,,
-Test Cases/Case Repository/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri,,,,2020-12-18 10:10:23,2020-12-18 10:10:26,"3,867s",FAILED
-Start listener action : sampleBeforeTestSuite,,,,2020-12-18 10:10:23,2020-12-18 10:10:25,"2,548s",ERROR
-"runFeatureFile(""Include/features/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri.feature"")",,,,2020-12-18 10:10:25,2020-12-18 10:10:26,"1,118s",FAILED
-Start listener action : sampleAfterTestSuite,,,,2020-12-18 10:10:26,2020-12-18 10:10:26,"0,000s",PASSED

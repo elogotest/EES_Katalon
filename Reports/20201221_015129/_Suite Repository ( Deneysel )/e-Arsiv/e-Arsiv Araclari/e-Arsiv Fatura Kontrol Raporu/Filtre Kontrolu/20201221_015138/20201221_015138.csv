@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Filtre Kontrolu,Chrome 87.0.4280.88,,,2020-12-21 01:54:15,2020-12-21 01:54:48,"32,083s",FAILED
-,,,,,,,
-Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Kontrol Raporu/Filtre Kontrolu,Chrome 87.0.4280.88,,,2020-12-21 01:54:16,2020-12-21 01:54:48,"31,828s",FAILED
-Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-21 01:54:16,2020-12-21 01:54:26,"10,028s",PASSED
-"runFeatureFile(""Include/features/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Kontrol Raporu/Filtre Kontrolu.feature"")",Chrome 87.0.4280.88,,,2020-12-21 01:54:26,2020-12-21 01:54:48,"21,561s",FAILED
-Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-21 01:54:48,2020-12-21 01:54:48,"0,000s",PASSED

@@ -100,6 +100,10 @@ class genel {
 	def kaydetSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/KaydetButonunaTiklanir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	@When("Vazgeç butonu seçilir")
+	def vazgecSecilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/VazgecButonunaTiklanir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Ekle butonuna basılır")
 	def ekleButonunaBasilir() {
@@ -178,5 +182,15 @@ class genel {
 	@When("Turist alanına (.*),(.*),(.*),(.*),(.*),(.*) girilir")
 	def TuristBilgileriGirilir(String ad,String soyad,String pasNo,String pasTarih,String pasUlke,String ulke) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/TuristGirilir"), ["Ad":ad,"Soyad":soyad,"PasNo":pasNo,"PasTarih":pasTarih,"PasUlke":pasUlke,"Ulke":ulke] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Fatura tarihi Bilgisi (.*) olarak girilir")
+	def faturaTarihiBilgileri(String faturaTarihi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/FaturaTarihiBilgisi"), ["FaturaTarihi":faturaTarihi] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Belge no bilgisi (.*) olarak girilir")
+	def belgeNoDegistir(String belgeNo) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/BelgeNoDegistir"), ["BelgeNo":belgeNo] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

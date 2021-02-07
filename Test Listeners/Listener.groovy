@@ -24,7 +24,7 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
 class Listener {
-	
+	/*
 	@BeforeTestCase
 	def sampleBeforeTestSuite() {
 		CustomKeywords.'Method.dosyalariSil'('C:\\otomasyondownfiles')
@@ -34,6 +34,7 @@ class Listener {
 	
 	@AfterTestCase
 	def sampleAfterTestSuite() {
-		//WebUI.closeBrowser()
+		WebUI.closeBrowser()
 	}
+	*/
 }

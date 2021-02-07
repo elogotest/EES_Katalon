@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Firma Bilgileri,Chrome 87.0.4280.88,,,2020-12-21 01:53:03,2020-12-21 01:53:31,"27,710s",FAILED
-,,,,,,,
-Test Cases/Case Repository/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri,Chrome 87.0.4280.88,,,2020-12-21 01:53:03,2020-12-21 01:53:31,"27,468s",FAILED
-Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-21 01:53:03,2020-12-21 01:53:12,"8,462s",PASSED
-"runFeatureFile(""Include/features/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri.feature"")",Chrome 87.0.4280.88,,,2020-12-21 01:53:12,2020-12-21 01:53:31,"18,751s",FAILED
-Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-21 01:53:31,2020-12-21 01:53:31,"0,001s",PASSED

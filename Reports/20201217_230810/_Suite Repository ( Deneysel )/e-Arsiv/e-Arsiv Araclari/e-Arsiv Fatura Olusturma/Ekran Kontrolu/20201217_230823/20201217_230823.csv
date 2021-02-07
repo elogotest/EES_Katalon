@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Ekran Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:08:36,2020-12-17 23:09:25,"49,432s",FAILED
-,,,,,,,
-Test Cases/Case Repository/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Olusturma/Ekran Kontrolu,Chrome 87.0.4280.88,,,2020-12-17 23:08:37,2020-12-17 23:09:25,"47,996s",FAILED
-Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:08:37,2020-12-17 23:08:50,"12,929s",PASSED
-"runFeatureFile(""Include/features/e-Arsiv/e-Arsiv Araclari/e-Arsiv Fatura Olusturma/Ekran Kontrolu.feature"")",Chrome 87.0.4280.88,,,2020-12-17 23:08:50,2020-12-17 23:09:25,"34,605s",FAILED
-Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.88,,,2020-12-17 23:09:25,2020-12-17 23:09:25,"0,002s",PASSED

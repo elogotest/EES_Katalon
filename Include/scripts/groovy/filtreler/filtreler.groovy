@@ -78,4 +78,14 @@ class filtreler {
 	def butonVarMi(String filtre_Buton) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/ButonVarMi"),["Filtre_Buton":filtre_Buton] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Filtre butonlarından Tüm Hesaplar butonuna tıklanır")
+	def tumHesaplarTikla() {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/TumHesaplar"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Listelenen öğe sayısı (.*) mi")
+	def listelenenOgeSayisi(String ogeSayisi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/ListelenenOgeSayisi"), ["OgeSayisi":ogeSayisi] , FailureHandling.STOP_ON_FAILURE)
+	}
 }

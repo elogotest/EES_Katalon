@@ -45,6 +45,7 @@ import cucumber.api.java.en.When
 
 
 class butonlar {
+	
 	@When("Butonlardan (.*) isimli butona tıklanır")
 	def butonaTikla(String buton_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/ButonaTikla"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
@@ -53,6 +54,11 @@ class butonlar {
 	@When("Alt butonlardan (.*) butonuna tıklanır")
 	def altButonaTikla(String alt_Buton) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/AltButonaTikla"), ["Alt_Buton":alt_Buton] , FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("Parametre butonlarından (.*) isimli butona tıklanır")
+	def paButonaTikla(String pabuton_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/ParametreButonunaTikla"), ["paButon_Adi":pabuton_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Ön eki (.*) olan dosya indirildi mi")
@@ -64,7 +70,7 @@ class butonlar {
 	def butonVarMi(String buton) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/ButonVarMi"), ["Buton":buton] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Filtreleri Kaydet var mı")
 	def filtrelerikaydetvarmi(String buton) {
 		WebUI.callTestCase(findTestCase("Test Cases/_FromSAHI(Tufan)/00_GenelFonksiyonlar/FiltreleriKaydetButonu_Varmi") , FailureHandling.STOP_ON_FAILURE)

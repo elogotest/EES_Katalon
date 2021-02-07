@@ -53,6 +53,5 @@ class kullaniciIslemleri {
 	def cacheTemizle() {
 		WebUI.callTestCase(findTestCase("Test Cases/Kullanici_Islemleri/CacheTemizlenir"),[:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
 }
 

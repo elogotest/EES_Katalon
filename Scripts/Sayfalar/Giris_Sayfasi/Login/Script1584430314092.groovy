@@ -3,6 +3,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import org.openqa.selenium.WebElement
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -20,17 +23,19 @@ Sayfa_Basligi = WebUI.getWindowTitle()
 
 WebUI.verifyMatch(Sayfa_Basligi, 'LOGO e-Fatura', false)
 
+/*
 if(WebUI.waitForElementPresent(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris"),5,FailureHandling.OPTIONAL)){
 	WebUI.click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris"))
 }
+
+*/
 
 WebUI.sendKeys(findTestObject('Sayfalar/Giris_Sayfasi/Firma_Kodu'), KullaniciAdi)
 
 WebUI.sendKeys(findTestObject('Sayfalar/Giris_Sayfasi/Sifre'), Sifre)
 
-WebUI.waitForElementClickable(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu'), GlobalVariable.Waits)
-
-WebUI.click(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu'))
+WebUI.findWebElement(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu')).click()
+//WebUI.click(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu'))
 
 if (WebUI.verifyElementPresent(findTestObject('Sayfalar/Giris_Sayfasi/PopupOK'), 5, FailureHandling.OPTIONAL)) {
     WebUI.click(findTestObject('Sayfalar/Giris_Sayfasi/PopupOK'))

@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Rol ve Departman Tanimla,Chrome 87.0.4280.141,,,2021-01-13 01:21:45,2021-01-13 01:22:14,"29,590s",FAILED
-,,,,,,,
-Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Rol ve Departman Tanimla,Chrome 87.0.4280.141,,,2021-01-13 01:21:45,2021-01-13 01:22:14,"29,339s",FAILED
-Start listener action : sampleBeforeTestSuite,Chrome 87.0.4280.141,,,2021-01-13 01:21:45,2021-01-13 01:21:53,"8,168s",PASSED
-"runFeatureFile(""Include/features/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Rol ve Departman Tanimla.feature"")",Chrome 87.0.4280.141,,,2021-01-13 01:21:53,2021-01-13 01:22:14,"20,921s",FAILED
-Start listener action : sampleAfterTestSuite,Chrome 87.0.4280.141,,,2021-01-13 01:22:14,2021-01-13 01:22:14,"0,001s",PASSED
