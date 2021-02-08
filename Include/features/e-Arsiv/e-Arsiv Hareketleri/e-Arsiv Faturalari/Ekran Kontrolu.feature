@@ -6,13 +6,18 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    #* Filtre butonlarından Listele seçilir
-    #* Listelenen öğe sayısı Sayfa 1 / 1 (8 öğe) mi
+    * Filtre butonlarından Listele seçilir
+    * Listelenen öğe sayısı Sayfa 1 / 1 (8 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
+		* Anasayfaya geri dönülür
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Faturaları seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
     * Filtrelerden Fatura Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
-    * Listelenen öğe sayısı Sayfa 1 / 1 (2 öğe) mi
+    * Listelenen öğe sayısı Sayfa 1 / 1 (2 öğe) mi    
     * Filtre alanlarında Alıcı Ünvanı var mı
     * Filtre alanlarında Vergi Dahil Tutar var mı
     * Filtre alanlarında Fatura Tarihi var mı

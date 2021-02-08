@@ -6,9 +6,14 @@ Feature: e-Mustahsil Makbuzlari Buton Kontrolu
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
 		* Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
-    #* Filtre butonlarından Listele seçilir
-    #* Listelenen öğe sayısı Sayfa 1 / 1 (2 öğe) mi
+    * Filtre butonlarından Listele seçilir
+    * Listelenen öğe sayısı Sayfa 1 / 1 (2 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
+    * Anasayfaya geri dönülür
+    * Ana menüden e-Makbuz seçilir
+    * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
+		* Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz    
     * Filtrelerden Makbuz Tarihi filtresine <fatura_tarihi_baslangic> baslangic degerini yaz    
     * Filtrelerden Makbuz Tarihi filtresine <fatura_tarihi_bitis> bitis degerini yaz
     * Filtre butonlarından Listele seçilir

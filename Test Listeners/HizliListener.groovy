@@ -23,7 +23,7 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
 class HizliListener {
-	
+	/*
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
 		CustomKeywords.'Method.dosyalariSil'('C:\\otomasyondownfiles')
@@ -54,5 +54,6 @@ class HizliListener {
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		WebUI.closeBrowser()
 	}
+	*/
 	
 }
