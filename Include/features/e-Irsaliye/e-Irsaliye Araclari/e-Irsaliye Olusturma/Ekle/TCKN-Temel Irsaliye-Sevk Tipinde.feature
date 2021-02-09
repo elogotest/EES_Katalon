@@ -60,4 +60,4 @@ Feature: TCKNo ile Temel Irsaliye senaryosunda ve SEVK tipinde irsaliye olusturu
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | aciklamasi | miktari | birimFiyat | not           | not1                   | unvan                 | tag            |
-      | ELOGO6       | 123456 | UC0038    | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | DespatchAdvice |
+      | ELOGO6       | 123456 | UC0045    | Otomasyon   | Virgosol   |     400 |        100 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | DespatchAdvice |

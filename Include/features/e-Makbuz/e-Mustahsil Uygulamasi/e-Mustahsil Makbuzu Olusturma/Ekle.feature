@@ -50,4 +50,4 @@ Feature: e-Mustahsil Makbuzu Olusturma
 
     Examples: 
       | kullaniciAdi | sifre  | alici_Adi | malzeme_adi | miktari | stopaj_Orani | not           | not1                   | unvan                 | tag        |
-      | ELOGO6       | 123456 | UC0038    | Otomasyon   |     400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | CreditNote |
+      | ELOGO6       | 123456 | UC0045    | Otomasyon   |     400 |           10 | Otomasyon Not | Otomasyon Not Değiştir | VirgosolOtomasyonTEST | CreditNote |

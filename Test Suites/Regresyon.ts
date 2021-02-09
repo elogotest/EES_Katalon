@@ -108,12 +108,6 @@
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4992507a-af65-4914-a06a-33c2f2571d34</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ihracat-Istisna</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>046dc10c-73ff-4f43-9592-ec61e9162812</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
