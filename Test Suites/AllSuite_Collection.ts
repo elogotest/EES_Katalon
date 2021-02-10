@@ -3,7 +3,7 @@
    <description>Tüm Fonksiyonel Kontroller</description>
    <name>AllSuite_Collection</name>
    <tag></tag>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>1</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>

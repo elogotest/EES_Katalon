@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>FirmaYonetimi</name>
+   <name>Firma_Yonetimi</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>452a5827-98c5-4d67-8898-ec912a83f037</testSuiteGuid>
+   <testSuiteGuid>d6b4ac89-c997-40ef-ab8a-f87784d82061</testSuiteGuid>
    <testCaseLink>
-      <guid>8db2296c-5b93-47e8-a60a-813ab6d54601</guid>
+      <guid>0a491611-21b8-4a38-bbdb-e05df43fe4e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Departman Ekle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>baf0967a-fbf9-4b86-b302-a7595818a8c2</guid>
+      <guid>65b25b2b-4e7b-43f2-a1ab-0290aa03bac6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>434e8be4-63be-4c39-9225-95e2567e147a</guid>
+      <guid>51e458d8-2b7b-462b-af63-4e7808cdfe98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Kural Tanimla/Kural Ekle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ad87951-e9bc-4367-a02d-f61192e667cd</guid>
+      <guid>1a9c91a9-222a-4d87-9917-42e99aef058b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Kural Tanimla/Kural Sil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>434be36b-7c0d-4842-8e7b-771544c6b9bd</guid>
+      <guid>cd1cbc00-7354-480b-8c17-e342d1b9c8b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Departman Tanimlari/Sil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>08b3e5cb-7a15-40f7-bb43-912a7985123d</guid>
+      <guid>714bf1b0-e525-4c5f-8d29-4def7fcecdb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f2271bbd-6cc9-4001-b468-fd72ac74e808</guid>
+      <guid>ac441b7c-6a11-448d-828a-2d63b641a02f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Kullanici Ekle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e3759c34-1b1b-467a-895d-70fb69c1dcb4</guid>
+      <guid>b235be89-e02c-4a42-97b9-d41bf5c739d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Rol ve Departman Tanimla</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8dac2e36-bda5-40b8-ae78-d76fab5b0eef</guid>
+      <guid>722733fd-c195-4c17-b11c-c947be431fbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Kullanici Tanimlari/Sil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b8a26f16-c251-49ed-8f4d-bde3f10517d8</guid>
+      <guid>b3c32c07-b9d6-4953-afae-fb66d5baa4ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>075d8f3a-90ac-4e70-8f3f-3a871f780ec4</guid>
+      <guid>b03af4b0-aeef-4621-a991-e22387913b31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Rol Ekle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>947890cc-f0cf-4046-8c24-92a7ee03f9f8</guid>
+      <guid>2979d26b-eeba-4c09-b6d0-8f44085e9ca3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Sil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ed920881-b155-4fb3-b892-78ebd8af732c</guid>
+      <guid>241433f9-245b-4ace-9d2f-cf732fe2a971</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Firma Yonetimi/Yetki Yonetimi/Rol ve Yetki Tanimlari/Yetki Tanimla</testCaseId>

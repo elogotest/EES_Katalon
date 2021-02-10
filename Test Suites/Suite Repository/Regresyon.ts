@@ -10,237 +10,237 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4aade6f5-718b-4fca-8406-f8f5897f7605</testSuiteGuid>
+   <testSuiteGuid>ebd43bf0-b2bb-43fc-829a-15cbb5035ee9</testSuiteGuid>
    <testCaseLink>
-      <guid>350118f6-c43c-462b-a1db-0dd6a9b339ea</guid>
+      <guid>5bf09b72-bd41-4688-bb0e-45ea507ce8a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Hal Komisyoncu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>23dd3330-cc1e-4719-95c5-19acf81fd4a5</guid>
+      <guid>93bb5b19-1e5e-4df4-8631-0e8f3e8ad54c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Hal Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc48c0cd-71bb-41c9-a7f6-964133cec43f</guid>
+      <guid>c5958fdf-9141-4c25-9a5c-2837b253746c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Iade</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f66f6b1e-3ee4-44f2-accc-a4f746ac2c6b</guid>
+      <guid>bde81ee9-76b9-442b-8b5f-58c707773ad7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3888b6c4-c806-4bb9-9a73-cea8d5eec228</guid>
+      <guid>70d24b64-3d85-4133-bf20-5314772779d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d0b9eed-dab1-4746-88cb-cf0df7596b5d</guid>
+      <guid>c3d75a5e-5971-4210-8ea6-943e6ca5f7c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1eba12f0-33fd-485e-bb0f-fceb14e3a5e0</guid>
+      <guid>62239f43-887d-49da-9b4a-56f18b5a8c54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ea9f538-ca39-47bf-87e3-965245ef1b69</guid>
+      <guid>bedac12c-5098-474a-86e7-d4369c248d8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Elektronik-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0514e49d-930d-4597-a523-370c0be3cb9c</guid>
+      <guid>b344a940-f6c2-4ec0-b180-2f301c6bef31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Hal Komisyoncu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>31f54670-f8a3-47ef-b980-771c520932e9</guid>
+      <guid>752f9119-5ab8-405a-984a-e3f09fc70fd5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Hal Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50a6743c-daf1-4f51-a8e4-0c37e72dee71</guid>
+      <guid>3f2b5cd0-7653-4ab3-8961-eecc32a77b8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Iade</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4dac3065-e055-4a08-88e6-1adacfae049c</guid>
+      <guid>35cab603-1b48-4baf-b1d3-bf218dfcf3cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>523a0f36-b90a-4165-80ea-57d43dea1cb7</guid>
+      <guid>ae5e9be0-49f0-4d90-b30a-4d0ba28674a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2e8999e-30a1-4036-a840-5682a9b14023</guid>
+      <guid>f2c5b721-e19f-4187-a0d5-d475d166fe1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d8295974-7234-4ea9-bed7-1fe3a8aaf480</guid>
+      <guid>4ccf83f5-fc63-4cad-9aaa-b343960b88b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>836b3414-f6f9-4bc6-9bf2-a5f37d2d75e4</guid>
+      <guid>1467746d-6523-40d8-bcef-fc73464b3c78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Kagit-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>046dc10c-73ff-4f43-9592-ec61e9162812</guid>
+      <guid>1589e899-4a7d-40d5-b9b0-c015b59e2bab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Kamu-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b23ba6f-e308-459d-87c7-0a2bef6668d0</guid>
+      <guid>0bcd6983-3472-4ec3-b917-b95e3591f604</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Kamu-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ec169118-9509-4196-a5e5-afbcf1ffde52</guid>
+      <guid>9f8be89f-edf0-4018-9a3d-7fcf6019b993</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Kamu-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dd2f4ac1-22e2-42fa-8f48-74424e65fb96</guid>
+      <guid>e153e925-4aae-4b4a-9d19-a81c62b093db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Kamu-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>44f20801-aaae-47db-9b28-9ff6fd5091ce</guid>
+      <guid>fc429250-b765-424d-844e-babac25a5e11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Kamu-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee871eaa-6334-4dc5-8243-2ea91597af71</guid>
+      <guid>c82386df-d2a5-4c2e-a239-a6d64d5d6195</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Iade</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>28486466-a8e6-4aa3-bcf8-6d2ac5d92103</guid>
+      <guid>b4abafeb-c649-45b8-a524-66d48d0a8dfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fdd68dae-d521-4135-86bc-69fca3fe09ec</guid>
+      <guid>80364f9e-aa6a-4115-8fc6-4560c044a954</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8925b871-4df4-4036-b651-3d68e10909dc</guid>
+      <guid>8fe0131b-3589-41f0-a713-1ce11425faa6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5cbc59fa-e629-4f76-9abd-ccd794cb297f</guid>
+      <guid>cd5404a2-2659-4e17-8b5f-13401074aede</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>88ba575e-3ecc-4686-893f-a53a2b0ff9e3</guid>
+      <guid>7cd99c04-5d6b-476a-b2d8-ca4433390bac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Sgk</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dbd6aceb-03e3-4411-b07c-39a57bb588cc</guid>
+      <guid>6ebada56-9c8a-486d-a382-860996dab1a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Temel Fatura-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>89a241b7-974d-444b-adb8-980a3a8fc09e</guid>
+      <guid>28d5b4c5-a533-411f-a52e-e67c8ab4e124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Ihrac Kayitli</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>09de633f-b4b6-4b7f-84ae-defad4d1546d</guid>
+      <guid>5ae15cb6-4636-4886-80f9-8f1c4ea67f22</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>46c9182f-453a-41c7-b40c-e74e3d21cbd3</guid>
+      <guid>02cd4a2a-4e78-4041-909d-0c8e72856f7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Ozel Matrah</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7c01c5bc-f4b3-4bde-830e-613b27a0e461</guid>
+      <guid>36cc4fd1-5664-4e04-ae1f-9559b7ab1e64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Satis</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>602c98db-812d-4ee0-8469-641a45656845</guid>
+      <guid>74d159c9-ccc6-426f-aec3-f8c79a316c92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Ticari Fatura-Tevkifat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6c77eaaf-9b59-4a31-82ba-9048bbb7e700</guid>
+      <guid>f1a6f13a-485a-4726-98d1-7d8b336d41b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Fatura/VKN-Yolcu Beraber-Istisna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>46b01f9b-67b1-4066-8320-6f21e21a0d25</guid>
+      <guid>da6afbc1-e732-4644-8e3d-027530fa7537</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Hal Tipi Irsaliye</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4b517070-c06f-4126-a197-30fe4738af7b</guid>
+      <guid>821c7364-acd6-4066-a0ec-8ad5770a8a85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Irsaliye/Temel Irsaliye</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2e56eb1-33b5-4898-96c0-4799e262700c</guid>
+      <guid>eeecabf0-90ab-469b-8fb3-a765f9fe6220</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Mustahsil Makbuz/TCKN-e-Mustahsil Makbuz</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a1e4b5d-e3f4-42ba-87b4-15d7b147a762</guid>
+      <guid>08ea64ad-afec-4201-9d6d-eadc0c3f2f3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Elektronik</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83bd3dc9-6293-4c15-b1ef-3699c91aedc3</guid>
+      <guid>ceb614cb-3aa0-4d2a-9163-4851ab503004</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Kagit</testCaseId>
