@@ -41,5 +41,5 @@ Feature: e-Arsiv e-Belge Numarasi silinebilsin
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi         | urun_Adi  | aciklamasi | unvan                   | filtreDegeri | filtreDegeri2 | unvan_2                |
-      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |   25.09.2020 |    25.09.2020 | VirgosolOtomasyon39267 |
+      | kullaniciAdi | sifre    | alici_Adi         | urun_Adi  | aciklamasi | unvan                   | filtreDegeri | filtreDegeri2 | unvan_2                |
+      | ELOGOGIB     | Aa802030 | VirgosolFaturaVKN | Otomasyon | Virgosol   | VirgosolOtomasyon600413 |   25.09.2020 |    25.09.2020 | VirgosolOtomasyon39267 |

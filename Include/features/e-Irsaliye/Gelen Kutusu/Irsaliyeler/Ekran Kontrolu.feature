@@ -63,6 +63,56 @@ Feature: Gelen Kutusu Irsaliyeler Buton Kontrolu
     * Alt butonlardan İndir var mı
     * Butonlardan Statü Ata isimli butona tıklanır
     * Alt butonlardan Öndeğer var mı
+    #Fulltextsearch Islemleri
+  	* Anasayfaya geri dönülür
+    * Ana menüden e-İrsaliye seçilir
+    * Alt menü Gelen Kutusu başlığı altındaki İrsaliyeler seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+        #Gönderici Unvanı
+    * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik GIB Test textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönderici Ünvanı filtresine *Elektronik GIB Test textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönderici Ünvanı filtresine Logo Elektronik* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Gönderici Ünvanı filtresine *Elektronik* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  			#Gönderici VKN/TCKN
+    * Filtrelerden Gönderici Ünvanı filtresinin iceriğini sil
+  	* Filtrelerden Gönd. VKN/TCKN filtresine 6090408038 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Gönd. VKN/TCKN filtresine *90408038 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Gönd. VKN/TCKN filtresine 6090408* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Gönd. VKN/TCKN filtresine *90408* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	    #İrsaliye no
+    * Filtrelerden Gönd. VKN/TCKN filtresinin iceriğini sil
+  	* Filtrelerden İrsaliye No filtresine AAA2020000000003 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine *A2020000000003 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine AAA2020000000* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine *A2020000000* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir      
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

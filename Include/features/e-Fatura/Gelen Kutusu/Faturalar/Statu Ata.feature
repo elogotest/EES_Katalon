@@ -13,6 +13,8 @@ Feature: Faturaya Statu Ata
     * Alt butonlardan Öndeğer butonuna tıklanır
     * Popup mesajı Statü Başarılı Olarak Güncellendi içeriyor mu
     * Yönetim popupında Tamam seçilir
+    * Filtrelerden Belge statusu Öndeğer olarak secilir
+    * Filtre butonlarından Listele seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

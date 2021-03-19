@@ -45,7 +45,7 @@ import cucumber.api.java.en.When
 
 
 class butonlar {
-	
+
 	@When("Butonlardan (.*) isimli butona tıklanır")
 	def butonaTikla(String buton_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/ButonaTikla"), ["Buton_Adi":buton_Adi] , FailureHandling.STOP_ON_FAILURE)
@@ -86,4 +86,35 @@ class butonlar {
 	def pdfGorseliKontrolEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/PDFGorseliVarMi"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Sayfa butonlarından (.*) numaralı sayfa butonuna tıklanır")
+	def numaraliSayfayaGec(String sayfaNumarasi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/NumaraliSayfayaGec"), ["SayfaNumarasi":sayfaNumarasi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Sayfa butonlarından sonraki sayfa butonuna tıklanır")
+	def sonrakiSayfayaGec() {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SonrakiSayfa"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Sayfa butonlarından önceki sayfa butonuna tıklanır")
+	def oncekiSayfayaGec() {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/OncekiSayfa"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Sayfa butonlarından son sayfa butonuna tıklanır")
+	def sonSayfayaGec() {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SonSayfa"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Sayfa butonlarından ilk sayfa butonuna tıklanır")
+	def ilkSayfayaGec() {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/ilkSayfa"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Sayfa boyutu (.*) olarak seçilir")
+	def sayfaBoyutu(String sayfaBoyutu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Butonlar/SayfaBoyutu"), ["SayfaBoyutu":sayfaBoyutu] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 }

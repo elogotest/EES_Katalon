@@ -70,4 +70,10 @@ class parametreler {
 	def belgeTarihiDegistirilebilsin(String tarihDegistir) {
 		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Ayarlar/Parametreler/BelgeTarihiDegistir"), ["TarihDegistir":tarihDegistir] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("e-Fatura Mailing Hizmeti Posta Şablonu isimli parametrenin değeri (.*) mi")
+	def FaturaMailingKontrolu(String transId) {
+		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Ayarlar/Parametreler/FaturaMailingKontrolu"), ["TransId":transId] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 }

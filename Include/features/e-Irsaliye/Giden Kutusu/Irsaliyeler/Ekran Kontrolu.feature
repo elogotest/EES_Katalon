@@ -63,6 +63,70 @@ Feature: Giden Kutusu Irsaliyeler Buton Kontrolu
     * Alt butonlardan İndir var mı
     * Butonlardan Statü Ata isimli butona tıklanır
     * Alt butonlardan Öndeğer var mı
+    #Fulltextsearch Islemleri
+  	* Anasayfaya geri dönülür
+    * Ana menüden e-İrsaliye seçilir
+    * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+        #Alıcı Unvanı
+    * Filtrelerden Alıcı Ünvanı filtresine Logo Elektronik GIB Test textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı Ünvanı filtresine Logo Elektronik GIB textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı Ünvanı filtresine *Elektronik GIB Test textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı Ünvanı filtresine Logo Elektronik* textini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
+    * Filtrelerden Alıcı Ünvanı filtresine *Elektronik* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  			#Alıcı VKN/TCKN
+    * Filtrelerden Alıcı Ünvanı filtresinin iceriğini sil
+  	* Filtrelerden Alıcı VKN/TCKN filtresine 6090408038 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Alıcı VKN/TCKN filtresine *90408038 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Alıcı VKN/TCKN filtresine 6090408* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Alıcı VKN/TCKN filtresine *90408* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	    #İrsaliye no
+    * Filtrelerden Alıcı VKN/TCKN filtresinin iceriğini sil
+  	* Filtrelerden İrsaliye No filtresine FER2020000000012 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine *ER2020000000012 textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine FER2020000000* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden İrsaliye No filtresine *ER202000000* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	  	#Müşteri Bayi Kodu
+  	* Filtrelerden Alıcı VKN filtresinin iceriğini sil
+  	* Filtrelerden Müşteri Bayi Kodu filtresine CustomerDealerNo textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Müşteri Bayi Kodu filtresine *tomerDealerNo textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Müşteri Bayi Kodu filtresine CustomerDeale* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir
+  	* Filtrelerden Müşteri Bayi Kodu filtresine *tomerDeale* textini yaz
+  	* Filtre butonlarından Listele seçilir
+  	* Tabloda veri var mı kontrol edilir        
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

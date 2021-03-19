@@ -10,10 +10,10 @@ Feature: e-Arsiv Faturasi Tablodaki Verinin Gorseli
     * Tabloda veri var mı kontrol edilir
     * Tablodaki <veri_Adi> isimli verinin Fatura adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
-    * Yeni sekme başlığında e-Arşiv Fatura var mı kontrol edilir
+    * Yeni sekme başlığında e-Arşiv var mı kontrol edilir
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi  |
-      | ELOGO6       | 123456 |   01.07.2020 |    31.07.2020 | test test |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi   |
+      | ELOGO6       | 123456 |   01.02.2020 |    29.02.2020 | sena şahin |

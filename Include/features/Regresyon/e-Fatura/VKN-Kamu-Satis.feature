@@ -23,6 +23,12 @@ Feature: VKNo ile Kamu senaryosunda ve Satis tipinde fatura olusturulmasi ve Exc
     * Ürün ekleme alanında Miktarı başlığına <miktari> girilir
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
+    * Ekle butonuna basılır
+    * Ürün ekleme alanında Mal/Hizmet başlığına virgosol girilir
+    * Ürün ekleme alanında Açıklaması başlığına oto girilir
+    * Ürün ekleme alanında Miktarı başlığına 300 girilir
+    * Ürün ekleme alanında Birim Fiyat başlığına 50 girilir
+    * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
     * Notlar alanına <not> girilir
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu

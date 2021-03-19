@@ -23,5 +23,5 @@ Feature: e-Arsiv e-Belge Tarihi Degistirilebilsin
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | unvan                  | fatura_tarihi    |
-      | ELOGOGIB     | 123456 |   08.10.2020 |    08.10.2020 | VirgosolOtomasyon39267 | 02.09.2020 23:44 |
+      | kullaniciAdi | sifre    | filtreDegeri | filtreDegeri2 | unvan                  | fatura_tarihi    |
+      | ELOGOGIB     | Aa802030 |   01.01.2020 |    08.10.2020 | VirgosolOtomasyon39267 | 02.09.2020 23:44 |

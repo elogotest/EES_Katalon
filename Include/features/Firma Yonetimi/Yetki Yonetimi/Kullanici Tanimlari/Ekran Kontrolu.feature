@@ -17,7 +17,7 @@ Feature: Kullanici Tanimlari Buton Kontrolu
     * Butonlardan Kullanıcı Ekle var mı
     * Butonlardan Değiştir var mı
     * Butonlardan Sil var mı
-    * Butonlardan Şifre Sıfırla var mı
+    #* Butonlardan Şifre Sıfırla var mı
     * Butonlardan Rol ve Departman Tanımla var mı
     * Kullanıcı işlemlerinden Çıkış seçilir
 

@@ -26,5 +26,5 @@ Feature: eArsiv Gecmise Donuk Fatura Olustur Hayir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | alici_Adi         | fatura_tarihi    | urun_Adi  | aciklamasi | unvan             |
-      | ELOGOGIB     | 123456 | VirgosolFaturaVKN | 27.09.2020 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon |
+      | kullaniciAdi | sifre    | alici_Adi         | fatura_tarihi    | urun_Adi  | aciklamasi | unvan             |
+      | ELOGOGIB     | Aa802030 | VirgosolFaturaVKN | 27.09.2020 23:44 | Otomasyon | Virgosol   | VirgosolOtomasyon |

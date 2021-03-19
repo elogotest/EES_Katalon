@@ -43,7 +43,6 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
 class filtreler {
 	@Given("Filtrelerden (.*) filtresine (.*) textini yaz")
 	def filtreTexboxinaYaz(String filtre_Adi, String filtreDegeri) {
@@ -84,8 +83,22 @@ class filtreler {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/TumHesaplar"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 	
+	@When("Atanan departman (.*) olarak secilir")
+	def atananDepartman(String departman) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/atananDepartman"), ["Departman":departman] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Filtrelerden Belge statusu (.*) olarak secilir")
+	def statuSecilir(String statu) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/statuSecilir"), ["Statu":statu] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Listelenen öğe sayısı (.*) mi")
 	def listelenenOgeSayisi(String ogeSayisi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/ListelenenOgeSayisi"), ["OgeSayisi":ogeSayisi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	@When("Filtrelerden (.*) filtresinin iceriğini sil")
+	def filtreTemizle(String filtre_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/filtreIcerigiSil"), ["Filtre_Adi":filtre_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
 }

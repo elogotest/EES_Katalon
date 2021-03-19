@@ -16,6 +16,8 @@ Feature: Faturaya departman ata
     * Popup mesajı Seçilen belgeler ilgili departmanlara aktarılmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     * Ana sekmeye geçilir
+    * Atanan departman <departman> olarak secilir
+    * Filtre butonlarından Listele seçilir
     * Butonlardan Departman Geri Al isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <departman> isimli departman checkboxı seçilir

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[2]/div/form/div/div[1]/div/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/div/div/div/div/div[1]/div/table/tbody/tr/td/div[2]/table/tbody/tr[2]/td[3]</value>
+         <value>#GridViewEInvoicePrefix .dxgvDataRow_LECustomTheme>td:nth-child(3)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div/form/div/div[1]/div/div/table/tbody/tr[2]/td/div/table/tbody/tr/td/div/div/div/div/div[1]/div/table/tbody/tr/td/div[2]/table/tbody/tr[2]/td[3]</value>
+      <value>#GridViewEInvoicePrefix .dxgvDataRow_LECustomTheme>td:nth-child(3)</value>
    </webElementProperties>
 </WebElementEntity>

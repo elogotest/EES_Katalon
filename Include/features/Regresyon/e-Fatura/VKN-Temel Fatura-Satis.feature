@@ -10,7 +10,7 @@ Feature: VKNo ile Temel Fatura senaryosunda ve Satis tipinde fatura olusturulmas
     * Alıcı adı alanına <alici_Adi> girilir
     * Senaryo alanından Temel Fatura seçilir
     * Tip alanından Satış seçilir
-    * Döküman Para Birimi alanından Türk Lirası seçilir
+    * Döküman Para Birimi alanından Euro seçilir
     * Ön Ek EFA olarak seçilir
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir

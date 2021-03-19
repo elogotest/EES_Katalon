@@ -16,7 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+CustomKeywords.'Method.TextDegerineEsitElementinAltindaTextDegerineEsitOlanVarMi'(findTestObject(
+	"Sayfalar/Ayarlar/Firma Bilgileri/OnEkIsimleri"), findTestObject("Sayfalar/Ayarlar/Firma Bilgileri/OnEkYeniYili"), OnEk, Yil)
 
-WebUI.waitForElementPresent(findTestObject("Sayfalar/Ayarlar/Firma Bilgileri/OnEkYeniYili"), 10)
+//WebUI.waitForElementPresent(findTestObject("Sayfalar/Ayarlar/Firma Bilgileri/OnEkYeniYili"), 10)
 
-WebUI.verifyElementText(findTestObject("Sayfalar/Ayarlar/Firma Bilgileri/OnEkYeniYili"), Yil)
+//WebUI.verifyElementText(findTestObject("Sayfalar/Ayarlar/Firma Bilgileri/OnEkYeniYili"), Yil)

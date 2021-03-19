@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>.btn.btn-link.accordion-title.border-0.collapsed</value>
+         <value>.btn.btn-link.accordion-title.border-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>.btn.btn-link.accordion-title.border-0.collapsed</value>
+      <value>.btn.btn-link.accordion-title.border-0</value>
    </webElementProperties>
 </WebElementEntity>

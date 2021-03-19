@@ -46,9 +46,9 @@ import cucumber.api.java.en.When
 
 class firmaBilgileri {
 
-	@When("ARV ön ekinin yılı (.*) mi")
-	def onEkYeniyil(String yil) {
-		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Ayarlar/Firma Bilgileri/OnEkYili"), ["Yil":yil] , FailureHandling.STOP_ON_FAILURE)
+	@When("(.*) ön ekinin yılı (.*) mi")
+	def onEkYeniyil(String onEk, String yil) {
+		WebUI.callTestCase(findTestCase("Test Cases/Sayfalar/Ayarlar/Firma Bilgileri/OnEkYili"), ["Onek":onEk,"Yil":yil] , FailureHandling.STOP_ON_FAILURE)
 	}
 	
 }
