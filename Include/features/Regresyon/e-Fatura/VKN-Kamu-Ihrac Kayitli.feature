@@ -15,7 +15,7 @@ Feature: VKNo ile Kamu senaryosunda ve Ihrac Kayitli tipinde fatura olusturulmas
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
-    * Ödeme Bilgileri TR193739520062686063252625,Türk Lirası olarak girilir
+    * Kamu için Ödeme Bilgileri TR193739520062686063252625,Türk Lirası,3214525138 olarak girilir
     * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
@@ -24,23 +24,24 @@ Feature: VKNo ile Kamu senaryosunda ve Ihrac Kayitli tipinde fatura olusturulmas
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
     * Notlar alanına <not> girilir
-    * Kaydet butonu seçilir
-    * Tabloda <unvan> ünvanlı veri oluşturuldu mu
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Numara Oluştur isimli butona tıklanır
-    * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Popup mesajı oluşmuştur içeriyor mu
-    * Yönetim popupında Tamam seçilir
-    * Tablodan <unvan> isimli veri seçilir
-    * Butonlardan Gönder isimli butona tıklanır
-    * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Ana menüden e-Fatura seçilir
-    * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
-    * Filtrelerden Alıcı Ünvan filtresine <unvan> textini yaz
-    * Filtre butonlarından Listele seçilir
-    * Tabloda veri var mı kontrol edilir
+    * Efatura türünde kaydet numara oluştur gönder ettn bilgisi ile kontrol et    
+    #* Kaydet butonu seçilir
+    #* Tabloda <unvan> ünvanlı veri oluşturuldu mu
+    #* Tablodan <unvan> isimli veri seçilir
+    #* Butonlardan Numara Oluştur isimli butona tıklanır
+    #* Popup mesajı Devam etmek istiyor musunuz içeriyor mu
+    #* Yönetim popupında Evet seçilir
+    #* Popup mesajı oluşmuştur içeriyor mu
+    #* Yönetim popupında Tamam seçilir
+    #* Tablodan <unvan> isimli veri seçilir
+    #* Butonlardan Gönder isimli butona tıklanır
+    #* Popup mesajı Devam etmek istiyor musunuz içeriyor mu
+    #* Yönetim popupında Evet seçilir
+    #* Ana menüden e-Fatura seçilir
+    #* Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
+    #* Filtrelerden Alıcı Ünvan filtresine <unvan> textini yaz
+    #* Filtre butonlarından Listele seçilir
+    #* Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

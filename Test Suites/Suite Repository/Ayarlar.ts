@@ -54,12 +54,6 @@
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Onizleme</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0108aac-ff0e-4796-a354-bf40518085c7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Tasarimi Indir</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1937e833-f07e-43af-b854-41f7664e2fff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -76,12 +70,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Guncelle</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d0cd90f7-b729-4878-a70e-68f9ac78728f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4ef87992-eabf-44b4-ac5f-4d5728308942</guid>

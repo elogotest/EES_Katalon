@@ -22,6 +22,7 @@ Feature: Gonderim tipi Kagit ve Iade tipinde e-Arsiv faturasi olusturulmasi
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
     * Notlar alanına <not> girilir
+    * Ettn bilgisi kayıt edilir
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
     * Tablodan <unvan> isimli veri seçilir

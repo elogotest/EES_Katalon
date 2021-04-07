@@ -9,26 +9,10 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'), 10)
-
-WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'))
-
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'))
-
-WebUI.sendKeys(findTestObject("Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi"), Iban)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'), 10)
-
-WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'))
-
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'))
-
-WebUI.sendKeys(findTestObject("Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi"), Doviz)
+CucumberKW.runFeatureFile("Include/features/e-Makbuz/e-Serbest Meslek Uygulaması/e-Serbest Meslek Makbuz Raporlari/GIBe Gonder.feature")

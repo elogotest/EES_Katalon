@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import java.sql.Driver
 
-import com.google.common.collect.FilteredEntryMultimap.Keys
 import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
 import com.kms.katalon.core.annotation.Keyword
@@ -25,9 +24,9 @@ import com.thoughtworks.selenium.webdriven.commands.SeleniumSelect
 
 import internal.GlobalVariable
 import io.appium.java_client.functions.ExpectedCondition
-import MobileBuiltInKeywords as Mobile
-import WSBuiltInKeywords as WS
-import WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import org.openqa.selenium.WebElement
 import org.stringtemplate.v4.compiler.STParser.element_return
@@ -75,6 +74,7 @@ class Method {
 		}
 		assert a
 	}
+	
 
 	@Keyword
 	def TextDegerineEsitElementeTiklaEquals(TestObject object, String text) {

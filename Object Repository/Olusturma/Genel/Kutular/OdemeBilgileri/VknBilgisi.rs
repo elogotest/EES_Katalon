@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PopupBaslik</name>
+   <name>VknBilgisi</name>
    <tag></tag>
-   <elementGuidId>0384a80c-3d00-40cd-877c-baffb6d26176</elementGuidId>
+   <elementGuidId>d3056098-f441-489d-9efc-333f0d001457</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'modalTitle']</value>
+         <value>.dxic #txtPaymentCustomerText_I</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>body h4</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>modalTitle</value>
+      <value>.dxic #txtPaymentCustomerText_I</value>
    </webElementProperties>
 </WebElementEntity>

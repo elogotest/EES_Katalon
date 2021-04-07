@@ -36,12 +36,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/Excel e-Fatura Olusturma/Buton Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>52111fc4-5088-4fa3-8138-a34b20921ea1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/e-Fatura Araclari/Excel e-Fatura Olusturma/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fec62665-fb8f-4cf5-b5f7-d09cf42f3013</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -60,12 +54,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d2190d85-f52e-4b83-b3b5-3ade6964b51b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>894a4ba1-2201-4d55-8ef4-f0cf29569ba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -76,12 +64,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Izleme Kayitlari</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d66c5a94-ad1f-4480-800d-ac65bcdf5aeb</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>efcde106-5e79-4283-bb50-5f5f59d281dc</guid>
@@ -108,12 +90,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Tum Hesaplar Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5d940f5c-476b-4730-87a8-b7c3328f5904</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/UBL-Goster-Indir</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5e8fe5a1-ebe5-415b-a1b2-2aaa191844b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -130,12 +106,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Ekran Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3d4cc3a6-4f22-4062-ad07-2df634315712</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Excele Aktar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b36165e7-1024-4e99-8448-03f5dfb9b062</guid>
@@ -168,12 +138,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Tum Hesaplar Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc81a1ea-bbec-4800-8f58-f1a82ebf86ee</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cbef9813-1b17-479e-ad6c-0fca230c8740</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -184,12 +148,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Ekran Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8d677c75-934f-490b-80f7-eadaf1a35109</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Excele Aktar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d7da7b4f-e9eb-4561-96e5-ebe2e875be04</guid>
@@ -228,12 +186,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Tum Hesaplar Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a70a67d9-12ad-43ec-b01d-3732faddf840</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/UBL-Goster-Indir</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ee641cb4-a3b4-4ab5-9506-4b9f9457023f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -250,12 +202,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Ekran Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1be62ee2-48a2-4ad2-bf36-6dc41ec56bb3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Excele Aktar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>62482e10-77cc-4368-a1c3-b7cef1acbac0</guid>
@@ -286,11 +232,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/Tum Hesaplar Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>df67add0-7a8d-47d1-a674-02b57152b199</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Uygulama Yanitlari/UBL-Goster-Indir</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

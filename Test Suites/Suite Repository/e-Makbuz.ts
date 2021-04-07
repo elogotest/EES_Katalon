@@ -24,12 +24,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>145fce65-92aa-476a-b537-15ee79daff8b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5fc96de6-d184-4f52-bc35-3155a96d3f4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -66,12 +60,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/UBL</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>074ecfbb-270d-4967-8aa9-df816ab92499</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Olusturma/Ekle</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>42774716-cb0e-413d-899d-051dc13904de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -82,12 +70,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Raporlari/Ekran Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>529982ff-76b3-448d-be0b-0fe210f9c530</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzu Raporlari/Excele Aktar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9ddbfbd7-8402-4d53-b179-4ec2f62298e3</guid>
@@ -114,12 +96,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuz Raporlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a925be23-04cc-46a3-bb95-50dcd0db7f79</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuz Raporlari/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cc433309-462f-4b6d-a036-f9692426bbf6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -142,12 +118,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Ekran Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>539ec39c-1f6f-408c-83f4-1df7a8391a09</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Excele Aktar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>90bb1c0e-1466-4581-bfa2-3d4065b73014</guid>
@@ -184,12 +154,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/UBL</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6b39553e-1c47-4a00-9dbd-0ee75ada3594</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzu Olusturma/Ekle/Elektronik Tipinde</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>53b2f2f7-4f50-4cb5-8129-2865c1f413aa</guid>

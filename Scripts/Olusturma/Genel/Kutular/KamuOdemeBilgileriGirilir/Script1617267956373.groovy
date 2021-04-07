@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'), 10)
 
 WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'))
@@ -32,3 +31,11 @@ WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeB
 WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'))
 
 WebUI.sendKeys(findTestObject("Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi"), Doviz)
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/VknBilgisi'), 10)
+
+WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/VknBilgisi'))
+
+WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/VknBilgisi'))
+
+WebUI.sendKeys(findTestObject("Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/VknBilgisi"), Vkn)

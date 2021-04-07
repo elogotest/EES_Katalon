@@ -6,8 +6,9 @@ Feature: e-Irsaliye Giden Kutusu Irsaliyeler Tum Hesaplar Kontrolu
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
     * Filtre butonlarından Tüm Hesaplar butonuna tıklanır
     * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | firma_kodu | kullanici_kodu | sifre    |
-      | ELOGO6     | otomasyon      | Aa802030 |
+      | kullaniciAdi | sifre  |
+      | ELOGO6       | 123456 |

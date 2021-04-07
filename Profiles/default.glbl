@@ -29,4 +29,9 @@
       <initValue>'C:\\otomasyondownfiles'</initValue>
       <name>DownloadFile</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>ettn</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

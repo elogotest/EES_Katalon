@@ -15,20 +15,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'), 10)
-
-WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'))
-
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi'))
-
-WebUI.sendKeys(findTestObject("Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/IbanNumarasi"), Iban)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'), 10)
-
-WebUI.mouseOver(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'))
-
-WebUI.clearText(findTestObject('Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi'))
-
-WebUI.sendKeys(findTestObject("Object Repository/Olusturma/Genel/Kutular/OdemeBilgileri/DovizCinsi"), Doviz)
+CucumberKW.runFeatureFile("Include/features/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Tum Hesaplar Kontrolu.feature")

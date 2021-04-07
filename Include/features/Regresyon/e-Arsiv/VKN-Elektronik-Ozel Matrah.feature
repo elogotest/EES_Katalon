@@ -22,6 +22,7 @@ Feature: Gonderim tipi Kagit ve Ozel Matrah tipinde e-Arsiv faturasi olusturulma
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
     * Notlar alanına <not> girilir
+    
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
     * Tablodan <unvan> isimli veri seçilir

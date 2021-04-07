@@ -10,11 +10,11 @@ Feature: e-Serbest Makbuzu Raporlari GIBe Gonder
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
-   # * Butonlardan GIB'e gonder isimli butona tıklanır
-   # * Popup mesajı Seçtiğiniz kayıtlardan 1 adedinde e-SMM makbuz sayısı ve e-SMM iptal makbuz sayısı 0 olduğu için GİB'e gönderilemez. içeriyor mu
-   # * Yönetim popupında Tamam seçilir    
+    * Butonlardan GİB'e Gönder isimli butona tıklanır
+    * Popup mesajı makbuz sayısı 0 olduğu için GİB'e gönderilemez içeriyor mu
+    * Yönetim popupında Tamam seçilir    
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
-      | ELOGO6       | 123456 |   09.01.2021 |    09.01.2021 |     1561 |
+      | ELOGO6       | 123456 |   09.01.2021 |    09.01.2021 |     1637 |

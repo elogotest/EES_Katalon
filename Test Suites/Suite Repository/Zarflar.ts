@@ -18,12 +18,6 @@
       <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4741959a-e447-42d0-9d81-b3f9d24f001b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Gelen Zarflar/Indir</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>3bc0b01a-560e-4086-b40b-ed1b97cca9da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -64,12 +58,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/GIB</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33f11210-7b45-4743-8ae9-f7881d3d4fd8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/Zarflar/Giden Zarflar/Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>26e9f052-f362-4ef1-b329-a87dbed13718</guid>

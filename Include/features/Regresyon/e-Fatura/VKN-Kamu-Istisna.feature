@@ -15,7 +15,7 @@ Feature: VKNo ile Kamu senaryosunda ve Istisna tipinde fatura olusturulmasi ve E
     * Tasarım alanından Otomasyon seçilir
     * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
     * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
-    * Ödeme Bilgileri TR193739520062686063252625,Türk Lirası olarak girilir
+    * Kamu için Ödeme Bilgileri TR193739520062686063252625,Türk Lirası,3214525138 olarak girilir
     * Ek Bilgiler Gönderen,ABONENO,2000 olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir

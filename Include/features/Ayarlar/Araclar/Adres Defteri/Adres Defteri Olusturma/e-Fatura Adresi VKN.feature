@@ -8,7 +8,7 @@ Feature: VKN Ile e-Fatura Adresi Olusturma
     * Adres defteri Adres Ekle başlıklı popup geldi mi
     * Adres defteri Kısaltma textboxına <kisaltma> yazılır
     * Adres defteri VKN/TCKN No textboxına <vkntckn> yazılır
-    * Unvan alanına <unvan> yazılır
+    #* Unvan alanına <unvan> yazılır
     * Adres defteri İl textboxına <il> yazılır
     * Adres defteri İlçe textboxına <ilce> yazılır
     * Adres olarak Ülke dropdownından <ulke_deger> seçilir
@@ -22,5 +22,5 @@ Feature: VKN Ile e-Fatura Adresi Olusturma
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | kisaltma             | vkntckn    | unvan             | il       | ilce    | ulke_deger | e-Fatura_etiket                    |
-      | ELOGOGIB     | 123456 | VirgosolFaturaDeneme | 6090408038 | VirgosolOtomasyon | İstanbul | Maltepe | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |
+      | kullaniciAdi | sifre  | kisaltma              | vkntckn    | unvan             | il       | ilce   | ulke_deger | e-Fatura_etiket                    |
+      | ELOGO6       | 123456 | VirgosolFaturaSunum33 | 1234567806 | VirgosolOtomasyon | İstanbul | Kartal | Türkiye    | urn:mail:defaultpk@diyalogo.com.tr |
