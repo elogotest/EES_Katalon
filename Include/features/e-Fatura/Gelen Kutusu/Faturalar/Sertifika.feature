@@ -10,7 +10,7 @@ Feature: Faturanin Sertifikasi
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Sertifika isimli butona tıklanır
-    * Sertifika Gösterme popupı açıldı mı
+    * Popup başlığı Sertifika Gösterme içeriyor mu
     * Popup kapatılır
     * Kullanıcı işlemlerinden Çıkış seçilir
 

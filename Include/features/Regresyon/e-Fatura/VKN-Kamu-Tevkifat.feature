@@ -32,21 +32,22 @@ Feature: VKNo ile Kamu senaryosunda ve Tevkifat tipinde fatura olusturulmasi ve 
     * Ürün ekleme alanında Menşei başlığına Türkiye girilir
     #* KDV Muafiyet Bilgileri 351 KDV - İstisna Olmayan Diğer olarak girilir
     * Notlar alanına <not> girilir
+    * Ettn bilgisi kayıt edilir
     * Kaydet butonu seçilir
-    * Tabloda <unvan> ünvanlı veri oluşturuldu mu
-    * Tablodan <unvan> isimli veri seçilir
+    * Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu
+    * Tablodan Ettn bilgisi kaydedilen veri seçilir
     * Butonlardan Numara Oluştur isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Popup mesajı oluşmuştur içeriyor mu
     * Yönetim popupında Tamam seçilir
-    * Tablodan <unvan> isimli veri seçilir
+    * Tablodan Ettn bilgisi kaydedilen veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
-    * Filtrelerden Alıcı Ünvan filtresine <unvan> textini yaz
+    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir

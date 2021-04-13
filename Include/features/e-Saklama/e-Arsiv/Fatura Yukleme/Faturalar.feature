@@ -11,4 +11,4 @@ Feature: e-Arsiv Fatura Yukleme Faturalar
 
     Examples: 
       | kullaniciAdi | sifre  | veri_Adi  |
-      | ELOGO6       | 123456 | multi.zip |
+      | ELOGO6       | 123456 | 13626.zip |

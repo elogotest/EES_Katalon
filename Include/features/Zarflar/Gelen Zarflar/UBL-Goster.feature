@@ -12,7 +12,8 @@ Feature: Gelen Zarf GIB
     * Butonlardan UBL isimli butona tıklanır
     * Yeni açılan sekmeye geçilir
     * <tag> tagli ubl geldi mi
-    * Popup kapatılır
+    * Ana sekmeye geçilir
+    #* Popup kapatılır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

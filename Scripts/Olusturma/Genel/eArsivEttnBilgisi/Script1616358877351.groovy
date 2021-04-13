@@ -21,6 +21,14 @@ WebUI.verifyElementPresent(findTestObject("Object Repository/Olusturma/Genel/Olu
 
 GlobalVariable.ettn = WebUI.getAttribute(findTestObject("Object Repository/Olusturma/Genel/Olusturma/eArsivEttnBilgisi"), "value")
 
+
+
+
+
+
+
+
+
 //Kaydet butonuna tıklanır
 int i=0
 

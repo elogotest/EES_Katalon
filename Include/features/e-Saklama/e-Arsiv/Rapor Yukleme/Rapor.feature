@@ -10,5 +10,5 @@ Feature: e-Arsiv Rapor Yukle
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | veri_Adi        |
-      | ELOGO6       | 123456 | earsivRapor.zip |
+      | kullaniciAdi | sifre  | veri_Adi  |
+      | ELOGO6       | 123456 | 13626.zip |

@@ -48,6 +48,15 @@ class filtreler {
 	def filtreTexboxinaYaz(String filtre_Adi, String filtreDegeri) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/TexboxaYaz"), ["Filtre_Adi":filtre_Adi,"Filtre_Degeri":filtreDegeri] , FailureHandling.STOP_ON_FAILURE)
 	}
+	@When("Filtrelerden Ettn filtresine Ettn bilgisi yaz")
+	def filtreEttnYaz() {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/EttnYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz")
+	def filtreIrsaliyeEttnYaz() {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/IrsaliyeEttnYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Filtrelerden (.*) filtresine (.*) baslangic degerini yaz")
 	def filtreBaslangicYaz(String filtre_Adi, String filtreDegeri) {

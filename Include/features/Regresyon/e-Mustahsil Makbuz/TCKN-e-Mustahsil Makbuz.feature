@@ -14,21 +14,22 @@ Feature: TCKNo ile e-Mustahsil Makbuzu Olusturmasi ve Excele aktarilmasi
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında G.V Stopaj Oranı% başlığına <stopaj_Orani> girilir
     * Notlar alanına <not> girilir
+	  * Ettn bilgisi kayıt edilir
     * Kaydet butonu seçilir
-    * Tabloda <adı_soyadı> ünvanlı veri oluşturuldu mu
-    * Tablodan <adı_soyadı> isimli veri seçilir
+    * Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu
+    * Tablodan Ettn bilgisi kaydedilen veri seçilir
     * Butonlardan Numara Oluştur isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Popup mesajı oluşmuştur içeriyor mu
     * Yönetim popupında Tamam seçilir
-    * Tablodan <adı_soyadı> isimli veri seçilir
+    * Tablodan Ettn bilgisi kaydedilen veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Ana menüden e-Makbuz seçilir
     * Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir
-    * Filtrelerden Müstahsil Ad Soyad filtresine <adı_soyadı> textini yaz
+    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir

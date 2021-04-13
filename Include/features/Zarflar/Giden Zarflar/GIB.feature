@@ -10,7 +10,7 @@ Feature: Giden Zarf GIB
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan GİB isimli butona tıklanır
-    * GİB Durum Sorgulama popupı açıldı mı
+    * Popup başlığı GİB Durum Sorgulama içeriyor mu
     * Popup kapatılır
     * Kullanıcı işlemlerinden Çıkış seçilir
 

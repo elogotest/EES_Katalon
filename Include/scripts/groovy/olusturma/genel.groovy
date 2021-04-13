@@ -204,6 +204,11 @@ class genel {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/EttnBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 	
+	@When("E-Irsaliye Ettn bilgisi kayıt edilir")
+	def IrsaliyeEttnBilgisiKayitEdilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/IrsaliyeEttnBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Earsiv türünde kaydet numara oluştur gönder ettn bilgisi ile kontrol et")
 	def eArsivEttnBilgisi() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/eArsivEttnBilgisi"), [:] , FailureHandling.STOP_ON_FAILURE)

@@ -45,9 +45,19 @@ import cucumber.api.java.en.When
 
 
 class tablo {
-	@Given("Tablodan (.*) isimli veri seçilir")
+	@When("Tablodan (.*) isimli veri seçilir")
 	def tablodanVeriSecilir(String veri_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanVeriSec"), ["Veri_Adi":veri_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tablodan Ettn bilgisi kaydedilen veri seçilir")
+	def tablodanEttnliVeriSecilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanEttnliVeriSec"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tablodan Irsaliye Ettn bilgisi kaydedilen veri seçilir")
+	def tablodanIrsaliyeEttnliVeriSecilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanIrsaliyeEttnliVeriSec"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Tablodaki (.*) isimli verinin (.*) adlı butonuna tıklanır")
@@ -61,8 +71,18 @@ class tablo {
 	}
 
 	@When("Tabloda (.*) ünvanlı veri oluşturuldu mu")
-	def tablodaUnvanliVeriOlusturulduMi(String unvan) {
+	def tablodaUnvanliVeriOlusturulduMu(String unvan) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaUnvanliVeriOlusturulduMu"), ["Unvan":unvan] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu")
+	def tablodaEttnliVeriOlusturulduMu() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaEttnliVeriOlusturulduMu"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Tabloda Irsaliye Ettn bilgisi kaydedilen veri oluşturuldu mu")
+	def tablodaIrsaliyeEttnliVeriOlusturulduMu() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaIrsaliyeEttnliVeriOlusturulduMu"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Tablodaki (.*) ünvanlı veriye tıklanır")

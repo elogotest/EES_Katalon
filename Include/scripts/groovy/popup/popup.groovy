@@ -47,8 +47,13 @@ import cucumber.api.java.en.When
 class popup {
 
 	@When("(.*) popupı açıldı mı")
-	def sertifikaGostermePopupiAcildiMi(String name) {
+	def PopupiAcildiMi(String name) {
 		WebUI.callTestCase(findTestCase("Test Cases/Popup/PopupAcildimi"), ["Name":name] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Popup başlığı (.*) içeriyor mu")
+	def popupBasligiIceriyorMu(String name) {
+		WebUI.callTestCase(findTestCase("Test Cases/Popup/PopupBasligiIceriyorMu"), ["Name":name] , FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("Yönetim popupında (.*) seçilir")

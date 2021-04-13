@@ -21,21 +21,22 @@ Feature: TCKNo ile Hal Tipi Irsaliye senaryosunda irsaliye olusturulmasi ve Exce
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Şöför Bilgileri Virgosol,Otomasyon,11111111110 olarak girilir
     * Notlar alanına <not> girilir
+    * E-Irsaliye Ettn bilgisi kayıt edilir
     * Kaydet butonu seçilir
-    * Tabloda <unvan> ünvanlı veri oluşturuldu mu
-    * Tablodan <unvan> isimli veri seçilir
+    * Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu
+    * Tablodan Irsaliye Ettn bilgisi kaydedilen veri seçilir
     * Butonlardan Numara Oluştur isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Popup mesajı oluşmuştur içeriyor mu
     * Yönetim popupında Tamam seçilir
-    * Tablodan <unvan> isimli veri seçilir
+    * Tablodan Irsaliye Ettn bilgisi kaydedilen veri seçilir
     * Butonlardan Gönder isimli butona tıklanır
     * Popup mesajı Devam etmek istiyor musunuz içeriyor mu
     * Yönetim popupında Evet seçilir
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliyeler seçilir
-    * Filtrelerden Alıcı Ünvan filtresine <unvan> textini yaz
+    * Filtrelerden Irsaliye Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
