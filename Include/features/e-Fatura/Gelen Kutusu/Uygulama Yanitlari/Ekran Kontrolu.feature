@@ -27,8 +27,12 @@ Feature: Gelen Kutusu Uygulama Yanitlari Buton Kontrolu
     * Butonlardan Departman Geri Al var mı
     * Butonlardan Excel isimli butona tıklanır
     * Alt butonlardan Tümünü Excel'e Aktar var mı
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tablodan 1234567806 isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.05.2021 |    06.05.2021 |

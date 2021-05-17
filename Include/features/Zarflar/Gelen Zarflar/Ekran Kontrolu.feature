@@ -4,6 +4,10 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden Zarflar seçilir
     * Alt menüden Gelen Zarflar seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
     * Filtre alanlarında Zarf ID var mı
     * Filtre alanlarında Durum Kodu var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
@@ -30,5 +34,5 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 |

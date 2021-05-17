@@ -4,6 +4,10 @@ Feature: Giden Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Giden Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
+    * Filtre butonlarından Listele seçilir
     * Filtre alanlarında Alıcı Ünvanı var mı
     * Filtre alanlarında Alıcı VKN/TCKN var mı
     * Filtre alanlarında İrsaliye Yanıtı No var mı
@@ -37,5 +41,5 @@ Feature: Giden Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |

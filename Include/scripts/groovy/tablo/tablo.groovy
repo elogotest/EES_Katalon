@@ -50,6 +50,11 @@ class tablo {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanVeriSec"), ["Veri_Adi":veri_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
 	
+	@When("Tablodan (.*) isimli verinin detayı tıklanır")
+	def tablodakiVerininDetayi(String veri_Adi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodakiVeriDetayi"), ["Veri_Adi":veri_Adi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Tablodan Ettn bilgisi kaydedilen veri seçilir")
 	def tablodanEttnliVeriSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanEttnliVeriSec"), [:] , FailureHandling.STOP_ON_FAILURE)

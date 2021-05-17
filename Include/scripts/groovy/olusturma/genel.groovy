@@ -209,6 +209,16 @@ class genel {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/IrsaliyeEttnBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
 	
+	@When("Listelenen öğe bilgisi kayıt edilir")
+	def ListelenenOgeKayitEdilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/ListelenenOgeKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@When("Listelenen öğe sayısı doğru mu")
+	def listelenenOgeSayisiDogruMu() {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/ListelenenOgeSayisiDogruMu"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Earsiv türünde kaydet numara oluştur gönder ettn bilgisi ile kontrol et")
 	def eArsivEttnBilgisi() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/eArsivEttnBilgisi"), [:] , FailureHandling.STOP_ON_FAILURE)

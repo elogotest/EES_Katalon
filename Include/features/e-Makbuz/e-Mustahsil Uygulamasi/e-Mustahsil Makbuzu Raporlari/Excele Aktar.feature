@@ -8,6 +8,7 @@ Feature: e-Mustahsil Makbuzu Raporlari excele aktarma
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri> baslangic degerini yaz
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
+    * Tablodan 2902 isimli verinin detayı tıklanır
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Excel isimli butona tıklanır

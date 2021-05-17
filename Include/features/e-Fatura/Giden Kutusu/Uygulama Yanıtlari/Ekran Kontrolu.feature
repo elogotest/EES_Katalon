@@ -4,6 +4,10 @@ Feature: Giden Kutusu Uygulama Yanitlari Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Uygulama Yanıtları seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tablodan 1234567806 isimli verinin detayı tıklanır
     * Filtre alanlarında Alıcı VKN var mı
     * Filtre alanlarında ETTN var mı
     * Filtre alanlarında İlişkili Fatura No var mı
@@ -37,5 +41,5 @@ Feature: Giden Kutusu Uygulama Yanitlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.05.2021 |    18.05.2021 | 

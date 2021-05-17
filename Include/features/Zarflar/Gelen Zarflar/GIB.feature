@@ -17,4 +17,4 @@ Feature: Gelen Zarf GIB
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi | tag                         |
-      | ELOGO6       | 123456 |   01.11.2020 |    31.11.2020 | E LOGO 6 | sh:StandardBusinessDocument |
+      | ELOGO6       | 123456 |   01.11.2020 |    30.11.2020 | E LOGO 6 | sh:StandardBusinessDocument |

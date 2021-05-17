@@ -4,10 +4,14 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
+    * Listelenen öğe bilgisi kayıt edilir
+    * Filtre butonlarından Listele seçilir
+    * Listelenen öğe sayısı doğru mu
+    * Tablodan 2705557 isimli verinin detayı tıklanır
     * Filtre alanlarında Dönem Tarihi var mı
     * Filtre alanlarında Bölüm Tarihi var mı
     * Filtre alanlarında ETTN var mı
-    * Filtre alanlarında Bölüm No var mı
+    * Filtre alanlarında Rapor No var mı
     * Filtre alanlarında Durum var mı
     * Filtre alanlarında Saklama var mı
     * Filtre butonlarında Filtreleri Kaydet var mı

@@ -4,6 +4,10 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-İrsaliye seçilir
     * Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri> baslangic degerini yaz
+    * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tablodan ELOGO TEST isimli verinin detayı tıklanır
     * Filtre alanlarında Gönderici Ünvanı var mı
     * Filtre alanlarında Gönd. VKN/TCKN var mı
     * Filtre alanlarında İrsaliye Yanıtı No var mı
@@ -37,5 +41,5 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 |
+      | ELOGO6       | 123456 |   01.01.2020 |    31.12.2020 |
