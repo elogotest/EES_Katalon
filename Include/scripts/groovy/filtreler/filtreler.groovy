@@ -48,6 +48,12 @@ class filtreler {
 	def filtreTexboxinaYaz(String filtre_Adi, String filtreDegeri) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/TexboxaYaz"), ["Filtre_Adi":filtre_Adi,"Filtre_Degeri":filtreDegeri] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@Given("Rapor Filtreleriden (.*) filtresine (.*) textini yaz")
+	def raporFiltreTexboxinaYaz(String filtre_Adi, String filtreDegeri) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/RaporTexboxaYaz"), ["Filtre_Adi":filtre_Adi,"Filtre_Degeri":filtreDegeri] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Filtrelerden Ettn filtresine Ettn bilgisi yaz")
 	def filtreEttnYaz() {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/EttnYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -82,6 +88,12 @@ class filtreler {
 	def filtreVarMi(String filtre_alan) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/FiltreVarMi"), ["Filtre_alan":filtre_alan] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Raporlar Filtre alanlarında (.*) var mı")
+	def raporlarFiltreVarMi(String filtre_alan) {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/FiltreVarMi_Raporlar"), ["Filtre_alan":filtre_alan] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@When("Filtre butonlarında (.*) var mı")
 	def butonVarMi(String filtre_Buton) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/ButonVarMi"),["Filtre_Buton":filtre_Buton] , FailureHandling.STOP_ON_FAILURE)

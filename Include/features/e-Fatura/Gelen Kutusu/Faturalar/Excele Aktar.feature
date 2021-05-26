@@ -27,3 +27,4 @@ Feature: Faturayi excele aktarma
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri2 | veri_Adi |
       | ELOGO6       | 123456 |   01.12.2020 |    31.12.2020 | E LOGO 6 |
+				

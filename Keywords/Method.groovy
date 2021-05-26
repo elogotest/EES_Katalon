@@ -74,7 +74,7 @@ class Method {
 		}
 		assert a
 	}
-	
+
 
 	@Keyword
 	def TextDegerineEsitElementeTiklaEquals(TestObject object, String text) {
