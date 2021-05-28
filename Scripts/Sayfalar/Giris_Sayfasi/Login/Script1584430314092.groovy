@@ -29,8 +29,19 @@ WebUI.sendKeys(findTestObject('Sayfalar/Giris_Sayfasi/Sifre'), Sifre)
 
 WebUI.findWebElement(findTestObject('Sayfalar/Giris_Sayfasi/Giris_Butonu')).click()
 
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'), 5, FailureHandling.OPTIONAL)) {
+	
+	WebUI.click(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'))
+
+	WebUI.click(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'))	
+	
+}
+
 if (WebUI.verifyElementPresent(findTestObject('Sayfalar/Giris_Sayfasi/PopupOK'), 5, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Sayfalar/Giris_Sayfasi/PopupOK'))
+	
+	
+    WebUI.click(findTestObject('Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'))
+	//Sayfalar/Giris_Sayfasi/PopupOK
 }
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Kullanici_Islemleri/KullaniciIslemleri'))

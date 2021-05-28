@@ -9,12 +9,11 @@ Feature: e-Defter Saklama Yukle
     * Dosya Yükleme alanına <dosya> dizinindeki dosya yüklenir
     * Popup mesajı Devam etmek istiyor musunuz? içeriyor mu
     * Yönetim popupında Onayla seçilir
-    * Yönetim popupında Onayla seçilir
+    #* Yönetim popupında Onayla seçilir
     * Yükleme ekranından çıkılır
-    * Tabloda <dosya_adi> ünvanlı veri oluşturuldu mu
-    #BURAYA SİL İŞLEMİ EKLENCEK DOSYA YÜKLEME İŞLERİNDEKİ HATALAR BİTMEDİ
+    #* Tabloda <dosya_adi> ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  | dosya                                          | dosya_adi                           |
-      | ELOGO6       | 123456 | D:\\ELOGO\\GIB-9250128841-201905-YB-000004.zip | GIB-9250128841-201905-YB-000004.zip |
+      | kullaniciAdi | sifre  | dosya                                                                      | dosya_adi                       |
+      | ELOGO6       | 123456 | C:\\otomasyonupfiles\\e-Saklama\\e-Defter\\1234567806-202103-YB-000001.zip | 1234567806-202103-YB-000001.zip |
