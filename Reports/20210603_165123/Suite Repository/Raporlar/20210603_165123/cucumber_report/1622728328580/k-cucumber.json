@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "64861a6f-8bd9-421f-8994-db7c1c8f1c30",
+        "line": 16,
+        "name": "Faturayi excele aktarma",
+        "description": "",
+        "id": "faturayi-excele-aktarma;faturayi-excele-aktarma;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5679448100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fc5e5711-6add-4d6f-982d-ee360aaaeac7"
+          },
+          {
+            "result": {
+              "duration": 644348800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Raporlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raporlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e0866893-27d7-40fa-a707-9cd44d15ee27"
+          },
+          {
+            "result": {
+              "duration": 1032768400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menüden GİB Kullanıcı Listesi seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GİB Kullanıcı Listesi",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f210057a-f76d-425e-a861-af1a09f94881"
+          },
+          {
+            "result": {
+              "duration": 951058000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vergi No",
+                  "offset": 20
+                },
+                {
+                  "val": "1234567806",
+                  "offset": 40
+                }
+              ],
+              "location": "filtreler.raporFiltreTexboxinaYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89160a14-04ff-47ae-beb0-b2239fd59aa4"
+          },
+          {
+            "result": {
+              "duration": 508264300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a91773c3-c4c2-46b5-b1a3-2f63d8501d3a"
+          },
+          {
+            "result": {
+              "duration": 777583600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "894b4462-f8b2-4d06-9895-9be31209df67"
+          },
+          {
+            "result": {
+              "duration": 456110400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "20388c85-5ecb-42ab-b262-1e107bec86ec"
+          },
+          {
+            "result": {
+              "duration": 1438057700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Alt butonlardan Excel\u0027e Aktar butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "47b579c1-eb03-48d5-8b4d-ec2d08ce8059"
+          },
+          {
+            "result": {
+              "duration": 2145646500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "013c3bf0-9215-483b-a2d6-82c2f96f520c"
+          }
+        ]
+      }
+    ],
+    "name": "Faturayi excele aktarma",
+    "description": "",
+    "id": "faturayi-excele-aktarma",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/Raporlar/GIB Kullanici Listesi/Excel.feature",
+    "tags": []
+  }
+]

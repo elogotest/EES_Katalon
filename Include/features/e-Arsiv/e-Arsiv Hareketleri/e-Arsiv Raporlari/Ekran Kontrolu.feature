@@ -7,7 +7,12 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Listelenen öğe bilgisi kayıt edilir
     * Filtre butonlarından Listele seçilir
     * Listelenen öğe sayısı doğru mu
-    * Tablodan 2705557 isimli verinin detayı tıklanır
+    * Ana menüden e-Arşiv seçilir
+    * Alt menü e-Arşiv Hareketleri başlığı altındaki e-Arşiv Raporları seçilir
+    * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri1> baslangic degerini yaz
+    * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
+    * Filtre butonlarından Listele seçilir
+    * Tablodan 2706506 isimli verinin detayı tıklanır
     * Filtre alanlarında Dönem Tarihi var mı
     * Filtre alanlarında Bölüm Tarihi var mı
     * Filtre alanlarında ETTN var mı
@@ -31,5 +36,5 @@ Feature: e-Arsiv Raporlari Buton Kontrolu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre  |
-      | ELOGO6       | 123456 |
+      | kullaniciAdi | sifre  | filtreDegeri | filtreDegeri1 | filtreDegeri2 |
+      | ELOGO6       | 123456 | 2021 Mayıs   |    25.05.2021 |    27.05.2021 |
