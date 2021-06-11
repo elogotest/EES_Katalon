@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Raporlar,Chrome 91.0.4472.77,,,2021-06-10 18:12:17,2021-06-10 18:13:12,"54,694s",PASSED
+,,,,,,,
+Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu,Chrome 91.0.4472.77,,,2021-06-10 18:12:19,2021-06-10 18:12:53,"34,527s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.77,,,2021-06-10 18:12:19,2021-06-10 18:12:22,"3,921s",PASSED
+"runFeatureFile(""Include/features/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu.feature"")",Chrome 91.0.4472.77,,,2021-06-10 18:12:23,2021-06-10 18:12:52,"29,544s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.77,,,2021-06-10 18:12:52,2021-06-10 18:12:53,"0,757s",PASSED
+,,,,,,,
+Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel,Chrome 91.0.4472.77,,,2021-06-10 18:12:53,2021-06-10 18:13:12,"18,956s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.77,,,2021-06-10 18:12:53,2021-06-10 18:12:55,"2,068s",PASSED
+"runFeatureFile(""Include/features/Raporlar/GIB Kullanici Listesi/Excel.feature"")",Chrome 91.0.4472.77,,,2021-06-10 18:12:55,2021-06-10 18:13:11,"15,775s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.77,,,2021-06-10 18:13:11,2021-06-10 18:13:12,"0,820s",PASSED

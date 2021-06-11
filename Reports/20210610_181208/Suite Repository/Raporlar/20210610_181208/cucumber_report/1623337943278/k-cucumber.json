@@ -1,0 +1,406 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "343c33bb-c8e9-49a5-abe4-77f759be212e",
+        "line": 27,
+        "name": "Raporlar GIB Kullanici Listesi Buton Kontrolu",
+        "description": "",
+        "id": "raporlar-gıb-kullanici-listesi-buton-kontrolu;raporlar-gıb-kullanici-listesi-buton-kontrolu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8384461800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e714721f-b124-4806-b236-104b0e5cc276"
+          },
+          {
+            "result": {
+              "duration": 1265868800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden Raporlar seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raporlar",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "78c8cdb5-2f85-4c9b-9b89-dc15bdc220a6"
+          },
+          {
+            "result": {
+              "duration": 1450673900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menüden GİB Kullanıcı Listesi seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GİB Kullanıcı Listesi",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.altMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "de51d851-1b66-4005-a8ef-0e21c9630c38"
+          },
+          {
+            "result": {
+              "duration": 942607900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Raporlar Filtre alanlarında Firma Adı var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firma Adı",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "35394e0f-d84e-407c-8f42-308321768623"
+          },
+          {
+            "result": {
+              "duration": 431805900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Raporlar Filtre alanlarında Firma Tipi var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firma Tipi",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4b0f76d0-3ad5-4346-8539-47c7d20c8091"
+          },
+          {
+            "result": {
+              "duration": 459017400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Raporlar Filtre alanlarında Kullanıcı Tipi var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kullanıcı Tipi",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f9d66e0b-d6b6-4dda-966c-50d274f112c2"
+          },
+          {
+            "result": {
+              "duration": 485991700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Raporlar Filtre alanlarında Kayıt Tarihi var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kayıt Tarihi",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fbf0c128-51cf-4bcb-a457-a6c87efc7559"
+          },
+          {
+            "result": {
+              "duration": 457231100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Raporlar Filtre alanlarında Etiket Kayıt Tarihi var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Etiket Kayıt Tarihi",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d47d4fcd-4896-4ef9-b78d-b9164ea43f37"
+          },
+          {
+            "result": {
+              "duration": 437520100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Raporlar Filtre alanlarında Etiket var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Etiket",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "835fa157-33f7-406a-a912-32a56c58336e"
+          },
+          {
+            "result": {
+              "duration": 473769800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Raporlar Filtre alanlarında Vergi No var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vergi No",
+                  "offset": 28
+                }
+              ],
+              "location": "filtreler.raporlarFiltreVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b6f55f31-83b8-4237-94df-cadb6a59d921"
+          },
+          {
+            "result": {
+              "duration": 911970400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Filtre butonlarında Listele var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ac315cfe-2d2e-4d49-b072-8707a8b6dba1"
+          },
+          {
+            "result": {
+              "duration": 421935900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Filtre butonlarında Temizle var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Temizle",
+                  "offset": 20
+                }
+              ],
+              "location": "filtreler.butonVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f37a6e6d-041f-4e47-b6ac-3e02dc34b362"
+          },
+          {
+            "result": {
+              "duration": 917026000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Butonlardan Excel var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0ecb1594-7987-4c3a-8f1a-f1e7351b264b"
+          },
+          {
+            "result": {
+              "duration": 1063942600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Butonlardan Excel isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "27201718-e09b-49af-b74e-7577685efb0c"
+          },
+          {
+            "result": {
+              "duration": 891703600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Alt butonlardan Excel\u0027e Aktar var mı",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Excel\u0027e Aktar",
+                  "offset": 16
+                }
+              ],
+              "location": "butonlar.altButonVarMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a8ff977d-f5e1-4cee-a946-af325d72c2d6"
+          },
+          {
+            "result": {
+              "duration": 1544791400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vergi No",
+                  "offset": 20
+                },
+                {
+                  "val": "1234567806",
+                  "offset": 40
+                }
+              ],
+              "location": "filtreler.raporFiltreTexboxinaYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a2557394-361f-4252-839b-41656b415567"
+          },
+          {
+            "result": {
+              "duration": 971206200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dac49398-0df2-464e-95eb-d86fdd1ff56a"
+          },
+          {
+            "result": {
+              "duration": 981779400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d57a9ce2-fe3f-4702-9ce9-e90457f1f2c5"
+          },
+          {
+            "result": {
+              "duration": 1440547200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 20
+                }
+              ],
+              "location": "butonlar.numaraliSayfayaGec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "efd8ca8c-f158-46bb-9142-260940f8fefc"
+          },
+          {
+            "result": {
+              "duration": 2751580400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f311161a-a6e1-4f76-b322-48c597fde4e8"
+          }
+        ]
+      }
+    ],
+    "name": "Raporlar GIB Kullanici Listesi Buton Kontrolu",
+    "description": "",
+    "id": "raporlar-gıb-kullanici-listesi-buton-kontrolu",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Raporlar" time="59.522" tests="2" failures="0" errors="0">
+   <testsuite name="Raporlar" tests="2" failures="0" errors="0" time="59.522" skipped="0" timestamp="2021-06-10 18:12:17" hostname="yigit - LAPTOP-7436ND4C" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yigit\\Documents\\GitHub\\EES_Katalon\\Reports\\20210610_181208\\Suite Repository\\Raporlar\\20210610_181208"/>
+         <property name="logFiles" value="C:\\Users\\yigit\\Documents\\GitHub\\EES_Katalon\\Reports\\20210610_181208\\Suite Repository\\Raporlar\\20210610_181208\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yigit - LAPTOP-7436ND4C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.1.208"/>
+         <property name="browser" value="Chrome 91.0.4472.77"/>
+         <property name="hostAddress" value="10.10.10.51"/>
+         <property name="sessionId" value="48e601cfbf126f353e41b5cd98904c82"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu" time="34.527" classname="Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu" status="PASSED">
+         <system-out><![CDATA[2021-06-10 18:12:19 - [TEST_CASE][PASSED] - Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu: Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu
+
+2021-06-10 18:12:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-10 18:12:19 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)'
+
+2021-06-10 18:12:19 - [TEST_STEP][PASSED] - Method.dosyalariSil("C:\otomasyondownfiles"): Method.dosyalariSil is PASSED
+
+2021-06-10 18:12:19 - [MESSAGE][PASSED] - Method.dosyalariSil is PASSED
+
+2021-06-10 18:12:19 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-10 18:12:19 - [MESSAGE][INFO] - Opening browser
+
+2021-06-10 18:12:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-10 18:12:19 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\otomasyondownfiles}']
+
+2021-06-10 18:12:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-10 18:12:21 - [MESSAGE][INFO] - Navigating browser to: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-10 18:12:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-10 18:12:22 - [TEST_STEP][PASSED] - maximizeWindow(): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-10 18:12:22 - [MESSAGE][INFO] - Maximizing current window
+
+2021-06-10 18:12:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-10 18:12:22 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-10 18:12:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu.feature"): Feature file: 'Include/features/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu.feature' was passed
+
+2021-06-10 18:12:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu.feature' and extract report to folder: 'C:\Users\yigit\Documents\GitHub\EES_Katalon\Reports\20210610_181208\Suite Repository\Raporlar\20210610_181208/cucumber_report/1623337943278'...
+
+2021-06-10 18:12:23 - [MESSAGE][INFO] - Glue: []
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login'
+
+2021-06-10 18:12:26 - [TEST_CASE][PASSED] - Test Cases/Sayfalar/Giris_Sayfasi/Login: Test Cases/Sayfalar/Giris_Sayfasi/Login
+
+2021-06-10 18:12:26 - [TEST_STEP][PASSED] - Sayfa_Basligi = getWindowTitle(): Current window's title is: 'LOGO e-Fatura'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Getting current window's title
+
+2021-06-10 18:12:26 - [MESSAGE][PASSED] - Current window's title is: 'LOGO e-Fatura'
+
+2021-06-10 18:12:26 - [TEST_STEP][PASSED] - verifyMatch(Sayfa_Basligi, "LOGO e-Fatura", false): Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Matching actual text 'LOGO e-Fatura' with expected text 'LOGO e-Fatura'
+
+2021-06-10 18:12:26 - [MESSAGE][PASSED] - Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-10 18:12:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Firma_Kodu"), KullaniciAdi): Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Sending keys 'ELOGO6' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-10 18:12:26 - [MESSAGE][PASSED] - Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Sifre"), Sifre): Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Sending keys '123456' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-10 18:12:26 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-10 18:12:27 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:27 - [TEST_STEP][PASSED] - findWebElement(findTestObject("Sayfalar/Giris_Sayfasi/Giris_Butonu")).click(): Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu'
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:27 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-10 18:12:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu"), 5, OPTIONAL)): null
+
+2021-06-10 18:12:28 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:12:28 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:28 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:28 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:28 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-10 18:12:28 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-10 18:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is present
+
+2021-06-10 18:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:12:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:12:32 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sayfalar/Giris_Sayfasi/PopupOK"), 5, OPTIONAL)): null
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK'
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-10 18:12:32 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-10 18:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' is present
+
+2021-06-10 18:12:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-10 18:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-10 18:12:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:12:33 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:12:34 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-10 18:12:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login' successfully
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/AnaMenuSecimi'
+
+2021-06-10 18:12:34 - [TEST_CASE][PASSED] - Test Cases/Menu/AnaMenuSecimi: Test Cases/Menu/AnaMenuSecimi
+
+2021-06-10 18:12:34 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Menu/Ana_Menu"), Ana_Menu): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Ana_Menu'
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-10 18:12:34 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:35 - [MESSAGE][INFO] - Found 14 web elements with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-10 18:12:35 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/AnaMenuSecimi' successfully
+
+2021-06-10 18:12:35 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:35 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/AltMenuSecimi'
+
+2021-06-10 18:12:35 - [TEST_CASE][PASSED] - Test Cases/Menu/AltMenuSecimi: Test Cases/Menu/AltMenuSecimi
+
+2021-06-10 18:12:36 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Menu/Alt_Menu"), Alt_Menu): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Alt_Menu'
+
+2021-06-10 18:12:36 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Alt_Menu' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-element']' in '10' second(s)
+
+2021-06-10 18:12:36 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:36 - [MESSAGE][INFO] - Found 9 web elements with id: 'Object Repository/Menu/Alt_Menu' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-element']' in '10' second(s)
+
+2021-06-10 18:12:37 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/AltMenuSecimi' successfully
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:37 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:37 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:37 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:37 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:38 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:38 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:38 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:38 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:38 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:38 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:38 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:38 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:38 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:39 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:39 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:39 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:39 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:39 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:39 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:39 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:40 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar'
+
+2021-06-10 18:12:40 - [TEST_CASE][PASSED] - Test Cases/Filtreler/FiltreVarMi_Raporlar: Test Cases/Filtreler/FiltreVarMi_Raporlar
+
+2021-06-10 18:12:40 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Basliklar_Raporlar"), Filtre_alan): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:40 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/FiltreVarMi_Raporlar' successfully
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:40 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/ButonVarMi'
+
+2021-06-10 18:12:40 - [TEST_CASE][PASSED] - Test Cases/Filtreler/ButonVarMi: Test Cases/Filtreler/ButonVarMi
+
+2021-06-10 18:12:41 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Butonlar"), Filtre_Buton): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Butonlar'
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:12:41 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/ButonVarMi' successfully
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/ButonVarMi'
+
+2021-06-10 18:12:41 - [TEST_CASE][PASSED] - Test Cases/Filtreler/ButonVarMi: Test Cases/Filtreler/ButonVarMi
+
+2021-06-10 18:12:41 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Filtreler/Butonlar"), Filtre_Buton): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Butonlar'
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:12:41 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:12:42 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/ButonVarMi' successfully
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonVarMi'
+
+2021-06-10 18:12:42 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonVarMi: Test Cases/Butonlar/ButonVarMi
+
+2021-06-10 18:12:42 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Butonlar/Butonlar"), Buton): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:42 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-10 18:12:42 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonVarMi' successfully
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonaTikla'
+
+2021-06-10 18:12:43 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonaTikla: Test Cases/Butonlar/ButonaTikla
+
+2021-06-10 18:12:43 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/Butonlar"), Buton_Adi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:43 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-10 18:12:44 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-10 18:12:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonaTikla' successfully
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/AltButonVarMi'
+
+2021-06-10 18:12:44 - [TEST_CASE][PASSED] - Test Cases/Butonlar/AltButonVarMi: Test Cases/Butonlar/AltButonVarMi
+
+2021-06-10 18:12:44 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementVarMi(findTestObject("Butonlar/AltButonlar"), AltButon): Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/AltButonlar'
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-10 18:12:44 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementVarMi is PASSED
+
+2021-06-10 18:12:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/AltButonVarMi' successfully
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:44 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/RaporTexboxaYaz'
+
+2021-06-10 18:12:45 - [TEST_CASE][PASSED] - Test Cases/Filtreler/RaporTexboxaYaz: Test Cases/Filtreler/RaporTexboxaYaz
+
+2021-06-10 18:12:45 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz(findTestObject("Filtreler/Basliklar_Raporlar"), findTestObject("Filtreler/Basliga_Gore_Textbox"), Filtre_Adi, Filtre_Degeri): Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-10 18:12:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:12:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Textbox'
+
+2021-06-10 18:12:45 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:45 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:45 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:12:46 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:46 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-10 18:12:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/RaporTexboxaYaz' successfully
+
+2021-06-10 18:12:46 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:46 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/ButonaTikla'
+
+2021-06-10 18:12:46 - [TEST_CASE][PASSED] - Test Cases/Filtreler/ButonaTikla: Test Cases/Filtreler/ButonaTikla
+
+2021-06-10 18:12:46 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Filtreler/Butonlar"), Filtre_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Butonlar'
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:12:47 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/ButonaTikla' successfully
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Tablo/TablodaVeriVarMi'
+
+2021-06-10 18:12:47 - [TEST_CASE][PASSED] - Test Cases/Tablo/TablodaVeriVarMi: Test Cases/Tablo/TablodaVeriVarMi
+
+2021-06-10 18:12:47 - [TEST_STEP][PASSED] - verifyTextNotPresent("Görüntülenecek veri yok", true): Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Checking text present  using regular expression
+
+2021-06-10 18:12:47 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:48 - [MESSAGE][INFO] - Finding text 'Görüntülenecek veri yok' on page  using regular expression
+
+2021-06-10 18:12:48 - [MESSAGE][PASSED] - Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-10 18:12:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tablo/TablodaVeriVarMi' successfully
+
+2021-06-10 18:12:48 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:48 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/NumaraliSayfayaGec'
+
+2021-06-10 18:12:48 - [TEST_CASE][PASSED] - Test Cases/Butonlar/NumaraliSayfayaGec: Test Cases/Butonlar/NumaraliSayfayaGec
+
+2021-06-10 18:12:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Butonlar/SayfaNumarasi"), 10): Object 'Object Repository/Butonlar/SayfaNumarasi' is clickable
+
+2021-06-10 18:12:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/SayfaNumarasi'
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/SayfaNumarasi' located by 'By.cssSelector: .dxp-num' in '10' second(s)
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Butonlar/SayfaNumarasi' located by 'By.cssSelector: .dxp-num' in '10' second(s)
+
+2021-06-10 18:12:49 - [MESSAGE][PASSED] - Object 'Object Repository/Butonlar/SayfaNumarasi' is clickable
+
+2021-06-10 18:12:49 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/SayfaNumarasi"), SayfaNumarasi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/SayfaNumarasi'
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/SayfaNumarasi' located by 'By.cssSelector: .dxp-num' in '10' second(s)
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Butonlar/SayfaNumarasi' located by 'By.cssSelector: .dxp-num' in '10' second(s)
+
+2021-06-10 18:12:49 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-10 18:12:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/NumaraliSayfayaGec' successfully
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:49 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir'
+
+2021-06-10 18:12:49 - [TEST_CASE][PASSED] - Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir: Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir
+
+2021-06-10 18:12:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri"), 10): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clickable
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '10' second(s)
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '10' second(s)
+
+2021-06-10 18:12:50 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clickable
+
+2021-06-10 18:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clicked on
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:12:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clicked on
+
+2021-06-10 18:12:51 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Object Repository/Kullanici_Islemleri/Secenekler"), Islem): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/Secenekler'
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:51 - [MESSAGE][INFO] - Found 22 web elements with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Kullanici_Islemleri/Secenekler"), 10): Web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' is not present after '10' second(s)
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/Secenekler'
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' is not present after '10' second(s)
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir' successfully
+
+2021-06-10 18:12:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Raporlar GIB Kullanici Listesi Buton Kontrolu: SCENARIO Raporlar GIB Kullanici Listesi Buton Kontrolu
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır: Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Ana menüden Raporlar seçilir: Ana menüden Raporlar seçilir
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Ana menüden Raporlar seçilir
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Alt menüden GİB Kullanıcı Listesi seçilir: Alt menüden GİB Kullanıcı Listesi seçilir
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Alt menüden GİB Kullanıcı Listesi seçilir
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Firma Adı var mı: Raporlar Filtre alanlarında Firma Adı var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Firma Adı var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Firma Tipi var mı: Raporlar Filtre alanlarında Firma Tipi var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Firma Tipi var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Kullanıcı Tipi var mı: Raporlar Filtre alanlarında Kullanıcı Tipi var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Kullanıcı Tipi var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Kayıt Tarihi var mı: Raporlar Filtre alanlarında Kayıt Tarihi var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Kayıt Tarihi var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Etiket Kayıt Tarihi var mı: Raporlar Filtre alanlarında Etiket Kayıt Tarihi var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Etiket Kayıt Tarihi var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Etiket var mı: Raporlar Filtre alanlarında Etiket var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Etiket var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Raporlar Filtre alanlarında Vergi No var mı: Raporlar Filtre alanlarında Vergi No var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Raporlar Filtre alanlarında Vergi No var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Filtre butonlarında Listele var mı: Filtre butonlarında Listele var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Filtre butonlarında Listele var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Filtre butonlarında Temizle var mı: Filtre butonlarında Temizle var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Filtre butonlarında Temizle var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Butonlardan Excel var mı: Butonlardan Excel var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Butonlardan Excel var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Butonlardan Excel isimli butona tıklanır: Butonlardan Excel isimli butona tıklanır
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Butonlardan Excel isimli butona tıklanır
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Alt butonlardan Excel'e Aktar var mı: Alt butonlardan Excel'e Aktar var mı
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Alt butonlardan Excel'e Aktar var mı
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz: Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Filtre butonlarından Listele seçilir: Filtre butonlarından Listele seçilir
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Filtre butonlarından Listele seçilir
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Tabloda veri var mı kontrol edilir: Tabloda veri var mı kontrol edilir
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Tabloda veri var mı kontrol edilir
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır: Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Sayfa butonlarından 2 numaralı sayfa butonuna tıklanır
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Kullanıcı işlemlerinden Çıkış seçilir: Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-10 18:12:52 - [MESSAGE][PASSED] - Feature file: 'Include/features/Raporlar/GIB Kullanici Listesi/Ekran Kontrolu.feature' was passed
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)'
+
+2021-06-10 18:12:52 - [TEST_STEP][PASSED] - closeBrowser(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-10 18:12:52 - [MESSAGE][INFO] - Closing browser
+
+2021-06-10 18:12:53 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-10 18:12:53 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel" time="18.956" classname="Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel" status="PASSED">
+         <system-out><![CDATA[2021-06-10 18:12:53 - [TEST_CASE][PASSED] - Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel: Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel
+
+2021-06-10 18:12:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-10 18:12:53 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)'
+
+2021-06-10 18:12:53 - [TEST_STEP][PASSED] - Method.dosyalariSil("C:\otomasyondownfiles"): Method.dosyalariSil is PASSED
+
+2021-06-10 18:12:53 - [MESSAGE][PASSED] - Method.dosyalariSil is PASSED
+
+2021-06-10 18:12:53 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-10 18:12:53 - [MESSAGE][INFO] - Opening browser
+
+2021-06-10 18:12:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-10 18:12:53 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\otomasyondownfiles}']
+
+2021-06-10 18:12:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-10 18:12:54 - [MESSAGE][INFO] - Navigating browser to: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-10 18:12:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-10 18:12:55 - [TEST_STEP][PASSED] - maximizeWindow(): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-10 18:12:55 - [MESSAGE][INFO] - Maximizing current window
+
+2021-06-10 18:12:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-10 18:12:55 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-10 18:12:55 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Raporlar/GIB Kullanici Listesi/Excel.feature"): Feature file: 'Include/features/Raporlar/GIB Kullanici Listesi/Excel.feature' was passed
+
+2021-06-10 18:12:55 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Raporlar/GIB Kullanici Listesi/Excel.feature' and extract report to folder: 'C:\Users\yigit\Documents\GitHub\EES_Katalon\Reports\20210610_181208\Suite Repository\Raporlar\20210610_181208/cucumber_report/1623337975926'...
+
+2021-06-10 18:12:55 - [MESSAGE][INFO] - Glue: []
+
+2021-06-10 18:12:57 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:12:57 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login'
+
+2021-06-10 18:12:57 - [TEST_CASE][PASSED] - Test Cases/Sayfalar/Giris_Sayfasi/Login: Test Cases/Sayfalar/Giris_Sayfasi/Login
+
+2021-06-10 18:12:57 - [TEST_STEP][PASSED] - Sayfa_Basligi = getWindowTitle(): Current window's title is: 'LOGO e-Fatura'
+
+2021-06-10 18:12:57 - [MESSAGE][INFO] - Getting current window's title
+
+2021-06-10 18:12:57 - [MESSAGE][PASSED] - Current window's title is: 'LOGO e-Fatura'
+
+2021-06-10 18:12:57 - [TEST_STEP][PASSED] - verifyMatch(Sayfa_Basligi, "LOGO e-Fatura", false): Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-10 18:12:57 - [MESSAGE][INFO] - Matching actual text 'LOGO e-Fatura' with expected text 'LOGO e-Fatura'
+
+2021-06-10 18:12:57 - [MESSAGE][PASSED] - Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-10 18:12:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Firma_Kodu"), KullaniciAdi): Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:57 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Sending keys 'ELOGO6' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-10 18:12:58 - [MESSAGE][PASSED] - Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-10 18:12:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Sifre"), Sifre): Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Sending keys '123456' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-10 18:12:58 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-10 18:12:58 - [TEST_STEP][PASSED] - findWebElement(findTestObject("Sayfalar/Giris_Sayfasi/Giris_Butonu")).click(): Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu'
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-10 18:12:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:12:59 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-10 18:13:00 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu"), 5, OPTIONAL)): null
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-10 18:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is present
+
+2021-06-10 18:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:13:00 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-10 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-10 18:13:01 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sayfalar/Giris_Sayfasi/PopupOK"), 5, OPTIONAL)): null
+
+2021-06-10 18:13:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK'
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-10 18:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' is present
+
+2021-06-10 18:13:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-10 18:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-10 18:13:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:13:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:13:03 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-10 18:13:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login' successfully
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/AnaMenuSecimi'
+
+2021-06-10 18:13:03 - [TEST_CASE][PASSED] - Test Cases/Menu/AnaMenuSecimi: Test Cases/Menu/AnaMenuSecimi
+
+2021-06-10 18:13:03 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Menu/Ana_Menu"), Ana_Menu): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Ana_Menu'
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-10 18:13:03 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Found 14 web elements with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-10 18:13:04 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/AnaMenuSecimi' successfully
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/AltMenuSecimi'
+
+2021-06-10 18:13:04 - [TEST_CASE][PASSED] - Test Cases/Menu/AltMenuSecimi: Test Cases/Menu/AltMenuSecimi
+
+2021-06-10 18:13:04 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Menu/Alt_Menu"), Alt_Menu): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Alt_Menu'
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Alt_Menu' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-element']' in '10' second(s)
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:04 - [MESSAGE][INFO] - Found 9 web elements with id: 'Object Repository/Menu/Alt_Menu' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-element']' in '10' second(s)
+
+2021-06-10 18:13:05 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/AltMenuSecimi' successfully
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/RaporTexboxaYaz'
+
+2021-06-10 18:13:05 - [TEST_CASE][PASSED] - Test Cases/Filtreler/RaporTexboxaYaz: Test Cases/Filtreler/RaporTexboxaYaz
+
+2021-06-10 18:13:05 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz(findTestObject("Filtreler/Basliklar_Raporlar"), findTestObject("Filtreler/Basliga_Gore_Textbox"), Filtre_Adi, Filtre_Degeri): Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar_Raporlar'
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Textbox'
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:05 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Filtreler/Basliklar_Raporlar' located by 'By.cssSelector: .control-label.col-sm-4.col-sm-4' in '10' second(s)
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:06 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-10 18:13:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/RaporTexboxaYaz' successfully
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/ButonaTikla'
+
+2021-06-10 18:13:06 - [TEST_CASE][PASSED] - Test Cases/Filtreler/ButonaTikla: Test Cases/Filtreler/ButonaTikla
+
+2021-06-10 18:13:06 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Filtreler/Butonlar"), Filtre_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Butonlar'
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:06 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-10 18:13:07 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/ButonaTikla' successfully
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Tablo/TablodaVeriVarMi'
+
+2021-06-10 18:13:07 - [TEST_CASE][PASSED] - Test Cases/Tablo/TablodaVeriVarMi: Test Cases/Tablo/TablodaVeriVarMi
+
+2021-06-10 18:13:07 - [TEST_STEP][PASSED] - verifyTextNotPresent("Görüntülenecek veri yok", true): Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Checking text present  using regular expression
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Finding text 'Görüntülenecek veri yok' on page  using regular expression
+
+2021-06-10 18:13:07 - [MESSAGE][PASSED] - Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-10 18:13:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tablo/TablodaVeriVarMi' successfully
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonaTikla'
+
+2021-06-10 18:13:07 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonaTikla: Test Cases/Butonlar/ButonaTikla
+
+2021-06-10 18:13:07 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/Butonlar"), Buton_Adi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-10 18:13:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-10 18:13:08 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-10 18:13:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonaTikla' successfully
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/AltButonaTikla'
+
+2021-06-10 18:13:08 - [TEST_CASE][PASSED] - Test Cases/Butonlar/AltButonaTikla: Test Cases/Butonlar/AltButonaTikla
+
+2021-06-10 18:13:08 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Butonlar/AltButonlar"), Alt_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/AltButonlar'
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-10 18:13:08 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-10 18:13:09 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/AltButonaTikla' successfully
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir'
+
+2021-06-10 18:13:09 - [TEST_CASE][PASSED] - Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir: Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir
+
+2021-06-10 18:13:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri"), 10): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clickable
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '10' second(s)
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '10' second(s)
+
+2021-06-10 18:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clickable
+
+2021-06-10 18:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clicked on
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:13:09 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-10 18:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clicked on
+
+2021-06-10 18:13:10 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Object Repository/Kullanici_Islemleri/Secenekler"), Islem): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/Secenekler'
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:10 - [MESSAGE][INFO] - Found 22 web elements with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Kullanici_Islemleri/Secenekler"), 10): Web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' is not present after '10' second(s)
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/Secenekler'
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Checking object
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' is not present after '10' second(s)
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir' successfully
+
+2021-06-10 18:13:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Faturayi excele aktarma: SCENARIO Faturayi excele aktarma
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır: Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Ana menüden Raporlar seçilir: Ana menüden Raporlar seçilir
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Ana menüden Raporlar seçilir
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Alt menüden GİB Kullanıcı Listesi seçilir: Alt menüden GİB Kullanıcı Listesi seçilir
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Alt menüden GİB Kullanıcı Listesi seçilir
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz: Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Rapor Filtreleriden Vergi No filtresine 1234567806 textini yaz
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Filtre butonlarından Listele seçilir: Filtre butonlarından Listele seçilir
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Filtre butonlarından Listele seçilir
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Tabloda veri var mı kontrol edilir: Tabloda veri var mı kontrol edilir
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Tabloda veri var mı kontrol edilir
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Butonlardan Excel isimli butona tıklanır: Butonlardan Excel isimli butona tıklanır
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Butonlardan Excel isimli butona tıklanır
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Alt butonlardan Excel'e Aktar butonuna tıklanır: Alt butonlardan Excel'e Aktar butonuna tıklanır
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Alt butonlardan Excel'e Aktar butonuna tıklanır
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Kullanıcı işlemlerinden Çıkış seçilir: Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-10 18:13:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/Raporlar/GIB Kullanici Listesi/Excel.feature' was passed
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)'
+
+2021-06-10 18:13:11 - [TEST_STEP][PASSED] - closeBrowser(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-10 18:13:11 - [MESSAGE][INFO] - Closing browser
+
+2021-06-10 18:13:12 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-10 18:13:12 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-10 18:12:17 - [TEST_SUITE][PASSED] - Raporlar: Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

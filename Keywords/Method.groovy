@@ -115,17 +115,21 @@ class Method {
 		WebDriver driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		List<WebElement> elements = WebUI.findWebElements(object,10)
+		int counter = 0
 		for (element in elements) {
 			if(element.getText().contains(text)){
-				List<WebElement> lastElement = element.findElements(By.xpath(object2.findPropertyValue("xpath",false)))
+				WebElement prev = element.findElement(By.xpath("preceding-sibling::td[1]"))
+				prev.findElement(By.tagName("span")).click()
+				/*List<WebElement> lastElement = prev.findElements(By.xpath(object2.findPropertyValue("xpath",false)))
 				for (last in lastElement) {
 					if(last.getAttribute("value").equals("U")){
 						last.click()
 						break
 					}
-				}
+				}*/
 				break
 			}
+			++counter
 		}
 	}
 

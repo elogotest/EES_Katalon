@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1CC407979B7BF4FAEB178CECB59D92A9",
+  "keywordFileContentHash": "43218F06005A84029750D041DD2D1C23",
   "keywordClasses": [
     {
       "name": "Method",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementeTiklaEquals",
@@ -65,8 +64,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "ElementlerdenAttributesiDegerineEsitOlanaTikla",
@@ -110,8 +108,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "KlasorSec",
@@ -155,8 +152,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla",
@@ -213,8 +209,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementinAltindaTextDegerineEsitOlanVarMi",
@@ -271,8 +266,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementinAltindakiTextboxtaYaz",
@@ -329,8 +323,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementinAltindakiTextboxtaYazgecici",
@@ -387,8 +380,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementinAltindakiDropdowndanSec",
@@ -445,8 +437,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementinAltindakineTikla",
@@ -490,8 +481,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "TextDegerineEsitElementVarMi",
@@ -522,8 +512,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "dosyalariSil",
@@ -541,8 +530,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "isimliDosyaIndirildiMi",
@@ -573,11 +561,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
