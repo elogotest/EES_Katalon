@@ -109,6 +109,11 @@ class tablo {
 	def tablodakieFaturaVerisininFaturaNoKontrolEdilir(String faturaNo) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eFaturaFaturaNumarasi"), ["FaturaNo":faturaNo] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("(.*) adlı yıl seçilir")
+	def adliYılAcilir(String yil) {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/YilSecilir"), ["Yil":yil] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 
 	@When("(.*) adlı klasör açılır")
