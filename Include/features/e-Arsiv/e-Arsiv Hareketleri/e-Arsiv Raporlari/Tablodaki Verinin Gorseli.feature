@@ -10,6 +10,8 @@ Feature: e-Arsiv Raporlari Tablodaki Verinin Gorseli
     * Tablodaki <veri_Adi> isimli verinin Faturalar adlı butonuna tıklanır
     * Yeni açılan sekmeye geçilir
     * Tabloda veri var mı kontrol edilir
+    * Tablodan xcx cx isimli verinin detayı tıklanır
+    * Seçilen verinin Rapor Numarası bilgisi 2691121 ile eşleşiyor mu
     * Ana sekmeye geçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 

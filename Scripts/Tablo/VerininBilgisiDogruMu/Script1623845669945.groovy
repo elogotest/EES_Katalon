@@ -17,5 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'Method.TextDegerineEsitElementinAltindakineTikla'(findTestObject('Tablo/Veriler'), findTestObject('Object Repository/Tablo/VerininArtiButonu'),
-	Veri_Adi)
+//CustomKeywords.'Method.TextDegerineEsitElementinAltindaTextDegerineEsitOlanVarMi'(findTestObject('Tablo/VeriDetayIsimleri'), findTestObject('Tablo/VeriDetayBilgileri'), VeriDetayIsmi, VeriDetayBilgisi)
+
+/*CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla'(findTestObject('Tablo/Veriler'), findTestObject(
+	'Tablo/VerininButonu'), Veri, Buton_Adi)*/
+
+CustomKeywords.'Method.TextDegerineEsitElementVarMi'(findTestObject('Tablo/VeriDetayBilgileri'), VeriDetayBilgisi)

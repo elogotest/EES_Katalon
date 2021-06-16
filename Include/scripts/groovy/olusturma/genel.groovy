@@ -173,7 +173,7 @@ class genel {
 	def odemeBilgileriIbanDoviz(String iban,String doviz) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/OdemeBilgileriGirilir"), ["Iban":iban,"Doviz":doviz] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Kamu için Ödeme Bilgileri (.*),(.*),(.*) olarak girilir")
 	def kamuOdemeBilgileriIbanDovizVkn(String iban,String doviz,String vkn) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/KamuOdemeBilgileriGirilir"), ["Iban":iban,"Doviz":doviz,"Vkn":vkn] , FailureHandling.STOP_ON_FAILURE)
@@ -198,35 +198,34 @@ class genel {
 	def belgeNoDegistir(String belgeNo) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/BelgeNoDegistir"), ["BelgeNo":belgeNo] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Ettn bilgisi kayıt edilir")
 	def EttnBilgisiKayitEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/EttnBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("E-Irsaliye Ettn bilgisi kayıt edilir")
 	def IrsaliyeEttnBilgisiKayitEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/IrsaliyeEttnBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Listelenen öğe bilgisi kayıt edilir")
 	def ListelenenOgeKayitEdilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/ListelenenOgeKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Listelenen öğe sayısı doğru mu")
 	def listelenenOgeSayisiDogruMu() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/ListelenenOgeSayisiDogruMu"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Earsiv türünde kaydet numara oluştur gönder ettn bilgisi ile kontrol et")
 	def eArsivEttnBilgisi() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/eArsivEttnBilgisi"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Efatura türünde kaydet numara oluştur gönder ettn bilgisi ile kontrol et")
 	def eFaturaEttnBilgisi() {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/eFaturaEttnBilgisi"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
 }

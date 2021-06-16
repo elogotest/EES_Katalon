@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "F5FC815FEEAF4FED4591167DDBBD3E17",
+  "keywordFileContentHash": "BEFE5F49461A9D8BA07E56BCAFB84E60",
   "keywordClasses": [
     {
       "name": "tablo.tablo",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

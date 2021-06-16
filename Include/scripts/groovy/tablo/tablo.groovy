@@ -49,17 +49,17 @@ class tablo {
 	def tablodanVeriSecilir(String veri_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanVeriSec"), ["Veri_Adi":veri_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tablodan (.*) isimli verinin detayı tıklanır")
 	def tablodakiVerininDetayi(String veri_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodakiVeriDetayi"), ["Veri_Adi":veri_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tablodan Ettn bilgisi kaydedilen veri seçilir")
 	def tablodanEttnliVeriSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanEttnliVeriSec"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tablodan Irsaliye Ettn bilgisi kaydedilen veri seçilir")
 	def tablodanIrsaliyeEttnliVeriSecilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodanIrsaliyeEttnliVeriSec"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -79,12 +79,12 @@ class tablo {
 	def tablodaUnvanliVeriOlusturulduMu(String unvan) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaUnvanliVeriOlusturulduMu"), ["Unvan":unvan] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tabloda Ettn bilgisi kaydedilen veri oluşturuldu mu")
 	def tablodaEttnliVeriOlusturulduMu() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaEttnliVeriOlusturulduMu"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Tabloda Irsaliye Ettn bilgisi kaydedilen veri oluşturuldu mu")
 	def tablodaIrsaliyeEttnliVeriOlusturulduMu() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/TablodaIrsaliyeEttnliVeriOlusturulduMu"), [:] , FailureHandling.STOP_ON_FAILURE)
@@ -109,7 +109,7 @@ class tablo {
 	def tablodakieFaturaVerisininFaturaNoKontrolEdilir(String faturaNo) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/eFaturaFaturaNumarasi"), ["FaturaNo":faturaNo] , FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("(.*) adlı yıl seçilir")
 	def adliYılAcilir(String yil) {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/YilSecilir"), ["Yil":yil] , FailureHandling.STOP_ON_FAILURE)
@@ -130,4 +130,11 @@ class tablo {
 	def olusturmaTarihi() {
 		WebUI.callTestCase(findTestCase("Test Cases/Tablo/Olusturma Tarihi"), [:] , FailureHandling.OPTIONAL)
 	}
+	
+	@When("Seçilen verinin Rapor Numarası bilgisi (.*) ile eşleşiyor mu")
+	def VerininBilgisiDogruMu(String veriDetayBilgisi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Tablo/VerininBilgisiDogruMu"), ["VeriDetayBilgisi":veriDetayBilgisi] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	
 }
