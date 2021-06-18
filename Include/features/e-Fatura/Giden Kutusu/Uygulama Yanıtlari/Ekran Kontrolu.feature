@@ -8,6 +8,7 @@ Feature: Giden Kutusu Uygulama Yanitlari Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan 1234567806 isimli verinin detayı tıklanır
+    * Tablodan 1234567806 isimli verinin detayı tıklanır
     * Filtre alanlarında Alıcı VKN var mı
     * Filtre alanlarında ETTN var mı
     * Filtre alanlarında İlişkili Fatura No var mı

@@ -8,6 +8,7 @@ Feature: Giden Kutusu Irsaliyeler Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan Test isimli verinin detayı tıklanır
+    * Tablodan Test isimli verinin detayı tıklanır
     * Listelenen öğe sayısı Sayfa 1 / 2 (16 öğe) mi
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
     * Anasayfaya geri dönülür

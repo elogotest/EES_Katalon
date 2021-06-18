@@ -8,6 +8,7 @@ Feature: Giden Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
+    * Tablodan Logo Elektronik GIB Test isimli verinin detayı tıklanır
     * Filtre alanlarında Alıcı Ünvanı var mı
     * Filtre alanlarında Alıcı VKN/TCKN var mı
     * Filtre alanlarında İrsaliye Yanıtı No var mı

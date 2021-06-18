@@ -8,6 +8,7 @@ Feature: e-Mustahsil Makbuzu Raporlari Buton Kontrolu
     * Filtrelerden Bölüm Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan 2902 isimli verinin detayı tıklanır
+    * Tablodan 2902 isimli verinin detayı tıklanır
     * Filtre alanlarında Dönem Tarihi var mı
     * Filtre alanlarında Bölüm Tarihi var mı
     * Filtre alanlarında ETTN var mı

@@ -9,6 +9,7 @@ Feature: OCK Mali Raporlari Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan 179 isimli verinin detayı tıklanır
+    * Tablodan 179 isimli verinin detayı tıklanır
     * Filtre alanlarında Oluşturma Tarihi var mı
     * Filtre alanlarında Dönem var mı
     * Filtre alanlarında Rapor Türü var mı

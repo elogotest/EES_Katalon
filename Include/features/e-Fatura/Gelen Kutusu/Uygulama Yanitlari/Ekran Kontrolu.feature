@@ -31,6 +31,7 @@ Feature: Gelen Kutusu Uygulama Yanitlari Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan 1234567806 isimli verinin detayı tıklanır
+    * Tablodan 1234567806 isimli verinin detayı tıklanır
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

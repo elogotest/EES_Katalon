@@ -8,6 +8,7 @@ Feature: Gelen Kutusu Irsaliye Yanitlari Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan ELOGO TEST isimli verinin detayı tıklanır
+    * Tablodan ELOGO TEST isimli verinin detayı tıklanır
     * Filtre alanlarında Gönderici Ünvanı var mı
     * Filtre alanlarında Gönd. VKN/TCKN var mı
     * Filtre alanlarında İrsaliye Yanıtı No var mı

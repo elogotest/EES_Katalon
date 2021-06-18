@@ -8,6 +8,7 @@ Feature: Gelen Zarflar Buton Kontrolu
     * Filtrelerden Oluşturma Tarihi filtresine <filtreDegeri2> bitis degerini yaz
     * Filtre butonlarından Listele seçilir
     * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
+    * Tablodan Test Kurum 6 isimli verinin detayı tıklanır
     * Filtre alanlarında Zarf ID var mı
     * Filtre alanlarında Durum Kodu var mı
     * Filtre alanlarında Oluşturma Tarihi var mı
