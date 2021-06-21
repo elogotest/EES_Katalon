@@ -34,7 +34,7 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Filtre alanlarında İptal Tarihi var mı
     * Filtre alanlarında Vkn/Tckn var mı
     * Filtre alanlarında ETTN var mı
-    * Filtre alanlarında Fatura Durumu var mı
+    * Filtre alanlarında Durum var mı
     * Filtre alanlarında Belge Statüsü var mı
     * Filtre alanlarında İptal Durumu var mı
     * Filtre butonlarında Filtreleri Kaydet var mı
