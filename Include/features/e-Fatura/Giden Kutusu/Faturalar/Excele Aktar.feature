@@ -22,6 +22,11 @@ Feature: Faturayi excele aktarma
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
+    * Ana menüden Raporlar seçilir
+    * Alt menüden Toplu Veri İndirme seçilir
+    * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

@@ -17,5 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextboxtaYaz'(findTestObject('Filtreler/Basliklar'), findTestObject(
-	'Filtreler/Basliga_Gore_Textbox'), "Fatura ETTN", GlobalVariable.ettn)
+WebUI.waitForElementVisible(findTestObject("Popup/Popup"), 10)
+
+GlobalVariable.RaporNo = WebUI.getText(findTestObject("Popup/Popup")).substring(0, 4)
+
+Console.println(GlobalVariable.RaporNo)

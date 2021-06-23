@@ -70,4 +70,10 @@ class popup {
 	def popupKapatilir() {
 		WebUI.callTestCase(findTestCase("Test Cases/Popup/PopupKapatilir"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	
+	@When("Rapor No bilgisi kayıt edilir")
+	def RaporNoBilgisiKayitEdilir() {
+		WebUI.callTestCase(findTestCase("Test Cases/Popup/RaporNoBilgisiKayitEdilir"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 }

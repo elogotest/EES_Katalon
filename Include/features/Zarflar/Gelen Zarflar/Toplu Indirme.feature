@@ -12,15 +12,22 @@ Feature: Gelen Zarflar Toplu Indirme - UBL Secilenlerin indirilmesi
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Seçilenleri İndir butonuna tıklanır
-    * Popup mesajı . içeriyor mu
+    * Popup mesajı rapor bildiriminin gönderileceği e-posta adresini belirtiniz içeriyor mu
     * Yönetim popupında Gönder seçilir
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
     #* Ön eki Envelope olan dosya indirildi mi
     * Butonlardan Toplu İndirme isimli butona tıklanır
     * Alt butonlardan UBL Tümünü İndir butonuna tıklanır
-    * Popup mesajı . içeriyor mu
+    * Popup mesajı rapor bildiriminin gönderileceği e-posta adresini belirtiniz içeriyor mu
     * Yönetim popupında Gönder seçilir
+    * Popup mesajı talebiniz işleme alınmıştır içeriyor mu
     * Yönetim popupında Tamam seçilir
+    * Ana menüden Raporlar seçilir
+    * Alt menüden Toplu Veri İndirme seçilir
+    * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     #* Ön eki Envelope olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 

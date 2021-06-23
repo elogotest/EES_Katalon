@@ -24,6 +24,7 @@ Feature: VKNo ile Kamu senaryosunda ve Istisna tipinde fatura olusturulmasi ve E
     * Ürün ekleme alanında Birim Fiyat başlığına <birimFiyat> girilir
     * Ürün ekleme alanında İskonto Oranı % başlığına 10 girilir
     * Notlar alanına <not> girilir
+    * Ettn bilgisi kayıt edilir
     * Kaydet butonu seçilir
     * Tabloda <unvan> ünvanlı veri oluşturuldu mu
     * Tablodan <unvan> isimli veri seçilir
@@ -38,7 +39,7 @@ Feature: VKNo ile Kamu senaryosunda ve Istisna tipinde fatura olusturulmasi ve E
     * Yönetim popupında Evet seçilir
     * Ana menüden e-Fatura seçilir
     * Alt menü Giden Kutusu başlığı altındaki Faturalar seçilir
-    * Filtrelerden Alıcı Ünvan filtresine <unvan> textini yaz
+    * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
     * Kullanıcı işlemlerinden Çıkış seçilir

@@ -23,6 +23,11 @@ Feature: e-Fatura Giden Kutusu Uygulama Yanıtları Toplu Indirme - UBL Secilenl
     * Yönetim popupında Gönder seçilir
     * Popup mesajı Toplu Veri İndirme içeriyor mu
     * Yönetim popupında Tamam seçilir
+    * Ana menüden Raporlar seçilir
+    * Alt menüden Toplu Veri İndirme seçilir
+    * Filtrelerden Talep No filtresine Rapor No bilgisi yaz
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     #* Ön eki ApplicationResponse olan dosya indirildi mi
     * Kullanıcı işlemlerinden Çıkış seçilir
 

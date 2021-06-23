@@ -63,6 +63,11 @@ class filtreler {
 	def filtreIrsaliyeEttnYaz() {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/IrsaliyeEttnYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Filtrelerden Talep No filtresine Rapor No bilgisi yaz")
+	def filtreRaporNoYaz() {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/RaporNoYaz"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Filtrelerden (.*) filtresine (.*) baslangic degerini yaz")
 	def filtreBaslangicYaz(String filtre_Adi, String filtreDegeri) {

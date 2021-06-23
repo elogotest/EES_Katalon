@@ -18,4 +18,4 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextboxtaYaz'(findTestObject('Filtreler/Basliklar'), findTestObject(
-	'Filtreler/Basliga_Gore_Textbox'), "Fatura ETTN", GlobalVariable.ettn)
+	'Filtreler/Basliga_Gore_Textbox'), "Talep No", GlobalVariable.RaporNo)

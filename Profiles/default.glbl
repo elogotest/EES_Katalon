@@ -44,4 +44,9 @@
       <initValue>''</initValue>
       <name>ListelenenOge</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>RaporNo</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
