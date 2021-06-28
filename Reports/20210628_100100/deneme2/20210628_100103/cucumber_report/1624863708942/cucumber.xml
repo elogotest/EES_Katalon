@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.724791">
+<testcase classname="e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster" name="e-Irsaliye Gelen Kutusu Uygulama Yanıtlari UBL - Goster" time="23.724791">
+<system-out><![CDATA[* Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır.................passed
+* Ana menüden e-İrsaliye seçilir............................................passed
+* Alt menü Gelen Kutusu başlığı altındaki İrsaliye Yanıtları seçilir........passed
+* Filtrelerden Oluşturma Tarihi filtresine 01.01.2020 baslangic degerini yaz.passed
+* Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz....passed
+* Filtre butonlarından Listele seçilir......................................passed
+* Tabloda veri var mı kontrol edilir........................................passed
+* Tablodan ELOGO TEST isimli veri seçilir...................................passed
+* Butonlardan UBL isimli butona tıklanır....................................passed
+* Alt butonlardan Göster butonuna tıklanır..................................passed
+* Yeni açılan sekmeye geçilir...............................................passed
+* ReceiptAdvice tagli ubl geldi mi..........................................passed
+* Ana sekmeye geçilir.......................................................passed
+* Butonlardan UBL isimli butona tıklanır....................................passed
+* Alt butonlardan İndir butonuna tıklanır...................................passed
+* Ön eki ReceiptAdvice olan dosya indirildi mi..............................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

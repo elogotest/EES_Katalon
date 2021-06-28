@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+deneme1,Chrome 91.0.4472.114,,,2021-06-27 22:26:52,2021-06-27 22:28:06,"1m - 14,401s",FAILED
+,,,,,,,
+Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir,Chrome 91.0.4472.114,,,2021-06-27 22:26:52,2021-06-27 22:27:38,"45,465s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-27 22:26:52,2021-06-27 22:26:59,"7,003s",PASSED
+"runFeatureFile(""Include/features/e-Fatura/Gelen Kutusu/Faturalar/PDF Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-27 22:27:00,2021-06-27 22:27:37,"37,161s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-27 22:27:37,2021-06-27 22:27:38,"0,776s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir,Chrome 91.0.4472.114,,,2021-06-27 22:27:38,2021-06-27 22:28:06,"28,431s",FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-27 22:27:38,2021-06-27 22:27:41,"3,356s",PASSED
+"runFeatureFile(""Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-27 22:27:41,2021-06-27 22:28:05,"24,091s",FAILED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-27 22:28:05,2021-06-27 22:28:06,"0,730s",PASSED

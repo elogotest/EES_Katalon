@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="deneme1" time="78.746" tests="2" failures="1" errors="0">
+   <testsuite name="deneme1" tests="2" failures="1" errors="0" time="78.746" skipped="0" timestamp="2021-06-27 22:26:52" hostname="yigit - LAPTOP-7436ND4C" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\yigit\\Documents\\GitHub\\EES_Katalon\\Reports\\20210627_222640\\deneme1\\20210627_222642"/>
+         <property name="logFiles" value="C:\\Users\\yigit\\Documents\\GitHub\\EES_Katalon\\Reports\\20210627_222640\\deneme1\\20210627_222642\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yigit - LAPTOP-7436ND4C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.114"/>
+         <property name="hostAddress" value="10.10.10.134"/>
+         <property name="sessionId" value="cbb6c1c5c37ef15000425b8615cce307"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir" time="45.465" classname="Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir" status="PASSED">
+         <system-out><![CDATA[2021-06-27 22:26:52 - [TEST_CASE][PASSED] - Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir: Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir
+
+2021-06-27 22:26:52 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-27 22:26:52 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)'
+
+2021-06-27 22:26:52 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-27 22:26:53 - [MESSAGE][INFO] - Opening browser
+
+2021-06-27 22:26:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-27 22:26:53 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\otomasyondownfiles}']
+
+2021-06-27 22:26:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-27 22:26:56 - [MESSAGE][INFO] - Navigating browser to: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-27 22:26:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-27 22:26:59 - [TEST_STEP][PASSED] - maximizeWindow(): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-27 22:26:59 - [MESSAGE][INFO] - Maximizing current window
+
+2021-06-27 22:26:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-27 22:26:59 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-27 22:27:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/e-Fatura/Gelen Kutusu/Faturalar/PDF Goster-Indir.feature"): Feature file: 'Include/features/e-Fatura/Gelen Kutusu/Faturalar/PDF Goster-Indir.feature' was passed
+
+2021-06-27 22:27:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/e-Fatura/Gelen Kutusu/Faturalar/PDF Goster-Indir.feature' and extract report to folder: 'C:\Users\yigit\Documents\GitHub\EES_Katalon\Reports\20210627_222640\deneme1\20210627_222642/cucumber_report/1624822020336'...
+
+2021-06-27 22:27:00 - [MESSAGE][INFO] - Glue: []
+
+2021-06-27 22:27:04 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:04 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login'
+
+2021-06-27 22:27:04 - [TEST_CASE][PASSED] - Test Cases/Sayfalar/Giris_Sayfasi/Login: Test Cases/Sayfalar/Giris_Sayfasi/Login
+
+2021-06-27 22:27:04 - [TEST_STEP][PASSED] - Sayfa_Basligi = getWindowTitle(): Current window's title is: 'LOGO e-Fatura'
+
+2021-06-27 22:27:04 - [MESSAGE][INFO] - Getting current window's title
+
+2021-06-27 22:27:04 - [MESSAGE][PASSED] - Current window's title is: 'LOGO e-Fatura'
+
+2021-06-27 22:27:04 - [TEST_STEP][PASSED] - verifyMatch(Sayfa_Basligi, "LOGO e-Fatura", false): Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Matching actual text 'LOGO e-Fatura' with expected text 'LOGO e-Fatura'
+
+2021-06-27 22:27:05 - [MESSAGE][PASSED] - Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-27 22:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Firma_Kodu"), KullaniciAdi): Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Sending keys 'ELOGO6' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-27 22:27:05 - [MESSAGE][PASSED] - Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Sifre"), Sifre): Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Sending keys '123456' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-27 22:27:05 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:05 - [TEST_STEP][PASSED] - findWebElement(findTestObject("Sayfalar/Giris_Sayfasi/Giris_Butonu")).click(): Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-27 22:27:05 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu'
+
+2021-06-27 22:27:06 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:06 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:06 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-27 22:27:06 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:06 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-27 22:27:07 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu"), 5, OPTIONAL)): null
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-27 22:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is present
+
+2021-06-27 22:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:07 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:09 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sayfalar/Giris_Sayfasi/PopupOK"), 5, OPTIONAL)): null
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK'
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-27 22:27:09 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-27 22:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' is present
+
+2021-06-27 22:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-27 22:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-27 22:27:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-27 22:27:10 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-27 22:27:11 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-27 22:27:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login' successfully
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:11 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/AnaMenuSecimi'
+
+2021-06-27 22:27:11 - [TEST_CASE][PASSED] - Test Cases/Menu/AnaMenuSecimi: Test Cases/Menu/AnaMenuSecimi
+
+2021-06-27 22:27:12 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Menu/Ana_Menu"), Ana_Menu): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Ana_Menu'
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Found 14 web elements with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-27 22:27:12 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/AnaMenuSecimi' successfully
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:12 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/BasligaGoreAltMenuSecimi'
+
+2021-06-27 22:27:12 - [TEST_CASE][PASSED] - Test Cases/Menu/BasligaGoreAltMenuSecimi: Test Cases/Menu/BasligaGoreAltMenuSecimi
+
+2021-06-27 22:27:13 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla(findTestObject("Menu/Menu_Basligi"), findTestObject("Menu/Basliga_Gore_Alt_Menu"), Baslik, Alt_Menu): Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla is PASSED
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Menu_Basligi'
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Basliga_Gore_Alt_Menu'
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Menu_Basligi' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-header']' in '10' second(s)
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Found 3 web elements with id: 'Object Repository/Menu/Menu_Basligi' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-header']' in '10' second(s)
+
+2021-06-27 22:27:13 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:16 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla is PASSED
+
+2021-06-27 22:27:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/BasligaGoreAltMenuSecimi' successfully
+
+2021-06-27 22:27:16 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:16 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/BaslangicYaz'
+
+2021-06-27 22:27:16 - [TEST_CASE][PASSED] - Test Cases/Filtreler/BaslangicYaz: Test Cases/Filtreler/BaslangicYaz
+
+2021-06-27 22:27:17 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla(findTestObject("Filtreler/Basliklar"), findTestObject("Filtreler/Basliga_Gore_Baslangic_Image"), Filtre_Adi): Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Baslangic_Image'
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Found 19 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:17 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:17 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz(findTestObject("Filtreler/Basliklar"), findTestObject("Filtreler/Basliga_Gore_Baslangic"), Filtre_Adi, Filtre_Degeri): Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:17 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Baslangic'
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Found 19 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:18 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/BaslangicYaz' successfully
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:18 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/BitisYaz'
+
+2021-06-27 22:27:18 - [TEST_CASE][PASSED] - Test Cases/Filtreler/BitisYaz: Test Cases/Filtreler/BitisYaz
+
+2021-06-27 22:27:19 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla(findTestObject("Filtreler/Basliklar"), findTestObject("Filtreler/Basliga_Gore_Bitis_Image"), Filtre_Adi): Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:19 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:19 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Bitis_Image'
+
+2021-06-27 22:27:19 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:19 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:19 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:19 - [MESSAGE][INFO] - Found 19 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:20 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:20 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz(findTestObject("Filtreler/Basliklar"), findTestObject("Object Repository/Filtreler/Basliga_Gore_Bitis"), Filtre_Adi, Filtre_Degeri): Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Bitis'
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:20 - [MESSAGE][INFO] - Found 19 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:21 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:21 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/BitisYaz' successfully
+
+2021-06-27 22:27:21 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:21 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/ButonaTikla'
+
+2021-06-27 22:27:21 - [TEST_CASE][PASSED] - Test Cases/Filtreler/ButonaTikla: Test Cases/Filtreler/ButonaTikla
+
+2021-06-27 22:27:22 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Filtreler/Butonlar"), Filtre_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Butonlar'
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Found 3 web elements with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-27 22:27:22 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/ButonaTikla' successfully
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:22 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Tablo/TablodaVeriVarMi'
+
+2021-06-27 22:27:22 - [TEST_CASE][PASSED] - Test Cases/Tablo/TablodaVeriVarMi: Test Cases/Tablo/TablodaVeriVarMi
+
+2021-06-27 22:27:23 - [TEST_STEP][PASSED] - verifyTextNotPresent("Görüntülenecek veri yok", true): Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-27 22:27:23 - [MESSAGE][INFO] - Checking text present  using regular expression
+
+2021-06-27 22:27:23 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:23 - [MESSAGE][INFO] - Finding text 'Görüntülenecek veri yok' on page  using regular expression
+
+2021-06-27 22:27:23 - [MESSAGE][PASSED] - Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-27 22:27:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tablo/TablodaVeriVarMi' successfully
+
+2021-06-27 22:27:23 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:23 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Tablo/TablodanVeriSec'
+
+2021-06-27 22:27:24 - [TEST_CASE][PASSED] - Test Cases/Tablo/TablodanVeriSec: Test Cases/Tablo/TablodanVeriSec
+
+2021-06-27 22:27:24 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla(findTestObject("Tablo/Veriler"), findTestObject("Tablo/VerininCheckBoxi"), Veri_Adi): Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Tablo/Veriler'
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Tablo/VerininCheckBoxi'
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Tablo/Veriler' located by 'By.cssSelector: td.dxgv b ,td.dxgv' in '10' second(s)
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Found 140 web elements with id: 'Object Repository/Tablo/Veriler' located by 'By.cssSelector: td.dxgv b ,td.dxgv' in '10' second(s)
+
+2021-06-27 22:27:24 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:25 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tablo/TablodanVeriSec' successfully
+
+2021-06-27 22:27:25 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:25 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonaTikla'
+
+2021-06-27 22:27:25 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonaTikla: Test Cases/Butonlar/ButonaTikla
+
+2021-06-27 22:27:25 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/Butonlar"), Buton_Adi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:27:25 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-27 22:27:25 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:25 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:27:25 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Found 14 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:27:26 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:27:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonaTikla' successfully
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/AltButonaTikla'
+
+2021-06-27 22:27:26 - [TEST_CASE][PASSED] - Test Cases/Butonlar/AltButonaTikla: Test Cases/Butonlar/AltButonaTikla
+
+2021-06-27 22:27:26 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Butonlar/AltButonlar"), Alt_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/AltButonlar'
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:27:26 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:27:27 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/AltButonaTikla' successfully
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sekmeler/YeniSekmeyeGec'
+
+2021-06-27 22:27:27 - [TEST_CASE][PASSED] - Test Cases/Sekmeler/YeniSekmeyeGec: Test Cases/Sekmeler/YeniSekmeyeGec
+
+2021-06-27 22:27:27 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Checking index
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Switching window with index: '1'
+
+2021-06-27 22:27:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-06-27 22:27:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sekmeler/YeniSekmeyeGec' successfully
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:27 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/PDFGorseliVarMi'
+
+2021-06-27 22:27:27 - [TEST_CASE][PASSED] - Test Cases/Butonlar/PDFGorseliVarMi: Test Cases/Butonlar/PDFGorseliVarMi
+
+2021-06-27 22:27:28 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-06-27 22:27:28 - [TEST_STEP][PASSED] - assert getPageSource().contains("type="application/pdf""): null
+
+2021-06-27 22:27:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/PDFGorseliVarMi' successfully
+
+2021-06-27 22:27:28 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:28 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sekmeler/Ana_Sekmeye_Gec'
+
+2021-06-27 22:27:28 - [TEST_CASE][PASSED] - Test Cases/Sekmeler/Ana_Sekmeye_Gec: Test Cases/Sekmeler/Ana_Sekmeye_Gec
+
+2021-06-27 22:27:29 - [TEST_STEP][PASSED] - try: Window with index 1 is closed
+
+2021-06-27 22:27:29 - [TEST_STEP][PASSED] - index = getWindowIndex(): Current window's index is: 1
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Getting current window's index
+
+2021-06-27 22:27:29 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2021-06-27 22:27:29 - [TEST_STEP][PASSED] - closeWindowIndex(index): Window with index 1 is closed
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Checking index
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Closing window with index 1
+
+2021-06-27 22:27:29 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2021-06-27 22:27:29 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Checking index
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Switching window with index: '0'
+
+2021-06-27 22:27:29 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-06-27 22:27:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sekmeler/Ana_Sekmeye_Gec' successfully
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonaTikla'
+
+2021-06-27 22:27:29 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonaTikla: Test Cases/Butonlar/ButonaTikla
+
+2021-06-27 22:27:29 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/Butonlar"), Buton_Adi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Found 14 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:27:29 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:27:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonaTikla' successfully
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/AltButonaTikla'
+
+2021-06-27 22:27:29 - [TEST_CASE][PASSED] - Test Cases/Butonlar/AltButonaTikla: Test Cases/Butonlar/AltButonaTikla
+
+2021-06-27 22:27:29 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Butonlar/AltButonlar"), Alt_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/AltButonlar'
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:27:29 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:30 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:27:30 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/AltButonaTikla' successfully
+
+2021-06-27 22:27:30 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:30 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi'
+
+2021-06-27 22:27:30 - [TEST_CASE][PASSED] - Test Cases/Butonlar/DosyaIndirildiMi: Test Cases/Butonlar/DosyaIndirildiMi
+
+2021-06-27 22:27:31 - [TEST_STEP][PASSED] - Method.isimliDosyaIndirildiMi(DownloadFile, FileName): Method.isimliDosyaIndirildiMi is PASSED
+
+2021-06-27 22:27:31 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2021-06-27 22:27:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-27 22:27:34 - [MESSAGE][PASSED] - Method.isimliDosyaIndirildiMi is PASSED
+
+2021-06-27 22:27:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi' successfully
+
+2021-06-27 22:27:34 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:34 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir'
+
+2021-06-27 22:27:34 - [TEST_CASE][PASSED] - Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir: Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir
+
+2021-06-27 22:27:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri"), 10): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clickable
+
+2021-06-27 22:27:34 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '10' second(s)
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '10' second(s)
+
+2021-06-27 22:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clickable
+
+2021-06-27 22:27:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clicked on
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-27 22:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is clicked on
+
+2021-06-27 22:27:35 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Object Repository/Kullanici_Islemleri/Secenekler"), Islem): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/Secenekler'
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-27 22:27:35 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:36 - [MESSAGE][INFO] - Found 22 web elements with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-27 22:27:36 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Kullanici_Islemleri/Secenekler"), 10): Web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' is not present after '10' second(s)
+
+2021-06-27 22:27:36 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/Secenekler'
+
+2021-06-27 22:27:36 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:36 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:36 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' in '10' second(s)
+
+2021-06-27 22:27:36 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Kullanici_Islemleri/Secenekler' located by 'By.cssSelector: .nav.navbar-nav.navbar-right li a' is not present after '10' second(s)
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kullanici_Islemleri/KullaniciIslemlerindenSecimYapilir' successfully
+
+2021-06-27 22:27:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Faturanin PDFinin gosterilmesi: SCENARIO Faturanin PDFinin gosterilmesi
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır: Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Ana menüden e-Fatura seçilir: Ana menüden e-Fatura seçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Ana menüden e-Fatura seçilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir: Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Alt menü Gelen Kutusu başlığı altındaki Faturalar seçilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz: Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz: Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Filtre butonlarından Listele seçilir: Filtre butonlarından Listele seçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Filtre butonlarından Listele seçilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Tabloda veri var mı kontrol edilir: Tabloda veri var mı kontrol edilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Tabloda veri var mı kontrol edilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Tablodan E LOGO 6 isimli veri seçilir: Tablodan E LOGO 6 isimli veri seçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Tablodan E LOGO 6 isimli veri seçilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Butonlardan PDF isimli butona tıklanır: Butonlardan PDF isimli butona tıklanır
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Butonlardan PDF isimli butona tıklanır
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Alt butonlardan Göster butonuna tıklanır: Alt butonlardan Göster butonuna tıklanır
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Alt butonlardan Göster butonuna tıklanır
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Yeni açılan sekmeye geçilir: Yeni açılan sekmeye geçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Yeni açılan sekmeye geçilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - PDF açıldı mı: PDF açıldı mı
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - PDF açıldı mı
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Ana sekmeye geçilir: Ana sekmeye geçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Ana sekmeye geçilir
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Butonlardan PDF isimli butona tıklanır: Butonlardan PDF isimli butona tıklanır
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Butonlardan PDF isimli butona tıklanır
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Alt butonlardan İndir butonuna tıklanır: Alt butonlardan İndir butonuna tıklanır
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Alt butonlardan İndir butonuna tıklanır
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Ön eki Invoice olan dosya indirildi mi: Ön eki Invoice olan dosya indirildi mi
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Ön eki Invoice olan dosya indirildi mi
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Kullanıcı işlemlerinden Çıkış seçilir: Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-27 22:27:37 - [MESSAGE][PASSED] - Feature file: 'Include/features/e-Fatura/Gelen Kutusu/Faturalar/PDF Goster-Indir.feature' was passed
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-27 22:27:37 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)'
+
+2021-06-27 22:27:37 - [TEST_STEP][PASSED] - closeBrowser(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-27 22:27:37 - [MESSAGE][INFO] - Closing browser
+
+2021-06-27 22:27:38 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-27 22:27:38 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir" time="28.431" classname="Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+"/>
+         <system-out><![CDATA[2021-06-27 22:27:38 - [TEST_CASE][FAILED] - Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir: Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+
+
+2021-06-27 22:27:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestSuite: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-27 22:27:38 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)'
+
+2021-06-27 22:27:38 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-27 22:27:38 - [MESSAGE][INFO] - Opening browser
+
+2021-06-27 22:27:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-27 22:27:38 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=C:\otomasyondownfiles}']
+
+2021-06-27 22:27:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-27 22:27:39 - [MESSAGE][INFO] - Navigating browser to: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-27 22:27:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://efatura-stage.elogo.com.tr/'
+
+2021-06-27 22:27:41 - [TEST_STEP][PASSED] - maximizeWindow(): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-27 22:27:41 - [MESSAGE][INFO] - Maximizing current window
+
+2021-06-27 22:27:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-06-27 22:27:41 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'Listener.sampleBeforeTestSuite(...)' completed.
+
+2021-06-27 22:27:41 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+)
+
+2021-06-27 22:27:41 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' and extract report to folder: 'C:\Users\yigit\Documents\GitHub\EES_Katalon\Reports\20210627_222640\deneme1\20210627_222642/cucumber_report/1624822061827'...
+
+2021-06-27 22:27:41 - [MESSAGE][INFO] - Glue: []
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login'
+
+2021-06-27 22:27:43 - [TEST_CASE][PASSED] - Test Cases/Sayfalar/Giris_Sayfasi/Login: Test Cases/Sayfalar/Giris_Sayfasi/Login
+
+2021-06-27 22:27:43 - [TEST_STEP][PASSED] - Sayfa_Basligi = getWindowTitle(): Current window's title is: 'LOGO e-Fatura'
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Getting current window's title
+
+2021-06-27 22:27:43 - [MESSAGE][PASSED] - Current window's title is: 'LOGO e-Fatura'
+
+2021-06-27 22:27:43 - [TEST_STEP][PASSED] - verifyMatch(Sayfa_Basligi, "LOGO e-Fatura", false): Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Matching actual text 'LOGO e-Fatura' with expected text 'LOGO e-Fatura'
+
+2021-06-27 22:27:43 - [MESSAGE][PASSED] - Actual text 'LOGO e-Fatura' and expected text 'LOGO e-Fatura' are matched 
+
+2021-06-27 22:27:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Firma_Kodu"), KullaniciAdi): Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Sending keys 'ELOGO6' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-27 22:27:43 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu' located by 'By.xpath: //*[@id = 'AccountName']' in '30' second(s)
+
+2021-06-27 22:27:44 - [MESSAGE][PASSED] - Keys 'ELOGO6' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Firma_Kodu'
+
+2021-06-27 22:27:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Sayfalar/Giris_Sayfasi/Sifre"), Sifre): Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Sending keys '123456' to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre' located by 'By.xpath: //*[@id = 'Password']' in '30' second(s)
+
+2021-06-27 22:27:44 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Sayfalar/Giris_Sayfasi/Sifre'
+
+2021-06-27 22:27:44 - [TEST_STEP][PASSED] - findWebElement(findTestObject("Sayfalar/Giris_Sayfasi/Giris_Butonu")).click(): Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu'
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:44 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/Giris_Butonu' located by 'By.cssSelector: #btnLogin' in '30' second(s)
+
+2021-06-27 22:27:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu"), 5, OPTIONAL)): null
+
+2021-06-27 22:27:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:45 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:45 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:45 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-27 22:27:45 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '5' second(s)
+
+2021-06-27 22:27:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is present
+
+2021-06-27 22:27:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:46 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' located by 'By.xpath: //*[@class = 'btn btn-default']' in '30' second(s)
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu'
+
+2021-06-27 22:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/RetveTamam_Butonu' is clicked on
+
+2021-06-27 22:27:48 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Sayfalar/Giris_Sayfasi/PopupOK"), 5, OPTIONAL)): null
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK'
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-27 22:27:48 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' located by 'By.cssSelector: .btn.btn-success' in '5' second(s)
+
+2021-06-27 22:27:49 - [MESSAGE][PASSED] - Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupOK' is present
+
+2021-06-27 22:27:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris")): Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' located by 'By.cssSelector: .bootbox-close-button.close' in '30' second(s)
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris'
+
+2021-06-27 22:27:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Sayfalar/Giris_Sayfasi/PopupCarpiGiris' is clicked on
+
+2021-06-27 22:27:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Kullanici_Islemleri/KullaniciIslemleri")): Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri'
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-27 22:27:49 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' located by 'By.cssSelector: .dropdown>a>img' in '30' second(s)
+
+2021-06-27 22:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/Kullanici_Islemleri/KullaniciIslemleri' is visible
+
+2021-06-27 22:27:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sayfalar/Giris_Sayfasi/Login' successfully
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/AnaMenuSecimi'
+
+2021-06-27 22:27:50 - [TEST_CASE][PASSED] - Test Cases/Menu/AnaMenuSecimi: Test Cases/Menu/AnaMenuSecimi
+
+2021-06-27 22:27:50 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Menu/Ana_Menu"), Ana_Menu): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Ana_Menu'
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Found 14 web elements with id: 'Object Repository/Menu/Ana_Menu' located by 'By.xpath: //*[@class = 'dropdown-toggle']' in '10' second(s)
+
+2021-06-27 22:27:50 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/AnaMenuSecimi' successfully
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Menu/BasligaGoreAltMenuSecimi'
+
+2021-06-27 22:27:50 - [TEST_CASE][PASSED] - Test Cases/Menu/BasligaGoreAltMenuSecimi: Test Cases/Menu/BasligaGoreAltMenuSecimi
+
+2021-06-27 22:27:50 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla(findTestObject("Menu/Menu_Basligi"), findTestObject("Menu/Basliga_Gore_Alt_Menu"), Baslik, Alt_Menu): Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla is PASSED
+
+2021-06-27 22:27:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Menu_Basligi'
+
+2021-06-27 22:27:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Menu/Basliga_Gore_Alt_Menu'
+
+2021-06-27 22:27:51 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Menu/Menu_Basligi' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-header']' in '10' second(s)
+
+2021-06-27 22:27:51 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:51 - [MESSAGE][INFO] - Found 3 web elements with id: 'Object Repository/Menu/Menu_Basligi' located by 'By.xpath: //li[@class='dropdown dropdown-large open']//li[@class='dropdown-header']' in '10' second(s)
+
+2021-06-27 22:27:51 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:53 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextDegerineEsitOlanaTikla is PASSED
+
+2021-06-27 22:27:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Menu/BasligaGoreAltMenuSecimi' successfully
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/BaslangicYaz'
+
+2021-06-27 22:27:53 - [TEST_CASE][PASSED] - Test Cases/Filtreler/BaslangicYaz: Test Cases/Filtreler/BaslangicYaz
+
+2021-06-27 22:27:53 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla(findTestObject("Filtreler/Basliklar"), findTestObject("Filtreler/Basliga_Gore_Baslangic_Image"), Filtre_Adi): Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Baslangic_Image'
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Found 13 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:53 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:53 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:54 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz(findTestObject("Filtreler/Basliklar"), findTestObject("Filtreler/Basliga_Gore_Baslangic"), Filtre_Adi, Filtre_Degeri): Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Baslangic'
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Found 13 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:54 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/BaslangicYaz' successfully
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:54 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/BitisYaz'
+
+2021-06-27 22:27:55 - [TEST_CASE][PASSED] - Test Cases/Filtreler/BitisYaz: Test Cases/Filtreler/BitisYaz
+
+2021-06-27 22:27:55 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla(findTestObject("Filtreler/Basliklar"), findTestObject("Filtreler/Basliga_Gore_Bitis_Image"), Filtre_Adi): Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Bitis_Image'
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Found 13 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:55 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:55 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz(findTestObject("Filtreler/Basliklar"), findTestObject("Object Repository/Filtreler/Basliga_Gore_Bitis"), Filtre_Adi, Filtre_Degeri): Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliklar'
+
+2021-06-27 22:27:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Basliga_Gore_Bitis'
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Found 13 web elements with id: 'Object Repository/Filtreler/Basliklar' located by 'By.cssSelector: .control-label.col-sm-4.paddingMarginRLC' in '10' second(s)
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:56 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakiTextboxtaYaz is PASSED
+
+2021-06-27 22:27:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/BitisYaz' successfully
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Filtreler/ButonaTikla'
+
+2021-06-27 22:27:56 - [TEST_CASE][PASSED] - Test Cases/Filtreler/ButonaTikla: Test Cases/Filtreler/ButonaTikla
+
+2021-06-27 22:27:56 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Filtreler/Butonlar"), Filtre_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Filtreler/Butonlar'
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-27 22:27:56 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:57 - [MESSAGE][INFO] - Found 3 web elements with id: 'Object Repository/Filtreler/Butonlar' located by 'By.cssSelector: .dxb>span' in '10' second(s)
+
+2021-06-27 22:27:57 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Filtreler/ButonaTikla' successfully
+
+2021-06-27 22:27:57 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:57 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Tablo/TablodaVeriVarMi'
+
+2021-06-27 22:27:57 - [TEST_CASE][PASSED] - Test Cases/Tablo/TablodaVeriVarMi: Test Cases/Tablo/TablodaVeriVarMi
+
+2021-06-27 22:27:57 - [TEST_STEP][PASSED] - verifyTextNotPresent("Görüntülenecek veri yok", true): Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-27 22:27:57 - [MESSAGE][INFO] - Checking text present  using regular expression
+
+2021-06-27 22:27:57 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Finding text 'Görüntülenecek veri yok' on page  using regular expression
+
+2021-06-27 22:27:58 - [MESSAGE][PASSED] - Text 'Görüntülenecek veri yok' is not present on page using regular expression
+
+2021-06-27 22:27:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tablo/TablodaVeriVarMi' successfully
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Tablo/TablodanVeriSec'
+
+2021-06-27 22:27:58 - [TEST_CASE][PASSED] - Test Cases/Tablo/TablodanVeriSec: Test Cases/Tablo/TablodanVeriSec
+
+2021-06-27 22:27:58 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla(findTestObject("Tablo/Veriler"), findTestObject("Tablo/VerininCheckBoxi"), Veri_Adi): Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Tablo/Veriler'
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Tablo/VerininCheckBoxi'
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Tablo/Veriler' located by 'By.cssSelector: td.dxgv b ,td.dxgv' in '10' second(s)
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Found 26 web elements with id: 'Object Repository/Tablo/Veriler' located by 'By.cssSelector: td.dxgv b ,td.dxgv' in '10' second(s)
+
+2021-06-27 22:27:58 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:59 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementinAltindakineTikla is PASSED
+
+2021-06-27 22:27:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Tablo/TablodanVeriSec' successfully
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonaTikla'
+
+2021-06-27 22:27:59 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonaTikla: Test Cases/Butonlar/ButonaTikla
+
+2021-06-27 22:27:59 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/Butonlar"), Buton_Adi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:27:59 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:27:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonaTikla' successfully
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/AltButonaTikla'
+
+2021-06-27 22:27:59 - [TEST_CASE][PASSED] - Test Cases/Butonlar/AltButonaTikla: Test Cases/Butonlar/AltButonaTikla
+
+2021-06-27 22:27:59 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Butonlar/AltButonlar"), Alt_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/AltButonlar'
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:27:59 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:28:00 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:28:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/AltButonaTikla' successfully
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sekmeler/YeniSekmeyeGec'
+
+2021-06-27 22:28:00 - [TEST_CASE][PASSED] - Test Cases/Sekmeler/YeniSekmeyeGec: Test Cases/Sekmeler/YeniSekmeyeGec
+
+2021-06-27 22:28:00 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Checking index
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Switching window with index: '1'
+
+2021-06-27 22:28:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-06-27 22:28:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sekmeler/YeniSekmeyeGec' successfully
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:28:00 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sekmeler/TagGeldiMi'
+
+2021-06-27 22:28:00 - [TEST_CASE][PASSED] - Test Cases/Sekmeler/TagGeldiMi: Test Cases/Sekmeler/TagGeldiMi
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Sekmeler/UBLTag"), 10): Object 'Object Repository/Sekmeler/UBLTag' is present
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sekmeler/UBLTag'
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking object
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/Sekmeler/UBLTag' is present
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - println(toLowerCase().toString()): Found 1 web elements with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sekmeler/UBLTag'
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - if (!(toString().contains(toString().toLowerCase()))): Found 1 web elements with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Sekmeler/UBLTag'
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element from Test Object's properties
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Sekmeler/UBLTag' located by 'By.cssSelector: #webkit-xml-viewer-source-xml>:first-child' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sekmeler/TagGeldiMi' successfully
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Sekmeler/Ana_Sekmeye_Gec'
+
+2021-06-27 22:28:01 - [TEST_CASE][PASSED] - Test Cases/Sekmeler/Ana_Sekmeye_Gec: Test Cases/Sekmeler/Ana_Sekmeye_Gec
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - try: Window with index 1 is closed
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - index = getWindowIndex(): Current window's index is: 1
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Getting current window's index
+
+2021-06-27 22:28:01 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - closeWindowIndex(index): Window with index 1 is closed
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking index
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Closing window with index 1
+
+2021-06-27 22:28:01 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking index
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Switching window with index: '0'
+
+2021-06-27 22:28:01 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-06-27 22:28:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sekmeler/Ana_Sekmeye_Gec' successfully
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/ButonaTikla'
+
+2021-06-27 22:28:01 - [TEST_CASE][PASSED] - Test Cases/Butonlar/ButonaTikla: Test Cases/Butonlar/ButonaTikla
+
+2021-06-27 22:28:01 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTiklaEquals(findTestObject("Butonlar/Butonlar"), Buton_Adi): Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/Butonlar'
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:28:01 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Found 7 web elements with id: 'Object Repository/Butonlar/Butonlar' located by 'By.cssSelector: .panel.panel-default.text-center.footerPanel .btn,.btn.btn-primary.btnControls' in '10' second(s)
+
+2021-06-27 22:28:02 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTiklaEquals is PASSED
+
+2021-06-27 22:28:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/ButonaTikla' successfully
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/AltButonaTikla'
+
+2021-06-27 22:28:02 - [TEST_CASE][PASSED] - Test Cases/Butonlar/AltButonaTikla: Test Cases/Butonlar/AltButonaTikla
+
+2021-06-27 22:28:02 - [TEST_STEP][PASSED] - Method.TextDegerineEsitElementeTikla(findTestObject("Butonlar/AltButonlar"), Alt_Buton): Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Butonlar/AltButonlar'
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Checking timeout
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Smart Wait Function is triggered
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Found 2 web elements with id: 'Object Repository/Butonlar/AltButonlar' located by 'By.cssSelector: .btn-group.open li>a' in '10' second(s)
+
+2021-06-27 22:28:02 - [MESSAGE][PASSED] - Method.TextDegerineEsitElementeTikla is PASSED
+
+2021-06-27 22:28:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Butonlar/AltButonaTikla' successfully
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Checking called Test Case
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Starting to call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi'
+
+2021-06-27 22:28:02 - [TEST_CASE][ERROR] - Test Cases/Butonlar/DosyaIndirildiMi: Test Cases/Butonlar/DosyaIndirildiMi FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.invokeMethod(Method.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at DosyaIndirildiMi.run(DosyaIndirildiMi:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.Runtime$1.run(Runtime.java:84)
+	at cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)
+	at cucumber.runtime.Runtime.run(Runtime.java:81)
+	at cucumber.api.cli.Main.run(Main.java:26)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+Caused by: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.isimliDosyaIndirildiMi(Method.groovy:299)
+	... 56 more
+
+
+2021-06-27 22:28:02 - [TEST_STEP][FAILED] - Method.isimliDosyaIndirildiMi(DownloadFile, FileName): Assertion failed: 
+
+assert a
+       |
+       false
+
+
+2021-06-27 22:28:02 - [MESSAGE][INFO] - Delaying browser in 3 second(s)
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-06-27 22:28:05 - [MESSAGE][FAILED] - Assertion failed: 
+
+assert a
+       |
+       false
+
+
+2021-06-27 22:28:05 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi' (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.Runtime$1.run(Runtime.java:84)
+	at cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)
+	at cucumber.runtime.Runtime.run(Runtime.java:81)
+	at cucumber.api.cli.Main.run(Main.java:26)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.invokeMethod(Method.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at DosyaIndirildiMi.run(DosyaIndirildiMi:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 44 more
+Caused by: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.isimliDosyaIndirildiMi(Method.groovy:299)
+	... 56 more
+)
+
+2021-06-27 22:28:05 - [TEST_CASE][ERROR] - Start Test Case : SCENARIO e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster: SCENARIO e-Fatura Gelen Kutusu Uygulama Yanıtlari UBL - Goster FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at ✽.Ön eki ApplicationResponse olan dosya indirildi mi(C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature:19)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.invokeMethod(Method.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at DosyaIndirildiMi.run(DosyaIndirildiMi:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.Runtime$1.run(Runtime.java:84)
+	at cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)
+	at cucumber.runtime.Runtime.run(Runtime.java:81)
+	at cucumber.api.cli.Main.run(Main.java:26)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+Caused by: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.isimliDosyaIndirildiMi(Method.groovy:299)
+	... 56 more
+
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır: Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Ana menüden e-Fatura seçilir: Ana menüden e-Fatura seçilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Ana menüden e-Fatura seçilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir: Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Alt menü Gelen Kutusu başlığı altındaki Uygulama Yanıtları seçilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz: Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz: Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Filtre butonlarından Listele seçilir: Filtre butonlarından Listele seçilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Filtre butonlarından Listele seçilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Tabloda veri var mı kontrol edilir: Tabloda veri var mı kontrol edilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Tabloda veri var mı kontrol edilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Tablodan 1234567806 isimli veri seçilir: Tablodan 1234567806 isimli veri seçilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Tablodan 1234567806 isimli veri seçilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Butonlardan UBL isimli butona tıklanır: Butonlardan UBL isimli butona tıklanır
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Butonlardan UBL isimli butona tıklanır
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Alt butonlardan Göster butonuna tıklanır: Alt butonlardan Göster butonuna tıklanır
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Alt butonlardan Göster butonuna tıklanır
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Yeni açılan sekmeye geçilir: Yeni açılan sekmeye geçilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Yeni açılan sekmeye geçilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - ApplicationResponse tagli ubl geldi mi: ApplicationResponse tagli ubl geldi mi
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - ApplicationResponse tagli ubl geldi mi
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Ana sekmeye geçilir: Ana sekmeye geçilir
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Ana sekmeye geçilir
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Butonlardan UBL isimli butona tıklanır: Butonlardan UBL isimli butona tıklanır
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Butonlardan UBL isimli butona tıklanır
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Alt butonlardan İndir butonuna tıklanır: Alt butonlardan İndir butonuna tıklanır
+
+2021-06-27 22:28:05 - [MESSAGE][PASSED] - Alt butonlardan İndir butonuna tıklanır
+
+2021-06-27 22:28:05 - [TEST_STEP][ERROR] - Ön eki ApplicationResponse olan dosya indirildi mi: Ön eki ApplicationResponse olan dosya indirildi mi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at ✽.Ön eki ApplicationResponse olan dosya indirildi mi(C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature:19)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.invokeMethod(Method.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at DosyaIndirildiMi.run(DosyaIndirildiMi:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.Runtime$1.run(Runtime.java:84)
+	at cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)
+	at cucumber.runtime.Runtime.run(Runtime.java:81)
+	at cucumber.api.cli.Main.run(Main.java:26)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+Caused by: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.isimliDosyaIndirildiMi(Method.groovy:299)
+	... 56 more
+
+
+2021-06-27 22:28:05 - [MESSAGE][ERROR] - Ön eki ApplicationResponse olan dosya indirildi mi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/Butonlar/DosyaIndirildiMi' failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at ✽.Ön eki ApplicationResponse olan dosya indirildi mi(C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature:19)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.invokeMethod(Method.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at DosyaIndirildiMi.run(DosyaIndirildiMi:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at butonlar.butonlar.dosyaIndirildiMi(butonlar.groovy:66)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:49)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.Runtime$1.run(Runtime.java:84)
+	at cucumber.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:220)
+	at cucumber.runtime.Runtime.run(Runtime.java:81)
+	at cucumber.api.cli.Main.run(Main.java:26)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:106)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+Caused by: Assertion failed: 
+
+assert a
+       |
+       false
+
+	at Method.isimliDosyaIndirildiMi(Method.groovy:299)
+	... 56 more
+
+
+2021-06-27 22:28:05 - [TEST_STEP][NOT_RUN] - Kullanıcı işlemlerinden Çıkış seçilir: Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-27 22:28:05 - [MESSAGE][NOT_RUN] - Kullanıcı işlemlerinden Çıkış seçilir
+
+2021-06-27 22:28:05 - [MESSAGE][FAILED] - Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+
+2021-06-27 22:28:05 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)
+)
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestSuite: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-27 22:28:05 - [MESSAGE][INFO] - Starting invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)'
+
+2021-06-27 22:28:05 - [TEST_STEP][PASSED] - closeBrowser(): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.
+
+2021-06-27 22:28:05 - [MESSAGE][INFO] - Closing browser
+
+2021-06-27 22:28:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-06-27 22:28:06 - [MESSAGE][INFO] - Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'Listener.sampleAfterTestSuite(...)' completed.]]></system-out>
+         <system-err><![CDATA[2021-06-27 22:27:38 - [TEST_CASE][FAILED] - Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir: Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-27 22:26:52 - [TEST_SUITE][FAILED] - deneme1: Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-06-27 22:26:52 - [TEST_SUITE][FAILED] - deneme1: Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:112)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:73)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:246)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at UBL-Goster-Indir.run(UBL-Goster-Indir:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1624822002998.run(TempTestSuite1624822002998.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "90dd3cc0-855f-4655-880b-b18657584af9",
+        "line": 20,
+        "name": "e-Serbest Meslek Makbuzlari UBL",
+        "description": "",
+        "id": "e-serbest-meslek-makbuzlari-ubl;e-serbest-meslek-makbuzlari-ubl;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6120509100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ELOGO6",
+                  "offset": 14
+                },
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "girisSayfasi.login(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "afe57ad0-3516-48fd-ae15-2b036e818ce3"
+          },
+          {
+            "result": {
+              "duration": 509621800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ana menüden e-Makbuz seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Makbuz",
+                  "offset": 12
+                }
+              ],
+              "location": "menu.anaMenuSecimi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "901226bd-7412-42e6-9065-4ec61609ac65"
+          },
+          {
+            "result": {
+              "duration": 1886370600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alt menü e-Serbest Meslek Uygulaması başlığı altındaki e-Serbest Meslek Makbuzları seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "e-Serbest Meslek Uygulaması",
+                  "offset": 9
+                },
+                {
+                  "val": "e-Serbest Meslek Makbuzları",
+                  "offset": 55
+                }
+              ],
+              "location": "menu.basligaGoreAltMenuSecimi(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "53f75076-f0b9-4871-95ec-9150e29dc28b"
+          },
+          {
+            "result": {
+              "duration": 1769268999,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "01.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBaslangicYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b4bd11e6-fe9a-42d3-b531-a4cf8e4301ec"
+          },
+          {
+            "result": {
+              "duration": 1548986100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Oluşturma Tarihi",
+                  "offset": 13
+                },
+                {
+                  "val": "31.12.2020",
+                  "offset": 41
+                }
+              ],
+              "location": "filtreler.filtreBitisYaz(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7d7149be-d837-46da-bf1b-ac1d12bc2901"
+          },
+          {
+            "result": {
+              "duration": 491492301,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Filtre butonlarından Listele seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Listele",
+                  "offset": 21
+                }
+              ],
+              "location": "filtreler.filtreButonSec(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "84368d8a-fe84-47eb-b8ca-7cac5f9cbf26"
+          },
+          {
+            "result": {
+              "duration": 834792401,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Tabloda veri var mı kontrol edilir",
+            "match": {
+              "location": "tablo.tablodaVeriVarMi()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bfda017a-8938-49b9-8384-1795846328df"
+          },
+          {
+            "result": {
+              "duration": 801186900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tablodan TEST isimli veri seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TEST",
+                  "offset": 9
+                }
+              ],
+              "location": "tablo.tablodanVeriSecilir(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "acf4bba2-fce8-4b79-9c7f-6a1f8db371b1"
+          },
+          {
+            "result": {
+              "duration": 609321700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Butonlardan UBL isimli butona tıklanır",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UBL",
+                  "offset": 12
+                }
+              ],
+              "location": "butonlar.butonaTikla(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ec559234-bd40-4aa1-8637-9d93effd91aa"
+          },
+          {
+            "result": {
+              "duration": 104962600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Yeni açılan sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.yeniAcilanSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "226c3a79-6305-42d0-a027-68ffe52dffaa"
+          },
+          {
+            "result": {
+              "duration": 416659400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "CreditNote tagli ubl geldi mi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CreditNote",
+                  "offset": 0
+                }
+              ],
+              "location": "sekmeler.ublGeldiMi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3e85b9fe-8206-4458-8f59-7f8cb3f916aa"
+          },
+          {
+            "result": {
+              "duration": 186693800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Ana sekmeye geçilir",
+            "match": {
+              "location": "sekmeler.anaSekmeyeGecilir()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ada77207-a6eb-4ec8-b6a4-a37be0fca12f"
+          },
+          {
+            "result": {
+              "duration": 2600820300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanıcı işlemlerinden Çıkış seçilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Çıkış",
+                  "offset": 24
+                }
+              ],
+              "location": "kullaniciIslemleri.kullaniciIslemi(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "42a4fde6-c107-4052-ab63-437a0ca528ab"
+          }
+        ]
+      }
+    ],
+    "name": "e-Serbest Meslek Makbuzlari UBL",
+    "description": "",
+    "id": "e-serbest-meslek-makbuzlari-ubl",
+    "keyword": "Feature",
+    "uri": "C:/Users/yigit/Documents/GitHub/EES_Katalon/Include/features/e-Makbuz/e-Serbest Meslek Uygulaması/e-Serbest Meslek Makbuzlari/UBL.feature",
+    "tags": []
+  }
+]

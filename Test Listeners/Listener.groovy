@@ -25,9 +25,14 @@ import com.kms.katalon.core.context.TestSuiteContext
 
 class Listener {
 	
+	@AfterTestSuite
+	def AfterTestSuite() {
+		CustomKeywords.'Method.dosyalariSil'('C:\\otomasyondownfiles')
+	}
+	
 	@BeforeTestCase
 	def sampleBeforeTestSuite() {
-		CustomKeywords.'Method.dosyalariSil'('C:\\otomasyondownfiles')
+		//CustomKeywords.'Method.dosyalariSil'('C:\\otomasyondownfiles')
 		WebUI.openBrowser(GlobalVariable.baseUrl)
 		WebUI.maximizeWindow()
 	}

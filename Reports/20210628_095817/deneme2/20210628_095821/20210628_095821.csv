@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+deneme2,Chrome 91.0.4472.114,,,2021-06-28 09:58:27,2021-06-28 10:00:32,"2m - 4,936s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/UBL,Chrome 91.0.4472.114,,,2021-06-28 09:58:27,2021-06-28 09:59:01,"33,722s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:58:27,2021-06-28 09:58:32,"4,762s",PASSED
+"runFeatureFile(""Include/features/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/UBL.feature"")",Chrome 91.0.4472.114,,,2021-06-28 09:58:32,2021-06-28 09:59:00,"27,830s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:00,2021-06-28 09:59:01,"0,745s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/UBL-Goster-Indir,Chrome 91.0.4472.114,,,2021-06-28 09:59:01,2021-06-28 09:59:32,"31,156s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:01,2021-06-28 09:59:04,"2,906s",PASSED
+"runFeatureFile(""Include/features/e-Irsaliye/Gelen Kutusu/Irsaliye Yanitlari/UBL-Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-28 09:59:04,2021-06-28 09:59:31,"27,240s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:31,2021-06-28 09:59:32,"0,710s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliyeler/UBL-Goster-Indir,Chrome 91.0.4472.114,,,2021-06-28 09:59:32,2021-06-28 10:00:03,"31,057s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:32,2021-06-28 09:59:34,"2,364s",PASSED
+"runFeatureFile(""Include/features/e-Irsaliye/Giden Kutusu/Irsaliyeler/UBL-Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-28 09:59:35,2021-06-28 10:00:02,"27,648s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 10:00:02,2021-06-28 10:00:03,"0,762s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/UBL-Goster-Indir,Chrome 91.0.4472.114,,,2021-06-28 10:00:03,2021-06-28 10:00:32,"28,596s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 10:00:03,2021-06-28 10:00:06,"2,527s",PASSED
+"runFeatureFile(""Include/features/e-Irsaliye/Giden Kutusu/Irsaliye Yanitlari/UBL-Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-28 10:00:06,2021-06-28 10:00:31,"24,956s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 10:00:31,2021-06-28 10:00:32,"0,717s",PASSED

@@ -54,24 +54,6 @@
       <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/UBL-Goster-Indir</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>68e311bc-4d7a-49b3-af7c-7aed1d1aeadd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Giden Kutusu/Faturalar/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>02088948-54cb-49ed-ad34-404cfd5abaa2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>32076592-fc17-4444-b0e3-a0f7802ea689</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bd035b5b-5b17-44a8-aadf-b135d1a370c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

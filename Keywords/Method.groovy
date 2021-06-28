@@ -121,12 +121,12 @@ class Method {
 				WebElement prev = element.findElement(By.xpath("preceding-sibling::td[1]"))
 				prev.findElement(By.tagName("span")).click()
 				/*List<WebElement> lastElement = prev.findElements(By.xpath(object2.findPropertyValue("xpath",false)))
-				for (last in lastElement) {
-					if(last.getAttribute("value").equals("U")){
-						last.click()
-						break
-					}
-				}*/
+				 for (last in lastElement) {
+				 if(last.getAttribute("value").equals("U")){
+				 last.click()
+				 break
+				 }
+				 }*/
 				break
 			}
 			++counter

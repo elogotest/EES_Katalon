@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.884652">
+<testcase classname="e-Mustahsil Makbuzu UBL" name="e-Mustahsil Makbuzu UBL" time="18.884652">
+<system-out><![CDATA[* Kullanıcı adı ELOGO6 ve Şifre 123456 olarak giriş yapılır.................passed
+* Ana menüden e-Makbuz seçilir..............................................passed
+* Alt menü e-Müstahsil Uygulaması başlığı altındaki e-Müstahsil Makbuzları seçilir.passed
+* Filtrelerden Oluşturma Tarihi filtresine 01.12.2020 baslangic degerini yaz.passed
+* Filtrelerden Oluşturma Tarihi filtresine 31.12.2020 bitis degerini yaz....passed
+* Filtre butonlarından Listele seçilir......................................passed
+* Tabloda veri var mı kontrol edilir........................................passed
+* Tablodan ELOGO5 isimli veri seçilir.......................................passed
+* Butonlardan UBL isimli butona tıklanır....................................passed
+* Yeni açılan sekmeye geçilir...............................................passed
+* CreditNote tagli ubl geldi mi.............................................passed
+* Ana sekmeye geçilir.......................................................passed
+* Kullanıcı işlemlerinden Çıkış seçilir.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

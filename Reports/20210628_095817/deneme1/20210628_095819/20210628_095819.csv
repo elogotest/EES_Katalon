@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+deneme1,Chrome 91.0.4472.114,,,2021-06-28 09:58:27,2021-06-28 10:00:25,"1m - 57,795s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Faturalar/Pdf Goster-Indir,Chrome 91.0.4472.114,,,2021-06-28 09:58:27,2021-06-28 09:59:06,"39,076s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:58:27,2021-06-28 09:58:32,"4,797s",PASSED
+"runFeatureFile(""Include/features/e-Fatura/Gelen Kutusu/Faturalar/PDF Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-28 09:58:32,2021-06-28 09:59:05,"33,072s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:05,2021-06-28 09:59:06,"0,801s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir,Chrome 91.0.4472.114,,,2021-06-28 09:59:06,2021-06-28 09:59:36,"29,377s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:06,2021-06-28 09:59:09,"2,613s",PASSED
+"runFeatureFile(""Include/features/e-Fatura/Gelen Kutusu/Uygulama Yanitlari/UBL-Goster-Indir.feature"")",Chrome 91.0.4472.114,,,2021-06-28 09:59:09,2021-06-28 09:59:35,"25,535s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:35,2021-06-28 09:59:36,"0,717s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/UBL,Chrome 91.0.4472.114,,,2021-06-28 09:59:36,2021-06-28 10:00:00,"23,825s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:36,2021-06-28 09:59:38,"2,418s",PASSED
+"runFeatureFile(""Include/features/e-Makbuz/e-Serbest Meslek Uygulaması/e-Serbest Meslek Makbuzlari/UBL.feature"")",Chrome 91.0.4472.114,,,2021-06-28 09:59:38,2021-06-28 09:59:59,"20,380s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 09:59:59,2021-06-28 10:00:00,"0,715s",PASSED
+,,,,,,,
+Test Cases/Case Repository/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/UBL,Chrome 91.0.4472.114,,,2021-06-28 10:00:00,2021-06-28 10:00:25,"25,085s",PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 91.0.4472.114,,,2021-06-28 10:00:00,2021-06-28 10:00:02,"2,442s",PASSED
+"runFeatureFile(""Include/features/e-Makbuz/e-Mustahsil Uygulamasi/e-Mustahsil Makbuzlari/UBL.feature"")",Chrome 91.0.4472.114,,,2021-06-28 10:00:02,2021-06-28 10:00:24,"21,615s",PASSED
+Start listener action : sampleAfterTestSuite,Chrome 91.0.4472.114,,,2021-06-28 10:00:24,2021-06-28 10:00:25,"0,730s",PASSED
