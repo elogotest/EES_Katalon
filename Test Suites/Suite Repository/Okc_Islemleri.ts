@@ -12,25 +12,31 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3a33760b-8694-477c-8df7-cad656e09884</testSuiteGuid>
    <testCaseLink>
-      <guid>d437de35-215b-4253-9a93-854df59c73ac</guid>
+      <guid>cffe26ee-afe0-491e-a97a-da00e2d199d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0bcfcf57-bc90-4496-ac69-2a24fed9a870</guid>
+      <guid>4a01717d-b274-492d-aa51-159697144005</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Excele Aktar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42e53ed5-acf0-40b2-8c85-0efeb1ed3f11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Izleme Kayitlari</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c22fb1d9-0375-49ff-ad8b-76bfd827df5c</guid>
+      <guid>d76e3b4d-d1b1-4d85-bc99-0a26ff61cb96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Rapor</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2d35ed66-f13b-4479-a68d-68bd899a52ad</guid>
+      <guid>0de5239f-4e9e-4c83-9bb3-6352015966d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/XML</testCaseId>

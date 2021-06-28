@@ -12,91 +12,103 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>80a2156f-17dc-4fd9-b35d-b1c5cd3b708a</testSuiteGuid>
    <testCaseLink>
-      <guid>6494fe0b-5602-47d4-b9a9-db179618d029</guid>
+      <guid>926b3d5c-52c7-4860-8c10-c18cbc8a74b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Buton Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2457e9c-b9dd-41f9-8605-fe29bcea77d0</guid>
+      <guid>ebd96186-9c86-4d3b-ae0f-b63ccc9cb212</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Adres Defteri/Filtre Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3a0d75f-3a8a-4530-8324-d2f49e6f953f</guid>
+      <guid>ee7beeaf-8b22-4158-8a51-953649f48c20</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Firma Bilgileri/Firma Bilgileri</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4b14a09-2562-4532-80a9-fdc12fffa1f0</guid>
+      <guid>e8407d51-cd1f-419e-9523-2fb025ebb587</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Araclar/Firma Bilgileri/On ek icin yeni yil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1d5e62e-9ebd-42df-8604-a138ead01fed</guid>
+      <guid>6afa235d-14c3-4703-890b-7063b89935ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Buton Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9b2fc4c-545d-4884-83fb-4fb7cad6f0cd</guid>
+      <guid>7d309082-f6d5-44f1-bf76-382dcf2303a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/On Deger Ata</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6d79513b-116c-4477-a909-7fabf019e292</guid>
+      <guid>b9dfd619-cb28-4e18-bca7-fa46b3bb3f47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Onizleme</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1937e833-f07e-43af-b854-41f7664e2fff</guid>
+      <guid>2de1a2d9-85c1-46f5-b5be-ced29d6c8f5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Hazir Tasarim Araci/e-Fatura/Tasarimi Indir</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>51f9f384-ce7e-48b9-8b6f-9ef6b43f5d5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Buton Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9d53ae05-61c9-4c09-a282-5abbec15c552</guid>
+      <guid>1934b71b-1b62-4b47-a8e5-d6fc6f684691</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Filtre Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>58b20a0b-58f6-4ef3-bf14-aaaa580b90c8</guid>
+      <guid>af238948-25ef-4575-80dd-4ff5a2ef3e42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Guncelle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4ef87992-eabf-44b4-ac5f-4d5728308942</guid>
+      <guid>a113c499-0ecb-4c85-b68e-4fe3858e1783</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Indir</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3dfc9f1e-9ad3-4711-94be-1e839092cd5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Kopyala</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>08419048-b059-45d7-9980-36d6673dbcd4</guid>
+      <guid>0468e77b-3967-4613-a8ff-322e4db61383</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/On Deger Ata</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3878eec7-5253-4b5f-8bae-8d5ff261f4d7</guid>
+      <guid>20ca49da-b42c-40bb-968d-ccfdb9e3eebb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Sil</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4363d883-dfbe-4a98-8a9d-f5f4f3e6da60</guid>
+      <guid>0f056859-9a18-455a-a6f7-51ba7438cca5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Tasarla e-Fatura</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30ef50fe-c877-4e6c-a248-aa3d578c55bc</guid>
+      <guid>de4ebdbf-c1f3-4553-b23c-689df160ba67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Ayarlar/Gorsel Tasarim/Tasarim Araclari/Yukle e-Fatura</testCaseId>
