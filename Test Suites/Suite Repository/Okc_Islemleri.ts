@@ -18,12 +18,6 @@
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a01717d-b274-492d-aa51-159697144005</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>42e53ed5-acf0-40b2-8c85-0efeb1ed3f11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

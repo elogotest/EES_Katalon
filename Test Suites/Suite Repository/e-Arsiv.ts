@@ -54,12 +54,6 @@
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2a4afb09-f6b7-48fd-90ea-69a839ba307d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c225c79a-c6a8-4295-9a59-4da7c2424c30</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -70,12 +64,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Tablodaki Verinin Gorseli</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c02a4a9c-2df2-4c06-8ac8-167bdef7ffa3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Faturalari/Toplu Indirme</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0974289e-45e3-4805-92d0-660c58c818f4</guid>
@@ -100,12 +88,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Ekran Kontrolu</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>88e867de-22b3-41df-93bf-cdb8f2044354</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/e-Arsiv/e-Arsiv Hareketleri/e-Arsiv Raporlari/Excele Aktar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>96798750-f474-4b95-85b4-ab1ce7dd1e1a</guid>
