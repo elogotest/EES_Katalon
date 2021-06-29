@@ -9,12 +9,12 @@ Feature: e-Arsiv Raporlari Yeniden Olustur
     * Tabloda veri var mı kontrol edilir
     * Tablodan <veri_Adi> isimli veri seçilir
     * Butonlardan Yeniden Oluştur isimli butona tıklanır
-    * Popup mesajı Seçtiğiniz e-Arşiv raporları yeniden oluşturulacaktır içeriyor mu
+    * Popup mesajı Seçtiğiniz kayıtlardan sadece uygun statüdeki raporlar yeniden oluşturulacaktır. Devam etmek istiyor musunuz? içeriyor mu
     * Yönetim popupında Evet seçilir
-    * Popup mesajı Seçilen raporlar yeniden oluşturulacaktır. Devam etmek istiyor musunuz? içeriyor mu
-    * Yönetim popupında Evet seçilir
-    * Popup mesajı Seçtiğiniz kayıtlardan 1 adedi tekrar oluşturmak üzere kuyruğa kaydedildi. içeriyor mu
-    * Yönetim popupında Tamam seçilir
+    #* Popup mesajı Seçilen raporlar yeniden oluşturulacaktır. Devam etmek istiyor musunuz? içeriyor mu
+    #* Yönetim popupında Evet seçilir
+    #* Popup mesajı Seçtiğiniz kayıtlardan 1 adedi tekrar oluşturmak üzere kuyruğa kaydedildi. içeriyor mu
+    #* Yönetim popupında Tamam seçilir
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
