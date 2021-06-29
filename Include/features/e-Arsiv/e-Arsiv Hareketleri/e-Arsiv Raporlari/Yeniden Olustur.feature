@@ -11,6 +11,7 @@ Feature: e-Arsiv Raporlari Yeniden Olustur
     * Butonlardan Yeniden Oluştur isimli butona tıklanır
     * Popup mesajı Seçtiğiniz kayıtlardan sadece uygun statüdeki raporlar yeniden oluşturulacaktır. Devam etmek istiyor musunuz? içeriyor mu
     * Yönetim popupında Evet seçilir
+    * Tabloda Rapor Oluşturulmak İçin Kuyrukta ünvanlı veri oluşturuldu mu
     #* Popup mesajı Seçilen raporlar yeniden oluşturulacaktır. Devam etmek istiyor musunuz? içeriyor mu
     #* Yönetim popupında Evet seçilir
     #* Popup mesajı Seçtiğiniz kayıtlardan 1 adedi tekrar oluşturmak üzere kuyruğa kaydedildi. içeriyor mu
