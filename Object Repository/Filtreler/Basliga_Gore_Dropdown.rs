@@ -7,16 +7,30 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>..//td[2]/input</value>
+         <value>//*[@class = 'dxeListBoxItemRow_LECustomTheme']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>..//td[2]/input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dxeListBoxItemRow_LECustomTheme</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#comboBoxFilterEArchiveInvoiceDocumentTypeCode_DDD_L_LBT .dxeListBoxItemRow_LECustomTheme</value>
    </webElementProperties>
 </WebElementEntity>

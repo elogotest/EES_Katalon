@@ -10,6 +10,9 @@ Feature: e-Arsiv Faturalar Buton Kontrolu
     * Tablodan deney deney isimli verinin detayı tıklanır
     * Tablodan deney deney isimli verinin detayı tıklanır
     * Listelenen öğe sayısı Sayfa 1 / 61 (603 öğe) mi
+    * Filtrelerden Tür filtresine İADE dropdowndan degeri seçilir
+    * Filtre butonlarından Listele seçilir
+    * Tabloda veri var mı kontrol edilir
     #* Filtrelerden ETTN filtresine bb24e38e-ea93-4a49-b22e-52269aabcf95 textini yaz
 		* Anasayfaya geri dönülür
     * Ana menüden e-Arşiv seçilir

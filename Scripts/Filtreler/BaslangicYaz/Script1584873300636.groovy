@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
+
+
 CustomKeywords.'Method.TextDegerineEsitElementinAltindakineTikla'(findTestObject('Filtreler/Basliklar'), findTestObject(
         'Filtreler/Basliga_Gore_Baslangic_Image'), Filtre_Adi)
 

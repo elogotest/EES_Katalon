@@ -15,9 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
+/*CustomKeywords.'Method.TextDegerineEsitElementinAltindakiDropdowndanSec'(findTestObject('Filtreler/Basliklar'), findTestObject(
+        'Object Repository/Filtreler/Basliga_Gore_Dropdown'), Filtre_Adi, Filtre_Degeri)*/
+
+
+
+
+   
 CustomKeywords.'Method.TextDegerineEsitElementinAltindakineTikla'(findTestObject('Filtreler/Basliklar'), findTestObject(
         'Filtreler/Basliga_Gore_Baslangic_Image'), Filtre_Adi)
 
-CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextboxtaYaz'(findTestObject('Filtreler/Basliklar'), findTestObject(
-        'Object Repository/Filtreler/Basliga_Gore_Dropdown'), Filtre_Adi, Filtre_Degeri)
+/*CustomKeywords.'Method.TextDegerineEsitElementinAltindakiTextboxtaYaz'(findTestObject('Filtreler/Basliklar'), findTestObject(
+        'Object Repository/Filtreler/Basliga_Gore_Dropdown'), Filtre_Adi, Filtre_Degeri)*/
 
+CustomKeywords.'Method.TextDegerineEsitElementeTikla'(findTestObject(
+        'Object Repository/Filtreler/Basliga_Gore_Dropdown'), Filtre_Degeri)
