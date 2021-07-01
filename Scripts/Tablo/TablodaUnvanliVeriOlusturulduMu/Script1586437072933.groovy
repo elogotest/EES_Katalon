@@ -15,5 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementPresent(findTestObject('Tablo/OlusturulanVeri'), 10, FailureHandling.STOP_ON_FAILURE)
+
 CustomKeywords.'Method.TextDegerineEsitElementVarMi'(findTestObject('Tablo/OlusturulanVeri'), Unvan)
 

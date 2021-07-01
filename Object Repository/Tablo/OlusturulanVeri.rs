@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>table.dxgvTable_LECustomTheme>tbody>tr:nth-child(3)>td.dxgv b,table.dxgvTable_LECustomTheme>tbody>tr:nth-child(3)>td.dxgv</value>
+         <value>.dxgvSelectedRow_LECustomTheme .dxgv</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>table.dxgvTable_LECustomTheme>tbody>tr:nth-child(3)>td.dxgv b,table.dxgvTable_LECustomTheme>tbody>tr:nth-child(3)>td.dxgv</value>
+      <value>.dxgvSelectedRow_LECustomTheme .dxgv</value>
    </webElementProperties>
 </WebElementEntity>
