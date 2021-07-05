@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/XML</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0e97c68e-5754-429b-90c5-40c57d82182f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Excele Aktar</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

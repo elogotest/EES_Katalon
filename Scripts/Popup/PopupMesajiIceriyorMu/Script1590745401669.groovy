@@ -21,6 +21,6 @@ if (!WebUI.getText(findTestObject("Popup/Popup")).contains(Mesaj)) {
 	assert false
 }
 
-GlobalVariable.RaporNo = WebUI.getText(findTestObject("Popup/Popup")).substring(0, 4)
+GlobalVariable.RaporNo = WebUI.getText(findTestObject("Popup/Popup")).substring(0, 6)
 
 Console.println(GlobalVariable.RaporNo)

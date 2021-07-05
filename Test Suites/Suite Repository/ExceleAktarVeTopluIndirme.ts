@@ -162,12 +162,6 @@
       <testCaseId>Test Cases/Case Repository/e-Makbuz/e-Serbest Meslek Uygulamasi/e-Serbest Meslek Makbuzlari/Toplu Indirme</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>14fe9084-ec8c-4af7-aae2-5d01539f778d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Case Repository/OKC Islemleri/OKC Mali Raporlar/Excele Aktar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>42783556-25d0-4800-b725-36d7158a4ae4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
