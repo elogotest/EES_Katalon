@@ -5,10 +5,10 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>321b46ea-c63f-4ffb-9565-85723e58edec</testSuiteGuid>
    <testCaseLink>
@@ -22,5 +22,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Raporlar/GIB Kullanici Listesi/Excel</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>419ef3ac-ec83-442d-892e-9815578a05fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Raporlar/Izlenme Kayitlari/Ekran Kontrolu</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
