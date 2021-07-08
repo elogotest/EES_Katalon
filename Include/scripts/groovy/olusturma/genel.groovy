@@ -138,6 +138,11 @@ class genel {
 	def siparisBilgileri(String no,String tarih) {
 		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/SiparisBilgileriGirilir"), ["SiparisNo":no,"Tarih":tarih] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("e-Arşiv İnternet Bilgileri (.*),(.*),(.*),(.*),(.*) olarak girilir")
+	def eArsivInternetBilgileri(String odemeSekli,String webAdresi,String tasiyiciVkn,String odemeAracisi,String tasiyiciAdi) {
+		WebUI.callTestCase(findTestCase("Test Cases/Olusturma/Genel/Kutular/eArsivInternetBilgileriGirilir"), ["OdemeSekli":odemeSekli,"WebAdresi":webAdresi,"TasiyiciVkn":tasiyiciVkn,"OdemeAracisi":odemeAracisi,"TasiyiciAdi":tasiyiciAdi] , FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@When("Farklı Teslimat Adres Tanımı (.*),(.*),(.*),(.*) olarak girilir")
 	def farkliTeslimatAdresTanimi(String adres,String ulke,String sehir,String ilce) {

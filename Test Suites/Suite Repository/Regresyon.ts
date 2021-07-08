@@ -245,4 +245,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Case Repository/Regresyon/e-Serbest Meslek Makbuzu/VKN-e-Serbest Meslek Makbuzu-Kagit</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4d545cef-a6e4-4287-974d-eae52836e8b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Case Repository/Regresyon/e-Arsiv/VKN-Internet</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

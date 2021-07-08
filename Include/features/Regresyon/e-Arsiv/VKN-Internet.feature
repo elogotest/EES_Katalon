@@ -1,20 +1,22 @@
-Feature: Gonderim tipi Kagit ve Satis tipinde e-Arsiv faturasi olusturulmasi
+Feature: Gonderim tipi Internet tipinde e-Arsiv faturasi olusturulmasi
 
-  Scenario Outline: Gonderim tipi Kagit ve Satis tipinde e-Arsiv faturasi olusturulmasi
+  Scenario Outline: Gonderim tipi Internet tipinde e-Arsiv faturasi olusturulmasi
     * Kullanıcı adı <kullaniciAdi> ve Şifre <sifre> olarak giriş yapılır
     * Ana menüden e-Arşiv seçilir
     * Alt menü e-Arşiv Araçları başlığı altındaki e-Arşiv Fatura Oluşturma seçilir
     * Tablodaki tüm veriler silinir
+    * Fatura tipi alanından e-Arşiv İnternet seçilir
     * Butonlardan Ekle isimli butona tıklanır
-    * Görsel tasarım sayfasının e-Arşiv Fatura Bilgileri başlığını içerdiği kontrol edilir
+    * Görsel tasarım sayfasının e-Arşiv Fatura (İnternet) Bilgileri başlığını içerdiği kontrol edilir
     * Alıcı adı alanına <alici_Adi> girilir
-    * Gönderim Şekli Kağıt olarak seçilir
+    * Ön Ek INT olarak seçilir
+    * Gönderim Şekli Elektronik olarak seçilir
     * Tip alanından Satış seçilir
     * Döküman Para Birimi alanından Türk Lirası seçilir
-    * Ön Ek EAR olarak seçilir
-    * Tasarım alanından Otomasyon seçilir
-    * Sipariş bilgileri UUC-SAT-1200001 ve 31.04.2020 olarak girilir
-    * İrsaliye Bilgileri AAAAAAAAAA,31.04.2020 olarak girilir
+    * Tasarım alanından e-Arşiv Öndeğer Şablon Tasarım seçilir
+    * Sipariş bilgileri UUC-SAT-1200001 ve 31.06.2021 olarak girilir
+    * İrsaliye Bilgileri AAAAAAAAAA,31.06.2021 olarak girilir
+    * e-Arşiv İnternet Bilgileri Kredi Kartı / Banka Kartı,www.elogo.com,1234567806,elogo,Virgosol olarak girilir
     * Ekle butonuna basılır
     * Ürün ekleme alanında Mal/Hizmet başlığına <urun_Adi> girilir
     * Ürün ekleme alanında Açıklaması başlığına <aciklamasi> girilir
@@ -44,5 +46,5 @@ Feature: Gonderim tipi Kagit ve Satis tipinde e-Arsiv faturasi olusturulmasi
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 
-      | kullaniciAdi | sifre    | alici_Adi | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
-      | EARSATIS     | test1234 | UC0015    | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |
+      | kullaniciAdi | sifre  | alici_Adi        | urun_Adi  | aciklamasi | miktari | birimFiyat | not           | unvan                 |
+      | ELOGO6       | 123456 | VirgosolArsivVKN | Otomasyon | Virgosol   |     400 |        100 | Otomasyon Not | VirgosolOtomasyonTEST |

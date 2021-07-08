@@ -127,4 +127,10 @@ class filtreler {
 	def filtreTemizle(String filtre_Adi) {
 		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/filtreIcerigiSil"), ["Filtre_Adi":filtre_Adi] , FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("Fatura tipi alanından e-Arşiv İnternet seçilir")
+	def faturaTipiSec() {
+		WebUI.callTestCase(findTestCase("Test Cases/Filtreler/faturaTipiSec"), [:] , FailureHandling.STOP_ON_FAILURE)
+	}
+	
 }

@@ -43,6 +43,7 @@ Feature: Gonderim tipi Kagit ve Hal Satis tipinde e-Arsiv faturasi olusturulmasi
     * Filtrelerden Ettn filtresine Ettn bilgisi yaz
     * Filtre butonlarından Listele seçilir
     * Tabloda veri var mı kontrol edilir
+    * Tabloda Başarılı ünvanlı veri oluşturuldu mu
     * Kullanıcı işlemlerinden Çıkış seçilir
 
     Examples: 

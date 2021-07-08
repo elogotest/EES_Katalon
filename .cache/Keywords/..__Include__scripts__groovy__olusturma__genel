@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "659ABB06C2A7063F3921D4DCDF52B063",
+  "keywordFileContentHash": "71B7CCFEE8BA6773504F02F4245EA2DE",
   "keywordClasses": [
     {
       "name": "olusturma.genel",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
