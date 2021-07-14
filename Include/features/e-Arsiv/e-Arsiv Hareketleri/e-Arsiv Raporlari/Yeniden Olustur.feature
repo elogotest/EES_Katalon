@@ -20,4 +20,4 @@ Feature: e-Arsiv Raporlari Yeniden Olustur
 
     Examples: 
       | kullaniciAdi | sifre  | filtreDegeri | veri_Adi |
-      | ELOGO6       | 123456 | 2020 Aralık  |  2691121 |
+      | ELOGO6       | 123456 | 2021 Haziran |  2710049 |
