@@ -86,9 +86,9 @@ class Method {
 		for (element in elements) {
 			if(element.getText().replaceAll("\\s+", "").equals(text.replaceAll("\\s+", ""))){
 				wait.until(ExpectedConditions.visibilityOf(element))
-				//element.click()
 				((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView()",element);
-				((JavascriptExecutor)driver).executeScript("arguments[0].click();",element);
+				element.click()
+				//((JavascriptExecutor)driver).executeScript("arguments[0].click();",element);
 				a = true
 				break
 			}
